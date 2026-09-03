@@ -4,8 +4,6 @@
        width="1200">
 </p>
 
-> 🇫🇷 Français | [🇬🇧 English](./README.md)
-
 ![Statut](https://img.shields.io/badge/Statut-Enquête%20finalisée-brightgreen)
 ![Sources](https://img.shields.io/badge/Sources-Officielles-blue)
 ![Périmètre](https://img.shields.io/badge/Périmètre-France%20%2B%20Union%20européenne-0055A4)
