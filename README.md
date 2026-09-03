@@ -1,3 +1,25 @@
+<p align="center">
+  <img src="docs/images/facturation_electronique_fr.png"
+       alt="Illustration des interconnexions entre facturation électronique, paiement, mobilité et données environnementales"
+       width="1200">
+</p>
+
+> 🇫🇷 Français | [🇬🇧 English](./README.md)
+
+![Statut](https://img.shields.io/badge/Statut-Enquête%20finalisée-brightgreen)
+![Sources](https://img.shields.io/badge/Sources-Officielles-blue)
+![Périmètre](https://img.shields.io/badge/Périmètre-France%20%2B%20Union%20européenne-0055A4)
+![Méthode](https://img.shields.io/badge/Méthode-Faits%20%7C%20Déductions%20%7C%20Hypothèses-orange)
+![Licence](https://img.shields.io/badge/Licence-CC%20BY%204.0-lightgrey)
+[![YouTube](https://img.shields.io/badge/YouTube-@Palks__Studio-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/@Palks_Studio)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-@Palks__Studio-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/palks-studio/)
+
+<p align="center">
+  <a href="https://palks-studio.com">
+    <img src="https://img.shields.io/badge/Palks%20Studio-Website-0095b1?style=for-the-badge" />
+  </a>
+</p>
+
 # 🇫🇷 Facturation électronique : données, infrastructures et interconnexions
 
 ## De la facture au produit, de l'identité au paiement
