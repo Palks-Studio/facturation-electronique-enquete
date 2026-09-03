@@ -88,7 +88,7 @@ facturation-electronique-enquete/
 │
 ├── sommaire.md
 ├── dossier-complet.md
-├── README_FR.md
+├── README.md
 │
 ├── chapitres/
 │   ├── 01-donnees-facturation.md
