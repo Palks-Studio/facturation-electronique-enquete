@@ -93,7 +93,7 @@ Cette distinction est essentielle : une capacité technique ne démontre ni son 
 
 ## Lire l'enquête
 
-**[Consulter le dossier complet au format PDF](pdf/facturation-electronique-enquete.pdf)**
+**[Consulter le dossier complet au format PDF]([pdf/facturation-electronique-enquete.pdf](https://palks-studio.com/assets/pdf/facturation-electronique-enquete.pdf))**
 
 Les 7 chapitres sont également disponibles séparément dans [`chapitres/`](chapitres/).
 
