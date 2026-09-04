@@ -674,7 +674,9 @@ Digital Product Passport, de l'eInvoicing, du futur European Business Wallet, du
 
 **Références officielles :**  
 - CJUE : jurisprudence relative aux articles 7 et 8 de la Charte des droits fondamentaux de l'Union européenne.  
-- Conseil constitutionnel : contrôle de nécessité et de proportionnalité des dispositifs de collecte et de traitement de données à caractère personnel.
+- Conseil constitutionnel : contrôle de nécessité et de proportionnalité des dispositifs de collecte et de traitement de données à caractère personnel.  
+- https://curia.europa.eu/juris/liste.jsf?num=C-175/20  
+- https://www.conseil-constitutionnel.fr/decision/2012/2012652DC.html
 
 ---
 
