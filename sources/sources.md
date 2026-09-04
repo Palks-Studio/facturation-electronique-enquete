@@ -512,24 +512,6 @@ Les sources primaires et officielles sont privilégiées.
 
 ---
 
-## [S30] Commission européenne — European Business Wallets, données de transaction et infrastructures numériques européennes
-
-**Organisme :** Commission européenne
-
-**Documents :** Proposition de règlement établissant les European Business Wallets — COM(2025) 838 final ; analyse d'impact SWD(2025) 837 final
-
-**Date :** 19 novembre 2025
-
-**Utilisé dans :** Chapitre 5
-
-**Éléments établis :** proposition d'une infrastructure européenne permettant aux opérateurs économiques et organismes publics de s'identifier, s'authentifier, stocker, gérer, présenter et échanger de manière sécurisée des données et attestations électroniques vérifiables ; architecture construite à partir du cadre européen d'identité numérique ; possibilité d'utiliser l'EUDI Wallet et ses attestations pour l'accès et l'onboarding aux Business Wallets ; prise en charge d'attributs tels que le numéro de TVA, le numéro fiscal, le LEI, le numéro EORI ou le numéro d'accise ; articulation explicitement recherchée avec plusieurs infrastructures européennes dont le Digital Product Passport et VAT in the Digital Age ; possibilité, dans le cadre de ViDA, de stocker et échanger de manière sécurisée et vérifiable des attestations TVA et des données de transaction afin de soutenir le reporting en temps réel et la facturation de confiance.
-
-**Liens :**  
-- https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:52025PC0838  
-- https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:52025SC0837
-
----
-
 ## [S31] Commission européenne — Stratégie pour le marché unique : DPP, eInvoicing, Business Wallet et réutilisation des données
 
 **Organisme :** Commission européenne
