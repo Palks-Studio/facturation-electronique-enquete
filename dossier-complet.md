@@ -141,9 +141,9 @@ La DGFiP distingue trois mécanismes :
 2. la transmission électronique des données de transaction ;  
 3. la transmission électronique des données de paiement ou d'encaissement.
 
-Dans le cadre de la facturation électronique, les plateformes agréées extraient de la facture les données réglementaires destinées à l'administration [S1].
+Dans le cadre de la facturation électronique, les plateformes agréées extraient de la facture les données réglementaires destinées à l'administration [S1](#s1).
 
-Pour les opérations relevant du e-reporting, des données de transaction ou de paiement sont également transmises à l'administration [S2][S3].
+Pour les opérations relevant du e-reporting, des données de transaction ou de paiement sont également transmises à l'administration [S2](#s2)[S3](#s3).
 
 ---
 
@@ -151,7 +151,7 @@ Pour les opérations relevant du e-reporting, des données de transaction ou de 
 
 **Statut : AVÉRÉ**
 
-À la suite du recentrage du Portail Public de Facturation (PPF), celui-ci conserve notamment une fonction de concentrateur pour la transmission à l'administration fiscale des données de facturation et de transaction [S4].
+À la suite du recentrage du Portail Public de Facturation (PPF), celui-ci conserve notamment une fonction de concentrateur pour la transmission à l'administration fiscale des données de facturation et de transaction [S4](#s4).
 
 L'architecture peut donc être représentée, de manière simplifiée, ainsi :
 
@@ -169,7 +169,7 @@ Administration fiscale
 
 Le PPF n'est donc pas uniquement un annuaire permettant le routage des factures.
 
-Il constitue également un point de concentration des données destinées à l'administration [S4].
+Il constitue également un point de concentration des données destinées à l'administration [S4](#s4).
 
 ---
 
@@ -177,7 +177,7 @@ Il constitue également un point de concentration des données destinées à l'a
 
 **Statut : AVÉRÉ**
 
-La DGFiP publie un tableau récapitulatif des données de facture devant être transmises à l'administration pour les opérations domestiques réalisées entre deux entreprises assujetties à la TVA établies en France [S1].
+La DGFiP publie un tableau récapitulatif des données de facture devant être transmises à l'administration pour les opérations domestiques réalisées entre deux entreprises assujetties à la TVA établies en France [S1](#s1).
 
 Ces données sont introduites progressivement en deux étapes.
 
@@ -234,7 +234,7 @@ Deviennent notamment obligatoires :
 
 À partir du 1er septembre 2027, l'administration ne reçoit donc plus uniquement des totaux comptables et fiscaux pour les factures B2B domestiques.
 
-La transmission réglementaire comprend également des informations permettant d'identifier la nature précise du bien ou du service facturé, sa quantité et son prix unitaire hors taxe [S1].
+La transmission réglementaire comprend également des informations permettant d'identifier la nature précise du bien ou du service facturé, sa quantité et son prix unitaire hors taxe [S1](#s1).
 
 ---
 
@@ -242,7 +242,7 @@ La transmission réglementaire comprend également des informations permettant d
 
 **Statut : AVÉRÉ**
 
-Les transactions réalisées avec une entreprise assujettie à la TVA non établie en France sont également concernées par une transmission de données à l'administration [S2].
+Les transactions réalisées avec une entreprise assujettie à la TVA non établie en France sont également concernées par une transmission de données à l'administration [S2](#s2).
 
 À compter du 1er septembre 2026, les informations transmises comprennent notamment :
 
@@ -298,7 +298,7 @@ Cette distinction est essentielle :
 
 **B2B : données pouvant atteindre la ligne de facture à compter de 2027.**
 
-**B2C : données de transaction actuellement prévues sous forme agrégée par jour [S2].**
+**B2C : données de transaction actuellement prévues sous forme agrégée par jour [S2](#s2).**
 
 Cette différence devra être conservée dans toute analyse ultérieure.
 
@@ -308,7 +308,7 @@ Cette différence devra être conservée dans toute analyse ultérieure.
 
 **Statut : AVÉRÉ**
 
-La réforme comprend également un e-reporting des paiements pour les opérations dont la TVA est exigible à l'encaissement, notamment certaines prestations de services [S3].
+La réforme comprend également un e-reporting des paiements pour les opérations dont la TVA est exigible à l'encaissement, notamment certaines prestations de services [S3](#s3).
 
 Les données transmises comprennent :
 
@@ -334,7 +334,7 @@ Pour le B2C, les données de paiement suivent la logique du e-reporting de trans
 
 **Statut : AVÉRÉ**
 
-Les spécifications externes version 3.2 décrivent le Portail Public de Facturation comme un concentrateur [S4].
+Les spécifications externes version 3.2 décrivent le Portail Public de Facturation comme un concentrateur [S4](#s4).
 
 Son rôle comprend la concentration :
 
@@ -446,7 +446,7 @@ Ces trois mécanismes ne doivent pas être confondus.
 
 La transmission de données à l'administration ne supprime pas les obligations de conservation applicables aux entreprises.
 
-Au 1er septembre 2026, l'article L. 102 B du Livre des procédures fiscales prévoit que les livres, registres, documents et pièces sur lesquels peuvent s'exercer les droits de communication, d'enquête et de contrôle de l'administration doivent être conservés pendant six ans [S8].
+Au 1er septembre 2026, l'article L. 102 B du Livre des procédures fiscales prévoit que les livres, registres, documents et pièces sur lesquels peuvent s'exercer les droits de communication, d'enquête et de contrôle de l'administration doivent être conservés pendant six ans [S8](#s8).
 
 Lorsqu'ils sont établis ou reçus sous forme informatique, ils doivent être conservés sous cette forme pendant la période prévue.
 
@@ -456,13 +456,13 @@ Cette obligation concerne notamment les pièces justificatives permettant l'exer
 
 La législation prévoit une modification importante à compter du 1er janvier 2027.
 
-Le délai général prévu par l'article L. 102 B passe alors de six à dix ans [S8].
+Le délai général prévu par l'article L. 102 B passe alors de six à dix ans [S8](#s8).
 
 Les livres, registres, documents ou pièces sur lesquels peuvent s'exercer les droits de communication, d'enquête et de contrôle de l'administration devront être conservés pendant dix ans à compter de la dernière opération mentionnée ou de la date à laquelle le document a été établi.
 
 Lorsqu'ils sont établis ou reçus sur support informatique, ils devront être conservés sous cette forme pendant cette période.
 
-Un nouvel article L. 102 B bis précise également que la conservation des factures doit garantir, depuis leur émission jusqu'à l'expiration de leur période de conservation, l'authenticité de leur origine, l'intégrité de leur contenu et leur lisibilité [S9].
+Un nouvel article L. 102 B bis précise également que la conservation des factures doit garantir, depuis leur émission jusqu'à l'expiration de leur période de conservation, l'authenticité de leur origine, l'intégrité de leur contenu et leur lisibilité [S9](#s9).
 
 ### Conclusion intermédiaire
 
@@ -482,7 +482,7 @@ Cette question doit être étudiée séparément.
 
 Les plateformes agréées ne constituent pas de simples relais techniques instantanés.
 
-Le Code général des impôts et ses textes d'application leur imposent plusieurs obligations relatives au traitement, à la transmission, à la sécurité et, dans certains cas, à la conservation d'informations [S10].
+Le Code général des impôts et ses textes d'application leur imposent plusieurs obligations relatives au traitement, à la transmission, à la sécurité et, dans certains cas, à la conservation d'informations [S10](#s10).
 
 Les plateformes doivent notamment assurer la transmission des factures électroniques dans des conditions garantissant :
 
@@ -490,7 +490,7 @@ Les plateformes doivent notamment assurer la transmission des factures électron
 - l'intégrité de leur contenu ;  
 - leur lisibilité.
 
-Ces garanties doivent être assurées depuis l'émission de la facture jusqu'à la fin de sa période de conservation [S10].
+Ces garanties doivent être assurées depuis l'émission de la facture jusqu'à la fin de sa période de conservation [S10](#s10).
 
 Les plateformes doivent également mettre en œuvre des processus permettant le traitement :
 
@@ -507,7 +507,7 @@ La réglementation prévoit explicitement certaines obligations de conservation.
 
 Par exemple, lorsqu'un assujetti autorise une plateforme à mettre à jour ses informations dans l'annuaire central, l'accord formel correspondant doit être conservé par la plateforme.
 
-Cet accord doit être conservé pendant trois ans après la date à laquelle il cesse de produire ses effets [S10].
+Cet accord doit être conservé pendant trois ans après la date à laquelle il cesse de produire ses effets [S10](#s10).
 
 Les audits des plateformes examinent également leurs mécanismes de traitement, de suivi et d'archivage ainsi que les mesures de sécurité appliquées aux factures et aux données.
 
@@ -530,7 +530,7 @@ Il faut distinguer :
 
 Le chapitre 1 a établi que les données de facturation sont transmises à l'administration fiscale par les plateformes agréées.
 
-La réglementation prévoit notamment que certaines données de facturation doivent être transmises par la plateforme de l'émetteur dans un délai de vingt-quatre heures suivant le dépôt de la facture [S11].
+La réglementation prévoit notamment que certaines données de facturation doivent être transmises par la plateforme de l'émetteur dans un délai de vingt-quatre heures suivant le dépôt de la facture [S11](#s11).
 
 L'existence de cette transmission est donc établie.
 
@@ -554,7 +554,7 @@ Les textes permettent d'identifier les principaux acteurs intervenant dans leur 
 
 ### Les plateformes agréées
 
-Les plateformes agréées occupent une position intermédiaire obligatoire dans le dispositif de facturation électronique [S10].
+Les plateformes agréées occupent une position intermédiaire obligatoire dans le dispositif de facturation électronique [S10](#s10).
 
 Elles assurent notamment :
 
@@ -564,7 +564,7 @@ Elles assurent notamment :
 - la transmission à l'administration des données réglementaires de facturation ;  
 - la transmission des données de transaction et de paiement lorsqu'elles relèvent du e-reporting.
 
-Elles traitent donc les informations nécessaires à l'exécution de ces opérations [S10].
+Elles traitent donc les informations nécessaires à l'exécution de ces opérations [S10](#s10).
 
 Cet accès ne signifie cependant pas que les plateformes disposent d'un droit général de réutilisation des données pour toute autre finalité.
 
@@ -572,13 +572,13 @@ Cet accès ne signifie cependant pas que les plateformes disposent d'un droit g�
 
 ### L'administration fiscale
 
-Le Code général des impôts prévoit explicitement la transmission à l'administration des données issues du dispositif [S7].
+Le Code général des impôts prévoit explicitement la transmission à l'administration des données issues du dispositif [S7](#s7).
 
-Pour la facturation électronique B2B, les données des factures électroniques sont transmises à l'administration par la plateforme agréée choisie par l'assujetti [S7].
+Pour la facturation électronique B2B, les données des factures électroniques sont transmises à l'administration par la plateforme agréée choisie par l'assujetti [S7](#s7).
 
-Pour les opérations relevant du e-reporting, les données de transaction et, dans les situations prévues par les textes, les données relatives aux paiements sont également transmises à l'administration [S7].
+Pour les opérations relevant du e-reporting, les données de transaction et, dans les situations prévues par les textes, les données relatives aux paiements sont également transmises à l'administration [S7](#s7).
 
-La réglementation prévoit en outre une solution dédiée permettant le recueil [S12] :
+La réglementation prévoit en outre une solution dédiée permettant le recueil [S12](#s12) :
 
 - des données de facturation ;  
 - des données de transaction ;  
@@ -591,16 +591,16 @@ Il est donc établi que l'administration fiscale est destinataire d'un ensemble 
 
 ### L'annuaire central doit être distingué des données fiscales transmises
 
-L'État met également à disposition des plateformes agréées un annuaire central destiné à permettre l'adressage des factures électroniques [S12].
+L'État met également à disposition des plateformes agréées un annuaire central destiné à permettre l'adressage des factures électroniques [S12](#s12).
 
-Cet annuaire contient notamment des informations permettant d'identifier les assujettis, les personnes morales de droit public et les plateformes agréées, ainsi que les informations nécessaires au routage des factures [S12].
+Cet annuaire contient notamment des informations permettant d'identifier les assujettis, les personnes morales de droit public et les plateformes agréées, ainsi que les informations nécessaires au routage des factures [S12](#s12).
 
 L'accès à cet annuaire par les plateformes ne doit pas être confondu avec un accès général aux données fiscales collectées par l'administration.
 
 Il s'agit de deux fonctions différentes du dispositif :
 
 - l'annuaire permet principalement l'identification et l'adressage des factures ;  
-- la solution dédiée recueille les données réglementaires destinées à l'administration [S12].
+- la solution dédiée recueille les données réglementaires destinées à l'administration [S12](#s12).
 
 ---
 
@@ -632,20 +632,20 @@ La transmission des données à l'administration ne constitue pas uniquement une
 
 L'administration fiscale présente explicitement plusieurs objectifs associés à la réforme et à l'exploitation des informations qu'elle permet de recueillir.
 
-La Direction générale des Finances publiques identifie quatre objectifs officiels [S5] :
+La Direction générale des Finances publiques identifie quatre objectifs officiels [S5](#s5) :
 
 1. renforcer la compétitivité des entreprises grâce aux gains liés à la dématérialisation ;  
 2. simplifier, à terme, les obligations déclaratives en matière de TVA, notamment grâce au pré-remplissage des déclarations ;  
 3. améliorer la lutte contre la fraude à la TVA ;  
 4. améliorer la connaissance en temps réel de l'activité des entreprises et le pilotage des politiques publiques.
 
-Ces objectifs sont présentés directement par la DGFiP dans sa documentation consacrée à la réforme [S5].
+Ces objectifs sont présentés directement par la DGFiP dans sa documentation consacrée à la réforme [S5](#s5).
 
 ---
 
 ### Exploitation automatique et continue des données
 
-La documentation pédagogique publiée par la DGFiP apporte une précision supplémentaire concernant le quatrième objectif [S6].
+La documentation pédagogique publiée par la DGFiP apporte une précision supplémentaire concernant le quatrième objectif [S6](#s6).
 
 Elle indique que la disponibilité et l'exploitation de données obtenues de façon automatique et continue doivent faciliter le pilotage de l'économie par la puissance publique.
 
@@ -701,7 +701,7 @@ Le pilotage des politiques publiques figure explicitement parmi les objectifs an
 
 **Statut : AVÉRÉ / À ÉTABLIR**
 
-La lutte contre la fraude à la TVA constitue explicitement l'un des objectifs officiels de la réforme française de la facturation électronique [S5].
+La lutte contre la fraude à la TVA constitue explicitement l'un des objectifs officiels de la réforme française de la facturation électronique [S5](#s5).
 
 La DGFiP présente en effet parmi les quatre objectifs de la réforme celui d'« améliorer la lutte contre la fraude à la TVA ».
 
@@ -717,11 +717,11 @@ Comme documenté au chapitre 1, le dispositif organise la transmission électron
 
 ### Des données directement liées à la détermination de la TVA
 
-Le Code général des impôts établit explicitement un lien entre certaines données transmises et la détermination de la taxe [S7].
+Le Code général des impôts établit explicitement un lien entre certaines données transmises et la détermination de la taxe [S7](#s7).
 
-Pour les opérations pour lesquelles la TVA est exigible à l'encaissement, les données relatives au paiement sont communiquées à l'administration sous forme électronique [S7].
+Pour les opérations pour lesquelles la TVA est exigible à l'encaissement, les données relatives au paiement sont communiquées à l'administration sous forme électronique [S7](#s7).
 
-Le texte précise que les données à transmettre sont celles nécessaires à la détermination de l'exigibilité de la taxe sur la valeur ajoutée [S7].
+Le texte précise que les données à transmettre sont celles nécessaires à la détermination de l'exigibilité de la taxe sur la valeur ajoutée [S7](#s7).
 
 Les données de transaction transmises dans le cadre du e-reporting comprennent également, selon les situations prévues par les textes, des informations telles que :
 
@@ -732,7 +732,7 @@ Les données de transaction transmises dans le cadre du e-reporting comprennent 
 - le montant total de TVA due en France ;  
 - la date des transactions.
 
-Le dispositif fournit donc à l'administration des données structurées directement exploitables pour la détermination de certains éléments relatifs à la TVA [S7].
+Le dispositif fournit donc à l'administration des données structurées directement exploitables pour la détermination de certains éléments relatifs à la TVA [S7](#s7).
 
 ---
 
@@ -752,7 +752,7 @@ Le dispositif prévoit leur transmission électronique selon les obligations, p�
 
 ### Surveillance des obligations de transmission
 
-La DGFiP dispose également d'un service chargé de l'immatriculation et du suivi des plateformes agréées [S13].
+La DGFiP dispose également d'un service chargé de l'immatriculation et du suivi des plateformes agréées [S13](#s13).
 
 Parmi les missions officiellement attribuées à ce service figurent notamment :
 
@@ -760,7 +760,7 @@ Parmi les missions officiellement attribuées à ce service figurent notamment :
 - la mise en œuvre éventuelle de sanctions pécuniaires en cas de manquement ;  
 - le retrait éventuel de l'immatriculation d'une plateforme en cas de manquements répétés.
 
-La transmission des données constitue donc elle-même une obligation faisant l'objet d'un dispositif de surveillance administrative [S13].
+La transmission des données constitue donc elle-même une obligation faisant l'objet d'un dispositif de surveillance administrative [S13](#s13).
 
 ---
 
@@ -768,11 +768,11 @@ La transmission des données constitue donc elle-même une obligation faisant l'
 
 Il est établi que :
 
-- la lutte contre la fraude à la TVA constitue un objectif officiel de la réforme [S5] ;  
-- des données structurées relatives aux factures, transactions et paiements sont transmises électroniquement à l'administration [S7] ;  
-- certaines de ces données sont explicitement définies comme nécessaires à la détermination de l'exigibilité de la TVA [S7] ;  
-- les données de transaction comprennent des éléments permettant de connaître les bases imposables et les montants de TVA correspondants [S7] ;  
-- le respect des obligations de transmission fait lui-même l'objet d'une surveillance par l'administration [S13].
+- la lutte contre la fraude à la TVA constitue un objectif officiel de la réforme [S5](#s5) ;  
+- des données structurées relatives aux factures, transactions et paiements sont transmises électroniquement à l'administration [S7](#s7) ;  
+- certaines de ces données sont explicitement définies comme nécessaires à la détermination de l'exigibilité de la TVA [S7](#s7) ;  
+- les données de transaction comprennent des éléments permettant de connaître les bases imposables et les montants de TVA correspondants [S7](#s7) ;  
+- le respect des obligations de transmission fait lui-même l'objet d'une surveillance par l'administration [S13](#s13).
 
 Ces différents éléments établissent donc un lien direct entre l'infrastructure de transmission mise en place par la réforme et les objectifs fiscaux liés à la TVA.
 
@@ -780,15 +780,15 @@ Ces différents éléments établissent donc un lien direct entre l'infrastructu
 
 ### Traitement algorithmique des données de facturation électronique
 
-La documentation disponible permet désormais d'établir que les données issues de la facturation électronique sont destinées à intégrer le traitement automatisé « ciblage de la fraude et valorisation des requêtes » (CFVR) de la DGFiP [S37].
+La documentation disponible permet désormais d'établir que les données issues de la facturation électronique sont destinées à intégrer le traitement automatisé « ciblage de la fraude et valorisation des requêtes » (CFVR) de la DGFiP [S37](#s37).
 
-Dans son avis du 18 juin 2026, la CNIL indique que l'ajout de ces données augmente substantiellement le volume d'informations traité, la DGFiP estimant le volume des factures électroniques à environ 2 à 3 milliards par an [S37].
+Dans son avis du 18 juin 2026, la CNIL indique que l'ajout de ces données augmente substantiellement le volume d'informations traité, la DGFiP estimant le volume des factures électroniques à environ 2 à 3 milliards par an [S37](#s37).
 
-Ces données doivent alimenter la plateforme sécurisée des données de la DGFiP et peuvent être exploitées afin d'identifier des anomalies et des entreprises présentant certains risques fiscaux [S37].
+Ces données doivent alimenter la plateforme sécurisée des données de la DGFiP et peuvent être exploitées afin d'identifier des anomalies et des entreprises présentant certains risques fiscaux [S37](#s37).
 
-Les résultats des requêtes peuvent également être croisés avec d'autres données du traitement CFVR. Celui-ci utilise notamment des méthodes algorithmiques et d'apprentissage, comprenant certaines méthodes d'apprentissage non supervisé [S37].
+Les résultats des requêtes peuvent également être croisés avec d'autres données du traitement CFVR. Celui-ci utilise notamment des méthodes algorithmiques et d'apprentissage, comprenant certaines méthodes d'apprentissage non supervisé [S37](#s37).
 
-La CNIL souligne toutefois les risques de biais et d'amplification de ces biais et considère indispensable que les résultats issus des traitements algorithmiques ne remplacent pas l'analyse humaine préalable à l'ouverture d'un contrôle fiscal [S37].
+La CNIL souligne toutefois les risques de biais et d'amplification de ces biais et considère indispensable que les résultats issus des traitements algorithmiques ne remplacent pas l'analyse humaine préalable à l'ouverture d'un contrôle fiscal [S37](#s37).
 
 ---
 
@@ -810,7 +810,7 @@ L'existence d'un traitement algorithmique et de possibilités de croisement dans
 
 **AVÉRÉ :**
 
-> Les données issues de la facturation électronique sont destinées à alimenter le traitement CFVR et la plateforme sécurisée des données de la DGFiP. Elles peuvent notamment être exploitées afin d'identifier des anomalies et certaines situations présentant un risque fiscal, dans un traitement utilisant des méthodes algorithmiques et d'apprentissage [S37].
+> Les données issues de la facturation électronique sont destinées à alimenter le traitement CFVR et la plateforme sécurisée des données de la DGFiP. Elles peuvent notamment être exploitées afin d'identifier des anomalies et certaines situations présentant un risque fiscal, dans un traitement utilisant des méthodes algorithmiques et d'apprentissage [S37](#s37).
 
 **À ÉTABLIR :**
 
@@ -822,11 +822,11 @@ L'existence d'un traitement algorithmique et de possibilités de croisement dans
 
 **Statut : AVÉRÉ / À ÉTABLIR**
 
-La connaissance en temps réel de l'activité des entreprises constitue explicitement l'un des objectifs officiels de la réforme [S5].
+La connaissance en temps réel de l'activité des entreprises constitue explicitement l'un des objectifs officiels de la réforme [S5](#s5).
 
-La DGFiP indique également que la disponibilité et l'exploitation de données obtenues de façon automatique et continue doivent faciliter le pilotage de l'économie par la puissance publique [S6].
+La DGFiP indique également que la disponibilité et l'exploitation de données obtenues de façon automatique et continue doivent faciliter le pilotage de l'économie par la puissance publique [S6](#s6).
 
-Les remontées d'informations issues de la facturation doivent notamment permettre une connaissance et une visibilité en temps réel de la conjoncture économique, notamment par secteur d'activité [S6].
+Les remontées d'informations issues de la facturation doivent notamment permettre une connaissance et une visibilité en temps réel de la conjoncture économique, notamment par secteur d'activité [S6](#s6).
 
 ---
 
@@ -834,9 +834,9 @@ Les remontées d'informations issues de la facturation doivent notamment permett
 
 L'objectif annoncé ne se limite pas à produire une connaissance statistique générale de l'économie.
 
-Les documents préparatoires de la réforme indiquent que l'amélioration de la connaissance en temps réel de l'activité des entreprises doit permettre un pilotage de la politique économique « au plus près de la réalité économique des acteurs » [S14].
+Les documents préparatoires de la réforme indiquent que l'amélioration de la connaissance en temps réel de l'activité des entreprises doit permettre un pilotage de la politique économique « au plus près de la réalité économique des acteurs » [S14](#s14).
 
-L'évaluation préalable du dispositif fournit également un exemple concret d'utilisation envisagée de ces informations : les données recueillies pourraient enrichir les modèles d'analyse afin de faciliter la détection et l'accompagnement des entreprises en difficulté [S14].
+L'évaluation préalable du dispositif fournit également un exemple concret d'utilisation envisagée de ces informations : les données recueillies pourraient enrichir les modèles d'analyse afin de faciliter la détection et l'accompagnement des entreprises en difficulté [S14](#s14).
 
 Il est donc établi que la remontée des données issues du dispositif a notamment été conçue pour améliorer les capacités d'analyse de la situation économique et contribuer au pilotage de politiques économiques.
 
@@ -844,13 +844,13 @@ Il est donc établi que la remontée des données issues du dispositif a notamme
 
 ### Une infrastructure fournissant des données économiques structurées
 
-Comme établi au chapitre 1, les données transmises à l'administration comprennent notamment, selon les opérations concernées, l'identification des entreprises participant à la transaction, les dates et numéros de facture, la catégorie de l'opération, les montants hors taxe, les taux et montants de TVA ainsi que certaines informations relatives aux paiements [S1][S2][S3].
+Comme établi au chapitre 1, les données transmises à l'administration comprennent notamment, selon les opérations concernées, l'identification des entreprises participant à la transaction, les dates et numéros de facture, la catégorie de l'opération, les montants hors taxe, les taux et montants de TVA ainsi que certaines informations relatives aux paiements [S1](#s1)[S2](#s2)[S3](#s3).
 
-À compter du 1er septembre 2027, certaines opérations B2B comprennent également des données au niveau des lignes de facture, notamment la dénomination précise du bien ou du service, la quantité et le prix unitaire hors taxe [S1][S2].
+À compter du 1er septembre 2027, certaines opérations B2B comprennent également des données au niveau des lignes de facture, notamment la dénomination précise du bien ou du service, la quantité et le prix unitaire hors taxe [S1](#s1)[S2](#s2).
 
 Ces données ne constituent donc pas uniquement des totaux fiscaux globaux : dans les situations prévues par les textes, elles décrivent également le contenu économique des transactions avec un niveau de granularité plus important.
 
-Associée à une remontée automatisée et continue des informations [S6], cette granularité fournit à l'administration une infrastructure de données permettant une connaissance plus détaillée et plus rapide de certaines composantes de l'activité économique.
+Associée à une remontée automatisée et continue des informations [S6](#s6), cette granularité fournit à l'administration une infrastructure de données permettant une connaissance plus détaillée et plus rapide de certaines composantes de l'activité économique.
 
 ---
 
@@ -858,11 +858,11 @@ Associée à une remontée automatisée et continue des informations [S6], cette
 
 Il est établi que :
 
-- la connaissance en temps réel de l'activité des entreprises constitue un objectif officiel de la réforme [S5] ;  
-- les données obtenues de façon automatique et continue doivent contribuer à la connaissance de la conjoncture économique, notamment par secteur d'activité [S6] ;  
-- le pilotage de l'économie par la puissance publique est explicitement mentionné dans la documentation de la DGFiP [S6] ;  
-- les travaux préparatoires de la réforme évoquent un pilotage de la politique économique au plus près de la réalité économique des acteurs [S14] ;  
-- l'enrichissement de modèles d'analyse afin de faciliter la détection et l'accompagnement des entreprises en difficulté est explicitement présenté comme un exemple d'utilisation possible des données recueillies [S14].
+- la connaissance en temps réel de l'activité des entreprises constitue un objectif officiel de la réforme [S5](#s5) ;  
+- les données obtenues de façon automatique et continue doivent contribuer à la connaissance de la conjoncture économique, notamment par secteur d'activité [S6](#s6) ;  
+- le pilotage de l'économie par la puissance publique est explicitement mentionné dans la documentation de la DGFiP [S6](#s6) ;  
+- les travaux préparatoires de la réforme évoquent un pilotage de la politique économique au plus près de la réalité économique des acteurs [S14](#s14) ;  
+- l'enrichissement de modèles d'analyse afin de faciliter la détection et l'accompagnement des entreprises en difficulté est explicitement présenté comme un exemple d'utilisation possible des données recueillies [S14](#s14).
 
 Ces éléments établissent donc que la collecte de données prévue par la réforme possède également une dimension d'observation et d'analyse de l'activité économique, distincte de son utilisation pour la TVA et la lutte contre la fraude.
 
@@ -886,11 +886,11 @@ La nature exacte des traitements réalisés à partir de ces données, leur nive
 
 **AVÉRÉ :**
 
-> La réforme prévoit que des données économiques obtenues de façon automatique et continue contribuent à améliorer la connaissance en temps réel de l'activité des entreprises et de la conjoncture économique, notamment par secteur d'activité, afin de faciliter le pilotage de l'économie et des politiques économiques [S5][S6][S14].
+> La réforme prévoit que des données économiques obtenues de façon automatique et continue contribuent à améliorer la connaissance en temps réel de l'activité des entreprises et de la conjoncture économique, notamment par secteur d'activité, afin de faciliter le pilotage de l'économie et des politiques économiques [S5](#s5)[S6](#s6)[S14](#s14).
 
 **AVÉRÉ :**
 
-> Les travaux préparatoires de la réforme mentionnent explicitement, à titre d'exemple, la possibilité d'enrichir des modèles d'analyse avec les données recueillies afin de faciliter la détection et l'accompagnement des entreprises en difficulté [S14].
+> Les travaux préparatoires de la réforme mentionnent explicitement, à titre d'exemple, la possibilité d'enrichir des modèles d'analyse avec les données recueillies afin de faciliter la détection et l'accompagnement des entreprises en difficulté [S14](#s14).
 
 **À ÉTABLIR :**
 
@@ -904,7 +904,7 @@ La nature exacte des traitements réalisés à partir de ces données, leur nive
 
 Les éléments documentés dans ce chapitre permettent d'établir l'existence d'un dispositif organisé de collecte, de transmission et d'exploitation de données économiques structurées par l'intermédiaire des plateformes agréées et de l'administration fiscale.
 
-Ils permettent également d'identifier plusieurs objectifs officiels associés à la réforme, notamment la lutte contre la fraude à la TVA, le pré-remplissage des déclarations, la connaissance en temps réel de l'activité des entreprises et le pilotage des politiques publiques [S5][S6].
+Ils permettent également d'identifier plusieurs objectifs officiels associés à la réforme, notamment la lutte contre la fraude à la TVA, le pré-remplissage des déclarations, la connaissance en temps réel de l'activité des entreprises et le pilotage des politiques publiques [S5](#s5)[S6](#s6).
 
 Certaines caractéristiques essentielles du traitement de ces données restent cependant à documenter.
 
@@ -912,7 +912,7 @@ Certaines caractéristiques essentielles du traitement de ces données restent c
 
 ### Durée de conservation par l'administration
 
-Les obligations de conservation imposées aux entreprises et certaines obligations applicables aux plateformes agréées sont établies [S8][S9][S10].
+Les obligations de conservation imposées aux entreprises et certaines obligations applicables aux plateformes agréées sont établies [S8](#s8)[S9](#s9)[S10](#s10).
 
 En revanche, les sources étudiées ne permettent pas encore d'établir une durée générale unique pendant laquelle l'administration fiscale conserve les données de facturation, de transaction, de paiement et de cycle de vie reçues dans le cadre de la réforme.
 
@@ -924,7 +924,7 @@ En revanche, les sources étudiées ne permettent pas encore d'établir une dur�
 
 ### Accès et habilitations
 
-La circulation des données entre les entreprises, les plateformes agréées et l'administration est documentée [S7][S10][S11][S12].
+La circulation des données entre les entreprises, les plateformes agréées et l'administration est documentée [S7](#s7)[S10](#s10)[S11](#s11)[S12](#s12).
 
 Les sources étudiées ne permettent cependant pas encore d'identifier de manière exhaustive les services, agents ou organismes pouvant consulter les différentes catégories de données une fois celles-ci reçues par l'administration.
 
@@ -936,11 +936,11 @@ Les sources étudiées ne permettent cependant pas encore d'identifier de maniè
 
 ### Traitements automatisés et croisements de données
 
-La transmission électronique et structurée des données est établie, de même que l'objectif d'une exploitation automatique et continue permettant notamment d'améliorer la connaissance de la conjoncture économique [S4][S6].
+La transmission électronique et structurée des données est établie, de même que l'objectif d'une exploitation automatique et continue permettant notamment d'améliorer la connaissance de la conjoncture économique [S4](#s4)[S6](#s6).
 
-Les travaux préparatoires de la réforme mentionnent également la possibilité d'enrichir des modèles d'analyse à partir des données recueillies, notamment afin de faciliter la détection et l'accompagnement des entreprises en difficulté [S14].
+Les travaux préparatoires de la réforme mentionnent également la possibilité d'enrichir des modèles d'analyse à partir des données recueillies, notamment afin de faciliter la détection et l'accompagnement des entreprises en difficulté [S14](#s14).
 
-L'existence de traitements automatisés appliqués aux données de facturation électronique n'est plus seulement une possibilité à établir. La CNIL confirme leur intégration au traitement CFVR, qui utilise notamment des méthodes algorithmiques et d'apprentissage pour l'analyse et le ciblage fiscal [S37].
+L'existence de traitements automatisés appliqués aux données de facturation électronique n'est plus seulement une possibilité à établir. La CNIL confirme leur intégration au traitement CFVR, qui utilise notamment des méthodes algorithmiques et d'apprentissage pour l'analyse et le ciblage fiscal [S37](#s37).
 
 L'étendue exacte de ces traitements et des rapprochements effectivement réalisés reste cependant à documenter.
 
@@ -964,7 +964,7 @@ Les sources étudiées dans ce chapitre ne permettent notamment pas d'établir l
 
 ### Réutilisation pour le pilotage des politiques publiques
 
-Le pilotage des politiques publiques et la connaissance en temps réel de l'activité des entreprises figurent explicitement parmi les objectifs officiels de la réforme [S5][S6].
+Le pilotage des politiques publiques et la connaissance en temps réel de l'activité des entreprises figurent explicitement parmi les objectifs officiels de la réforme [S5](#s5)[S6](#s6).
 
 Cette formulation ne permet cependant pas, à elle seule, de déterminer l'ensemble des politiques publiques susceptibles d'utiliser les données collectées ni les conditions juridiques dans lesquelles une telle réutilisation pourrait intervenir.
 
@@ -978,9 +978,9 @@ Il convient notamment de distinguer les objectifs généraux annoncés pour la r
 
 ### Agrégation, anonymisation et granularité
 
-Les sources étudiées établissent que certaines données sont transmises avec une granularité importante, notamment au niveau des lignes de facture pour certaines opérations B2B à compter du 1er septembre 2027 [S1][S2].
+Les sources étudiées établissent que certaines données sont transmises avec une granularité importante, notamment au niveau des lignes de facture pour certaines opérations B2B à compter du 1er septembre 2027 [S1](#s1)[S2](#s2).
 
-Elles établissent également que le e-reporting B2C général repose sur des données agrégées par jour et ne permet donc pas, sur la seule base des éléments étudiés, d'affirmer que le détail de chaque achat individuel d'un particulier est transmis à l'administration [S2].
+Elles établissent également que le e-reporting B2C général repose sur des données agrégées par jour et ne permet donc pas, sur la seule base des éléments étudiés, d'affirmer que le détail de chaque achat individuel d'un particulier est transmis à l'administration [S2](#s2).
 
 En revanche, le niveau de granularité effectivement utilisé lors des analyses économiques ou statistiques réalisées à partir de ces données reste à documenter.
 
@@ -1008,19 +1008,19 @@ L'analyse des textes législatifs, réglementaires et des documents officiels pe
 
 ### AVÉRÉ
 
-La réforme française de la facturation électronique met en place une infrastructure organisée permettant la transmission électronique à l'administration de données structurées relatives aux factures, aux transactions et, dans les situations prévues par les textes, aux paiements [S4][S7].
+La réforme française de la facturation électronique met en place une infrastructure organisée permettant la transmission électronique à l'administration de données structurées relatives aux factures, aux transactions et, dans les situations prévues par les textes, aux paiements [S4](#s4)[S7](#s7).
 
-Les plateformes agréées assurent le traitement et la transmission des informations nécessaires au fonctionnement de ce dispositif et sont soumises à des obligations réglementaires ainsi qu'à un mécanisme de surveillance administrative [S10][S13].
+Les plateformes agréées assurent le traitement et la transmission des informations nécessaires au fonctionnement de ce dispositif et sont soumises à des obligations réglementaires ainsi qu'à un mécanisme de surveillance administrative [S10](#s10)[S13](#s13).
 
-Les entreprises restent soumises à leurs propres obligations de conservation des documents fiscaux. Le délai prévu par l'article L. 102 B du Livre des procédures fiscales évolue de six à dix ans à compter du 1er janvier 2027 dans les conditions prévues par le texte [S8], tandis que les règles applicables aux factures imposent également des garanties relatives à l'authenticité de leur origine, à l'intégrité de leur contenu et à leur lisibilité [S9].
+Les entreprises restent soumises à leurs propres obligations de conservation des documents fiscaux. Le délai prévu par l'article L. 102 B du Livre des procédures fiscales évolue de six à dix ans à compter du 1er janvier 2027 dans les conditions prévues par le texte [S8](#s8), tandis que les règles applicables aux factures imposent également des garanties relatives à l'authenticité de leur origine, à l'intégrité de leur contenu et à leur lisibilité [S9](#s9).
 
 Ces obligations de conservation ne permettent cependant pas de déduire une durée identique de conservation par l'administration des données qu'elle reçoit.
 
-La lutte contre la fraude à la TVA, le pré-remplissage des déclarations de TVA, la connaissance en temps réel de l'activité des entreprises et le pilotage des politiques publiques figurent parmi les objectifs officiellement annoncés de la réforme [S5].
+La lutte contre la fraude à la TVA, le pré-remplissage des déclarations de TVA, la connaissance en temps réel de l'activité des entreprises et le pilotage des politiques publiques figurent parmi les objectifs officiellement annoncés de la réforme [S5](#s5).
 
-La DGFiP indique également que la disponibilité et l'exploitation de données obtenues de façon automatique et continue doivent faciliter la connaissance de la conjoncture économique, notamment par secteur d'activité, ainsi que le pilotage de l'économie par la puissance publique [S6].
+La DGFiP indique également que la disponibilité et l'exploitation de données obtenues de façon automatique et continue doivent faciliter la connaissance de la conjoncture économique, notamment par secteur d'activité, ainsi que le pilotage de l'économie par la puissance publique [S6](#s6).
 
-Les travaux préparatoires de la réforme mentionnent en outre, à titre d'exemple, la possibilité d'enrichir des modèles d'analyse avec les données recueillies afin de faciliter la détection et l'accompagnement des entreprises en difficulté [S14].
+Les travaux préparatoires de la réforme mentionnent en outre, à titre d'exemple, la possibilité d'enrichir des modèles d'analyse avec les données recueillies afin de faciliter la détection et l'accompagnement des entreprises en difficulté [S14](#s14).
 
 Il est donc établi que l'infrastructure ne répond pas uniquement à une fonction technique de transmission des factures : les données recueillies sont également destinées à contribuer à des objectifs fiscaux et à la connaissance de l'activité économique.
 
@@ -1057,11 +1057,11 @@ Les chapitres suivants examineront donc successivement les données environnemen
 
 **AVÉRÉ :**
 
-> La réforme française de la facturation électronique organise la transmission à l'administration de données économiques structurées et prévoit explicitement leur utilisation pour des objectifs fiscaux ainsi que pour améliorer la connaissance en temps réel de l'activité économique et le pilotage des politiques publiques [S5][S6][S7].
+> La réforme française de la facturation électronique organise la transmission à l'administration de données économiques structurées et prévoit explicitement leur utilisation pour des objectifs fiscaux ainsi que pour améliorer la connaissance en temps réel de l'activité économique et le pilotage des politiques publiques [S5](#s5)[S6](#s6)[S7](#s7).
 
 **AVÉRÉ :**
 
-> La documentation officielle prévoit une exploitation de données obtenues de façon automatique et continue, et les travaux préparatoires ont explicitement envisagé leur utilisation pour enrichir certains modèles d'analyse économique [S6][S14].
+> La documentation officielle prévoit une exploitation de données obtenues de façon automatique et continue, et les travaux préparatoires ont explicitement envisagé leur utilisation pour enrichir certains modèles d'analyse économique [S6](#s6)[S14](#s14).
 
 **À ÉTABLIR :**
 
@@ -1113,15 +1113,15 @@ L'existence des premiers éléments ne démontre pas automatiquement l'existence
 
 **Statut : AVÉRÉ**
 
-L'Union européenne a établi un cadre juridique pour le passeport numérique de produit, ou Digital Product Passport, dans le règlement (UE) 2024/1781 relatif à l'écoconception des produits durables [S15].
+L'Union européenne a établi un cadre juridique pour le passeport numérique de produit, ou Digital Product Passport, dans le règlement (UE) 2024/1781 relatif à l'écoconception des produits durables [S15](#s15).
 
-Le dispositif ne correspond pas uniquement à l'affichage d'informations environnementales destinées au consommateur. Il repose sur une infrastructure permettant d'associer à un produit un ensemble de données numériques structurées et accessibles selon des règles définies par la réglementation [S15].
+Le dispositif ne correspond pas uniquement à l'affichage d'informations environnementales destinées au consommateur. Il repose sur une infrastructure permettant d'associer à un produit un ensemble de données numériques structurées et accessibles selon des règles définies par la réglementation [S15](#s15).
 
 ---
 
 ### Un identifiant numérique associé au produit
 
-Le passeport numérique de produit doit être relié, par l'intermédiaire d'un support de données, à un identifiant unique persistant du produit [S15].
+Le passeport numérique de produit doit être relié, par l'intermédiaire d'un support de données, à un identifiant unique persistant du produit [S15](#s15).
 
 Selon les règles qui seront applicables à chaque groupe de produits, le passeport pourra être établi au niveau :
 
@@ -1129,13 +1129,13 @@ Selon les règles qui seront applicables à chaque groupe de produits, le passep
 - du lot ;  
 - de l'article individuel.
 
-Le niveau de granularité n'est donc pas nécessairement limité à une catégorie générale de produits : le cadre réglementaire permet qu'un passeport corresponde, lorsque les règles applicables au produit le prévoient, à un article individuel [S15].
+Le niveau de granularité n'est donc pas nécessairement limité à une catégorie générale de produits : le cadre réglementaire permet qu'un passeport corresponde, lorsque les règles applicables au produit le prévoient, à un article individuel [S15](#s15).
 
 ---
 
 ### Des données conçues pour être exploitables par des systèmes informatiques
 
-Les données contenues dans le passeport numérique de produit doivent reposer sur des standards ouverts et utiliser un format interopérable [S15].
+Les données contenues dans le passeport numérique de produit doivent reposer sur des standards ouverts et utiliser un format interopérable [S15](#s15).
 
 Elles doivent également être, lorsque cela est approprié :
 
@@ -1144,7 +1144,7 @@ Elles doivent également être, lorsque cela est approprié :
 - recherchables ;  
 - transférables au moyen d'un réseau ouvert et interopérable d'échange de données.
 
-Le règlement prévoit également une interopérabilité technique, sémantique et organisationnelle entre les passeports numériques de produits [S15].
+Le règlement prévoit également une interopérabilité technique, sémantique et organisationnelle entre les passeports numériques de produits [S15](#s15).
 
 Le dispositif constitue donc une infrastructure de données structurées conçue pour permettre leur traitement et leur circulation entre différents systèmes informatiques, selon les droits d'accès applicables.
 
@@ -1152,25 +1152,25 @@ Le dispositif constitue donc une infrastructure de données structurées conçue
 
 ### Un registre numérique géré par la Commission européenne
 
-Le règlement prévoit la mise en place par la Commission européenne d'un registre numérique des passeports de produits [S15].
+Le règlement prévoit la mise en place par la Commission européenne d'un registre numérique des passeports de produits [S15](#s15).
 
-Ce registre contient au minimum les identifiants uniques prévus par le dispositif. Pour certains produits importés, il contient également le code de marchandise correspondant [S15].
+Ce registre contient au minimum les identifiants uniques prévus par le dispositif. Pour certains produits importés, il contient également le code de marchandise correspondant [S15](#s15).
 
 La Commission européenne assure la gestion du registre.
 
-La Commission, les autorités nationales compétentes et les autorités douanières disposent d'un accès au registre pour l'exécution des missions qui leur sont attribuées par le droit de l'Union [S15].
+La Commission, les autorités nationales compétentes et les autorités douanières disposent d'un accès au registre pour l'exécution des missions qui leur sont attribuées par le droit de l'Union [S15](#s15).
 
-Un portail internet public doit également permettre aux parties prenantes de rechercher et de comparer certaines données contenues dans les passeports, dans les limites de leurs droits d'accès respectifs [S15].
+Un portail internet public doit également permettre aux parties prenantes de rechercher et de comparer certaines données contenues dans les passeports, dans les limites de leurs droits d'accès respectifs [S15](#s15).
 
 ---
 
 ### Une interconnexion avec une autre infrastructure publique est explicitement prévue
 
-Le règlement prévoit explicitement une interconnexion entre le registre des passeports numériques de produits et le système européen d'échange de certificats du guichet unique pour les douanes, EU CSW-CERTEX [S15].
+Le règlement prévoit explicitement une interconnexion entre le registre des passeports numériques de produits et le système européen d'échange de certificats du guichet unique pour les douanes, EU CSW-CERTEX [S15](#s15).
 
-Cette interconnexion doit permettre l'échange automatisé d'informations avec les systèmes douaniers nationaux [S15].
+Cette interconnexion doit permettre l'échange automatisé d'informations avec les systèmes douaniers nationaux [S15](#s15).
 
-Les contrôles correspondants doivent notamment permettre de vérifier électroniquement et automatiquement la correspondance entre certains identifiants communiqués lors de l'importation et les informations présentes dans le registre [S15].
+Les contrôles correspondants doivent notamment permettre de vérifier électroniquement et automatiquement la correspondance entre certains identifiants communiqués lors de l'importation et les informations présentes dans le registre [S15](#s15).
 
 Il est donc établi que l'architecture du passeport numérique de produit n'est pas conçue comme un système nécessairement isolé : le règlement organise déjà son interconnexion avec une autre infrastructure numérique publique européenne pour certaines finalités douanières.
 
@@ -1190,11 +1190,11 @@ L'existence éventuelle d'autres connexions doit donc être recherchée séparé
 
 **AVÉRÉ :**
 
-> L'Union européenne met en place une infrastructure de passeports numériques permettant d'associer des données structurées et interopérables à des produits identifiés de manière unique, avec une granularité pouvant, selon les règles applicables, atteindre l'article individuel [S15].
+> L'Union européenne met en place une infrastructure de passeports numériques permettant d'associer des données structurées et interopérables à des produits identifiés de manière unique, avec une granularité pouvant, selon les règles applicables, atteindre l'article individuel [S15](#s15).
 
 **AVÉRÉ :**
 
-> Le règlement prévoit un registre numérique géré par la Commission européenne et organise explicitement son interconnexion avec l'infrastructure européenne EU CSW-CERTEX afin de permettre des échanges automatisés d'informations avec les systèmes douaniers nationaux [S15].
+> Le règlement prévoit un registre numérique géré par la Commission européenne et organise explicitement son interconnexion avec l'infrastructure européenne EU CSW-CERTEX afin de permettre des échanges automatisés d'informations avec les systèmes douaniers nationaux [S15](#s15).
 
 **À ÉTABLIR :**
 
@@ -1206,9 +1206,9 @@ L'existence éventuelle d'autres connexions doit donc être recherchée séparé
 
 **Statut : AVÉRÉ**
 
-Le passeport numérique de produit est destiné à rendre accessibles des informations relatives aux caractéristiques, à la composition, à la durabilité et aux impacts environnementaux des produits concernés [S15][S16].
+Le passeport numérique de produit est destiné à rendre accessibles des informations relatives aux caractéristiques, à la composition, à la durabilité et aux impacts environnementaux des produits concernés [S15](#s15)[S16](#s16).
 
-Le contenu exact d'un passeport n'est pas identique pour tous les produits. Les données obligatoires dépendent du groupe de produits et des exigences prévues par les actes européens applicables [S15].
+Le contenu exact d'un passeport n'est pas identique pour tous les produits. Les données obligatoires dépendent du groupe de produits et des exigences prévues par les actes européens applicables [S15](#s15).
 
 ---
 
@@ -1220,7 +1220,7 @@ Selon la Commission européenne, un passeport numérique de produit peut notamme
 - à l'empreinte environnementale ;  
 - à la durabilité ;  
 - à la réparabilité ;  
-- à la recyclabilité [S16].
+- à la recyclabilité [S16](#s16).
 
 Le dispositif peut donc associer directement à un produit des informations permettant d'en caractériser certains impacts ou certaines performances environnementales.
 
@@ -1232,9 +1232,9 @@ Il s'agit à ce stade d'une information associée au produit.
 
 ### Composition, matériaux et substances
 
-Les informations accessibles peuvent également concerner les matériaux et composants utilisés dans le produit [S16].
+Les informations accessibles peuvent également concerner les matériaux et composants utilisés dans le produit [S16](#s16).
 
-Des informations relatives aux substances dangereuses ou préoccupantes peuvent également être concernées selon les exigences applicables [S15][S16].
+Des informations relatives aux substances dangereuses ou préoccupantes peuvent également être concernées selon les exigences applicables [S15](#s15)[S16](#s16).
 
 Le passeport peut ainsi fournir des informations structurées ne décrivant pas seulement le produit commercialement, mais également certaines caractéristiques de sa composition matérielle.
 
@@ -1248,7 +1248,7 @@ Les informations susceptibles d'être accessibles comprennent également des él
 - à sa réparabilité ;  
 - aux instructions de réparation ;  
 - à la disponibilité de pièces détachées ;  
-- à son utilisation et à sa maintenance [S16].
+- à son utilisation et à sa maintenance [S16](#s16).
 
 Ces informations doivent notamment permettre aux différents acteurs disposant des droits d'accès correspondants de mieux connaître les caractéristiques du produit pendant son cycle de vie.
 
@@ -1261,7 +1261,7 @@ Le passeport numérique de produit peut également fournir des informations rela
 - au démontage ;  
 - au réemploi ;  
 - au recyclage ;  
-- à la gestion du produit en fin de vie [S16].
+- à la gestion du produit en fin de vie [S16](#s16).
 
 Le DPP accompagne ainsi potentiellement l'information relative au produit au-delà de sa seule mise sur le marché.
 
@@ -1271,9 +1271,9 @@ Le DPP accompagne ainsi potentiellement l'information relative au produit au-del
 
 Le point important pour la suite de l'analyse résulte de la combinaison des éléments établis dans les sections 3.1 et 3.2.
 
-Le cadre européen permet d'associer un passeport numérique à un produit identifié de manière unique, avec une granularité pouvant selon les règles applicables atteindre l'article individuel [S15].
+Le cadre européen permet d'associer un passeport numérique à un produit identifié de manière unique, avec une granularité pouvant selon les règles applicables atteindre l'article individuel [S15](#s15).
 
-Ce passeport peut contenir, selon le groupe de produits concerné, des informations relatives à l'empreinte carbone ou environnementale, à la composition, à la durabilité, à la réparabilité et à la recyclabilité [S15][S16].
+Ce passeport peut contenir, selon le groupe de produits concerné, des informations relatives à l'empreinte carbone ou environnementale, à la composition, à la durabilité, à la réparabilité et à la recyclabilité [S15](#s15)[S16](#s16).
 
 Il est donc établi que l'infrastructure européenne permet d'associer des caractéristiques environnementales structurées à des produits numériquement identifiables.
 
@@ -1298,11 +1298,11 @@ Ces différents mécanismes doivent être recherchés séparément.
 
 **AVÉRÉ :**
 
-> Le cadre européen du passeport numérique de produit permet d'associer à des produits numériquement identifiables des informations environnementales structurées pouvant notamment concerner leur empreinte carbone ou environnementale, leur composition, leur durabilité, leur réparabilité et leur recyclabilité [S15][S16].
+> Le cadre européen du passeport numérique de produit permet d'associer à des produits numériquement identifiables des informations environnementales structurées pouvant notamment concerner leur empreinte carbone ou environnementale, leur composition, leur durabilité, leur réparabilité et leur recyclabilité [S15](#s15)[S16](#s16).
 
 **AVÉRÉ :**
 
-> Selon les exigences applicables au groupe de produits concerné, le passeport peut être défini au niveau du modèle, du lot ou de l'article individuel [S15].
+> Selon les exigences applicables au groupe de produits concerné, le passeport peut être défini au niveau du modèle, du lot ou de l'article individuel [S15](#s15).
 
 **À ÉTABLIR :**
 
@@ -1326,11 +1326,11 @@ L'analyse de ces mécanismes fait apparaître un point de correspondance techniq
 
 ### Des identifiants uniques pour le passeport numérique de produit
 
-Le règlement (UE) 2024/1781 prévoit que le passeport numérique de produit est relié à un identifiant unique et persistant du produit [S15].
+Le règlement (UE) 2024/1781 prévoit que le passeport numérique de produit est relié à un identifiant unique et persistant du produit [S15](#s15).
 
-Selon les exigences applicables au groupe de produits concerné, le passeport peut être établi au niveau du modèle, du lot ou de l'article individuel [S15].
+Selon les exigences applicables au groupe de produits concerné, le passeport peut être établi au niveau du modèle, du lot ou de l'article individuel [S15](#s15).
 
-Le règlement prévoit également des identifiants uniques relatifs aux opérateurs économiques et aux installations associés au produit [S15].
+Le règlement prévoit également des identifiants uniques relatifs aux opérateurs économiques et aux installations associés au produit [S15](#s15).
 
 Ces mécanismes ont notamment pour objectif de permettre la traçabilité des produits et des acteurs concernés le long de la chaîne de valeur.
 
@@ -1338,11 +1338,11 @@ Ces mécanismes ont notamment pour objectif de permettre la traçabilité des pr
 
 ### Le GTIN parmi les données du passeport numérique de produit
 
-L'annexe III du règlement (UE) 2024/1781 prévoit parmi les données pouvant être incluses dans le passeport numérique de produit le Global Trade Item Number, ou GTIN, ou un identifiant équivalent pour les produits ou leurs parties [S15].
+L'annexe III du règlement (UE) 2024/1781 prévoit parmi les données pouvant être incluses dans le passeport numérique de produit le Global Trade Item Number, ou GTIN, ou un identifiant équivalent pour les produits ou leurs parties [S15](#s15).
 
 Le GTIN constitue un identifiant standardisé utilisé dans les chaînes commerciales pour identifier des articles.
 
-Le passeport numérique de produit peut donc comporter, en plus de son identifiant unique propre, un identifiant commercial standardisé du produit [S15].
+Le passeport numérique de produit peut donc comporter, en plus de son identifiant unique propre, un identifiant commercial standardisé du produit [S15](#s15).
 
 ---
 
@@ -1350,11 +1350,11 @@ Le passeport numérique de produit peut donc comporter, en plus de son identifia
 
 Les standards de facturation électronique permettent également d'associer un identifiant standardisé à l'article figurant sur une ligne de facture.
 
-Dans le modèle utilisé par Peppol BIS Billing, le terme métier BT-157 correspond à l'identifiant standard de l'article [S17].
+Dans le modèle utilisé par Peppol BIS Billing, le terme métier BT-157 correspond à l'identifiant standard de l'article [S17](#s17).
 
-Cet identifiant est associé à un schéma d'identification enregistré [S17].
+Cet identifiant est associé à un schéma d'identification enregistré [S17](#s17).
 
-Les flux commerciaux Peppol utilisent également ce mécanisme d'identification standardisée des produits dans d'autres documents de la chaîne commerciale, notamment les commandes, où le GTIN est explicitement prévu comme exemple d'identifiant standard d'article [S17].
+Les flux commerciaux Peppol utilisent également ce mécanisme d'identification standardisée des produits dans d'autres documents de la chaîne commerciale, notamment les commandes, où le GTIN est explicitement prévu comme exemple d'identifiant standard d'article [S17](#s17).
 
 Il existe donc des mécanismes normalisés permettant de conserver une identification structurée d'un produit au cours de différentes étapes d'un échange commercial.
 
@@ -1364,9 +1364,9 @@ Il existe donc des mécanismes normalisés permettant de conserver une identific
 
 Les éléments précédents permettent d'identifier une correspondance technique importante.
 
-D'une part, le passeport numérique de produit peut contenir un GTIN ou un identifiant équivalent du produit ou de ses parties [S15].
+D'une part, le passeport numérique de produit peut contenir un GTIN ou un identifiant équivalent du produit ou de ses parties [S15](#s15).
 
-D'autre part, les standards utilisés pour les échanges commerciaux électroniques permettent de transporter un identifiant standardisé de l'article au niveau de la ligne de facture et dans d'autres documents commerciaux [S17].
+D'autre part, les standards utilisés pour les échanges commerciaux électroniques permettent de transporter un identifiant standardisé de l'article au niveau de la ligne de facture et dans d'autres documents commerciaux [S17](#s17).
 
 **DÉDUCTIBLE TECHNIQUEMENT :**
 
@@ -1382,7 +1382,7 @@ Cette possibilité technique doit cependant être interprétée avec prudence.
 
 Un GTIN identifie généralement une référence commerciale et ne démontre pas à lui seul l'identification d'un exemplaire physique particulier.
 
-Le règlement DPP distingue précisément plusieurs niveaux possibles de granularité : modèle, lot ou article individuel [S15].
+Le règlement DPP distingue précisément plusieurs niveaux possibles de granularité : modèle, lot ou article individuel [S15](#s15).
 
 De même, la présence d'un identifiant standardisé dans un format de facture ne signifie pas que cet identifiant est obligatoirement renseigné dans chaque facture électronique.
 
@@ -1409,11 +1409,11 @@ La présence d'identifiants compatibles dans plusieurs infrastructures constitue
 
 **AVÉRÉ :**
 
-> Le passeport numérique de produit repose sur des identifiants structurés et peut notamment comporter un GTIN ou un identifiant équivalent du produit ou de ses parties [S15].
+> Le passeport numérique de produit repose sur des identifiants structurés et peut notamment comporter un GTIN ou un identifiant équivalent du produit ou de ses parties [S15](#s15).
 
 **AVÉRÉ :**
 
-> Les standards de facturation électronique permettent de renseigner au niveau de la ligne de facture un identifiant standard de l'article, et les standards Peppol utilisent également des identifiants standardisés de produits, notamment le GTIN, dans différents documents commerciaux [S17].
+> Les standards de facturation électronique permettent de renseigner au niveau de la ligne de facture un identifiant standard de l'article, et les standards Peppol utilisent également des identifiants standardisés de produits, notamment le GTIN, dans différents documents commerciaux [S17](#s17).
 
 **DÉDUCTIBLE TECHNIQUEMENT :**
 
@@ -1431,19 +1431,19 @@ La présence d'identifiants compatibles dans plusieurs infrastructures constitue
 
 L'existence d'informations environnementales associées aux produits ne repose pas uniquement sur des descriptions qualitatives telles que la réparabilité ou la recyclabilité.
 
-L'Union européenne dispose également de méthodes permettant de calculer quantitativement les impacts environnementaux associés à certains produits et à leur cycle de vie [S18].
+L'Union européenne dispose également de méthodes permettant de calculer quantitativement les impacts environnementaux associés à certains produits et à leur cycle de vie [S18](#s18).
 
 ---
 
 ### Une méthode européenne d'empreinte environnementale des produits
 
-La Commission européenne a développé la méthode Product Environmental Footprint (PEF), destinée à mesurer et à communiquer les impacts environnementaux potentiels d'un produit sur l'ensemble de son cycle de vie [S18].
+La Commission européenne a développé la méthode Product Environmental Footprint (PEF), destinée à mesurer et à communiquer les impacts environnementaux potentiels d'un produit sur l'ensemble de son cycle de vie [S18](#s18).
 
-Cette méthode repose sur une analyse structurée prenant notamment en compte les matériaux composant le produit, les processus de fabrication, l'énergie utilisée, le transport et la fin de vie [S18].
+Cette méthode repose sur une analyse structurée prenant notamment en compte les matériaux composant le produit, les processus de fabrication, l'énergie utilisée, le transport et la fin de vie [S18](#s18).
 
-La méthodologie prévoit également que certaines données utilisées dans l'étude soient spécifiques au produit étudié. La nomenclature des matériaux doit notamment correspondre au produit concerné et la modélisation des procédés de fabrication doit reposer sur des données propres à l'entreprise dans les conditions prévues par la méthode [S18].
+La méthodologie prévoit également que certaines données utilisées dans l'étude soient spécifiques au produit étudié. La nomenclature des matériaux doit notamment correspondre au produit concerné et la modélisation des procédés de fabrication doit reposer sur des données propres à l'entreprise dans les conditions prévues par la méthode [S18](#s18).
 
-Des règles spécifiques peuvent être établies pour certaines catégories de produits au moyen des Product Environmental Footprint Category Rules, ou PEFCR [S18].
+Des règles spécifiques peuvent être établies pour certaines catégories de produits au moyen des Product Environmental Footprint Category Rules, ou PEFCR [S18](#s18).
 
 L'empreinte environnementale peut donc résulter d'un calcul structuré reposant sur des caractéristiques physiques et industrielles relatives au produit et à son cycle de vie.
 
@@ -1451,9 +1451,9 @@ L'empreinte environnementale peut donc résulter d'un calcul structuré reposant
 
 ### L'empreinte carbone constitue un paramètre environnemental prévu par le règlement ESPR
 
-Le règlement (UE) 2024/1781 prévoit que les exigences d'information applicables à certains groupes de produits peuvent porter sur différents paramètres environnementaux, parmi lesquels l'empreinte carbone et l'empreinte environnementale [S15].
+Le règlement (UE) 2024/1781 prévoit que les exigences d'information applicables à certains groupes de produits peuvent porter sur différents paramètres environnementaux, parmi lesquels l'empreinte carbone et l'empreinte environnementale [S15](#s15).
 
-Selon les actes applicables aux groupes de produits concernés, ces informations peuvent notamment être rendues accessibles au moyen du passeport numérique de produit [S15].
+Selon les actes applicables aux groupes de produits concernés, ces informations peuvent notamment être rendues accessibles au moyen du passeport numérique de produit [S15](#s15).
 
 Le cadre ESPR établit donc la possibilité juridique d'associer une information quantitative relative à l'empreinte environnementale ou carbone à un produit numériquement identifiable.
 
@@ -1463,13 +1463,13 @@ Il ne signifie cependant pas qu'une empreinte carbone sera obligatoire pour chaq
 
 ### Le cas des batteries montre une application réglementaire concrète
 
-Le règlement (UE) 2023/1542 relatif aux batteries fournit un exemple concret de mise en œuvre d'une empreinte carbone réglementaire associée à un produit [S19].
+Le règlement (UE) 2023/1542 relatif aux batteries fournit un exemple concret de mise en œuvre d'une empreinte carbone réglementaire associée à un produit [S19](#s19).
 
-Pour certaines catégories de batteries, une déclaration d'empreinte carbone est progressivement exigée [S19].
+Pour certaines catégories de batteries, une déclaration d'empreinte carbone est progressivement exigée [S19](#s19).
 
-Cette empreinte est exprimée en kilogrammes de CO₂ équivalent par kWh de l'énergie totale fournie par la batterie pendant sa durée de vie prévue [S19].
+Cette empreinte est exprimée en kilogrammes de CO₂ équivalent par kWh de l'énergie totale fournie par la batterie pendant sa durée de vie prévue [S19](#s19).
 
-La réglementation prévoit également une différenciation de l'empreinte selon plusieurs étapes du cycle de vie [S19].
+La réglementation prévoit également une différenciation de l'empreinte selon plusieurs étapes du cycle de vie [S19](#s19).
 
 Le calcul prend notamment en compte :
 
@@ -1477,19 +1477,19 @@ Le calcul prend notamment en compte :
 - la production ;  
 - la distribution ;  
 - la production propre d'électricité lorsqu'elle est concernée ;  
-- la fin de vie [S19].
+- la fin de vie [S19](#s19).
 
-La méthodologie réglementaire s'appuie sur la méthode d'évaluation de l'impact « changement climatique » issue du Product Environmental Footprint [S19].
+La méthodologie réglementaire s'appuie sur la méthode d'évaluation de l'impact « changement climatique » issue du Product Environmental Footprint [S19](#s19).
 
 ---
 
 ### Une valeur liée au modèle et au site de production
 
-Dans le cas des batteries concernées, la réglementation prévoit que la déclaration d'empreinte carbone soit spécifique à un modèle de batterie produit dans un site de fabrication déterminé [S19].
+Dans le cas des batteries concernées, la réglementation prévoit que la déclaration d'empreinte carbone soit spécifique à un modèle de batterie produit dans un site de fabrication déterminé [S19](#s19).
 
-Les données d'activité spécifiques à la batterie doivent être utilisées pour le calcul dans les conditions prévues par la réglementation [S19].
+Les données d'activité spécifiques à la batterie doivent être utilisées pour le calcul dans les conditions prévues par la réglementation [S19](#s19).
 
-Le texte prévoit également qu'une modification de la nomenclature des matériaux ou du mix énergétique utilisé pour produire un modèle de batterie entraîne un nouveau calcul de son empreinte carbone [S19].
+Le texte prévoit également qu'une modification de la nomenclature des matériaux ou du mix énergétique utilisé pour produire un modèle de batterie entraîne un nouveau calcul de son empreinte carbone [S19](#s19).
 
 L'information environnementale peut donc atteindre un niveau de précision combinant une référence de produit, certaines caractéristiques de sa fabrication et un site de production déterminé.
 
@@ -1499,13 +1499,13 @@ L'information environnementale peut donc atteindre un niveau de précision combi
 
 Les éléments établis depuis le début de ce chapitre permettent désormais d'identifier plusieurs composantes complémentaires.
 
-Le passeport numérique permet d'associer des données structurées à un produit identifiable [S15].
+Le passeport numérique permet d'associer des données structurées à un produit identifiable [S15](#s15).
 
-Les informations susceptibles d'être associées au produit peuvent comprendre son empreinte carbone ou environnementale [S15][S16].
+Les informations susceptibles d'être associées au produit peuvent comprendre son empreinte carbone ou environnementale [S15](#s15)[S16](#s16).
 
-Des méthodes européennes permettent de calculer les impacts environnementaux d'un produit à partir de données relatives à son cycle de vie [S18].
+Des méthodes européennes permettent de calculer les impacts environnementaux d'un produit à partir de données relatives à son cycle de vie [S18](#s18).
 
-Enfin, le règlement relatif aux batteries fournit déjà un exemple dans lequel une empreinte carbone quantitative est réglementairement calculée pour certaines catégories de produits [S19].
+Enfin, le règlement relatif aux batteries fournit déjà un exemple dans lequel une empreinte carbone quantitative est réglementairement calculée pour certaines catégories de produits [S19](#s19).
 
 Il est donc établi que l'Union européenne dispose à la fois d'infrastructures permettant d'identifier numériquement des produits et de méthodologies permettant d'associer à certains produits des indicateurs environnementaux quantifiés.
 
@@ -1529,15 +1529,15 @@ Cette question dépend donc directement des possibilités d'interconnexion étud
 
 **AVÉRÉ :**
 
-> L'Union européenne dispose d'une méthodologie structurée permettant de calculer l'empreinte environnementale de produits sur leur cycle de vie [S18].
+> L'Union européenne dispose d'une méthodologie structurée permettant de calculer l'empreinte environnementale de produits sur leur cycle de vie [S18](#s18).
 
 **AVÉRÉ :**
 
-> Le cadre ESPR prévoit que des informations relatives à l'empreinte carbone ou environnementale puissent faire partie des exigences d'information applicables à certains groupes de produits [S15].
+> Le cadre ESPR prévoit que des informations relatives à l'empreinte carbone ou environnementale puissent faire partie des exigences d'information applicables à certains groupes de produits [S15](#s15).
 
 **AVÉRÉ :**
 
-> Le règlement européen relatif aux batteries fournit déjà un exemple concret dans lequel une empreinte carbone quantitative est associée à certaines catégories de produits selon une méthodologie réglementaire prenant notamment en compte le modèle de batterie, le site de production et différentes étapes de son cycle de vie [S19].
+> Le règlement européen relatif aux batteries fournit déjà un exemple concret dans lequel une empreinte carbone quantitative est associée à certaines catégories de produits selon une méthodologie réglementaire prenant notamment en compte le modèle de batterie, le site de production et différentes étapes de son cycle de vie [S19](#s19).
 
 **DÉDUCTIBLE TECHNIQUEMENT :**
 
@@ -1555,19 +1555,19 @@ Cette question dépend donc directement des possibilités d'interconnexion étud
 
 Le passeport numérique de produit ne repose pas sur un simple document numérique statique associé à un produit.
 
-Son architecture prévoit différents acteurs, différents niveaux d'accès, des mécanismes d'identification et d'autorisation ainsi que des interfaces permettant l'échange automatisé d'informations entre systèmes [S15][S20].
+Son architecture prévoit différents acteurs, différents niveaux d'accès, des mécanismes d'identification et d'autorisation ainsi que des interfaces permettant l'échange automatisé d'informations entre systèmes [S15](#s15)[S20](#s20).
 
 ---
 
 ### Un système décentralisé
 
-Le système du passeport numérique de produit repose sur une architecture décentralisée [S20].
+Le système du passeport numérique de produit repose sur une architecture décentralisée [S20](#s20).
 
 Le registre européen ne contient pas nécessairement l'intégralité des informations détaillées présentes dans chaque passeport.
 
-Les données complètes du passeport restent sous la responsabilité de l'opérateur économique concerné et peuvent être hébergées directement par celui-ci ou par un prestataire de services de passeport numérique de produit [S15][S20].
+Les données complètes du passeport restent sous la responsabilité de l'opérateur économique concerné et peuvent être hébergées directement par celui-ci ou par un prestataire de services de passeport numérique de produit [S15](#s15)[S20](#s20).
 
-Le registre européen joue notamment un rôle d'indexation et conserve les identifiants uniques, les données d'enregistrement et certaines métadonnées prévues par la réglementation [S15][S20].
+Le registre européen joue notamment un rôle d'indexation et conserve les identifiants uniques, les données d'enregistrement et certaines métadonnées prévues par la réglementation [S15](#s15)[S20](#s20).
 
 Cette architecture distingue donc le registre central européen des systèmes dans lesquels sont conservées les informations détaillées associées aux produits.
 
@@ -1575,7 +1575,7 @@ Cette architecture distingue donc le registre central européen des systèmes da
 
 ### Plusieurs catégories d'acteurs peuvent accéder aux données
 
-Le règlement (UE) 2024/1781 prévoit que différentes catégories d'acteurs peuvent accéder gratuitement et facilement aux informations du passeport en fonction des droits qui leur sont attribués [S15].
+Le règlement (UE) 2024/1781 prévoit que différentes catégories d'acteurs peuvent accéder gratuitement et facilement aux informations du passeport en fonction des droits qui leur sont attribués [S15](#s15).
 
 Ces acteurs comprennent notamment :
 
@@ -1591,21 +1591,21 @@ Ces acteurs comprennent notamment :
 - les autorités de surveillance du marché ;  
 - les autorités douanières ;  
 - certaines organisations de la société civile et organisations syndicales ;  
-- d'autres acteurs pertinents selon les règles applicables [S15].
+- d'autres acteurs pertinents selon les règles applicables [S15](#s15).
 
 L'accès n'est donc pas nécessairement identique pour tous les utilisateurs.
 
-Les droits permettant de consulter, introduire, modifier ou mettre à jour certaines informations dépendent du rôle de l'acteur et des règles applicables au groupe de produits concerné [S15].
+Les droits permettant de consulter, introduire, modifier ou mettre à jour certaines informations dépendent du rôle de l'acteur et des règles applicables au groupe de produits concerné [S15](#s15).
 
 ---
 
 ### Une API permettant l'intégration avec les systèmes informatiques des opérateurs
 
-Le règlement d'exécution relatif au registre prévoit une API permettant l'enregistrement des passeports numériques de produits et la réception d'informations provenant du registre [S20].
+Le règlement d'exécution relatif au registre prévoit une API permettant l'enregistrement des passeports numériques de produits et la réception d'informations provenant du registre [S20](#s20).
 
-La Commission précise que cette API permet aux opérateurs économiques d'intégrer, lorsque cela est approprié, les opérations d'enregistrement dans leurs systèmes numériques existants [S20].
+La Commission précise que cette API permet aux opérateurs économiques d'intégrer, lorsque cela est approprié, les opérations d'enregistrement dans leurs systèmes numériques existants [S20](#s20).
 
-Lors de l'enregistrement d'un passeport, le registre génère un identifiant unique d'enregistrement qui peut être communiqué automatiquement à l'acteur concerné par l'interface utilisateur ou directement dans la réponse de l'API [S20].
+Lors de l'enregistrement d'un passeport, le registre génère un identifiant unique d'enregistrement qui peut être communiqué automatiquement à l'acteur concerné par l'interface utilisateur ou directement dans la réponse de l'API [S20](#s20).
 
 Le registre n'est donc pas conçu uniquement pour une utilisation humaine au moyen d'un portail web : son architecture permet également des échanges automatisés entre systèmes informatiques.
 
@@ -1613,25 +1613,25 @@ Le registre n'est donc pas conçu uniquement pour une utilisation humaine au moy
 
 ### Identification, autorisation et délégation
 
-Les opérateurs économiques souhaitant intervenir dans le registre doivent faire l'objet d'un processus de vérification [S20].
+Les opérateurs économiques souhaitant intervenir dans le registre doivent faire l'objet d'un processus de vérification [S20](#s20).
 
-D'autres acteurs de la chaîne de valeur pouvant effectuer certaines opérations dans le registre sont également soumis à un mécanisme de vérification [S20].
+D'autres acteurs de la chaîne de valeur pouvant effectuer certaines opérations dans le registre sont également soumis à un mécanisme de vérification [S20](#s20).
 
-Le dispositif prévoit des mécanismes d'identification et d'autorisation des utilisateurs ainsi que la possibilité, pour certains acteurs vérifiés, de déléguer des droits d'accès à des utilisateurs agissant pour leur compte [S20].
+Le dispositif prévoit des mécanismes d'identification et d'autorisation des utilisateurs ainsi que la possibilité, pour certains acteurs vérifiés, de déléguer des droits d'accès à des utilisateurs agissant pour leur compte [S20](#s20).
 
-Le règlement prévoit notamment le recours à des mécanismes d'identification électronique relevant du cadre européen applicable à l'identification électronique [S20].
+Le règlement prévoit notamment le recours à des mécanismes d'identification électronique relevant du cadre européen applicable à l'identification électronique [S20](#s20).
 
 ---
 
 ### Une intégration avec d'autres systèmes d'information de l'Union est envisagée par le texte
 
-Le règlement d'exécution prévoit explicitement le cas dans lequel le registre des passeports numériques de produits serait intégré à un autre système d'information de l'Union disposant d'un processus de vérification d'identité équivalent ou identique [S20].
+Le règlement d'exécution prévoit explicitement le cas dans lequel le registre des passeports numériques de produits serait intégré à un autre système d'information de l'Union disposant d'un processus de vérification d'identité équivalent ou identique [S20](#s20).
 
-Dans cette situation, un opérateur économique ou un autre acteur de la chaîne de valeur déjà enregistré dans cet autre système n'a pas à effectuer une nouvelle procédure de vérification d'identité dans le registre DPP [S20].
+Dans cette situation, un opérateur économique ou un autre acteur de la chaîne de valeur déjà enregistré dans cet autre système n'a pas à effectuer une nouvelle procédure de vérification d'identité dans le registre DPP [S20](#s20).
 
 **AVÉRÉ :**
 
-> Le cadre réglementaire prévoit donc explicitement la possibilité d'une intégration du registre DPP avec d'autres systèmes d'information de l'Union partageant des mécanismes compatibles de vérification des acteurs [S20].
+> Le cadre réglementaire prévoit donc explicitement la possibilité d'une intégration du registre DPP avec d'autres systèmes d'information de l'Union partageant des mécanismes compatibles de vérification des acteurs [S20](#s20).
 
 Cette disposition ne permet cependant pas d'affirmer que le registre est actuellement intégré à un système fiscal, bancaire ou de paiement particulier.
 
@@ -1641,11 +1641,11 @@ L'identification des systèmes concernés et des intégrations effectivement mis
 
 ### Journalisation et versionnement
 
-Le registre comprend un système de journalisation des opérations [S20].
+Le registre comprend un système de journalisation des opérations [S20](#s20).
 
-Les créations, modifications et suppressions de données d'enregistrement doivent être enregistrées et le registre prend en charge le versionnement des données ainsi qu'un horodatage des mises à jour [S20].
+Les créations, modifications et suppressions de données d'enregistrement doivent être enregistrées et le registre prend en charge le versionnement des données ainsi qu'un horodatage des mises à jour [S20](#s20).
 
-Le règlement d'exécution prévoit également, lorsqu'aucune autre durée spécifique n'est définie par le droit de l'Union, la suppression automatique de certaines données d'enregistrement du passeport dix ans après leur enregistrement [S20].
+Le règlement d'exécution prévoit également, lorsqu'aucune autre durée spécifique n'est définie par le droit de l'Union, la suppression automatique de certaines données d'enregistrement du passeport dix ans après leur enregistrement [S20](#s20).
 
 Il existe donc un mécanisme réglementaire de traçabilité des opérations réalisées dans le registre ainsi que des règles relatives à la durée de conservation de certaines données d'enregistrement.
 
@@ -1653,9 +1653,9 @@ Il existe donc un mécanisme réglementaire de traçabilité des opérations ré
 
 ### Un portail public complète les mécanismes d'accès
 
-Le règlement ESPR prévoit également un portail web public permettant aux parties prenantes de rechercher et de comparer certaines données contenues dans les passeports numériques de produits [S15].
+Le règlement ESPR prévoit également un portail web public permettant aux parties prenantes de rechercher et de comparer certaines données contenues dans les passeports numériques de produits [S15](#s15).
 
-Les informations accessibles restent déterminées par les droits attribués aux différentes catégories d'acteurs [S15].
+Les informations accessibles restent déterminées par les droits attribués aux différentes catégories d'acteurs [S15](#s15).
 
 L'existence de ce portail montre que certaines informations du système sont destinées à être consultables au-delà des seuls opérateurs économiques ou autorités publiques.
 
@@ -1665,11 +1665,11 @@ L'existence de ce portail montre que certaines informations du système sont des
 
 Le règlement ESPR contient également une garantie importante pour l'analyse menée dans ce dépôt.
 
-Les données personnelles relatives aux clients ne doivent pas être stockées dans le passeport numérique de produit sans leur consentement explicite, conformément aux règles européennes de protection des données [S15].
+Les données personnelles relatives aux clients ne doivent pas être stockées dans le passeport numérique de produit sans leur consentement explicite, conformément aux règles européennes de protection des données [S15](#s15).
 
 **AVÉRÉ :**
 
-> Le DPP n'est donc pas conçu, dans son cadre réglementaire actuel, comme un fichier contenant automatiquement l'identité de chaque acheteur d'un produit [S15].
+> Le DPP n'est donc pas conçu, dans son cadre réglementaire actuel, comme un fichier contenant automatiquement l'identité de chaque acheteur d'un produit [S15](#s15).
 
 Cette restriction n'empêche pas qu'un produit puisse être identifié dans un autre système, par exemple un document commercial, mais un tel rapprochement constitue une opération distincte qui ne peut être déduite de la seule existence du DPP.
 
@@ -1679,19 +1679,19 @@ Cette restriction n'empêche pas qu'un produit puisse être identifié dans un a
 
 **AVÉRÉ :**
 
-> Le système DPP repose sur une architecture décentralisée dans laquelle des informations détaillées peuvent être hébergées par les opérateurs économiques ou des prestataires spécialisés, tandis qu'un registre européen assure notamment l'enregistrement et l'indexation des passeports [S15][S20].
+> Le système DPP repose sur une architecture décentralisée dans laquelle des informations détaillées peuvent être hébergées par les opérateurs économiques ou des prestataires spécialisés, tandis qu'un registre européen assure notamment l'enregistrement et l'indexation des passeports [S15](#s15)[S20](#s20).
 
 **AVÉRÉ :**
 
-> Le registre dispose d'une API, de mécanismes d'identification et d'autorisation, d'un référentiel sémantique, d'un système de journalisation et de mécanismes permettant des échanges automatisés avec les systèmes informatiques des acteurs [S20].
+> Le registre dispose d'une API, de mécanismes d'identification et d'autorisation, d'un référentiel sémantique, d'un système de journalisation et de mécanismes permettant des échanges automatisés avec les systèmes informatiques des acteurs [S20](#s20).
 
 **AVÉRÉ :**
 
-> Le règlement d'exécution envisage explicitement l'intégration du registre avec d'autres systèmes d'information de l'Union disposant de mécanismes équivalents ou identiques de vérification d'identité [S20].
+> Le règlement d'exécution envisage explicitement l'intégration du registre avec d'autres systèmes d'information de l'Union disposant de mécanismes équivalents ou identiques de vérification d'identité [S20](#s20).
 
 **AVÉRÉ :**
 
-> Les données personnelles relatives aux clients ne doivent pas être stockées dans le passeport numérique de produit sans leur consentement explicite [S15].
+> Les données personnelles relatives aux clients ne doivent pas être stockées dans le passeport numérique de produit sans leur consentement explicite [S15](#s15).
 
 **À ÉTABLIR :**
 
@@ -1707,7 +1707,7 @@ Cette restriction n'empêche pas qu'un produit puisse être identifié dans un a
 
 **Statut : AVÉRÉ / DÉDUCTIBLE TECHNIQUEMENT / À ÉTABLIR**
 
-Les sections précédentes ont établi que le passeport numérique de produit peut associer des informations environnementales structurées à un produit identifiable et que certains standards commerciaux permettent également d'identifier les produits au niveau des documents décrivant une transaction [S15][S17].
+Les sections précédentes ont établi que le passeport numérique de produit peut associer des informations environnementales structurées à un produit identifiable et que certains standards commerciaux permettent également d'identifier les produits au niveau des documents décrivant une transaction [S15](#s15)[S17](#s17).
 
 La question est désormais de déterminer si ces deux catégories de données restent strictement séparées ou si des infrastructures, projets ou expérimentations prévoient déjà leur rapprochement.
 
@@ -1715,9 +1715,9 @@ La question est désormais de déterminer si ces deux catégories de données re
 
 ### Les données du DPP sont destinées à circuler dans la chaîne de valeur
 
-Le passeport numérique de produit est conçu pour accompagner la circulation d'informations relatives au produit entre différents acteurs de sa chaîne de valeur [S15].
+Le passeport numérique de produit est conçu pour accompagner la circulation d'informations relatives au produit entre différents acteurs de sa chaîne de valeur [S15](#s15).
 
-Son architecture repose sur des identifiants structurés, des formats interopérables et des interfaces permettant des échanges automatisés entre systèmes [S15][S20].
+Son architecture repose sur des identifiants structurés, des formats interopérables et des interfaces permettant des échanges automatisés entre systèmes [S15](#s15)[S20](#s20).
 
 Cette circulation ne signifie pas qu'une donnée de transaction ou de paiement est automatiquement inscrite dans le DPP.
 
@@ -1727,13 +1727,13 @@ Elle permet cependant à différents systèmes de retrouver les informations ass
 
 ### Des projets européens associent déjà traçabilité et preuve de transaction
 
-Le projet européen e-Origin constitue un exemple concret dans lequel des informations relatives à une transaction commerciale sont échangées entre plusieurs catégories d'acteurs publics et privés [S21].
+Le projet européen e-Origin constitue un exemple concret dans lequel des informations relatives à une transaction commerciale sont échangées entre plusieurs catégories d'acteurs publics et privés [S21](#s21).
 
-Le pilote réunit notamment des administrations chargées de la TVA, des marketplaces, des vendeurs en ligne, des courtiers en douane et des autorités douanières [S21].
+Le pilote réunit notamment des administrations chargées de la TVA, des marketplaces, des vendeurs en ligne, des courtiers en douane et des autorités douanières [S21](#s21).
 
-L'infrastructure permet notamment aux vendeurs et marketplaces de stocker et partager une preuve de transaction commerciale et aux autorités douanières de reconnaître cette preuve afin de faciliter certaines opérations de dédouanement [S21].
+L'infrastructure permet notamment aux vendeurs et marketplaces de stocker et partager une preuve de transaction commerciale et aux autorités douanières de reconnaître cette preuve afin de faciliter certaines opérations de dédouanement [S21](#s21).
 
-Le projet prévoit également des mécanismes permettant le partage sécurisé des informations tout en maintenant un contrôle sur les données sensibles et confidentielles [S21].
+Le projet prévoit également des mécanismes permettant le partage sécurisé des informations tout en maintenant un contrôle sur les données sensibles et confidentielles [S21](#s21).
 
 Il est donc établi que des travaux européens portent déjà sur des infrastructures permettant à plusieurs catégories d'acteurs économiques et administratifs d'échanger des preuves numériques relatives à des transactions commerciales.
 
@@ -1741,11 +1741,11 @@ Il est donc établi que des travaux européens portent déjà sur des infrastruc
 
 ### Le Digital Product Passport apparaît dans la même trajectoire de traçabilité
 
-La documentation européenne relative à e-Origin indique également que le projet EBSI-ELSA vise à développer des capacités de traçabilité en utilisant le Digital Product Passport [S21].
+La documentation européenne relative à e-Origin indique également que le projet EBSI-ELSA vise à développer des capacités de traçabilité en utilisant le Digital Product Passport [S21](#s21).
 
 **AVÉRÉ :**
 
-> Un même environnement européen de développement associe donc des travaux relatifs à la preuve numérique de transactions commerciales, des acteurs chargés de la TVA et des douanes, ainsi que le développement de capacités de traçabilité reposant sur le Digital Product Passport [S21].
+> Un même environnement européen de développement associe donc des travaux relatifs à la preuve numérique de transactions commerciales, des acteurs chargés de la TVA et des douanes, ainsi que le développement de capacités de traçabilité reposant sur le Digital Product Passport [S21](#s21).
 
 Cet élément constitue un rapprochement documentaire plus concret que la seule comparaison de deux architectures techniques.
 
@@ -1755,9 +1755,9 @@ Il ne permet cependant pas d'affirmer que les données environnementales contenu
 
 ### Un rapprochement peut également reposer sur l'identifiant du produit
 
-Comme établi dans la section 3.3, le DPP peut comporter un GTIN ou un identifiant équivalent [S15].
+Comme établi dans la section 3.3, le DPP peut comporter un GTIN ou un identifiant équivalent [S15](#s15).
 
-Les standards commerciaux électroniques permettent également de transporter des identifiants standardisés d'articles dans différents documents de la chaîne commerciale [S17].
+Les standards commerciaux électroniques permettent également de transporter des identifiants standardisés d'articles dans différents documents de la chaîne commerciale [S17](#s17).
 
 **DÉDUCTIBLE TECHNIQUEMENT :**
 
@@ -1771,11 +1771,11 @@ Un système disposant séparément de l'identité d'une partie à la transaction
 
 ### L'utilisation du DPP au-delà de la première mise sur le marché est déjà expérimentée
 
-Des projets européens utilisent déjà le DPP comme support de traçabilité au cours du cycle de vie du produit [S40].
+Des projets européens utilisent déjà le DPP comme support de traçabilité au cours du cycle de vie du produit [S40](#s40).
 
-Le projet européen CE-RISE développe et expérimente notamment l'utilisation du DPP afin de permettre la traçabilité des matériaux et d'évaluer les possibilités de réemploi, de réparation, de reconditionnement et de recyclage des produits [S40].
+Le projet européen CE-RISE développe et expérimente notamment l'utilisation du DPP afin de permettre la traçabilité des matériaux et d'évaluer les possibilités de réemploi, de réparation, de reconditionnement et de recyclage des produits [S40](#s40).
 
-Le projet européen QUASAR fournit un autre exemple concret : le DPP y est utilisé pour contribuer au suivi de panneaux photovoltaïques en fin de vie et à l'orientation vers des opérations de réemploi, de réparation ou de recyclage, tandis que des solutions de seconde vie sont également expérimentées [S41].
+Le projet européen QUASAR fournit un autre exemple concret : le DPP y est utilisé pour contribuer au suivi de panneaux photovoltaïques en fin de vie et à l'orientation vers des opérations de réemploi, de réparation ou de recyclage, tandis que des solutions de seconde vie sont également expérimentées [S41](#s41).
 
 Ces exemples établissent que l'utilisation du DPP est expérimentée au-delà de la seule première mise sur le marché et peut accompagner différentes étapes du cycle de vie d'un produit.
 
@@ -1803,11 +1803,11 @@ La possibilité technique de les rapprocher ne signifie pas qu'elles sont aujour
 
 Les éléments étudiés permettent néanmoins de dépasser l'hypothèse selon laquelle le DPP serait nécessairement isolé des infrastructures utilisées pour les échanges commerciaux.
 
-Le DPP repose sur des identifiants et des mécanismes d'interopérabilité [S15][S20].
+Le DPP repose sur des identifiants et des mécanismes d'interopérabilité [S15](#s15)[S20](#s20).
 
-Les standards commerciaux permettent également l'utilisation d'identifiants structurés de produits [S17].
+Les standards commerciaux permettent également l'utilisation d'identifiants structurés de produits [S17](#s17).
 
-Enfin, des travaux européens associent déjà, dans un même environnement de développement, preuve numérique de transaction commerciale, acteurs administratifs chargés notamment de la TVA et des douanes, partage sécurisé de données et développement de capacités de traçabilité utilisant le DPP [S21].
+Enfin, des travaux européens associent déjà, dans un même environnement de développement, preuve numérique de transaction commerciale, acteurs administratifs chargés notamment de la TVA et des douanes, partage sécurisé de données et développement de capacités de traçabilité utilisant le DPP [S21](#s21).
 
 ---
 
@@ -1815,11 +1815,11 @@ Enfin, des travaux européens associent déjà, dans un même environnement de d
 
 **AVÉRÉ :**
 
-> Des projets européens développent des infrastructures permettant de stocker et partager des preuves numériques de transactions commerciales entre vendeurs, marketplaces et autorités publiques [S21].
+> Des projets européens développent des infrastructures permettant de stocker et partager des preuves numériques de transactions commerciales entre vendeurs, marketplaces et autorités publiques [S21](#s21).
 
 **AVÉRÉ :**
 
-> Le projet e-Origin réunit notamment des acteurs chargés de la TVA et des douanes, tandis que les développements associés à EBSI-ELSA prévoient l'utilisation du Digital Product Passport pour renforcer les capacités de traçabilité [S21].
+> Le projet e-Origin réunit notamment des acteurs chargés de la TVA et des douanes, tandis que les développements associés à EBSI-ELSA prévoient l'utilisation du Digital Product Passport pour renforcer les capacités de traçabilité [S21](#s21).
 
 **DÉDUCTIBLE TECHNIQUEMENT :**
 
@@ -1847,11 +1847,11 @@ Il est désormais possible d'examiner ce que leur combinaison rend techniquement
 
 ### Associer une donnée environnementale à un produit identifiable
 
-Le passeport numérique de produit repose sur un identifiant unique et persistant et peut, selon les exigences applicables, être défini au niveau du modèle, du lot ou de l'article individuel [S15].
+Le passeport numérique de produit repose sur un identifiant unique et persistant et peut, selon les exigences applicables, être défini au niveau du modèle, du lot ou de l'article individuel [S15](#s15).
 
-Il peut contenir ou permettre d'accéder à des informations environnementales structurées relatives au produit, notamment son empreinte carbone ou environnementale lorsque les règles applicables le prévoient [S15][S16].
+Il peut contenir ou permettre d'accéder à des informations environnementales structurées relatives au produit, notamment son empreinte carbone ou environnementale lorsque les règles applicables le prévoient [S15](#s15)[S16](#s16).
 
-Des méthodologies européennes permettent par ailleurs de calculer quantitativement certains impacts environnementaux des produits [S18], et le règlement relatif aux batteries fournit déjà un exemple concret d'empreinte carbone réglementaire associée à certaines catégories de produits [S19].
+Des méthodologies européennes permettent par ailleurs de calculer quantitativement certains impacts environnementaux des produits [S18](#s18), et le règlement relatif aux batteries fournit déjà un exemple concret d'empreinte carbone réglementaire associée à certaines catégories de produits [S19](#s19).
 
 **DÉDUCTIBLE TECHNIQUEMENT :**
 
@@ -1861,9 +1861,9 @@ Des méthodologies européennes permettent par ailleurs de calculer quantitative
 
 ### Associer un produit à une transaction commerciale
 
-Les standards utilisés dans les échanges commerciaux électroniques permettent de transporter des identifiants structurés de produits dans différents documents commerciaux [S17].
+Les standards utilisés dans les échanges commerciaux électroniques permettent de transporter des identifiants structurés de produits dans différents documents commerciaux [S17](#s17).
 
-Le DPP peut également comporter des identifiants commerciaux standardisés, notamment un GTIN ou un identifiant équivalent [S15].
+Le DPP peut également comporter des identifiants commerciaux standardisés, notamment un GTIN ou un identifiant équivalent [S15](#s15).
 
 Lorsqu'un même identifiant ou un mécanisme de correspondance permet de désigner le produit dans les deux systèmes, celui-ci peut constituer une clé de rapprochement.
 
@@ -1904,7 +1904,7 @@ Données environnementales
 
 ### L'identité de l'acheteur constitue une étape supplémentaire
 
-Le règlement ESPR prévoit que les données personnelles relatives aux clients ne doivent pas être stockées dans le passeport numérique de produit sans leur consentement explicite [S15].
+Le règlement ESPR prévoit que les données personnelles relatives aux clients ne doivent pas être stockées dans le passeport numérique de produit sans leur consentement explicite [S15](#s15).
 
 Le DPP ne constitue donc pas, dans son cadre actuel, une base attribuant automatiquement chaque produit à son acheteur.
 
@@ -1938,13 +1938,13 @@ Elle ne démontre pas qu'une empreinte carbone individuelle des achats est actue
 
 ### Les infrastructures sont conçues pour permettre des échanges automatisés
 
-Le DPP utilise des données structurées, lisibles par machine et transférables dans un environnement interopérable [S15].
+Le DPP utilise des données structurées, lisibles par machine et transférables dans un environnement interopérable [S15](#s15).
 
-Son registre et son architecture permettent également des échanges automatisés entre systèmes [S20].
+Son registre et son architecture permettent également des échanges automatisés entre systèmes [S20](#s20).
 
-Une interconnexion automatisée avec les systèmes douaniers est explicitement prévue par le règlement ESPR [S15].
+Une interconnexion automatisée avec les systèmes douaniers est explicitement prévue par le règlement ESPR [S15](#s15).
 
-Des projets européens tels qu'e-Origin travaillent par ailleurs sur la circulation de preuves de transactions commerciales entre acteurs économiques et administrations, tandis que les développements associés prévoient des capacités de traçabilité utilisant le DPP [S21].
+Des projets européens tels qu'e-Origin travaillent par ailleurs sur la circulation de preuves de transactions commerciales entre acteurs économiques et administrations, tandis que les développements associés prévoient des capacités de traçabilité utilisant le DPP [S21](#s21).
 
 La possibilité de rapprochement décrite dans cette section ne repose donc pas sur l'hypothèse que toutes les informations devraient être réunies manuellement dans une base unique.
 
@@ -2010,11 +2010,11 @@ L'existence simultanée des composants techniques ne suffit donc pas à démontr
 
 **AVÉRÉ :**
 
-> Des mécanismes d'interopérabilité et d'échange automatisé font partie de l'architecture réglementaire du DPP, et une interconnexion avec les systèmes douaniers est explicitement organisée [S15][S20].
+> Des mécanismes d'interopérabilité et d'échange automatisé font partie de l'architecture réglementaire du DPP, et une interconnexion avec les systèmes douaniers est explicitement organisée [S15](#s15)[S20](#s20).
 
 **AVÉRÉ :**
 
-> Des travaux européens associent déjà preuve numérique de transaction commerciale, acteurs administratifs chargés notamment de la TVA et des douanes et développement de capacités de traçabilité utilisant le Digital Product Passport [S21].
+> Des travaux européens associent déjà preuve numérique de transaction commerciale, acteurs administratifs chargés notamment de la TVA et des douanes et développement de capacités de traçabilité utilisant le Digital Product Passport [S21](#s21).
 
 **À ÉTABLIR :**
 
@@ -2030,9 +2030,9 @@ L'existence simultanée des composants techniques ne suffit donc pas à démontr
 
 **Statut : À ÉTABLIR**
 
-Les éléments étudiés dans ce chapitre établissent l'existence d'une infrastructure européenne permettant d'associer des données numériques structurées à des produits identifiables, ainsi que l'existence de méthodes permettant de quantifier certains de leurs impacts environnementaux [S15][S18][S19].
+Les éléments étudiés dans ce chapitre établissent l'existence d'une infrastructure européenne permettant d'associer des données numériques structurées à des produits identifiables, ainsi que l'existence de méthodes permettant de quantifier certains de leurs impacts environnementaux [S15](#s15)[S18](#s18)[S19](#s19).
 
-Ils établissent également l'existence de mécanismes d'interopérabilité, d'identifiants standardisés et d'échanges automatisés permettant techniquement à différents systèmes de retrouver ou de rapprocher certaines informations relatives à un même produit [S15][S17][S20].
+Ils établissent également l'existence de mécanismes d'interopérabilité, d'identifiants standardisés et d'échanges automatisés permettant techniquement à différents systèmes de retrouver ou de rapprocher certaines informations relatives à un même produit [S15](#s15)[S17](#s17)[S20](#s20).
 
 Ces éléments ne permettent cependant pas d'établir que l'ensemble des possibilités techniques identifiées est actuellement mis en œuvre dans un système reliant automatiquement produit, transaction, acheteur et données environnementales.
 
@@ -2040,7 +2040,7 @@ Ces éléments ne permettent cependant pas d'établir que l'ensemble des possibi
 
 ### Produits effectivement concernés par le DPP
 
-Le règlement ESPR établit le cadre général du passeport numérique de produit, mais son application concrète dépend des exigences adoptées pour les différentes catégories de produits [S15].
+Le règlement ESPR établit le cadre général du passeport numérique de produit, mais son application concrète dépend des exigences adoptées pour les différentes catégories de produits [S15](#s15).
 
 La présence d'un DPP, son niveau de granularité et la nature des informations qu'il contient ne doivent donc pas être considérés comme identiques pour tous les produits commercialisés dans l'Union européenne.
 
@@ -2052,9 +2052,9 @@ La présence d'un DPP, son niveau de granularité et la nature des informations 
 
 ### Généralisation de l'empreinte carbone
 
-Le cadre européen permet que l'empreinte carbone ou environnementale fasse partie des informations associées à certains produits [S15][S16].
+Le cadre européen permet que l'empreinte carbone ou environnementale fasse partie des informations associées à certains produits [S15](#s15)[S16](#s16).
 
-Des méthodologies européennes permettent déjà de calculer quantitativement certains impacts environnementaux [S18], et le règlement relatif aux batteries fournit un exemple concret d'application réglementaire [S19].
+Des méthodologies européennes permettent déjà de calculer quantitativement certains impacts environnementaux [S18](#s18), et le règlement relatif aux batteries fournit un exemple concret d'application réglementaire [S19](#s19).
 
 Ces éléments ne permettent cependant pas d'affirmer qu'une empreinte carbone quantitative sera calculée et enregistrée pour chaque produit commercialisé dans l'Union européenne.
 
@@ -2066,7 +2066,7 @@ Ces éléments ne permettent cependant pas d'affirmer qu'une empreinte carbone q
 
 ### Présence des identifiants dans les transactions
 
-Le DPP peut comporter des identifiants standardisés de produits et les standards utilisés dans les échanges commerciaux électroniques permettent également de transporter des identifiants d'articles [S15][S17].
+Le DPP peut comporter des identifiants standardisés de produits et les standards utilisés dans les échanges commerciaux électroniques permettent également de transporter des identifiants d'articles [S15](#s15)[S17](#s17).
 
 Cette compatibilité constitue une possibilité technique de rapprochement.
 
@@ -2094,9 +2094,9 @@ Cette distinction est essentielle : la présence d'un identifiant dans un format
 
 ### Interconnexion effective avec les systèmes de facturation
 
-Les infrastructures DPP disposent de mécanismes d'interopérabilité et d'interfaces permettant des échanges automatisés [S15][S20].
+Les infrastructures DPP disposent de mécanismes d'interopérabilité et d'interfaces permettant des échanges automatisés [S15](#s15)[S20](#s20).
 
-Des standards commerciaux permettent parallèlement l'utilisation d'identifiants structurés de produits [S17].
+Des standards commerciaux permettent parallèlement l'utilisation d'identifiants structurés de produits [S17](#s17).
 
 Ces éléments rendent techniquement possible un rapprochement dans certaines conditions, mais aucune des sources étudiées ne permet d'établir l'existence d'une interconnexion générale entre le système DPP et l'infrastructure française de facturation électronique.
 
@@ -2122,7 +2122,7 @@ Cette question sera examinée plus précisément dans le chapitre consacré aux 
 
 ### Identification de l'acheteur
 
-Le règlement ESPR prévoit que les données personnelles relatives aux clients ne doivent pas être stockées dans le passeport numérique de produit sans leur consentement explicite [S15].
+Le règlement ESPR prévoit que les données personnelles relatives aux clients ne doivent pas être stockées dans le passeport numérique de produit sans leur consentement explicite [S15](#s15).
 
 Le DPP ne constitue donc pas, dans son cadre réglementaire actuel, un registre attribuant automatiquement chaque produit à son acheteur.
 
@@ -2162,7 +2162,7 @@ Un tel système nécessiterait des composants supplémentaires, notamment un mé
 
 ### Acteurs communs et projets d'interconnexion
 
-Les recherches ont fait apparaître des projets européens associant déjà traçabilité numérique, preuves de transactions commerciales, acteurs économiques et autorités publiques [S21].
+Les recherches ont fait apparaître des projets européens associant déjà traçabilité numérique, preuves de transactions commerciales, acteurs économiques et autorités publiques [S21](#s21).
 
 La présence d'acteurs ou d'infrastructures dans plusieurs dispositifs ne constitue cependant pas, à elle seule, la preuve d'un échange de données entre ces dispositifs.
 
@@ -2184,7 +2184,7 @@ La question centrale devient celle des **liaisons effectivement mises en œuvre 
 
 **AVÉRÉ :**
 
-> Des produits peuvent être associés à des données environnementales structurées et quantitatives, des identifiants standardisés peuvent être utilisés dans plusieurs systèmes numériques et l'architecture DPP prévoit des mécanismes d'interopérabilité et d'échange automatisé [S15][S17][S18][S19][S20].
+> Des produits peuvent être associés à des données environnementales structurées et quantitatives, des identifiants standardisés peuvent être utilisés dans plusieurs systèmes numériques et l'architecture DPP prévoit des mécanismes d'interopérabilité et d'échange automatisé [S15](#s15)[S17](#s17)[S18](#s18)[S19](#s19)[S20](#s20).
 
 **DÉDUCTIBLE TECHNIQUEMENT :**
 
@@ -2206,39 +2206,39 @@ L'analyse des textes réglementaires, des infrastructures techniques et des proj
 
 **AVÉRÉ :**
 
-> L'Union européenne a établi un cadre juridique pour le passeport numérique de produit, reposant sur des données structurées, lisibles par machine, interopérables et associées à des produits numériquement identifiables [S15].
+> L'Union européenne a établi un cadre juridique pour le passeport numérique de produit, reposant sur des données structurées, lisibles par machine, interopérables et associées à des produits numériquement identifiables [S15](#s15).
 
 **AVÉRÉ :**
 
-> Selon les exigences applicables au groupe de produits concerné, le passeport numérique peut être défini au niveau du modèle, du lot ou de l'article individuel [S15].
+> Selon les exigences applicables au groupe de produits concerné, le passeport numérique peut être défini au niveau du modèle, du lot ou de l'article individuel [S15](#s15).
 
 **AVÉRÉ :**
 
-> Les informations susceptibles d'être associées à certains produits comprennent notamment des données relatives à leur composition, leur durabilité, leur réparabilité, leur recyclabilité ainsi qu'à leur empreinte carbone ou environnementale [S15][S16].
+> Les informations susceptibles d'être associées à certains produits comprennent notamment des données relatives à leur composition, leur durabilité, leur réparabilité, leur recyclabilité ainsi qu'à leur empreinte carbone ou environnementale [S15](#s15)[S16](#s16).
 
 **AVÉRÉ :**
 
-> L'Union européenne dispose de méthodes permettant de calculer quantitativement certains impacts environnementaux des produits sur leur cycle de vie [S18].
+> L'Union européenne dispose de méthodes permettant de calculer quantitativement certains impacts environnementaux des produits sur leur cycle de vie [S18](#s18).
 
 **AVÉRÉ :**
 
-> Le règlement européen relatif aux batteries fournit déjà un exemple concret dans lequel une empreinte carbone quantitative est réglementairement associée à certaines catégories de produits selon une méthodologie définie [S19].
+> Le règlement européen relatif aux batteries fournit déjà un exemple concret dans lequel une empreinte carbone quantitative est réglementairement associée à certaines catégories de produits selon une méthodologie définie [S19](#s19).
 
 **AVÉRÉ :**
 
-> Le DPP peut comporter des identifiants commerciaux standardisés, notamment un GTIN ou un identifiant équivalent, tandis que les standards utilisés dans les échanges commerciaux électroniques permettent également de transporter des identifiants standardisés au niveau des articles [S15][S17].
+> Le DPP peut comporter des identifiants commerciaux standardisés, notamment un GTIN ou un identifiant équivalent, tandis que les standards utilisés dans les échanges commerciaux électroniques permettent également de transporter des identifiants standardisés au niveau des articles [S15](#s15)[S17](#s17).
 
 **AVÉRÉ :**
 
-> L'architecture du DPP prévoit des mécanismes d'interopérabilité, des échanges automatisés, une API, des mécanismes d'identification et d'autorisation ainsi qu'un registre européen des passeports numériques de produits [S15][S20].
+> L'architecture du DPP prévoit des mécanismes d'interopérabilité, des échanges automatisés, une API, des mécanismes d'identification et d'autorisation ainsi qu'un registre européen des passeports numériques de produits [S15](#s15)[S20](#s20).
 
 **AVÉRÉ :**
 
-> Le cadre réglementaire organise déjà une interconnexion automatisée avec les systèmes douaniers et envisage l'intégration du registre DPP avec d'autres systèmes d'information de l'Union disposant de mécanismes compatibles de vérification des acteurs [S15][S20].
+> Le cadre réglementaire organise déjà une interconnexion automatisée avec les systèmes douaniers et envisage l'intégration du registre DPP avec d'autres systèmes d'information de l'Union disposant de mécanismes compatibles de vérification des acteurs [S15](#s15)[S20](#s20).
 
 **AVÉRÉ :**
 
-> Des travaux européens associent déjà preuve numérique de transaction commerciale, acteurs économiques, administrations chargées notamment de la TVA et des douanes et développement de capacités de traçabilité utilisant le Digital Product Passport [S21].
+> Des travaux européens associent déjà preuve numérique de transaction commerciale, acteurs économiques, administrations chargées notamment de la TVA et des douanes et développement de capacités de traçabilité utilisant le Digital Product Passport [S21](#s21).
 
 ---
 
@@ -2307,7 +2307,7 @@ Ces affirmations nécessiteraient des éléments supplémentaires qui ne figuren
 
 ### Une garantie importante concernant l'identité des acheteurs
 
-Le règlement ESPR prévoit que les données personnelles relatives aux clients ne doivent pas être stockées dans le passeport numérique de produit sans leur consentement explicite [S15].
+Le règlement ESPR prévoit que les données personnelles relatives aux clients ne doivent pas être stockées dans le passeport numérique de produit sans leur consentement explicite [S15](#s15).
 
 **AVÉRÉ :**
 
@@ -2329,7 +2329,7 @@ Le chapitre permet d'établir l'existence de plusieurs composants distincts :
 - des méthodes permettant de quantifier certains impacts environnementaux ;  
 - des identifiants standardisés utilisables dans les chaînes commerciales ;  
 - des mécanismes d'interopérabilité et d'échange automatisé ;  
-- un registre européen des passeports numériques de produits entré en fonctionnement le 20 juillet 2026, accompagné d'un environnement de test [S42] ;  
+- un registre européen des passeports numériques de produits entré en fonctionnement le 20 juillet 2026, accompagné d'un environnement de test [S42](#s42) ;  
 - des connexions réglementairement prévues avec certaines infrastructures publiques, notamment douanières ;  
 - des projets européens rapprochant déjà traçabilité numérique et preuve de transaction commerciale.
 
@@ -2339,7 +2339,7 @@ Pris ensemble, ils permettent cependant d'établir que plusieurs composants tech
 
 **Conclusion du chapitre :**
 
-> **Il est avéré que l'Union européenne développe une infrastructure permettant d'associer des données environnementales structurées et, dans certains cas, quantitatives à des produits numériquement identifiables. Il est également avéré que cette infrastructure est conçue pour être interopérable avec d'autres systèmes numériques et que des projets européens travaillent déjà sur des environnements associant traçabilité et preuves de transactions commerciales [S15][S20][S21].**
+> **Il est avéré que l'Union européenne développe une infrastructure permettant d'associer des données environnementales structurées et, dans certains cas, quantitatives à des produits numériquement identifiables. Il est également avéré que cette infrastructure est conçue pour être interopérable avec d'autres systèmes numériques et que des projets européens travaillent déjà sur des environnements associant traçabilité et preuves de transactions commerciales [S15](#s15)[S20](#s20)[S21](#s21).**
 
 > **Il est techniquement déductible qu'un identifiant commun ou un mécanisme de correspondance puisse permettre d'associer une transaction à la donnée environnementale du produit concerné et, lorsque plusieurs transactions sont disponibles, d'agréger les valeurs correspondantes.**
 
@@ -2390,27 +2390,27 @@ L'existence d'un mécanisme permettant de déclencher automatiquement un paiemen
 
 **Statut : AVÉRÉ / PROJET EN COURS**
 
-L'euro numérique est un projet de monnaie numérique de banque centrale destiné à compléter les espèces et les autres moyens de paiement existants dans la zone euro [S22][S23].
+L'euro numérique est un projet de monnaie numérique de banque centrale destiné à compléter les espèces et les autres moyens de paiement existants dans la zone euro [S22](#s22)[S23](#s23).
 
-Il ne s'agit pas d'un crypto-actif ou d'une monnaie émise par un établissement privé. Les unités d'euros numériques constitueraient une créance directe sur l'Eurosystème [S23].
+Il ne s'agit pas d'un crypto-actif ou d'une monnaie émise par un établissement privé. Les unités d'euros numériques constitueraient une créance directe sur l'Eurosystème [S23](#s23).
 
-À la date des sources étudiées, l'euro numérique n'est pas encore émis. Le projet poursuit son développement technique et reste dépendant de l'adoption du cadre législatif européen correspondant [S23].
+À la date des sources étudiées, l'euro numérique n'est pas encore émis. Le projet poursuit son développement technique et reste dépendant de l'adoption du cadre législatif européen correspondant [S23](#s23).
 
 ---
 
 ### Une infrastructure centrale de règlement
 
-L'architecture technique actuellement envisagée repose sur une plateforme centralisée de règlement exploitée par l'Eurosystème [S23].
+L'architecture technique actuellement envisagée repose sur une plateforme centralisée de règlement exploitée par l'Eurosystème [S23](#s23).
 
-L'Eurosystème traiterait et vérifierait les règlements ainsi que les avoirs en euros numériques enregistrés dans l'infrastructure [S23].
+L'Eurosystème traiterait et vérifierait les règlements ainsi que les avoirs en euros numériques enregistrés dans l'infrastructure [S23](#s23).
 
-La BCE précise que cette architecture ne repose pas sur une blockchain ou une technologie de registre distribué comme infrastructure fondamentale du système [S23].
+La BCE précise que cette architecture ne repose pas sur une blockchain ou une technologie de registre distribué comme infrastructure fondamentale du système [S23](#s23).
 
 Elle reprend néanmoins certains principes techniques utilisés dans les systèmes distribués afin d'améliorer notamment la résilience et les performances.
 
 **AVÉRÉ :**
 
-> L'architecture actuellement envisagée pour l'euro numérique repose sur une infrastructure centrale de règlement contrôlée par l'Eurosystème [S23].
+> L'architecture actuellement envisagée pour l'euro numérique repose sur une infrastructure centrale de règlement contrôlée par l'Eurosystème [S23](#s23).
 
 ---
 
@@ -2418,7 +2418,7 @@ Elle reprend néanmoins certains principes techniques utilisés dans les systèm
 
 L'existence d'une infrastructure centrale ne signifie pas que les utilisateurs disposeraient directement d'un compte auprès de la BCE pour leurs opérations quotidiennes.
 
-La proposition de règlement prévoit que les services de paiement en euros numériques soient distribués par l'intermédiaire de prestataires de services de paiement [S22].
+La proposition de règlement prévoit que les services de paiement en euros numériques soient distribués par l'intermédiaire de prestataires de services de paiement [S22](#s22).
 
 Ces intermédiaires permettraient notamment :
 
@@ -2426,9 +2426,9 @@ Ces intermédiaires permettraient notamment :
 - l'initiation et la réception de paiements ;  
 - la fourniture des instruments permettant d'effectuer ces paiements ;  
 - la gestion des comptes de paiement en euros numériques ;  
-- les opérations permettant de charger ou décharger les avoirs correspondants [S22].
+- les opérations permettant de charger ou décharger les avoirs correspondants [S22](#s22).
 
-La BCE indique également qu'un utilisateur pourrait accéder à l'euro numérique au moyen d'un compte mis en place auprès de sa banque ou d'un intermédiaire public [S23].
+La BCE indique également qu'un utilisateur pourrait accéder à l'euro numérique au moyen d'un compte mis en place auprès de sa banque ou d'un intermédiaire public [S23](#s23).
 
 L'architecture distingue donc au moins deux niveaux :
 
@@ -2448,7 +2448,7 @@ Cette séparation entre relation avec l'utilisateur et règlement central devien
 
 ### Une monnaie inscrite au bilan de l'Eurosystème
 
-Les euros numériques détenus par les utilisateurs constitueraient des engagements directs de l'Eurosystème [S23].
+Les euros numériques détenus par les utilisateurs constitueraient des engagements directs de l'Eurosystème [S23](#s23).
 
 Cette caractéristique distingue l'euro numérique de la monnaie scripturale habituellement détenue sur un compte bancaire commercial.
 
@@ -2456,13 +2456,13 @@ Le prestataire de services de paiement assurerait donc la relation avec l'utilis
 
 **AVÉRÉ :**
 
-> L'intermédiation par une banque ou un prestataire de paiement ne transforme pas l'euro numérique en monnaie bancaire privée : les avoirs correspondants resteraient une créance directe sur l'Eurosystème [S23].
+> L'intermédiation par une banque ou un prestataire de paiement ne transforme pas l'euro numérique en monnaie bancaire privée : les avoirs correspondants resteraient une créance directe sur l'Eurosystème [S23](#s23).
 
 ---
 
 ### Une infrastructure conçue pour fonctionner à grande échelle
 
-La BCE prévoit une architecture répartie entre plusieurs régions géographiques, chacune disposant de plusieurs serveurs, afin d'assurer la continuité du service et la résilience de l'infrastructure [S23].
+La BCE prévoit une architecture répartie entre plusieurs régions géographiques, chacune disposant de plusieurs serveurs, afin d'assurer la continuité du service et la résilience de l'infrastructure [S23](#s23).
 
 L'objectif est notamment de permettre au système de continuer à fonctionner en cas de défaillance affectant une partie de l'infrastructure.
 
@@ -2475,7 +2475,7 @@ L'euro numérique est donc envisagé comme une infrastructure européenne de pai
 L'architecture prévoit deux modalités principales d'utilisation :
 
 - les paiements en ligne ;  
-- les paiements hors ligne [S23].
+- les paiements hors ligne [S23](#s23).
 
 La possibilité d'effectuer des paiements hors ligne constitue une caractéristique importante du projet.
 
@@ -2491,7 +2491,7 @@ La distinction entre ces deux modes devra donc être conservée lorsque seront e
 
 La centralisation du règlement ne signifie pas que la BCE disposerait automatiquement de l'identité civile des utilisateurs correspondant à chaque transaction.
 
-La BCE indique que les informations mises à disposition de l'Eurosystème seraient pseudonymisées et qu'elle ne devrait pas être en mesure d'identifier directement l'utilisateur à partir des données de paiement qu'elle reçoit [S23].
+La BCE indique que les informations mises à disposition de l'Eurosystème seraient pseudonymisées et qu'elle ne devrait pas être en mesure d'identifier directement l'utilisateur à partir des données de paiement qu'elle reçoit [S23](#s23).
 
 Les intermédiaires assurant la relation avec l'utilisateur disposeraient en revanche des informations nécessaires au respect de leurs obligations légales.
 
@@ -2501,9 +2501,9 @@ Cette distinction sera examinée plus précisément dans la section consacrée a
 
 ### Une architecture encore en développement
 
-L'euro numérique n'est pas actuellement une monnaie en circulation [S23].
+L'euro numérique n'est pas actuellement une monnaie en circulation [S23](#s23).
 
-La BCE poursuit le développement technique du dispositif et indique viser une préparation permettant une éventuelle première émission en 2029, sous réserve notamment de l'adoption du cadre législatif européen [S23].
+La BCE poursuit le développement technique du dispositif et indique viser une préparation permettant une éventuelle première émission en 2029, sous réserve notamment de l'adoption du cadre législatif européen [S23](#s23).
 
 Les spécifications techniques continuent donc d'évoluer.
 
@@ -2515,19 +2515,19 @@ Les éléments étudiés dans ce chapitre doivent être compris comme décrivant
 
 **AVÉRÉ :**
 
-> L'euro numérique est conçu comme une monnaie de banque centrale dont les avoirs constitueraient une créance directe sur l'Eurosystème [S22][S23].
+> L'euro numérique est conçu comme une monnaie de banque centrale dont les avoirs constitueraient une créance directe sur l'Eurosystème [S22](#s22)[S23](#s23).
 
 **AVÉRÉ :**
 
-> L'architecture actuellement envisagée repose sur une plateforme centralisée de règlement contrôlée par l'Eurosystème, tandis que la distribution et la relation avec les utilisateurs passent par des prestataires de services de paiement [S22][S23].
+> L'architecture actuellement envisagée repose sur une plateforme centralisée de règlement contrôlée par l'Eurosystème, tandis que la distribution et la relation avec les utilisateurs passent par des prestataires de services de paiement [S22](#s22)[S23](#s23).
 
 **AVÉRÉ :**
 
-> L'infrastructure prévoit des paiements en ligne et hors ligne ainsi que des mécanismes techniques spécifiques destinés à assurer sa résilience [S23].
+> L'infrastructure prévoit des paiements en ligne et hors ligne ainsi que des mécanismes techniques spécifiques destinés à assurer sa résilience [S23](#s23).
 
 **AVÉRÉ :**
 
-> La BCE indique que l'Eurosystème ne devrait pas pouvoir identifier directement les utilisateurs à partir des données de paiement auxquelles il aurait accès, tandis que les intermédiaires conserveraient les informations nécessaires à leurs obligations légales [S23].
+> La BCE indique que l'Eurosystème ne devrait pas pouvoir identifier directement les utilisateurs à partir des données de paiement auxquelles il aurait accès, tandis que les intermédiaires conserveraient les informations nécessaires à leurs obligations légales [S23](#s23).
 
 **À ÉTABLIR :**
 
@@ -2545,7 +2545,7 @@ Les éléments étudiés dans ce chapitre doivent être compris comme décrivant
 
 L'architecture envisagée pour l'euro numérique ne repose pas sur une relation directe unique entre l'utilisateur et la Banque centrale européenne.
 
-Elle fait intervenir plusieurs catégories d'acteurs assurant des fonctions distinctes dans l'accès au service, l'initiation des paiements, leur acceptation, leur contrôle et leur règlement [S22][S24].
+Elle fait intervenir plusieurs catégories d'acteurs assurant des fonctions distinctes dans l'accès au service, l'initiation des paiements, leur acceptation, leur contrôle et leur règlement [S22](#s22)[S24](#s24).
 
 Cette répartition des fonctions est importante pour déterminer quelles informations sont accessibles à chaque acteur et à quel moment d'une transaction.
 
@@ -2555,7 +2555,7 @@ Cette répartition des fonctions est importante pour déterminer quelles informa
 
 L'Eurosystème constitue le niveau central de l'infrastructure.
 
-Comme établi dans la section précédente, l'architecture actuellement envisagée prévoit une plateforme centrale permettant notamment le traitement et le règlement des opérations en euros numériques [S23].
+Comme établi dans la section précédente, l'architecture actuellement envisagée prévoit une plateforme centrale permettant notamment le traitement et le règlement des opérations en euros numériques [S23](#s23).
 
 L'Eurosystème définit également les règles et spécifications communes nécessaires au fonctionnement du dispositif.
 
@@ -2569,19 +2569,19 @@ Le rulebook de l'euro numérique décrit notamment :
 - les mécanismes de gestion des données ;  
 - les échanges de données ;  
 - les mécanismes de gestion du risque et de la fraude ;  
-- le règlement des transactions [S24].
+- le règlement des transactions [S24](#s24).
 
 **AVÉRÉ :**
 
-> L'Eurosystème ne constitue donc pas uniquement l'émetteur de la monnaie : il fournit également l'infrastructure centrale et définit les règles techniques communes permettant aux différents acteurs du système d'interagir [S23][S24].
+> L'Eurosystème ne constitue donc pas uniquement l'émetteur de la monnaie : il fournit également l'infrastructure centrale et définit les règles techniques communes permettant aux différents acteurs du système d'interagir [S23](#s23)[S24](#s24).
 
 ---
 
 ### Les prestataires de services de paiement
 
-La proposition de règlement prévoit que la distribution de l'euro numérique repose sur des prestataires de services de paiement [S22].
+La proposition de règlement prévoit que la distribution de l'euro numérique repose sur des prestataires de services de paiement [S22](#s22).
 
-Les utilisateurs établissent une relation contractuelle avec ces prestataires et non directement avec la Banque centrale européenne [S22].
+Les utilisateurs établissent une relation contractuelle avec ces prestataires et non directement avec la Banque centrale européenne [S22](#s22).
 
 Les prestataires peuvent notamment permettre aux utilisateurs :
 
@@ -2589,7 +2589,7 @@ Les prestataires peuvent notamment permettre aux utilisateurs :
 - d'initier et recevoir des paiements ;  
 - de disposer d'instruments de paiement en euros numériques ;  
 - de gérer leur compte de paiement en euros numériques ;  
-- d'effectuer les opérations de chargement et de déchargement prévues par le dispositif [S22].
+- d'effectuer les opérations de chargement et de déchargement prévues par le dispositif [S22](#s22).
 
 Les prestataires de services de paiement constituent donc une couche d'intermédiation entre l'utilisateur et l'infrastructure centrale.
 
@@ -2597,11 +2597,11 @@ Les prestataires de services de paiement constituent donc une couche d'interméd
 
 ### Le prestataire du payeur
 
-Dans une transaction, le prestataire assurant la relation avec le payeur intervient dans l'initiation et le traitement du paiement [S24].
+Dans une transaction, le prestataire assurant la relation avec le payeur intervient dans l'initiation et le traitement du paiement [S24](#s24).
 
 Il constitue notamment le point de contact entre l'utilisateur, son instrument de paiement et les services nécessaires à l'exécution de l'opération.
 
-La documentation technique du dispositif distingue explicitement les fonctions et exigences applicables aux prestataires distribuant l'euro numérique [S24].
+La documentation technique du dispositif distingue explicitement les fonctions et exigences applicables aux prestataires distribuant l'euro numérique [S24](#s24).
 
 Ces prestataires doivent notamment interagir avec les services centraux nécessaires à l'accès au système, à la gestion de la liquidité et au traitement des transactions.
 
@@ -2615,7 +2615,7 @@ Cette position est importante pour l'analyse des données : contrairement à l'E
 
 Une transaction commerciale peut également faire intervenir un prestataire situé du côté du bénéficiaire du paiement.
 
-Le rulebook distingue ainsi les prestataires distribuant l'euro numérique des prestataires assurant les fonctions d'acquisition nécessaires à l'acceptation des paiements [S24].
+Le rulebook distingue ainsi les prestataires distribuant l'euro numérique des prestataires assurant les fonctions d'acquisition nécessaires à l'acceptation des paiements [S24](#s24).
 
 Dans une transaction commerciale, le prestataire acquéreur permet notamment l'interaction entre le dispositif d'acceptation du commerçant et l'infrastructure nécessaire au traitement du paiement.
 
@@ -2641,7 +2641,7 @@ Ce schéma est volontairement simplifié : les flux techniques peuvent faire int
 
 L'infrastructure ne se limite pas aux banques et à l'Eurosystème.
 
-Le rulebook prévoit également des spécifications relatives aux dispositifs permettant d'accepter les paiements en euros numériques [S24].
+Le rulebook prévoit également des spécifications relatives aux dispositifs permettant d'accepter les paiements en euros numériques [S24](#s24).
 
 Ces dispositifs peuvent notamment intervenir dans les paiements effectués auprès d'un commerçant.
 
@@ -2653,7 +2653,7 @@ Le dispositif d'acceptation doit donc être distingué du système central de r�
 
 ### Des services communs entre les différents acteurs
 
-Le rulebook prévoit également une catégorie de services communs utilisables par différents participants au dispositif [S24].
+Le rulebook prévoit également une catégorie de services communs utilisables par différents participants au dispositif [S24](#s24).
 
 Les spécifications techniques publiées par la BCE couvrent notamment :
 
@@ -2663,7 +2663,7 @@ Les spécifications techniques publiées par la BCE couvrent notamment :
 - le traitement des paiements ;
 - la gestion du risque et de la fraude ;
 - les échanges de données ;
-- le règlement des transactions [S24].
+- le règlement des transactions [S24](#s24).
 
 L'existence de ces services montre que l'exécution d'un paiement ne correspond pas simplement à un transfert direct entre deux portefeuilles.
 
@@ -2675,7 +2675,7 @@ Elle implique plusieurs fonctions techniques pouvant intervenir successivement o
 
 Les prestataires de services de paiement restent responsables des contrôles qui leur sont imposés par la réglementation applicable.
 
-La documentation technique du projet prévoit notamment des mécanismes relatifs à la gestion du risque et de la fraude [S24].
+La documentation technique du projet prévoit notamment des mécanismes relatifs à la gestion du risque et de la fraude [S24](#s24).
 
 Les versions du rulebook préparant l'architecture indiquent également que le prestataire du payeur doit effectuer, avant l'exécution finale d'une transaction, les contrôles légalement requis en matière de fraude, de lutte contre le blanchiment et le financement du terrorisme ainsi que, lorsque cela est applicable, les contrôles relatifs aux sanctions et embargos.
 
@@ -2683,7 +2683,7 @@ Le prestataire conserve la responsabilité de l'exécution ou de la non-exécuti
 
 **AVÉRÉ :**
 
-> L'exécution d'un paiement en euros numériques n'est donc pas conçue comme une opération techniquement aveugle : des contrôles réglementaires et des mécanismes de gestion du risque et de la fraude interviennent dans le traitement des transactions [S24].
+> L'exécution d'un paiement en euros numériques n'est donc pas conçue comme une opération techniquement aveugle : des contrôles réglementaires et des mécanismes de gestion du risque et de la fraude interviennent dans le traitement des transactions [S24](#s24).
 
 Ces contrôles correspondent à des obligations juridiques existantes et ne constituent pas, en eux-mêmes, une possibilité générale de conditionner les paiements selon n'importe quel critère.
 
@@ -2749,15 +2749,15 @@ Exécution ou absence d'exécution
 
 **AVÉRÉ :**
 
-> L'architecture envisagée pour l'euro numérique répartit les fonctions entre plusieurs catégories d'acteurs et de composants, notamment l'Eurosystème, les prestataires de services de paiement, les prestataires intervenant du côté du payeur ou du bénéficiaire, les dispositifs d'acceptation et différents services communs [S22][S24].
+> L'architecture envisagée pour l'euro numérique répartit les fonctions entre plusieurs catégories d'acteurs et de composants, notamment l'Eurosystème, les prestataires de services de paiement, les prestataires intervenant du côté du payeur ou du bénéficiaire, les dispositifs d'acceptation et différents services communs [S22](#s22)[S24](#s24).
 
 **AVÉRÉ :**
 
-> Le rulebook prévoit des spécifications techniques distinctes concernant notamment les flux de bout en bout, les prestataires distributeurs et acquéreurs, les dispositifs d'acceptation, la gestion des données, les échanges de données, le risque et la fraude ainsi que le règlement [S24].
+> Le rulebook prévoit des spécifications techniques distinctes concernant notamment les flux de bout en bout, les prestataires distributeurs et acquéreurs, les dispositifs d'acceptation, la gestion des données, les échanges de données, le risque et la fraude ainsi que le règlement [S24](#s24).
 
 **AVÉRÉ :**
 
-> Des contrôles réglementaires et des mécanismes de gestion du risque et de la fraude peuvent intervenir avant l'exécution finale d'une transaction, conformément aux obligations applicables aux prestataires de services de paiement [S24].
+> Des contrôles réglementaires et des mécanismes de gestion du risque et de la fraude peuvent intervenir avant l'exécution finale d'une transaction, conformément aux obligations applicables aux prestataires de services de paiement [S24](#s24).
 
 **DÉDUCTIBLE TECHNIQUEMENT :**
 
@@ -2781,9 +2781,9 @@ Exécution ou absence d'exécution
 
 **Statut : AVÉRÉ / PROJET EN COURS**
 
-La documentation technique publiée pour le projet d'euro numérique permet d'aller au-delà d'une description générale de l'architecture et d'examiner les catégories de données prévues pour assurer son fonctionnement [S24][S25].
+La documentation technique publiée pour le projet d'euro numérique permet d'aller au-delà d'une description générale de l'architecture et d'examiner les catégories de données prévues pour assurer son fonctionnement [S24](#s24)[S25](#s25).
 
-Le rulebook v0.91 comporte notamment un modèle de données, un dictionnaire de données ainsi que des spécifications consacrées aux échanges de données entre les différents composants du système [S25].
+Le rulebook v0.91 comporte notamment un modèle de données, un dictionnaire de données ainsi que des spécifications consacrées aux échanges de données entre les différents composants du système [S25](#s25).
 
 Ces documents constituent encore des spécifications provisoires et non contraignantes. Ils décrivent néanmoins de manière détaillée les informations actuellement prévues dans la conception du dispositif.
 
@@ -2791,7 +2791,7 @@ Ces documents constituent encore des spécifications provisoires et non contraig
 
 ### Un modèle structuré des utilisateurs, comptes, appareils et transactions
 
-Le modèle de données distingue plusieurs catégories d'entités nécessaires au fonctionnement de l'euro numérique [S25].
+Le modèle de données distingue plusieurs catégories d'entités nécessaires au fonctionnement de l'euro numérique [S25](#s25).
 
 Il comprend notamment :
 
@@ -2807,7 +2807,7 @@ Il comprend notamment :
 - les payeurs ;  
 - les bénéficiaires ;  
 - les données relatives aux litiges ;  
-- les données relatives au risque et à la fraude [S25].
+- les données relatives au risque et à la fraude [S25](#s25).
 
 Le document précise que ce modèle représente les entités, leurs attributs essentiels et les relations existant entre elles.
 
@@ -2815,23 +2815,23 @@ Il ne doit cependant pas être interprété comme la représentation complète d
 
 **AVÉRÉ :**
 
-> La conception actuelle de l'euro numérique repose sur un modèle de données structuré reliant notamment utilisateurs, comptes, appareils, prestataires de services de paiement et transactions [S25].
+> La conception actuelle de l'euro numérique repose sur un modèle de données structuré reliant notamment utilisateurs, comptes, appareils, prestataires de services de paiement et transactions [S25](#s25).
 
 ---
 
 ### Des identifiants propres aux utilisateurs et aux comptes
 
-Le modèle prévoit un identifiant unique de l'utilisateur de l'euro numérique ainsi qu'un identifiant du compte de paiement en euros numériques, désigné notamment sous le terme DEAN dans les spécifications [S25].
+Le modèle prévoit un identifiant unique de l'utilisateur de l'euro numérique ainsi qu'un identifiant du compte de paiement en euros numériques, désigné notamment sous le terme DEAN dans les spécifications [S25](#s25).
 
 Il prévoit également des alias pseudonymes.
 
-Le rulebook définit l'alias comme un identifiant pseudonyme destiné à protéger l'identité de l'utilisateur lors du traitement des paiements. Selon la spécification, cet alias ne peut être rattaché à une personne physique ou morale identifiable que par le prestataire de services de paiement distribuant l'euro numérique ou par l'utilisateur concerné [S25].
+Le rulebook définit l'alias comme un identifiant pseudonyme destiné à protéger l'identité de l'utilisateur lors du traitement des paiements. Selon la spécification, cet alias ne peut être rattaché à une personne physique ou morale identifiable que par le prestataire de services de paiement distribuant l'euro numérique ou par l'utilisateur concerné [S25](#s25).
 
 L'alias est destiné à constituer un identifiant principal pouvant être partagé dans certaines transactions.
 
 **AVÉRÉ :**
 
-> L'architecture distingue donc l'identité connue du prestataire de services de paiement de l'identifiant pseudonyme susceptible de circuler dans certains traitements de transaction [S25].
+> L'architecture distingue donc l'identité connue du prestataire de services de paiement de l'identifiant pseudonyme susceptible de circuler dans certains traitements de transaction [S25](#s25).
 
 Cette séparation constitue une mesure importante de protection de l'identité mais ne signifie pas que l'utilisateur soit anonyme vis-à-vis de son prestataire de services de paiement.
 
@@ -2841,7 +2841,7 @@ Cette séparation constitue une mesure importante de protection de l'identité m
 
 Le modèle définit une transaction comme la représentation d'un échange financier entre acteurs.
 
-Les exemples mentionnés comprennent notamment les opérations de chargement et de déchargement, les paiements récurrents, les réservations, les paiements, les achats, les retraits et d'autres opérations [S25].
+Les exemples mentionnés comprennent notamment les opérations de chargement et de déchargement, les paiements récurrents, les réservations, les paiements, les achats, les retraits et d'autres opérations [S25](#s25).
 
 Parmi les informations prévues figurent notamment :
 
@@ -2855,25 +2855,25 @@ Parmi les informations prévues figurent notamment :
 - le type de transaction ;  
 - la méthode d'initiation ;  
 - le statut de la transaction ;  
-- l'environnement dans lequel elle intervient [S25].
+- l'environnement dans lequel elle intervient [S25](#s25).
 
-Les types et environnements prévus permettent notamment de distinguer achat, remboursement, réservation, paiement de compte à compte, transaction P2P, commerce électronique, commerce mobile, paiement récurrent ou ordre permanent [S25].
+Les types et environnements prévus permettent notamment de distinguer achat, remboursement, réservation, paiement de compte à compte, transaction P2P, commerce électronique, commerce mobile, paiement récurrent ou ordre permanent [S25](#s25).
 
 **AVÉRÉ :**
 
-> Une transaction en euros numériques n'est donc pas représentée uniquement par un montant transféré : le modèle technique prévoit plusieurs attributs permettant de l'identifier, de la dater, de la catégoriser et d'en suivre le cycle de traitement [S25].
+> Une transaction en euros numériques n'est donc pas représentée uniquement par un montant transféré : le modèle technique prévoit plusieurs attributs permettant de l'identifier, de la dater, de la catégoriser et d'en suivre le cycle de traitement [S25](#s25).
 
 ---
 
 ### Identification du payeur et du bénéficiaire
 
-Le modèle prévoit des entités distinctes pour le payeur et le bénéficiaire [S25].
+Le modèle prévoit des entités distinctes pour le payeur et le bénéficiaire [S25](#s25).
 
 Le payeur peut être une personne physique, une entreprise, une administration ou une autre autorité publique.
 
 Le bénéficiaire peut également appartenir à ces différentes catégories.
 
-Les spécifications prévoient des identifiants uniques du payeur et du bénéficiaire dans le modèle de données [S25].
+Les spécifications prévoient des identifiants uniques du payeur et du bénéficiaire dans le modèle de données [S25](#s25).
 
 Cela ne signifie pas que leur identité civile complète soit communiquée à tous les composants du système.
 
@@ -2881,13 +2881,13 @@ Comme indiqué précédemment, l'architecture prévoit notamment l'utilisation d
 
 **AVÉRÉ :**
 
-> Le modèle de données permet techniquement de distinguer et d'identifier les parties participant à une transaction, tout en prévoyant des mécanismes destinés à limiter la circulation de leur identité directement identifiable [S25].
+> Le modèle de données permet techniquement de distinguer et d'identifier les parties participant à une transaction, tout en prévoyant des mécanismes destinés à limiter la circulation de leur identité directement identifiable [S25](#s25).
 
 ---
 
 ### Les appareils utilisés peuvent également être représentés
 
-Le modèle prévoit des informations relatives aux appareils permettant d'interagir avec le système [S25].
+Le modèle prévoit des informations relatives aux appareils permettant d'interagir avec le système [S25](#s25).
 
 Un appareil peut notamment correspondre à une application, une carte ou un accès par navigateur.
 
@@ -2895,7 +2895,7 @@ Parmi les attributs prévus figurent notamment :
 
 - un identifiant de l'appareil ;  
 - son type ;  
-- son adresse IP lorsqu'elle est applicable [S25].
+- son adresse IP lorsqu'elle est applicable [S25](#s25).
 
 Ces informations peuvent notamment intervenir dans les processus techniques, de sécurité ou de gestion du risque.
 
@@ -2905,17 +2905,17 @@ Leur existence dans le modèle ne signifie pas nécessairement qu'elles sont tra
 
 ### Le contexte commercial peut être catégorisé
 
-La documentation prévoit également des données relatives au commerçant et à son activité [S25].
+La documentation prévoit également des données relatives au commerçant et à son activité [S25](#s25).
 
 Elle utilise notamment le **Merchant Category Code**, ou MCC, fondé sur la classification ISO 18245.
 
-Ce code permet de classer un commerçant selon le type de biens ou de services correspondant à son activité, par exemple les transports, le commerce de détail ou la location de véhicules [S25].
+Ce code permet de classer un commerçant selon le type de biens ou de services correspondant à son activité, par exemple les transports, le commerce de détail ou la location de véhicules [S25](#s25).
 
 Le modèle prévoit également un identifiant du commerçant ainsi que l'identifiant de son compte de paiement en euros numériques.
 
 **AVÉRÉ :**
 
-> L'architecture actuellement documentée permet donc de connaître, dans certains flux, non seulement le montant et les parties à une transaction mais également une catégorie correspondant à l'activité commerciale du bénéficiaire [S25].
+> L'architecture actuellement documentée permet donc de connaître, dans certains flux, non seulement le montant et les parties à une transaction mais également une catégorie correspondant à l'activité commerciale du bénéficiaire [S25](#s25).
 
 Cette donnée ne décrit cependant pas le produit individuel acheté.
 
@@ -2929,11 +2929,11 @@ Cette distinction est essentielle pour éviter de confondre **catégorie du comm
 
 La documentation va plus loin concernant le MCC.
 
-Elle indique que, parmi les informations relatives au type d'activité du commerçant, **seul le Merchant Category Code est transmis dans la requête de paiement au Digital Euro Service Platform (DESP) et au prestataire de services de paiement distributeur**, et qu'il est transmis sous forme chiffrée [S25].
+Elle indique que, parmi les informations relatives au type d'activité du commerçant, **seul le Merchant Category Code est transmis dans la requête de paiement au Digital Euro Service Platform (DESP) et au prestataire de services de paiement distributeur**, et qu'il est transmis sous forme chiffrée [S25](#s25).
 
 **AVÉRÉ :**
 
-> Dans l'architecture actuellement documentée, une information catégorisant l'activité du commerçant fait donc partie des données pouvant circuler dans la chaîne technique d'une requête de paiement [S25].
+> Dans l'architecture actuellement documentée, une information catégorisant l'activité du commerçant fait donc partie des données pouvant circuler dans la chaîne technique d'une requête de paiement [S25](#s25).
 
 Le chiffrement de cette information doit être pris en compte : sa présence dans un message ne signifie pas que chaque composant intermédiaire puisse nécessairement la lire ou l'exploiter.
 
@@ -2943,7 +2943,7 @@ Il faudra donc distinguer, pour chaque traitement, la circulation technique d'un
 
 ### Des informations relatives au point d'interaction et à sa localisation
 
-Le modèle décrit également le point d'interaction, ou POI, où une transaction peut être réalisée [S25].
+Le modèle décrit également le point d'interaction, ou POI, où une transaction peut être réalisée [S25](#s25).
 
 Celui-ci peut correspondre à un emplacement physique, comme un terminal de paiement dans un commerce, ou à un emplacement virtuel, comme une page de paiement en ligne ou une application mobile.
 
@@ -2957,32 +2957,32 @@ Parmi les informations envisagées figurent notamment :
 - une adresse physique ;  
 - une ville ;  
 - un code postal ;  
-- un pays [S25].
+- un pays [S25](#s25).
 
-La documentation précise toutefois que plusieurs de ces informations doivent être gérées **en interne par le PSP acquéreur**, notamment à des fins de traçabilité, d'audit, de gestion des capacités d'acceptation et, pour certaines données, de gestion des pré-litiges ou litiges [S25].
+La documentation précise toutefois que plusieurs de ces informations doivent être gérées **en interne par le PSP acquéreur**, notamment à des fins de traçabilité, d'audit, de gestion des capacités d'acceptation et, pour certaines données, de gestion des pré-litiges ou litiges [S25](#s25).
 
 **AVÉRÉ :**
 
-> Des informations permettant de caractériser ou localiser un point d'interaction commercial existent dans le modèle, mais la documentation prévoit que plusieurs d'entre elles restent gérées au niveau du PSP acquéreur plutôt que d'être nécessairement transmises à l'ensemble de l'infrastructure [S25].
+> Des informations permettant de caractériser ou localiser un point d'interaction commercial existent dans le modèle, mais la documentation prévoit que plusieurs d'entre elles restent gérées au niveau du PSP acquéreur plutôt que d'être nécessairement transmises à l'ensemble de l'infrastructure [S25](#s25).
 
 ---
 
 ### Lien avec un compte bancaire non numérique
 
-Le modèle prévoit également la possibilité de relier un compte de paiement en euros numériques à un compte de paiement non numérique [S25].
+Le modèle prévoit également la possibilité de relier un compte de paiement en euros numériques à un compte de paiement non numérique [S25](#s25).
 
 Pour ce dernier, la documentation mentionne notamment :
 
 - l'IBAN ;  
 - les dates d'ouverture et de fermeture ;  
 - le solde ;  
-- la date correspondant au solde [S25].
+- la date correspondant au solde [S25](#s25).
 
 Cette relation intervient notamment dans les mécanismes permettant d'alimenter ou de désalimenter les avoirs en euros numériques.
 
 **AVÉRÉ :**
 
-> L'architecture prévoit donc une articulation technique possible entre le compte en euros numériques d'un utilisateur et un compte de paiement bancaire classique utilisé notamment pour les opérations de financement ou de déchargement [S25].
+> L'architecture prévoit donc une articulation technique possible entre le compte en euros numériques d'un utilisateur et un compte de paiement bancaire classique utilisé notamment pour les opérations de financement ou de déchargement [S25](#s25).
 
 Cette articulation ne signifie pas que l'Eurosystème dispose librement de l'ensemble des données du compte bancaire traditionnel : la répartition des données entre PSP et DESP reste déterminante.
 
@@ -2990,7 +2990,7 @@ Cette articulation ne signifie pas que l'Eurosystème dispose librement de l'ens
 
 ### Des données de risque et de fraude
 
-Le modèle de paiement comprend également des données relatives à l'évaluation du risque et de la fraude [S25].
+Le modèle de paiement comprend également des données relatives à l'évaluation du risque et de la fraude [S25](#s25).
 
 Il prévoit notamment une entité correspondant à un **fraud and risk score** ainsi qu'un type permettant de classifier ce score.
 
@@ -2998,7 +2998,7 @@ Ces informations doivent être replacées dans la fonction de prévention et de 
 
 **AVÉRÉ :**
 
-> L'architecture prévoit donc l'utilisation de scores ou indicateurs structurés destinés à l'évaluation du risque et de la fraude dans le traitement des paiements [S25].
+> L'architecture prévoit donc l'utilisation de scores ou indicateurs structurés destinés à l'évaluation du risque et de la fraude dans le traitement des paiements [S25](#s25).
 
 La présence d'un score de risque ou de fraude ne démontre pas l'existence d'un score social, environnemental ou comportemental général.
 
@@ -3008,7 +3008,7 @@ Aucune des sources étudiées à ce stade ne permet d'affirmer qu'une donnée en
 
 ### Des données pouvant servir à des rapports, requêtes et analyses
 
-Les spécifications du service d'échange de données prévoient que le DESP puisse fournir aux participants différents rapports et mécanismes de requête [S25].
+Les spécifications du service d'échange de données prévoient que le DESP puisse fournir aux participants différents rapports et mécanismes de requête [S25](#s25).
 
 La documentation indique explicitement que ces fonctions doivent répondre à des besoins **opérationnels, analytiques et statistiques** des participants.
 
@@ -3019,15 +3019,15 @@ Les rapports et requêtes prévus concernent notamment :
 - certaines données de référentiel ;  
 - les litiges ;  
 - le calcul de certains frais ;  
-- la gestion du risque et de la fraude [S25].
+- la gestion du risque et de la fraude [S25](#s25).
 
 Certains rapports peuvent être détaillés, d'autres agrégés, et leur accès dépend du rôle du prestataire concerné.
 
-La documentation prévoit par exemple des rapports détaillés de transactions pour les PSP éligibles ainsi qu'un rapport agrégé périodique relatif à la situation en matière de risque de fraude [S25].
+La documentation prévoit par exemple des rapports détaillés de transactions pour les PSP éligibles ainsi qu'un rapport agrégé périodique relatif à la situation en matière de risque de fraude [S25](#s25).
 
 **AVÉRÉ :**
 
-> L'infrastructure prévoit donc non seulement le traitement transactionnel immédiat des données mais également des mécanismes structurés permettant à certains participants autorisés d'obtenir des rapports et d'effectuer des requêtes à des fins opérationnelles, analytiques ou statistiques [S25].
+> L'infrastructure prévoit donc non seulement le traitement transactionnel immédiat des données mais également des mécanismes structurés permettant à certains participants autorisés d'obtenir des rapports et d'effectuer des requêtes à des fins opérationnelles, analytiques ou statistiques [S25](#s25).
 
 Cette capacité reste encadrée par les rôles et droits d'accès définis dans le système.
 
@@ -3037,7 +3037,7 @@ Cette capacité reste encadrée par les rôles et droits d'accès définis dans 
 
 Un point méthodologique est essentiel.
 
-Le modèle de données décrit les informations nécessaires aux différents processus mais précise qu'il ne représente pas l'intégralité d'un système d'information et qu'il ne détermine pas automatiquement les informations déjà gérées dans les systèmes existants [S25].
+Le modèle de données décrit les informations nécessaires aux différents processus mais précise qu'il ne représente pas l'intégralité d'un système d'information et qu'il ne détermine pas automatiquement les informations déjà gérées dans les systèmes existants [S25](#s25).
 
 De même, le service d'échange de données prévoit que les rapports et requêtes accessibles à un PSP dépendent de son rôle et des données auxquelles il est éligible.
 
@@ -3082,27 +3082,27 @@ Aucune des sources étudiées dans cette section ne permet d'établir que la req
 
 **AVÉRÉ :**
 
-> Le modèle technique actuellement publié pour l'euro numérique prévoit des données structurées relatives aux utilisateurs, comptes, appareils, prestataires, payeurs, bénéficiaires et transactions [S25].
+> Le modèle technique actuellement publié pour l'euro numérique prévoit des données structurées relatives aux utilisateurs, comptes, appareils, prestataires, payeurs, bénéficiaires et transactions [S25](#s25).
 
 **AVÉRÉ :**
 
-> Les transactions disposent d'identifiants, dont un identifiant de bout en bout, et comportent notamment des informations relatives au montant, à la date et l'heure, au type, à l'environnement et au statut de l'opération [S25].
+> Les transactions disposent d'identifiants, dont un identifiant de bout en bout, et comportent notamment des informations relatives au montant, à la date et l'heure, au type, à l'environnement et au statut de l'opération [S25](#s25).
 
 **AVÉRÉ :**
 
-> L'architecture prévoit des identifiants pseudonymes permettant de limiter la circulation de l'identité directement identifiable de l'utilisateur, tandis que son prestataire de services de paiement conserve la capacité de rattacher certaines informations à son client [S25].
+> L'architecture prévoit des identifiants pseudonymes permettant de limiter la circulation de l'identité directement identifiable de l'utilisateur, tandis que son prestataire de services de paiement conserve la capacité de rattacher certaines informations à son client [S25](#s25).
 
 **AVÉRÉ :**
 
-> Le Merchant Category Code permet de catégoriser l'activité commerciale du bénéficiaire et la documentation prévoit sa transmission chiffrée dans la requête de paiement au DESP et au PSP distributeur [S25].
+> Le Merchant Category Code permet de catégoriser l'activité commerciale du bénéficiaire et la documentation prévoit sa transmission chiffrée dans la requête de paiement au DESP et au PSP distributeur [S25](#s25).
 
 **AVÉRÉ :**
 
-> Le modèle comprend également des informations relatives aux points d'interaction, à certains éléments de localisation, aux appareils et à des scores de risque et de fraude, avec une répartition de leur gestion entre les différents acteurs [S25].
+> Le modèle comprend également des informations relatives aux points d'interaction, à certains éléments de localisation, aux appareils et à des scores de risque et de fraude, avec une répartition de leur gestion entre les différents acteurs [S25](#s25).
 
 **AVÉRÉ :**
 
-> Le DESP prévoit des rapports et mécanismes de requête destinés à certains PSP selon leurs droits et leurs rôles, notamment pour des besoins opérationnels, analytiques et statistiques [S25].
+> Le DESP prévoit des rapports et mécanismes de requête destinés à certains PSP selon leurs droits et leurs rôles, notamment pour des besoins opérationnels, analytiques et statistiques [S25](#s25).
 
 **NON ÉTABLI :**
 
@@ -3129,13 +3129,13 @@ Aucune des sources étudiées dans cette section ne permet d'établir que la req
 L'architecture envisagée pour l'euro numérique distingue deux modes de fonctionnement présentant des caractéristiques techniques et des niveaux d'accès aux données différents :
 
 - le paiement en ligne ;  
-- le paiement hors ligne [S23][S26].
+- le paiement hors ligne [S23](#s23)[S26](#s26).
 
 Cette distinction est essentielle pour l'analyse des possibilités de traitement des données.
 
 Un paiement en ligne utilise les infrastructures et intermédiaires nécessaires à son traitement et à son règlement.
 
-Un paiement hors ligne est au contraire conçu pour permettre le transfert de valeur sans connexion à Internet et sans intervention en temps réel de l'infrastructure centrale [S26].
+Un paiement hors ligne est au contraire conçu pour permettre le transfert de valeur sans connexion à Internet et sans intervention en temps réel de l'infrastructure centrale [S26](#s26).
 
 ---
 
@@ -3149,19 +3149,19 @@ Selon le type d'opération, cela peut notamment impliquer :
 - le prestataire du bénéficiaire ;  
 - les services communs du dispositif ;  
 - le Digital Euro Service Platform ;  
-- l'infrastructure de règlement de l'Eurosystème [S24][S25].
+- l'infrastructure de règlement de l'Eurosystème [S24](#s24)[S25](#s25).
 
 Les données nécessaires au traitement de la transaction peuvent alors circuler entre différents composants selon les règles, rôles et droits d'accès prévus par l'architecture.
 
-Comme établi dans la section 4.3, ces données peuvent notamment comprendre des identifiants de transaction, le montant, la date et l'heure, le type et l'environnement de l'opération, les identifiants pseudonymes nécessaires au traitement ainsi que certaines informations relatives au contexte commercial [S25].
+Comme établi dans la section 4.3, ces données peuvent notamment comprendre des identifiants de transaction, le montant, la date et l'heure, le type et l'environnement de l'opération, les identifiants pseudonymes nécessaires au traitement ainsi que certaines informations relatives au contexte commercial [S25](#s25).
 
-La BCE indique toutefois que l'Eurosystème ne devrait pas pouvoir identifier directement le payeur ou le bénéficiaire à partir des informations reçues pour les paiements en ligne [S23].
+La BCE indique toutefois que l'Eurosystème ne devrait pas pouvoir identifier directement le payeur ou le bénéficiaire à partir des informations reçues pour les paiements en ligne [S23](#s23).
 
-Le lien entre les identifiants pseudonymisés utilisés dans l'infrastructure et l'identité des utilisateurs resterait connu de leurs prestataires de services de paiement conformément aux obligations applicables [S23].
+Le lien entre les identifiants pseudonymisés utilisés dans l'infrastructure et l'identité des utilisateurs resterait connu de leurs prestataires de services de paiement conformément aux obligations applicables [S23](#s23).
 
 **AVÉRÉ :**
 
-> Le fonctionnement en ligne implique donc une circulation structurée de données nécessaires au paiement, mais l'architecture prévoit une séparation entre les informations directement identifiantes détenues par les PSP et les informations pseudonymisées accessibles à l'Eurosystème [S23][S25].
+> Le fonctionnement en ligne implique donc une circulation structurée de données nécessaires au paiement, mais l'architecture prévoit une séparation entre les informations directement identifiantes détenues par les PSP et les informations pseudonymisées accessibles à l'Eurosystème [S23](#s23)[S25](#s25).
 
 ---
 
@@ -3169,7 +3169,7 @@ Le lien entre les identifiants pseudonymisés utilisés dans l'infrastructure et
 
 Le fonctionnement hors ligne repose sur une architecture différente.
 
-La BCE prévoit qu'un paiement puisse être réalisé directement entre les appareils du payeur et du bénéficiaire sans connexion à Internet au moment de la transaction [S26].
+La BCE prévoit qu'un paiement puisse être réalisé directement entre les appareils du payeur et du bénéficiaire sans connexion à Internet au moment de la transaction [S26](#s26).
 
 Dans les travaux techniques actuellement menés pour le pilote, les paiements hors ligne entre particuliers reposent notamment sur une communication de proximité utilisant le NFC.
 
@@ -3179,7 +3179,7 @@ La BCE étudie notamment l'utilisation :
 
 - d'éléments sécurisés intégrés, ou embedded Secure Elements ;  
 - d'eSIM ;  
-- d'autres composants matériels permettant de protéger les valeurs et opérations cryptographiques nécessaires au fonctionnement hors ligne [S26].
+- d'autres composants matériels permettant de protéger les valeurs et opérations cryptographiques nécessaires au fonctionnement hors ligne [S26](#s26).
 
 Ces composants sont destinés à empêcher notamment l'extraction des clés cryptographiques, la modification frauduleuse du solde ou l'altération des opérations réalisées dans l'environnement sécurisé.
 
@@ -3187,7 +3187,7 @@ Ces composants sont destinés à empêcher notamment l'extraction des clés cryp
 
 ### Un transfert direct entre appareils
 
-Dans le mode hors ligne, le transfert ne nécessite pas l'intervention d'un système en ligne au moment du paiement [S26].
+Dans le mode hors ligne, le transfert ne nécessite pas l'intervention d'un système en ligne au moment du paiement [S26](#s26).
 
 La BCE décrit le mécanisme comme un transfert direct entre deux appareils de valeurs cryptographiquement sécurisées.
 
@@ -3205,7 +3205,7 @@ L'infrastructure centrale n'intervient donc pas en temps réel dans le traitemen
 
 **AVÉRÉ :**
 
-> Un paiement hors ligne en euros numériques est conçu pour pouvoir être exécuté directement entre les appareils du payeur et du bénéficiaire sans transmission de la transaction à un système en ligne au moment du paiement [S26].
+> Un paiement hors ligne en euros numériques est conçu pour pouvoir être exécuté directement entre les appareils du payeur et du bénéficiaire sans transmission de la transaction à un système en ligne au moment du paiement [S26](#s26).
 
 ---
 
@@ -3213,7 +3213,7 @@ L'infrastructure centrale n'intervient donc pas en temps réel dans le traitemen
 
 La différence avec le paiement en ligne est particulièrement importante concernant les données.
 
-La BCE indique que, pour les paiements hors ligne, les informations sensibles relatives à la transaction restent dans l'environnement sécurisé des appareils et ne sont accessibles ni à l'Eurosystème ni aux prestataires de services de paiement [S26].
+La BCE indique que, pour les paiements hors ligne, les informations sensibles relatives à la transaction restent dans l'environnement sécurisé des appareils et ne sont accessibles ni à l'Eurosystème ni aux prestataires de services de paiement [S26](#s26).
 
 La documentation précise notamment que les informations relatives :
 
@@ -3221,11 +3221,11 @@ La documentation précise notamment que les informations relatives :
 - au lieu où les biens ont été achetés ;  
 - au commerçant auprès duquel l'achat a été effectué ou à la personne ayant reçu le paiement,
 
-ne sont pas accessibles à la BCE, aux banques ou aux PSP dans le cadre du paiement hors ligne [S26].
+ne sont pas accessibles à la BCE, aux banques ou aux PSP dans le cadre du paiement hors ligne [S26](#s26).
 
 **AVÉRÉ :**
 
-> Dans l'architecture actuellement annoncée, les détails personnels d'un paiement hors ligne sont conçus pour être connus uniquement du payeur et du bénéficiaire [S23][S26].
+> Dans l'architecture actuellement annoncée, les détails personnels d'un paiement hors ligne sont conçus pour être connus uniquement du payeur et du bénéficiaire [S23](#s23)[S26](#s26).
 
 Cette caractéristique constitue une différence majeure avec le fonctionnement en ligne étudié précédemment.
 
@@ -3233,11 +3233,11 @@ Cette caractéristique constitue une différence majeure avec le fonctionnement 
 
 ### Un niveau de confidentialité comparable aux espèces
 
-La BCE présente explicitement le paiement hors ligne comme devant offrir un niveau de confidentialité comparable à celui des espèces [S23][S26].
+La BCE présente explicitement le paiement hors ligne comme devant offrir un niveau de confidentialité comparable à celui des espèces [S23](#s23)[S26](#s26).
 
 Le fonctionnement hors ligne empêche l'Eurosystème de relier directement la transaction à une personne.
 
-Mais il va plus loin : contrairement au paiement en ligne, les PSP ne reçoivent pas non plus les détails personnels de la transaction elle-même pendant ou après son exécution [S26].
+Mais il va plus loin : contrairement au paiement en ligne, les PSP ne reçoivent pas non plus les détails personnels de la transaction elle-même pendant ou après son exécution [S26](#s26).
 
 La différence peut être résumée ainsi :
 
@@ -3265,9 +3265,9 @@ Cette distinction constitue une garantie architecturale importante dans l'analys
 
 Le caractère privé du paiement hors ligne ne signifie cependant pas que l'utilisateur puisse acquérir ou convertir des euros numériques hors ligne sans aucune interaction avec son prestataire.
 
-Les opérations permettant de charger des fonds dans la fonctionnalité hors ligne ou de les reconvertir vers d'autres formes de monnaie nécessitent l'intervention du prestataire de services de paiement [S26].
+Les opérations permettant de charger des fonds dans la fonctionnalité hors ligne ou de les reconvertir vers d'autres formes de monnaie nécessitent l'intervention du prestataire de services de paiement [S26](#s26).
 
-La BCE indique que les contrôles relatifs à la lutte contre le blanchiment sont effectués par le PSP au moment de ces opérations de chargement et de déchargement, selon une logique comparable aux contrôles applicables aux retraits et dépôts d'espèces [S23][S26].
+La BCE indique que les contrôles relatifs à la lutte contre le blanchiment sont effectués par le PSP au moment de ces opérations de chargement et de déchargement, selon une logique comparable aux contrôles applicables aux retraits et dépôts d'espèces [S23](#s23)[S26](#s26).
 
 Il faut donc distinguer :
 
@@ -3277,7 +3277,7 @@ Il faut donc distinguer :
 
 **AVÉRÉ :**
 
-> La confidentialité du paiement hors ligne concerne la transaction réalisée entre les utilisateurs ; elle ne supprime pas les interactions réglementées avec le PSP nécessaires à l'entrée et à la sortie des fonds du dispositif hors ligne [S23][S26].
+> La confidentialité du paiement hors ligne concerne la transaction réalisée entre les utilisateurs ; elle ne supprime pas les interactions réglementées avec le PSP nécessaires à l'entrée et à la sortie des fonds du dispositif hors ligne [S23](#s23)[S26](#s26).
 
 ---
 
@@ -3285,14 +3285,14 @@ Il faut donc distinguer :
 
 La possibilité d'effectuer une transaction sans connexion nécessite que l'appareil puisse conserver et transférer de manière sécurisée la valeur correspondante.
 
-Les travaux actuels de la BCE reposent notamment sur l'utilisation d'un élément matériel sécurisé [S26].
+Les travaux actuels de la BCE reposent notamment sur l'utilisation d'un élément matériel sécurisé [S26](#s26).
 
 Ce composant protège notamment :
 
 - les clés cryptographiques ;  
 - la valeur disponible ;  
 - les opérations de débit et de crédit ;  
-- les informations critiques nécessaires au fonctionnement du mécanisme hors ligne [S26].
+- les informations critiques nécessaires au fonctionnement du mécanisme hors ligne [S26](#s26).
 
 L'objectif est notamment d'empêcher qu'un utilisateur puisse modifier artificiellement son solde ou reproduire la même valeur pour effectuer plusieurs paiements.
 
@@ -3324,7 +3324,7 @@ Ces éléments doivent être examinés séparément.
 
 Le fonctionnement hors ligne ne constitue plus uniquement une hypothèse conceptuelle.
 
-La BCE prépare un pilote de l'euro numérique prévu à partir du second semestre 2027 et poursuit actuellement les travaux nécessaires à la mise en œuvre de la fonctionnalité hors ligne [S26].
+La BCE prépare un pilote de l'euro numérique prévu à partir du second semestre 2027 et poursuit actuellement les travaux nécessaires à la mise en œuvre de la fonctionnalité hors ligne [S26](#s26).
 
 En août 2026, la BCE a notamment lancé une consultation technique concernant les standards nécessaires au déploiement du mode hors ligne dans les composants matériels sécurisés des smartphones.
 
@@ -3332,7 +3332,7 @@ Les travaux portent notamment sur les embedded Secure Elements et les eSIM.
 
 **AVÉRÉ :**
 
-> L'architecture hors ligne fait donc actuellement l'objet de travaux techniques concrets portant sur les composants matériels, les standards de sécurité et la préparation du pilote [S26].
+> L'architecture hors ligne fait donc actuellement l'objet de travaux techniques concrets portant sur les composants matériels, les standards de sécurité et la préparation du pilote [S26](#s26).
 
 Elle reste néanmoins une fonctionnalité d'un projet qui n'est pas encore déployé comme moyen de paiement en circulation générale.
 
@@ -3369,23 +3369,23 @@ Cette distinction est essentielle : la confidentialité du **rail de paiement** 
 
 **AVÉRÉ :**
 
-> L'euro numérique est conçu pour permettre des paiements en ligne et hors ligne reposant sur des architectures différentes [S23][S26].
+> L'euro numérique est conçu pour permettre des paiements en ligne et hors ligne reposant sur des architectures différentes [S23](#s23)[S26](#s26).
 
 **AVÉRÉ :**
 
-> Le paiement hors ligne doit pouvoir être exécuté directement entre les appareils du payeur et du bénéficiaire sans connexion à Internet et sans intervention d'un système en ligne au moment de la transaction [S26].
+> Le paiement hors ligne doit pouvoir être exécuté directement entre les appareils du payeur et du bénéficiaire sans connexion à Internet et sans intervention d'un système en ligne au moment de la transaction [S26](#s26).
 
 **AVÉRÉ :**
 
-> La valeur et les informations sensibles nécessaires au paiement hors ligne doivent être protégées dans un environnement matériel sécurisé de l'appareil [S26].
+> La valeur et les informations sensibles nécessaires au paiement hors ligne doivent être protégées dans un environnement matériel sécurisé de l'appareil [S26](#s26).
 
 **AVÉRÉ :**
 
-> Selon l'architecture annoncée par la BCE, les détails personnels des transactions hors ligne ne sont accessibles ni à l'Eurosystème ni aux PSP et restent connus du payeur et du bénéficiaire [S23][S26].
+> Selon l'architecture annoncée par la BCE, les détails personnels des transactions hors ligne ne sont accessibles ni à l'Eurosystème ni aux PSP et restent connus du payeur et du bénéficiaire [S23](#s23)[S26](#s26).
 
 **AVÉRÉ :**
 
-> Les opérations permettant de charger ou décharger les fonds restent en revanche liées au PSP, qui effectue les contrôles réglementaires correspondants [S23][S26].
+> Les opérations permettant de charger ou décharger les fonds restent en revanche liées au PSP, qui effectue les contrôles réglementaires correspondants [S23](#s23)[S26](#s26).
 
 **DÉDUCTIBLE TECHNIQUEMENT :**
 
@@ -3419,9 +3419,9 @@ Cette distinction est essentielle : la confidentialité du **rail de paiement** 
 
 La distinction entre monnaie programmable et paiement conditionnel constitue un élément central de l'architecture envisagée pour l'euro numérique.
 
-La Banque centrale européenne exclut explicitement que l'euro numérique devienne une monnaie programmable [S22][S27].
+La Banque centrale européenne exclut explicitement que l'euro numérique devienne une monnaie programmable [S22](#s22)[S27](#s27).
 
-Parallèlement, l'architecture est conçue pour permettre des paiements conditionnels, c'est-à-dire des paiements dont l'exécution peut être déclenchée automatiquement lorsque certaines conditions prédéfinies sont remplies [S27].
+Parallèlement, l'architecture est conçue pour permettre des paiements conditionnels, c'est-à-dire des paiements dont l'exécution peut être déclenchée automatiquement lorsque certaines conditions prédéfinies sont remplies [S27](#s27).
 
 Ces deux mécanismes ne doivent pas être confondus.
 
@@ -3436,7 +3436,7 @@ Une telle monnaie pourrait, par exemple, être conçue pour :
 - ne permettre l'achat que de certains biens ou services ;  
 - ne pouvoir être utilisée que pendant une période déterminée ;  
 - ne pouvoir être dépensée que dans une zone géographique particulière ;  
-- ou imposer directement d'autres restrictions d'utilisation attachées aux unités monétaires [S27].
+- ou imposer directement d'autres restrictions d'utilisation attachées aux unités monétaires [S27](#s27).
 
 La BCE indique explicitement que ce fonctionnement est incompatible avec les principes retenus pour l'euro numérique.
 
@@ -3444,7 +3444,7 @@ Les unités d'euros numériques doivent rester fongibles et conserver la même v
 
 **AVÉRÉ :**
 
-> L'Eurosystème exclut explicitement que les unités d'euros numériques comportent elles-mêmes des règles limitant les biens, services, périodes, lieux ou bénéficiaires pour lesquels elles peuvent être utilisées [S22][S27].
+> L'Eurosystème exclut explicitement que les unités d'euros numériques comportent elles-mêmes des règles limitant les biens, services, périodes, lieux ou bénéficiaires pour lesquels elles peuvent être utilisées [S22](#s22)[S27](#s27).
 
 La BCE présente cette garantie comme une différence fondamentale entre une monnaie et un bon ou voucher affecté à un usage déterminé.
 
@@ -3454,7 +3454,7 @@ La BCE présente cette garantie comme une différence fondamentale entre une mon
 
 L'exclusion de la monnaie programmable ne signifie pas que tous les paiements doivent être exécutés immédiatement et sans condition.
 
-La BCE définit les paiements conditionnels comme des paiements exécutés automatiquement lorsque des conditions prédéfinies sont remplies [S27].
+La BCE définit les paiements conditionnels comme des paiements exécutés automatiquement lorsque des conditions prédéfinies sont remplies [S27](#s27).
 
 La condition ne modifie pas les propriétés des unités monétaires elles-mêmes.
 
@@ -3474,13 +3474,13 @@ Exemple : le paiement d'un produit est libéré lorsque sa livraison est confirm
 
 **AVÉRÉ :**
 
-> La BCE distingue donc explicitement la restriction attachée à la monnaie, qu'elle exclut, de l'automatisation conditionnelle d'une transaction, qu'elle prévoit dans l'architecture de l'euro numérique [S27].
+> La BCE distingue donc explicitement la restriction attachée à la monnaie, qu'elle exclut, de l'automatisation conditionnelle d'une transaction, qu'elle prévoit dans l'architecture de l'euro numérique [S27](#s27).
 
 ---
 
 ### La réservation des fonds constitue le mécanisme de base
 
-L'architecture envisagée prévoit une fonctionnalité de réservation des fonds permettant de supporter les paiements conditionnels [S27].
+L'architecture envisagée prévoit une fonctionnalité de réservation des fonds permettant de supporter les paiements conditionnels [S27](#s27).
 
 Lorsqu'un paiement conditionnel est initié, le montant correspondant peut être temporairement réservé sur le compte du payeur.
 
@@ -3503,13 +3503,13 @@ Condition non satisfaite → réservation annulée ou expirée
 
 **AVÉRÉ :**
 
-> L'infrastructure centrale envisagée fournit donc une capacité technique de réservation de fonds permettant de différer leur transfert jusqu'à la vérification d'une condition [S27].
+> L'infrastructure centrale envisagée fournit donc une capacité technique de réservation de fonds permettant de différer leur transfert jusqu'à la vérification d'une condition [S27](#s27).
 
 ---
 
 ### Une couche de règlement distincte d'une couche de conditionnalité
 
-Le rapport de clôture de la phase de préparation décrit explicitement une séparation entre deux couches [S27].
+Le rapport de clôture de la phase de préparation décrit explicitement une séparation entre deux couches [S27](#s27).
 
 La première est la **couche de règlement**, située dans l'infrastructure back-end et fournie par l'Eurosystème.
 
@@ -3537,7 +3537,7 @@ Transfert ou libération des fonds
 
 **AVÉRÉ :**
 
-> L'architecture actuellement décrite sépare donc techniquement la fonction monétaire de règlement et la logique permettant de déterminer si une condition associée à une transaction est remplie [S27].
+> L'architecture actuellement décrite sépare donc techniquement la fonction monétaire de règlement et la logique permettant de déterminer si une condition associée à une transaction est remplie [S27](#s27).
 
 Cette séparation est essentielle.
 
@@ -3547,17 +3547,17 @@ Elle signifie que l'Eurosystème n'a pas nécessairement besoin de connaître ou
 
 ### Une surveillance externe peut déclencher la condition
 
-Le rapport de clôture de la BCE précise que cette architecture doit permettre une flexibilité pour un **monitoring externe capable de déclencher les conditions** [S27].
+Le rapport de clôture de la BCE précise que cette architecture doit permettre une flexibilité pour un **monitoring externe capable de déclencher les conditions** [S27](#s27).
 
 Dans l'exemple donné par la BCE, un système peut déterminer qu'un train est effectivement arrivé.
 
 Lorsque cette information confirme la condition prévue, les fonds réservés sont transférés au bénéficiaire.
 
-Si le train n'arrive pas ou si la condition définie n'est pas satisfaite, la réservation peut être annulée ou expirer et les fonds redeviennent disponibles pour le payeur [S27].
+Si le train n'arrive pas ou si la condition définie n'est pas satisfaite, la réservation peut être annulée ou expirer et les fonds redeviennent disponibles pour le payeur [S27](#s27).
 
 **AVÉRÉ :**
 
-> Une information produite ou vérifiée en dehors de la couche de règlement peut donc techniquement participer au déclenchement ou à l'absence de déclenchement d'un paiement conditionnel [S27].
+> Une information produite ou vérifiée en dehors de la couche de règlement peut donc techniquement participer au déclenchement ou à l'absence de déclenchement d'un paiement conditionnel [S27](#s27).
 
 Il s'agit ici d'un premier lien explicitement documenté entre **une donnée ou un événement externe au règlement monétaire** et **l'exécution d'une transaction**.
 
@@ -3565,7 +3565,7 @@ Il s'agit ici d'un premier lien explicitement documenté entre **une donnée ou 
 
 ### Des exemples déjà identifiés et expérimentés
 
-Les travaux de la BCE et des acteurs du marché ont étudié plusieurs catégories de paiements conditionnels [S27].
+Les travaux de la BCE et des acteurs du marché ont étudié plusieurs catégories de paiements conditionnels [S27](#s27).
 
 Parmi les exemples documentés figurent notamment :
 
@@ -3576,17 +3576,17 @@ Parmi les exemples documentés figurent notamment :
 - les abonnements ;  
 - les paiements fractionnés ;  
 - les paiements machine-to-machine ;  
-- certains paiements liés à la consommation d'énergie [S27].
+- certains paiements liés à la consommation d'énergie [S27](#s27).
 
 Dans le cas du paiement à la livraison, la transaction peut être finalisée lorsque la livraison du produit est confirmée.
 
 Dans un paiement machine-to-machine, une machine peut participer automatiquement au déclenchement d'un paiement lorsqu'un événement prévu survient.
 
-La BCE et des acteurs du marché ont déjà testé la faisabilité de plusieurs de ces mécanismes dans un environnement simulant le back-end de l'euro numérique [S27].
+La BCE et des acteurs du marché ont déjà testé la faisabilité de plusieurs de ces mécanismes dans un environnement simulant le back-end de l'euro numérique [S27](#s27).
 
 **AVÉRÉ :**
 
-> Les paiements conditionnels ne constituent donc plus uniquement une possibilité abstraite décrite dans une proposition réglementaire : leur faisabilité technique a fait l'objet d'expérimentations avec des acteurs du marché dans l'environnement d'innovation de la BCE [S27].
+> Les paiements conditionnels ne constituent donc plus uniquement une possibilité abstraite décrite dans une proposition réglementaire : leur faisabilité technique a fait l'objet d'expérimentations avec des acteurs du marché dans l'environnement d'innovation de la BCE [S27](#s27).
 
 Ces expérimentations n'ont cependant pas utilisé de véritables euros numériques et ne constituent pas le déploiement d'un système en production.
 
@@ -3594,7 +3594,7 @@ Ces expérimentations n'ont cependant pas utilisé de véritables euros numériq
 
 ### La condition peut être vérifiée par un tiers
 
-Les travaux antérieurs de la BCE fournissent également un exemple dans lequel le déclenchement d'un paiement à la livraison peut dépendre d'un tiers autre que le payeur ou le bénéficiaire, comme le service postal chargé de confirmer la livraison d'un produit [S27].
+Les travaux antérieurs de la BCE fournissent également un exemple dans lequel le déclenchement d'un paiement à la livraison peut dépendre d'un tiers autre que le payeur ou le bénéficiaire, comme le service postal chargé de confirmer la livraison d'un produit [S27](#s27).
 
 Cette architecture introduit donc potentiellement un troisième acteur dans la décision technique permettant de poursuivre le paiement.
 
@@ -3610,23 +3610,23 @@ Paiement exécuté automatiquement
 
 **AVÉRÉ :**
 
-> La vérification d'une condition peut donc être réalisée à partir d'une information provenant d'un acteur ou d'un système distinct du payeur, du bénéficiaire et de la couche centrale de règlement [S27].
+> La vérification d'une condition peut donc être réalisée à partir d'une information provenant d'un acteur ou d'un système distinct du payeur, du bénéficiaire et de la couche centrale de règlement [S27](#s27).
 
 ---
 
 ### Les acteurs du marché développent la logique conditionnelle
 
-La BCE considère que les intermédiaires supervisés et autres acteurs du marché sont les mieux placés pour développer les services de paiement conditionnel [S27].
+La BCE considère que les intermédiaires supervisés et autres acteurs du marché sont les mieux placés pour développer les services de paiement conditionnel [S27](#s27).
 
 L'infrastructure de l'euro numérique fournit notamment la fonctionnalité fondamentale de réservation des fonds.
 
 Les acteurs du marché peuvent construire au-dessus de cette infrastructure des services à valeur ajoutée utilisant leurs propres logiques et les informations nécessaires aux cas d'usage concernés.
 
-En juillet 2026, la BCE indiquait également que les banques pourraient utiliser l'infrastructure de l'euro numérique pour déclencher automatiquement des paiements lorsqu'une condition convenue est remplie et développer de nouveaux services en s'appuyant sur les données dont elles disposent [S27].
+En juillet 2026, la BCE indiquait également que les banques pourraient utiliser l'infrastructure de l'euro numérique pour déclencher automatiquement des paiements lorsqu'une condition convenue est remplie et développer de nouveaux services en s'appuyant sur les données dont elles disposent [S27](#s27).
 
 **AVÉRÉ :**
 
-> La logique conditionnelle n'est donc pas conçue comme une fonction exclusivement définie et opérée par la Banque centrale européenne : des banques, PSP et autres acteurs du marché peuvent développer des services conditionnels au-dessus de l'infrastructure commune [S27].
+> La logique conditionnelle n'est donc pas conçue comme une fonction exclusivement définie et opérée par la Banque centrale européenne : des banques, PSP et autres acteurs du marché peuvent développer des services conditionnels au-dessus de l'infrastructure commune [S27](#s27).
 
 ---
 
@@ -3634,7 +3634,7 @@ En juillet 2026, la BCE indiquait également que les banques pourraient utiliser
 
 Les sections précédentes ont établi que l'architecture de paiement peut traiter différentes informations relatives aux transactions et que les acteurs du marché disposent de leurs propres systèmes et données.
 
-La présente section ajoute un élément supplémentaire : la couche de conditionnalité peut utiliser la vérification d'un événement externe afin de déterminer si les fonds réservés doivent être transférés [S27].
+La présente section ajoute un élément supplémentaire : la couche de conditionnalité peut utiliser la vérification d'un événement externe afin de déterminer si les fonds réservés doivent être transférés [S27](#s27).
 
 Le mécanisme général devient donc :
 
@@ -3652,7 +3652,7 @@ Exécution ou absence d'exécution du paiement
 
 **AVÉRÉ :**
 
-> Le principe selon lequel une information externe au règlement monétaire peut déclencher l'exécution d'un paiement conditionnel est explicitement prévu dans l'architecture étudiée [S27].
+> Le principe selon lequel une information externe au règlement monétaire peut déclencher l'exécution d'un paiement conditionnel est explicitement prévu dans l'architecture étudiée [S27](#s27).
 
 Cette constatation constitue un **pont technique entre une information externe et l'exécution d'un paiement**.
 
@@ -3672,7 +3672,7 @@ Aucune des sources étudiées dans cette section ne prévoit qu'un paiement soit
 - une donnée fiscale issue de la facturation électronique ;  
 - ou un profil comportemental d'un utilisateur.
 
-Les exemples actuellement documentés concernent principalement des événements directement liés à l'exécution d'un contrat ou d'un service : livraison, réalisation d'une prestation, utilisation d'un service, horaire, consommation ou événement vérifiable [S27].
+Les exemples actuellement documentés concernent principalement des événements directement liés à l'exécution d'un contrat ou d'un service : livraison, réalisation d'une prestation, utilisation d'un service, horaire, consommation ou événement vérifiable [S27](#s27).
 
 **NON ÉTABLI :**
 
@@ -3710,13 +3710,13 @@ Cette propriété technique signifie qu'une interconnexion n'exige pas nécessai
 
 La possibilité technique de construire une condition ne signifie pas que n'importe quel acteur puisse imposer arbitrairement cette condition à un utilisateur.
 
-La BCE indique que les paiements conditionnels reposent sur des conditions prédéfinies et convenues et affirme que les utilisateurs restent libres de choisir l'utilisation de ces services [S27].
+La BCE indique que les paiements conditionnels reposent sur des conditions prédéfinies et convenues et affirme que les utilisateurs restent libres de choisir l'utilisation de ces services [S27](#s27).
 
 Dans une communication de janvier 2026, la BCE a également précisé que les conditions d'un paiement ne pourraient être fixées que par le payeur et le bénéficiaire.
 
 **AVÉRÉ :**
 
-> Dans le cadre actuellement présenté par la BCE, les paiements conditionnels constituent des services volontaires reposant sur des conditions convenues entre les parties et ne donnent pas à l'Eurosystème un pouvoir général permettant de déterminer ce qu'un utilisateur peut acheter [S27].
+> Dans le cadre actuellement présenté par la BCE, les paiements conditionnels constituent des services volontaires reposant sur des conditions convenues entre les parties et ne donnent pas à l'Eurosystème un pouvoir général permettant de déterminer ce qu'un utilisateur peut acheter [S27](#s27).
 
 Cette garantie doit être distinguée de la capacité technique du système à exécuter automatiquement une transaction lorsque la condition convenue est satisfaite.
 
@@ -3747,27 +3747,27 @@ La question déterminante devient alors celle de la gouvernance de ces règles :
 
 **AVÉRÉ :**
 
-> La BCE exclut explicitement que l'euro numérique soit une monnaie programmable limitant intrinsèquement les biens, services, périodes, lieux ou bénéficiaires pour lesquels les unités monétaires peuvent être utilisées [S22][S27].
+> La BCE exclut explicitement que l'euro numérique soit une monnaie programmable limitant intrinsèquement les biens, services, périodes, lieux ou bénéficiaires pour lesquels les unités monétaires peuvent être utilisées [S22](#s22)[S27](#s27).
 
 **AVÉRÉ :**
 
-> L'architecture prévoit néanmoins des paiements conditionnels exécutés automatiquement lorsque des conditions prédéfinies sont satisfaites [S27].
+> L'architecture prévoit néanmoins des paiements conditionnels exécutés automatiquement lorsque des conditions prédéfinies sont satisfaites [S27](#s27).
 
 **AVÉRÉ :**
 
-> Une fonctionnalité de réservation des fonds est prévue afin de conserver temporairement le montant nécessaire jusqu'à la vérification de la condition [S27].
+> Une fonctionnalité de réservation des fonds est prévue afin de conserver temporairement le montant nécessaire jusqu'à la vérification de la condition [S27](#s27).
 
 **AVÉRÉ :**
 
-> La BCE décrit une architecture séparant une couche de règlement fournie par l'Eurosystème et une couche de conditionnalité développée par les acteurs du marché, avec la possibilité qu'une vérification externe déclenche la condition [S27].
+> La BCE décrit une architecture séparant une couche de règlement fournie par l'Eurosystème et une couche de conditionnalité développée par les acteurs du marché, avec la possibilité qu'une vérification externe déclenche la condition [S27](#s27).
 
 **AVÉRÉ :**
 
-> Des paiements conditionnels ont déjà été expérimentés dans un environnement simulé avec des acteurs du marché, notamment pour des scénarios de paiement à la livraison, paiement à l'usage, paiements par étapes et autres services automatisés [S27].
+> Des paiements conditionnels ont déjà été expérimentés dans un environnement simulé avec des acteurs du marché, notamment pour des scénarios de paiement à la livraison, paiement à l'usage, paiements par étapes et autres services automatisés [S27](#s27).
 
 **AVÉRÉ :**
 
-> La BCE indique que les banques et autres prestataires pourront développer des services conditionnels au-dessus de l'infrastructure commune et s'appuyer sur les données dont ils disposent pour proposer des services innovants [S27].
+> La BCE indique que les banques et autres prestataires pourront développer des services conditionnels au-dessus de l'infrastructure commune et s'appuyer sur les données dont ils disposent pour proposer des services innovants [S27](#s27).
 
 **DÉDUCTIBLE TECHNIQUEMENT :**
 
@@ -3779,7 +3779,7 @@ La question déterminante devient alors celle de la gouvernance de ces règles :
 
 **AVÉRÉ :**
 
-> Dans le cadre actuellement présenté par la BCE, les conditions sont conçues comme convenues par les parties et l'Eurosystème affirme ne pas disposer du pouvoir permettant de bloquer des catégories d'achats [S27].
+> Dans le cadre actuellement présenté par la BCE, les conditions sont conçues comme convenues par les parties et l'Eurosystème affirme ne pas disposer du pouvoir permettant de bloquer des catégories d'achats [S27](#s27).
 
 **À ÉTABLIR :**
 
@@ -3803,9 +3803,9 @@ La question déterminante devient alors celle de la gouvernance de ces règles :
 
 **Statut : AVÉRÉ / DÉDUCTIBLE TECHNIQUEMENT / À ÉTABLIR**
 
-La section précédente a établi que l'architecture envisagée pour l'euro numérique distingue une couche de règlement fournie par l'Eurosystème et une couche de conditionnalité développée par les acteurs du marché [S27].
+La section précédente a établi que l'architecture envisagée pour l'euro numérique distingue une couche de règlement fournie par l'Eurosystème et une couche de conditionnalité développée par les acteurs du marché [S27](#s27).
 
-Les travaux menés dans le cadre de la plateforme d'innovation permettent d'aller plus loin : des acteurs du marché ont effectivement connecté leurs propres plateformes à un environnement simulant les interfaces de l'euro numérique afin d'expérimenter des paiements conditionnels [S28].
+Les travaux menés dans le cadre de la plateforme d'innovation permettent d'aller plus loin : des acteurs du marché ont effectivement connecté leurs propres plateformes à un environnement simulant les interfaces de l'euro numérique afin d'expérimenter des paiements conditionnels [S28](#s28).
 
 Il devient donc possible de distinguer trois composants :
 
@@ -3816,13 +3816,13 @@ logique permettant de vérifier une condition
    ↓
 infrastructure permettant de réserver puis de transférer les fonds
 ```
-Cette architecture a fait l'objet d'expérimentations techniques, même si l'euro numérique lui-même n'est pas encore en circulation [S28].
+Cette architecture a fait l'objet d'expérimentations techniques, même si l'euro numérique lui-même n'est pas encore en circulation [S28](#s28).
 
 ---
 
 ### Les plateformes des participants ont été connectées aux interfaces simulées
 
-Dans le cadre du groupe de travail des « pioneers », la BCE a fourni aux participants un environnement simulant le back-end de l'euro numérique ainsi que des spécifications techniques et des interfaces de programmation [S28].
+Dans le cadre du groupe de travail des « pioneers », la BCE a fourni aux participants un environnement simulant le back-end de l'euro numérique ainsi que des spécifications techniques et des interfaces de programmation [S28](#s28).
 
 Les participants ont pu connecter leurs propres plateformes à cet environnement au moyen d'API.
 
@@ -3830,7 +3830,7 @@ Ils agissaient, dans l'expérimentation, comme des prestataires développant leu
 
 **AVÉRÉ :**
 
-> Des plateformes développées ou exploitées par des acteurs du marché ont donc effectivement été connectées, à titre expérimental, à des interfaces simulant l'infrastructure de l'euro numérique [S28].
+> Des plateformes développées ou exploitées par des acteurs du marché ont donc effectivement été connectées, à titre expérimental, à des interfaces simulant l'infrastructure de l'euro numérique [S28](#s28).
 
 Il ne s'agit pas encore d'une connexion au futur système de production.
 
@@ -3840,7 +3840,7 @@ Cette expérimentation démontre néanmoins que l'architecture est conçue pour 
 
 ### L'Eurosystème fournit la fonction monétaire, le marché développe la condition
 
-La répartition des responsabilités expérimentée reprend la séparation décrite précédemment [S27][S28].
+La répartition des responsabilités expérimentée reprend la séparation décrite précédemment [S27](#s27)[S28](#s28).
 
 L'Eurosystème fournit les fonctions fondamentales nécessaires au traitement monétaire, notamment la réservation des fonds.
 
@@ -3864,13 +3864,13 @@ instruction permettant la libération des fonds
 
 **AVÉRÉ :**
 
-> Dans les expérimentations réalisées, la logique déterminant la condition n'était donc pas nécessairement située dans l'infrastructure centrale de l'Eurosystème : elle pouvait être développée et gérée par les plateformes des acteurs du marché [S28].
+> Dans les expérimentations réalisées, la logique déterminant la condition n'était donc pas nécessairement située dans l'infrastructure centrale de l'Eurosystème : elle pouvait être développée et gérée par les plateformes des acteurs du marché [S28](#s28).
 
 ---
 
 ### La condition peut dépendre d'un événement extérieur au paiement
 
-Plusieurs scénarios étudiés montrent que la condition n'a pas besoin d'être une information produite par le système monétaire lui-même [S27][S28].
+Plusieurs scénarios étudiés montrent que la condition n'a pas besoin d'être une information produite par le système monétaire lui-même [S27](#s27)[S28](#s28).
 
 Dans un paiement à la livraison, l'information déterminante est la confirmation de la livraison du produit.
 
@@ -3878,11 +3878,11 @@ Dans un remboursement lié à un transport, elle peut être liée à l'exécutio
 
 Dans un paiement à l'usage, elle peut dépendre de l'utilisation effective d'un service ou d'un équipement.
 
-Dans un paiement par étapes, elle peut dépendre de la réalisation successive d'objectifs ou de jalons prédéfinis [S28].
+Dans un paiement par étapes, elle peut dépendre de la réalisation successive d'objectifs ou de jalons prédéfinis [S28](#s28).
 
 **AVÉRÉ :**
 
-> Les conditions étudiées peuvent donc dépendre de faits ou d'événements produits en dehors de l'infrastructure monétaire et vérifiés par la couche conditionnelle développée par les acteurs du marché [S27][S28].
+> Les conditions étudiées peuvent donc dépendre de faits ou d'événements produits en dehors de l'infrastructure monétaire et vérifiés par la couche conditionnelle développée par les acteurs du marché [S27](#s27)[S28](#s28).
 
 ---
 
@@ -3918,17 +3918,17 @@ L'absence d'une donnée dans le dictionnaire de données de l'euro numérique ne
 
 ### Les paiements machine-to-machine étendent l'automatisation
 
-Les expérimentations ont également étudié des scénarios liés à l'Industrie 4.0 et aux paiements machine-to-machine [S28].
+Les expérimentations ont également étudié des scénarios liés à l'Industrie 4.0 et aux paiements machine-to-machine [S28](#s28).
 
 Dans ces scénarios, des équipements ou systèmes numériques peuvent participer automatiquement à l'initiation ou au déclenchement d'opérations financières.
 
 Un exemple étudié concerne une machine détectant elle-même le besoin d'une pièce de remplacement et participant à l'automatisation du processus commercial correspondant.
 
-Ces scénarios cherchent notamment à réduire les interventions manuelles et à permettre des règlements en temps réel ou fondés sur l'utilisation effective d'un service [S28].
+Ces scénarios cherchent notamment à réduire les interventions manuelles et à permettre des règlements en temps réel ou fondés sur l'utilisation effective d'un service [S28](#s28).
 
 **AVÉRÉ :**
 
-> Les travaux d'expérimentation ne se limitent donc pas à des paiements déclenchés manuellement par une personne : ils examinent également des chaînes dans lesquelles des systèmes ou machines peuvent participer automatiquement à l'initiation et au traitement d'une transaction [S28].
+> Les travaux d'expérimentation ne se limitent donc pas à des paiements déclenchés manuellement par une personne : ils examinent également des chaînes dans lesquelles des systèmes ou machines peuvent participer automatiquement à l'initiation et au traitement d'une transaction [S28](#s28).
 
 Cette automatisation ne signifie pas qu'une machine puisse dépenser arbitrairement l'argent d'un utilisateur : elle intervient dans un cadre de service, de mandat, d'autorisation et de conditions préalablement définies.
 
@@ -3936,7 +3936,7 @@ Cette automatisation ne signifie pas qu'une machine puisse dépenser arbitrairem
 
 ### Des jalons peuvent déterminer progressivement la libération des fonds
 
-Les expérimentations ont étudié des paiements fondés sur des étapes ou « milestones » [S28].
+Les expérimentations ont étudié des paiements fondés sur des étapes ou « milestones » [S28](#s28).
 
 Dans ce type de scénario, la totalité des fonds n'est pas nécessairement libérée en une seule fois.
 
@@ -3944,17 +3944,17 @@ Le versement peut être effectué progressivement lorsque différents objectifs 
 
 Un exemple étudié concerne une formation en ligne pour laquelle les fonds pourraient être libérés progressivement lorsque l'apprenant atteint certains objectifs.
 
-Un autre exemple concerne le financement participatif, dans lequel des fonds pourraient être libérés selon l'avancement d'un projet [S28].
+Un autre exemple concerne le financement participatif, dans lequel des fonds pourraient être libérés selon l'avancement d'un projet [S28](#s28).
 
 **AVÉRÉ :**
 
-> Une condition externe peut donc non seulement déterminer si un paiement doit être exécuté, mais également participer à la détermination du moment ou de l'étape à laquelle une partie des fonds doit être libérée [S28].
+> Une condition externe peut donc non seulement déterminer si un paiement doit être exécuté, mais également participer à la détermination du moment ou de l'étape à laquelle une partie des fonds doit être libérée [S28](#s28).
 
 ---
 
 ### Les paiements à l'usage reposent sur une donnée mesurable
 
-Le paiement à l'usage constitue une autre catégorie étudiée par la plateforme [S28].
+Le paiement à l'usage constitue une autre catégorie étudiée par la plateforme [S28](#s28).
 
 Dans ce type de mécanisme, le montant ou le moment du paiement dépend de l'utilisation effective d'un bien ou d'un service.
 
@@ -3972,7 +3972,7 @@ Il s'agit d'un principe général de fonctionnement des paiements conditionnels 
 
 ### L'automatisation peut également concerner les remboursements
 
-Les travaux de la BCE ne portent pas uniquement sur le déclenchement d'un paiement vers un commerçant [S27][S28].
+Les travaux de la BCE ne portent pas uniquement sur le déclenchement d'un paiement vers un commerçant [S27](#s27)[S28](#s28).
 
 Ils examinent également l'automatisation de remboursements lorsque certaines conditions sont satisfaites.
 
@@ -3992,13 +3992,13 @@ paiement ou remboursement
 
 **AVÉRÉ :**
 
-> L'utilisation d'une condition externe peut donc agir sur différents flux financiers, notamment la libération d'un paiement ou le déclenchement d'un remboursement [S27][S28].
+> L'utilisation d'une condition externe peut donc agir sur différents flux financiers, notamment la libération d'un paiement ou le déclenchement d'un remboursement [S27](#s27)[S28](#s28).
 
 ---
 
 ### Le paiement peut être associé à des informations commerciales complémentaires
 
-La plateforme d'innovation a également étudié des services complémentaires tels que les reçus électroniques [S28].
+La plateforme d'innovation a également étudié des services complémentaires tels que les reçus électroniques [S28](#s28).
 
 La BCE présente les e-receipts comme une fonctionnalité susceptible d'être associée aux paiements en euros numériques afin de permettre notamment aux utilisateurs de suivre leurs dépenses et de gérer leurs garanties.
 
@@ -4008,7 +4008,7 @@ Elle montre cependant que les acteurs du marché envisagent des services dans le
 
 **AVÉRÉ :**
 
-> Les travaux de la plateforme d'innovation envisagent donc également l'association d'un paiement en euros numériques avec des informations commerciales extérieures au strict transfert monétaire, notamment au moyen de reçus électroniques [S28].
+> Les travaux de la plateforme d'innovation envisagent donc également l'association d'un paiement en euros numériques avec des informations commerciales extérieures au strict transfert monétaire, notamment au moyen de reçus électroniques [S28](#s28).
 
 **À ÉTABLIR :**
 
@@ -4025,7 +4025,7 @@ Le scénario de paiement à la livraison repose déjà sur une relation entre :
 - une livraison ;  
 - une transaction ;  
 - une condition ;  
-- et la libération des fonds [S27][S28].
+- et la libération des fonds [S27](#s27)[S28](#s28).
 
 Le système doit être capable de déterminer que l'événement vérifié correspond à la transaction pour laquelle les fonds ont été réservés.
 
@@ -4033,7 +4033,7 @@ Il existe donc nécessairement, dans le service développé autour du paiement, 
 
 **AVÉRÉ :**
 
-> Les scénarios expérimentés démontrent qu'une plateforme externe peut techniquement associer un événement commercial relatif à une commande ou à un service à la transaction dont l'exécution dépend de cet événement [S28].
+> Les scénarios expérimentés démontrent qu'une plateforme externe peut techniquement associer un événement commercial relatif à une commande ou à un service à la transaction dont l'exécution dépend de cet événement [S28](#s28).
 
 Cela ne signifie pas que l'infrastructure centrale connaît le détail du produit.
 
@@ -4047,12 +4047,12 @@ Le rapprochement peut être effectué dans la plateforme externe, qui transmet e
 
 Le chapitre 4 a établi :
 
-- qu'une transaction possède des identifiants structurés [S25] ;  
-- qu'une architecture de réservation des fonds permet de différer leur transfert [S27] ;  
-- qu'une couche de conditionnalité peut être développée par des acteurs du marché [S27][S28] ;  
-- qu'un monitoring externe peut déclencher une condition [S27] ;  
-- que les plateformes des participants ont effectivement été connectées aux interfaces simulées de l'euro numérique [S28] ;  
-- que des événements commerciaux extérieurs au règlement ont été utilisés dans les scénarios de paiement conditionnel [S28].
+- qu'une transaction possède des identifiants structurés [S25](#s25) ;  
+- qu'une architecture de réservation des fonds permet de différer leur transfert [S27](#s27) ;  
+- qu'une couche de conditionnalité peut être développée par des acteurs du marché [S27](#s27)[S28](#s28) ;  
+- qu'un monitoring externe peut déclencher une condition [S27](#s27) ;  
+- que les plateformes des participants ont effectivement été connectées aux interfaces simulées de l'euro numérique [S28](#s28) ;  
+- que des événements commerciaux extérieurs au règlement ont été utilisés dans les scénarios de paiement conditionnel [S28](#s28).
 
 La chaîne suivante est donc désormais documentée dans son principe :
 
@@ -4072,9 +4072,9 @@ exécution, libération, maintien ou restitution des fonds selon le scénario
 
 **AVÉRÉ :**
 
-> L'architecture et les expérimentations étudiées établissent donc qu'un système externe à la couche de règlement peut fournir ou vérifier une information utilisée par un service conditionnel afin de déterminer l'exécution d'une transaction déterminée [S27][S28].
+> L'architecture et les expérimentations étudiées établissent donc qu'un système externe à la couche de règlement peut fournir ou vérifier une information utilisée par un service conditionnel afin de déterminer l'exécution d'une transaction déterminée [S27](#s27)[S28](#s28).
 
-Ce constat dépasse désormais la simple possibilité abstraite d'une architecture informatique : le mécanisme général a fait l'objet d'expérimentations techniques avec des plateformes d'acteurs du marché connectées à un environnement simulant l'euro numérique [S28].
+Ce constat dépasse désormais la simple possibilité abstraite d'une architecture informatique : le mécanisme général a fait l'objet d'expérimentations techniques avec des plateformes d'acteurs du marché connectées à un environnement simulant l'euro numérique [S28](#s28).
 
 ---
 
@@ -4166,7 +4166,7 @@ Cette déduction est cohérente avec les architectures étudiées : elles repose
 
 La capacité technique d'utiliser une condition externe ne détermine pas qui possède le droit de définir cette condition.
 
-Dans les cas d'usage actuellement présentés par la BCE, les paiements conditionnels constituent des services destinés à répondre à un besoin du payeur et du bénéficiaire [S27].
+Dans les cas d'usage actuellement présentés par la BCE, les paiements conditionnels constituent des services destinés à répondre à un besoin du payeur et du bénéficiaire [S27](#s27).
 
 Ils ne constituent pas un pouvoir général accordé à l'Eurosystème pour décider quels achats doivent être autorisés.
 
@@ -4188,7 +4188,7 @@ Ces situations peuvent produire des effets techniques similaires sur une transac
 
 ### Les expérimentations continuent en 2026
 
-Les travaux de la plateforme d'innovation ne se sont pas arrêtés à la première expérimentation [S28].
+Les travaux de la plateforme d'innovation ne se sont pas arrêtés à la première expérimentation [S28](#s28).
 
 La BCE a annoncé une nouvelle phase de collaboration avec les acteurs du marché en 2026.
 
@@ -4198,7 +4198,7 @@ La BCE indique également vouloir poursuivre l'exploration des paiements machine
 
 **AVÉRÉ :**
 
-> L'intégration de services externes et l'automatisation des paiements constituent donc toujours un domaine actif de développement et d'expérimentation du projet en 2026 [S28].
+> L'intégration de services externes et l'automatisation des paiements constituent donc toujours un domaine actif de développement et d'expérimentation du projet en 2026 [S28](#s28).
 
 Les caractéristiques définitives des services qui en résulteront ne sont cependant pas encore établies.
 
@@ -4208,23 +4208,23 @@ Les caractéristiques définitives des services qui en résulteront ne sont cepe
 
 **AVÉRÉ :**
 
-> Des acteurs du marché ont connecté leurs propres plateformes, au moyen d'API, à un environnement simulant les interfaces de l'euro numérique afin de tester des paiements conditionnels [S28].
+> Des acteurs du marché ont connecté leurs propres plateformes, au moyen d'API, à un environnement simulant les interfaces de l'euro numérique afin de tester des paiements conditionnels [S28](#s28).
 
 **AVÉRÉ :**
 
-> Dans l'architecture expérimentée, l'Eurosystème fournit les fonctionnalités monétaires fondamentales tandis que les PSP et autres acteurs du marché peuvent développer et gérer la logique déterminant les conditions de libération des fonds [S27][S28].
+> Dans l'architecture expérimentée, l'Eurosystème fournit les fonctionnalités monétaires fondamentales tandis que les PSP et autres acteurs du marché peuvent développer et gérer la logique déterminant les conditions de libération des fonds [S27](#s27)[S28](#s28).
 
 **AVÉRÉ :**
 
-> Les conditions expérimentées peuvent dépendre d'événements externes au règlement monétaire, notamment une livraison, l'utilisation d'un service, l'accomplissement d'une étape ou d'autres événements vérifiables [S28].
+> Les conditions expérimentées peuvent dépendre d'événements externes au règlement monétaire, notamment une livraison, l'utilisation d'un service, l'accomplissement d'une étape ou d'autres événements vérifiables [S28](#s28).
 
 **AVÉRÉ :**
 
-> Des scénarios machine-to-machine ont également été étudiés, permettant à des systèmes ou équipements de participer automatiquement à certains processus commerciaux et de paiement [S28].
+> Des scénarios machine-to-machine ont également été étudiés, permettant à des systèmes ou équipements de participer automatiquement à certains processus commerciaux et de paiement [S28](#s28).
 
 **AVÉRÉ :**
 
-> Le mécanisme générique permettant à un système externe de fournir ou vérifier une information participant à l'exécution d'un paiement conditionnel a donc dépassé le stade de la simple hypothèse technique et a fait l'objet d'expérimentations dans un environnement simulé [S27][S28].
+> Le mécanisme générique permettant à un système externe de fournir ou vérifier une information participant à l'exécution d'un paiement conditionnel a donc dépassé le stade de la simple hypothèse technique et a fait l'objet d'expérimentations dans un environnement simulé [S27](#s27)[S28](#s28).
 
 **DÉDUCTIBLE TECHNIQUEMENT :**
 
@@ -4258,11 +4258,11 @@ Les caractéristiques définitives des services qui en résulteront ne sont cepe
 
 L'identité numérique européenne constitue une infrastructure distincte de l'euro numérique.
 
-Les sources officielles établissent cependant un raccord explicite entre l'European Digital Identity Wallet, ou EUDI Wallet, et les infrastructures de paiement [S29].
+Les sources officielles établissent cependant un raccord explicite entre l'European Digital Identity Wallet, ou EUDI Wallet, et les infrastructures de paiement [S29](#s29).
 
 La Commission européenne documente un cas d'usage spécifiquement consacré à l'authentification des paiements au moyen de l'EUDI Wallet.
 
-La Banque centrale européenne prévoit parallèlement que les prestataires participant au pilote de l'euro numérique puissent utiliser ce wallet comme méthode d'authentification forte pour certaines transactions en ligne [S29].
+La Banque centrale européenne prévoit parallèlement que les prestataires participant au pilote de l'euro numérique puissent utiliser ce wallet comme méthode d'authentification forte pour certaines transactions en ligne [S29](#s29).
 
 Le lien entre identité numérique et paiement n'est donc pas seulement techniquement déductible : il est explicitement prévu dans les architectures étudiées.
 
@@ -4270,7 +4270,7 @@ Le lien entre identité numérique et paiement n'est donc pas seulement techniqu
 
 ### L'EUDI Wallet constitue une infrastructure européenne d'identité numérique
 
-Le cadre européen relatif à l'identité numérique prévoit la mise à disposition de wallets permettant aux personnes physiques et morales de s'identifier et de présenter différentes attestations numériques [S29].
+Le cadre européen relatif à l'identité numérique prévoit la mise à disposition de wallets permettant aux personnes physiques et morales de s'identifier et de présenter différentes attestations numériques [S29](#s29).
 
 Le wallet peut notamment contenir ou permettre de présenter :
 
@@ -4287,7 +4287,7 @@ Son utilisation est prévue comme volontaire pour l'utilisateur.
 
 ### L'EUDI Wallet est explicitement prévu pour les paiements
 
-La Commission européenne documente un cas d'usage intitulé **Payment Authentication** permettant d'utiliser l'EUDI Wallet pour authentifier des paiements en ligne ou en magasin [S29].
+La Commission européenne documente un cas d'usage intitulé **Payment Authentication** permettant d'utiliser l'EUDI Wallet pour authentifier des paiements en ligne ou en magasin [S29](#s29).
 
 Cette architecture est conçue pour fonctionner avec les infrastructures de paiement existantes, notamment les paiements par carte et les paiements de compte à compte.
 
@@ -4311,13 +4311,13 @@ authentification du paiement
 
 **AVÉRÉ :**
 
-> Une infrastructure européenne d'identité numérique est explicitement conçue pour pouvoir intervenir directement dans le processus d'authentification d'un paiement [S29].
+> Une infrastructure européenne d'identité numérique est explicitement conçue pour pouvoir intervenir directement dans le processus d'authentification d'un paiement [S29](#s29).
 
 ---
 
 ### Le wallet peut être relié à un payeur et à un compte
 
-La documentation prévoit notamment des attestations d'authentification forte émises par les prestataires de services de paiement [S29].
+La documentation prévoit notamment des attestations d'authentification forte émises par les prestataires de services de paiement [S29](#s29).
 
 Ces attestations permettent d'établir un lien vérifiable entre :
 
@@ -4329,7 +4329,7 @@ Lorsqu'un paiement est initié, le wallet peut présenter l'attestation appropri
 
 **AVÉRÉ :**
 
-> L'EUDI Wallet peut donc intervenir comme composant cryptographiquement vérifiable reliant l'utilisateur à l'authentification d'une opération de paiement et à l'instrument ou au compte concerné [S29].
+> L'EUDI Wallet peut donc intervenir comme composant cryptographiquement vérifiable reliant l'utilisateur à l'authentification d'une opération de paiement et à l'instrument ou au compte concerné [S29](#s29).
 
 Cela ne signifie pas que l'ensemble des informations d'identité contenues dans le wallet soit transmis avec chaque paiement.
 
@@ -4337,7 +4337,7 @@ Cela ne signifie pas que l'ensemble des informations d'identité contenues dans 
 
 ### La divulgation sélective permet de présenter un attribut sans transmettre toute l'identité
 
-L'architecture de l'EUDI Wallet repose notamment sur un principe de divulgation sélective [S29].
+L'architecture de l'EUDI Wallet repose notamment sur un principe de divulgation sélective [S29](#s29).
 
 L'utilisateur peut présenter uniquement l'information nécessaire à une interaction donnée plutôt que l'intégralité de son identité ou du document contenant cette information.
 
@@ -4345,7 +4345,7 @@ La Commission fournit notamment comme exemples :
 
 - l'âge ;  
 - la résidence ;  
-- certaines informations issues d'un permis de conduire [S29].
+- certaines informations issues d'un permis de conduire [S29](#s29).
 
 Dans un scénario d'achat soumis à une condition d'âge, le système peut ainsi vérifier que l'utilisateur remplit le critère requis sans nécessairement recevoir sa date de naissance complète.
 
@@ -4363,13 +4363,13 @@ service ou commerçant vérificateur
 
 **AVÉRÉ :**
 
-> L'infrastructure permet donc techniquement qu'un attribut relatif à une personne soit vérifié dans le contexte d'un paiement sans nécessiter la transmission de l'ensemble de son identité [S29].
+> L'infrastructure permet donc techniquement qu'un attribut relatif à une personne soit vérifié dans le contexte d'un paiement sans nécessiter la transmission de l'ensemble de son identité [S29](#s29).
 
 ---
 
 ### L'âge constitue déjà un exemple concret de critère associé à un achat
 
-La documentation officielle fournit précisément l'exemple d'un achat nécessitant une vérification d'âge [S29].
+La documentation officielle fournit précisément l'exemple d'un achat nécessitant une vérification d'âge [S29](#s29).
 
 Dans le parcours présenté par la Commission, l'utilisateur effectue un achat en ligne et utilise son EUDI Wallet dans le processus d'authentification.
 
@@ -4379,7 +4379,7 @@ L'utilisateur peut ensuite présenter la preuve nécessaire.
 
 **AVÉRÉ :**
 
-> Un attribut personnel vérifiable provenant de l'infrastructure d'identité numérique peut donc déjà être intégré au parcours technique entourant un paiement afin de vérifier une condition applicable à l'achat [S29].
+> Un attribut personnel vérifiable provenant de l'infrastructure d'identité numérique peut donc déjà être intégré au parcours technique entourant un paiement afin de vérifier une condition applicable à l'achat [S29](#s29).
 
 Il est toutefois essentiel de distinguer ce mécanisme d'un paiement conditionnel au sens étudié dans les sections 4.5 et 4.6.
 
@@ -4391,7 +4391,7 @@ Dans cet exemple, la vérification d'âge répond à une exigence liée à l'acc
 
 La relation entre l'EUDI Wallet et l'euro numérique n'est pas seulement une possibilité résultant de l'existence de deux infrastructures européennes compatibles.
 
-La documentation de la BCE relative au pilote de l'euro numérique l'indique explicitement [S29].
+La documentation de la BCE relative au pilote de l'euro numérique l'indique explicitement [S29](#s29).
 
 Les PSP participant au pilote pourront prendre en charge l'EUDI Wallet comme méthode d'authentification forte pour les transactions en ligne lorsque l'utilisateur utilise les instruments numériques du PSP.
 
@@ -4399,7 +4399,7 @@ Les PSP restent libres de choisir leurs méthodes d'authentification sous réser
 
 **AVÉRÉ :**
 
-> L'utilisation de l'EUDI Wallet comme méthode d'authentification dans le pilote de l'euro numérique est explicitement prévue par la Banque centrale européenne [S29].
+> L'utilisation de l'EUDI Wallet comme méthode d'authentification dans le pilote de l'euro numérique est explicitement prévue par la Banque centrale européenne [S29](#s29).
 
 Le raccord suivant est donc officiellement documenté :
 
@@ -4419,7 +4419,7 @@ Ce raccord est plus solide que les rapprochements hypothétiques étudiés avec 
 
 ### Des pilotes européens ont déjà expérimenté identité et paiement
 
-L'utilisation de l'EUDI Wallet dans les paiements a également fait l'objet de Large Scale Pilots européens [S29].
+L'utilisation de l'EUDI Wallet dans les paiements a également fait l'objet de Large Scale Pilots européens [S29](#s29).
 
 Les projets européens ont notamment testé :
 
@@ -4431,7 +4431,7 @@ Les projets européens ont notamment testé :
 
 **AVÉRÉ :**
 
-> Le raccord entre identité numérique européenne et infrastructure de paiement a donc dépassé le stade d'une simple spécification conceptuelle : il a déjà fait l'objet de pilotes européens [S29].
+> Le raccord entre identité numérique européenne et infrastructure de paiement a donc dépassé le stade d'une simple spécification conceptuelle : il a déjà fait l'objet de pilotes européens [S29](#s29).
 
 Ces expérimentations ne constituent cependant pas la preuve d'un système généralisé reliant automatiquement toutes les informations d'identité à toutes les transactions.
 
@@ -4483,7 +4483,7 @@ transaction en euro numérique
 
 **AVÉRÉ :**
 
-> Il existe donc un raccord institutionnel et technique explicitement prévu entre l'infrastructure européenne d'identité numérique et les infrastructures de paiement, y compris dans le cadre du pilote de l'euro numérique [S29].
+> Il existe donc un raccord institutionnel et technique explicitement prévu entre l'infrastructure européenne d'identité numérique et les infrastructures de paiement, y compris dans le cadre du pilote de l'euro numérique [S29](#s29).
 
 ---
 
@@ -4491,7 +4491,7 @@ transaction en euro numérique
 
 L'existence de ce lien ne doit pas conduire à considérer que l'ensemble des données détenues dans l'EUDI Wallet est automatiquement communiqué au PSP ou au commerçant.
 
-La conception du wallet repose au contraire sur des principes de minimisation des données et de divulgation sélective [S29].
+La conception du wallet repose au contraire sur des principes de minimisation des données et de divulgation sélective [S29](#s29).
 
 Une vérification peut, par exemple, porter uniquement sur le fait qu'une personne satisfait un critère d'âge.
 
@@ -4549,19 +4549,19 @@ Le raccord :
 
 > **identité numérique → infrastructure de paiement**
 
-est désormais **AVÉRÉ** [S29].
+est désormais **AVÉRÉ** [S29](#s29).
 
 Le raccord :
 
 > **EUDI Wallet → authentification d'un paiement dans le pilote euro numérique**
 
-est également **AVÉRÉ** [S29].
+est également **AVÉRÉ** [S29](#s29).
 
 Le raccord :
 
 > **système externe → condition → exécution automatisée d'un paiement**
 
-a été établi dans les sections précédentes [S27][S28].
+a été établi dans les sections précédentes [S27](#s27)[S28](#s28).
 
 En revanche, le raccord :
 
@@ -4575,23 +4575,23 @@ reste **À ÉTABLIR**.
 
 **AVÉRÉ :**
 
-> L'EUDI Wallet est explicitement conçu pour être utilisé dans l'authentification de paiements en ligne et en magasin [S29].
+> L'EUDI Wallet est explicitement conçu pour être utilisé dans l'authentification de paiements en ligne et en magasin [S29](#s29).
 
 **AVÉRÉ :**
 
-> Des attestations émises notamment par les PSP peuvent établir un lien vérifiable entre un wallet, un payeur et un compte ou instrument de paiement [S29].
+> Des attestations émises notamment par les PSP peuvent établir un lien vérifiable entre un wallet, un payeur et un compte ou instrument de paiement [S29](#s29).
 
 **AVÉRÉ :**
 
-> L'architecture permet la présentation sélective de certains attributs personnels, notamment l'âge ou la résidence, sans nécessairement transmettre l'ensemble de l'identité de l'utilisateur [S29].
+> L'architecture permet la présentation sélective de certains attributs personnels, notamment l'âge ou la résidence, sans nécessairement transmettre l'ensemble de l'identité de l'utilisateur [S29](#s29).
 
 **AVÉRÉ :**
 
-> Des pilotes européens ont déjà expérimenté des paiements utilisant l'EUDI Wallet, y compris des scénarios associant paiement et vérification d'âge [S29].
+> Des pilotes européens ont déjà expérimenté des paiements utilisant l'EUDI Wallet, y compris des scénarios associant paiement et vérification d'âge [S29](#s29).
 
 **AVÉRÉ :**
 
-> La BCE prévoit explicitement que les PSP participant au pilote de l'euro numérique puissent utiliser l'EUDI Wallet comme méthode d'authentification forte pour les paiements en ligne [S29].
+> La BCE prévoit explicitement que les PSP participant au pilote de l'euro numérique puissent utiliser l'EUDI Wallet comme méthode d'authentification forte pour les paiements en ligne [S29](#s29).
 
 **DÉDUCTIBLE TECHNIQUEMENT :**
 
@@ -4619,7 +4619,7 @@ reste **À ÉTABLIR**.
 
 **Statut : AVÉRÉ / PROJET EN COURS / À ÉTABLIR**
 
-Les sections précédentes ont établi que l'architecture envisagée pour l'euro numérique comporte des capacités techniques importantes : traitement structuré des transactions, intervention de plusieurs prestataires, réservation de fonds, paiements conditionnels, utilisation d'informations provenant de systèmes externes et possibilité d'utiliser une infrastructure d'identité numérique dans le processus de paiement [S22][S24][S25][S27][S28][S29].
+Les sections précédentes ont établi que l'architecture envisagée pour l'euro numérique comporte des capacités techniques importantes : traitement structuré des transactions, intervention de plusieurs prestataires, réservation de fonds, paiements conditionnels, utilisation d'informations provenant de systèmes externes et possibilité d'utiliser une infrastructure d'identité numérique dans le processus de paiement [S22](#s22)[S24](#s24)[S25](#s25)[S27](#s27)[S28](#s28)[S29](#s29).
 
 Ces capacités ne peuvent cependant pas être analysées indépendamment des garanties juridiques et techniques prévues pour limiter leur utilisation.
 
@@ -4636,13 +4636,13 @@ Il faut notamment distinguer :
 
 La garantie la plus explicite concerne la programmabilité de la monnaie.
 
-La proposition de règlement exclut que l'euro numérique soit conçu comme une monnaie comportant intrinsèquement des conditions limitant son utilisation à certains biens, services, lieux, personnes ou périodes [S22].
+La proposition de règlement exclut que l'euro numérique soit conçu comme une monnaie comportant intrinsèquement des conditions limitant son utilisation à certains biens, services, lieux, personnes ou périodes [S22](#s22).
 
-Cette interdiction est également constamment affirmée par la Banque centrale européenne [S23][S27].
+Cette interdiction est également constamment affirmée par la Banque centrale européenne [S23](#s23)[S27](#s27).
 
 **AVÉRÉ :**
 
-> L'Eurosystème ne doit pas pouvoir attribuer à certaines unités d'euros numériques des règles déterminant les biens ou services pour lesquels elles peuvent être dépensées [S22][S23][S27].
+> L'Eurosystème ne doit pas pouvoir attribuer à certaines unités d'euros numériques des règles déterminant les biens ou services pour lesquels elles peuvent être dépensées [S22](#s22)[S23](#s23)[S27](#s27).
 
 Une unité d'euro numérique doit rester fongible avec les autres unités.
 
@@ -4654,7 +4654,7 @@ Cette garantie interdit donc un scénario dans lequel la monnaie elle-même port
 
 ### Cette interdiction ne supprime pas les paiements conditionnels
 
-Comme établi en 4.5 et 4.6, l'interdiction de la monnaie programmable ne supprime pas la possibilité de construire des services conditionnels autour du paiement [S27][S28].
+Comme établi en 4.5 et 4.6, l'interdiction de la monnaie programmable ne supprime pas la possibilité de construire des services conditionnels autour du paiement [S27](#s27)[S28](#s28).
 
 La différence juridique et technique est fondamentale :
 
@@ -4664,7 +4664,7 @@ La différence juridique et technique est fondamentale :
 
 **AVÉRÉ :**
 
-> La garantie contre la monnaie programmable n'interdit donc pas toute logique automatisée autour de l'exécution d'un paiement [S22][S27].
+> La garantie contre la monnaie programmable n'interdit donc pas toute logique automatisée autour de l'exécution d'un paiement [S22](#s22)[S27](#s27).
 
 C'est précisément pour cette raison que la gouvernance de la couche de conditionnalité est importante.
 
@@ -4672,13 +4672,13 @@ C'est précisément pour cette raison que la gouvernance de la couche de conditi
 
 ### Les conditions sont présentées comme devant être convenues par les parties
 
-Dans le modèle présenté par la BCE, les paiements conditionnels correspondent à des services dans lesquels les conditions sont déterminées ou acceptées par les parties à la transaction [S27].
+Dans le modèle présenté par la BCE, les paiements conditionnels correspondent à des services dans lesquels les conditions sont déterminées ou acceptées par les parties à la transaction [S27](#s27).
 
 L'Eurosystème fournit l'infrastructure monétaire nécessaire au règlement et à la réservation des fonds mais n'est pas présenté comme l'acteur définissant les critères commerciaux permettant leur libération.
 
 **AVÉRÉ :**
 
-> Dans le cadre actuellement présenté, l'Eurosystème ne dispose pas d'un pouvoir général lui permettant de définir les biens ou services qu'un utilisateur peut acheter au moyen de l'euro numérique [S22][S27].
+> Dans le cadre actuellement présenté, l'Eurosystème ne dispose pas d'un pouvoir général lui permettant de définir les biens ou services qu'un utilisateur peut acheter au moyen de l'euro numérique [S22](#s22)[S27](#s27).
 
 Cette garantie est importante.
 
@@ -4704,13 +4704,13 @@ Comme établi en 4.2, les PSP restent soumis à différentes obligations réglem
 - les sanctions et embargos ;  
 - la prévention de la fraude ;  
 - la sécurité ;  
-- certaines obligations fiscales [S22][S24].
+- certaines obligations fiscales [S22](#s22)[S24](#s24).
 
 Dans certaines circonstances prévues par le droit, ces obligations peuvent conduire à empêcher, suspendre ou refuser une opération.
 
 **AVÉRÉ :**
 
-> L'interdiction de la monnaie programmable n'équivaut donc pas à une impossibilité technique ou juridique absolue de bloquer une transaction : des mécanismes de contrôle et de non-exécution existent déjà lorsqu'une base juridique le prévoit [S22][S24].
+> L'interdiction de la monnaie programmable n'équivaut donc pas à une impossibilité technique ou juridique absolue de bloquer une transaction : des mécanismes de contrôle et de non-exécution existent déjà lorsqu'une base juridique le prévoit [S22](#s22)[S24](#s24).
 
 La question centrale n'est donc pas uniquement :
 
@@ -4724,17 +4724,17 @@ mais également :
 
 ### Des limites de détention sont prévues
 
-La proposition de règlement prévoit également la possibilité d'appliquer des limites au montant d'euros numériques qu'un utilisateur peut détenir [S22].
+La proposition de règlement prévoit également la possibilité d'appliquer des limites au montant d'euros numériques qu'un utilisateur peut détenir [S22](#s22).
 
 Ces limites doivent notamment permettre de préserver la stabilité financière et d'éviter une migration excessive des dépôts bancaires vers la monnaie de banque centrale.
 
 Les PSP participent à l'application de ces limites.
 
-Des mécanismes sont également prévus afin de vérifier qu'un utilisateur possédant plusieurs comptes en euros numériques ne puisse contourner la limite globale applicable [S22].
+Des mécanismes sont également prévus afin de vérifier qu'un utilisateur possédant plusieurs comptes en euros numériques ne puisse contourner la limite globale applicable [S22](#s22).
 
 **AVÉRÉ :**
 
-> L'architecture prévoit donc déjà des règles quantitatives pouvant être vérifiées et appliquées automatiquement au niveau des avoirs en euros numériques [S22].
+> L'architecture prévoit donc déjà des règles quantitatives pouvant être vérifiées et appliquées automatiquement au niveau des avoirs en euros numériques [S22](#s22).
 
 Ces limites portent sur la **détention** d'euros numériques et non sur la nature des biens ou services achetés.
 
@@ -4768,15 +4768,15 @@ Cette caractéristique constitue à la fois une possibilité technique et, lorsq
 
 ### La BCE ne doit pas pouvoir identifier directement les utilisateurs à partir des données centrales
 
-La proposition de règlement prévoit que les données communiquées à la BCE et aux banques centrales nationales soient organisées de manière à ne pas leur permettre d'identifier directement les utilisateurs [S22].
+La proposition de règlement prévoit que les données communiquées à la BCE et aux banques centrales nationales soient organisées de manière à ne pas leur permettre d'identifier directement les utilisateurs [S22](#s22).
 
 L'architecture prévoit notamment des mécanismes de séparation, de pseudonymisation et de protection cryptographique.
 
-Comme établi en 4.3, les PSP conservent cependant la relation avec leurs clients et disposent des informations nécessaires à cette relation ainsi qu'au respect de leurs obligations réglementaires [S22][S25].
+Comme établi en 4.3, les PSP conservent cependant la relation avec leurs clients et disposent des informations nécessaires à cette relation ainsi qu'au respect de leurs obligations réglementaires [S22](#s22)[S25](#s25).
 
 **AVÉRÉ :**
 
-> La conception actuelle cherche donc à empêcher que l'infrastructure centrale de l'Eurosystème constitue directement une base nominative complète des paiements individuels [S22][S23].
+> La conception actuelle cherche donc à empêcher que l'infrastructure centrale de l'Eurosystème constitue directement une base nominative complète des paiements individuels [S22](#s22)[S23](#s23).
 
 Cela ne signifie pas qu'aucun acteur de la chaîne ne puisse identifier l'utilisateur.
 
@@ -4794,7 +4794,7 @@ Les PSP disposent parallèlement de la relation permettant d'identifier leurs pr
 
 **AVÉRÉ :**
 
-> L'architecture repose donc davantage sur une séparation des connaissances et des responsabilités que sur l'absence totale de données [S22][S25].
+> L'architecture repose donc davantage sur une séparation des connaissances et des responsabilités que sur l'absence totale de données [S22](#s22)[S25](#s25).
 
 Cette distinction est importante pour l'analyse des interconnexions.
 
@@ -4804,13 +4804,13 @@ Un système distribué peut permettre plusieurs traitements sans qu'une base cen
 
 ### Le mode hors ligne constitue la protection architecturale la plus forte
 
-Le mode hors ligne étudié en 4.4 constitue une situation différente [S23][S26].
+Le mode hors ligne étudié en 4.4 constitue une situation différente [S23](#s23)[S26](#s26).
 
 Les détails personnels du paiement sont conçus pour rester sur les appareils du payeur et du bénéficiaire et ne pas être transmis aux PSP ou à l'Eurosystème.
 
 **AVÉRÉ :**
 
-> Dans l'architecture actuellement prévue, le mode hors ligne empêche donc l'infrastructure centrale d'exploiter systématiquement les détails individuels de chaque transaction hors ligne [S23][S26].
+> Dans l'architecture actuellement prévue, le mode hors ligne empêche donc l'infrastructure centrale d'exploiter systématiquement les détails individuels de chaque transaction hors ligne [S23](#s23)[S26](#s26).
 
 Cette protection constitue un obstacle technique beaucoup plus important à un rapprochement centralisé que la simple pseudonymisation d'une transaction en ligne.
 
@@ -4820,7 +4820,7 @@ Les opérations de chargement et de déchargement restent néanmoins visibles du
 
 ### La minimisation des données est également prévue pour l'identité numérique
 
-L'EUDI Wallet repose notamment sur la divulgation sélective [S29].
+L'EUDI Wallet repose notamment sur la divulgation sélective [S29](#s29).
 
 Lorsqu'un service doit vérifier un attribut, l'objectif est de ne transmettre que l'information nécessaire.
 
@@ -4832,7 +4832,7 @@ peut être suffisant sans transmettre la date de naissance complète.
 
 **AVÉRÉ :**
 
-> L'interconnexion entre identité numérique et paiement n'implique donc pas nécessairement la transmission de l'ensemble du profil d'identité de l'utilisateur [S29].
+> L'interconnexion entre identité numérique et paiement n'implique donc pas nécessairement la transmission de l'ensemble du profil d'identité de l'utilisateur [S29](#s29).
 
 Cette architecture limite la quantité de données exposées.
 
@@ -4885,22 +4885,22 @@ Inversement, il serait également incorrect de conclure que l'interdiction de la
 Les sections précédentes ont établi séparément :
 
 ```
-transactions structurées et identifiables [S25]
+transactions structurées et identifiables [S25](#s25)
    ↓
-réservation des fonds [S27]
+réservation des fonds [S27](#s27)
    ↓
-couche de conditionnalité externe à l'Eurosystème [S27][S28]
+couche de conditionnalité externe à l'Eurosystème [S27](#s27)[S28](#s28)
    ↓
-vérification possible d'événements provenant de systèmes externes [S27][S28]
+vérification possible d'événements provenant de systèmes externes [S27](#s27)[S28](#s28)
    ↓
-plateformes d'acteurs du marché connectées par API dans les expérimentations [S28]
+plateformes d'acteurs du marché connectées par API dans les expérimentations [S28](#s28)
    ↓
-identité et attributs vérifiables pouvant intervenir dans le parcours de paiement [S29]
+identité et attributs vérifiables pouvant intervenir dans le parcours de paiement [S29](#s29)
 ```
 
 **AVÉRÉ :**
 
-> Les garanties entourant l'euro numérique limitent les usages autorisés de ces capacités mais ne suppriment pas l'existence des composants techniques permettant l'automatisation, la vérification de conditions et l'interaction avec des systèmes externes [S22][S27][S28][S29].
+> Les garanties entourant l'euro numérique limitent les usages autorisés de ces capacités mais ne suppriment pas l'existence des composants techniques permettant l'automatisation, la vérification de conditions et l'interaction avec des systèmes externes [S22](#s22)[S27](#s27)[S28](#s28)[S29](#s29).
 
 ---
 
@@ -4934,27 +4934,27 @@ Cette distinction entre **capacité technique** et **autorité juridique** devra
 
 **AVÉRÉ :**
 
-> La proposition relative à l'euro numérique interdit la monnaie programmable au sens d'unités monétaires comportant intrinsèquement des restrictions relatives aux biens, services, lieux, personnes ou périodes d'utilisation [S22][S27].
+> La proposition relative à l'euro numérique interdit la monnaie programmable au sens d'unités monétaires comportant intrinsèquement des restrictions relatives aux biens, services, lieux, personnes ou périodes d'utilisation [S22](#s22)[S27](#s27).
 
 **AVÉRÉ :**
 
-> Cette interdiction n'empêche pas les paiements conditionnels, qui reposent sur une logique appliquée à une transaction ou à un service plutôt qu'à la monnaie elle-même [S27][S28].
+> Cette interdiction n'empêche pas les paiements conditionnels, qui reposent sur une logique appliquée à une transaction ou à un service plutôt qu'à la monnaie elle-même [S27](#s27)[S28](#s28).
 
 **AVÉRÉ :**
 
-> Les PSP restent capables et, dans certaines situations, juridiquement tenus d'effectuer des contrôles pouvant conduire à la non-exécution d'une transaction, notamment dans les domaines de la fraude, des sanctions et de la lutte contre le blanchiment [S22][S24].
+> Les PSP restent capables et, dans certaines situations, juridiquement tenus d'effectuer des contrôles pouvant conduire à la non-exécution d'une transaction, notamment dans les domaines de la fraude, des sanctions et de la lutte contre le blanchiment [S22](#s22)[S24](#s24).
 
 **AVÉRÉ :**
 
-> Des limites de détention d'euros numériques peuvent être définies et appliquées automatiquement, mais elles concernent le montant détenu et non les catégories de biens pouvant être achetées [S22].
+> Des limites de détention d'euros numériques peuvent être définies et appliquées automatiquement, mais elles concernent le montant détenu et non les catégories de biens pouvant être achetées [S22](#s22).
 
 **AVÉRÉ :**
 
-> L'architecture prévoit une séparation entre l'identité connue des PSP et les informations pseudonymisées traitées par l'infrastructure centrale, tandis que le mode hors ligne bénéficie d'une protection plus forte empêchant la remontée centrale des détails personnels de la transaction [S22][S23][S26].
+> L'architecture prévoit une séparation entre l'identité connue des PSP et les informations pseudonymisées traitées par l'infrastructure centrale, tandis que le mode hors ligne bénéficie d'une protection plus forte empêchant la remontée centrale des détails personnels de la transaction [S22](#s22)[S23](#s23)[S26](#s26).
 
 **AVÉRÉ :**
 
-> L'EUDI Wallet repose notamment sur la minimisation des données et la divulgation sélective des attributs nécessaires [S29].
+> L'EUDI Wallet repose notamment sur la minimisation des données et la divulgation sélective des attributs nécessaires [S29](#s29).
 
 **DÉDUCTIBLE TECHNIQUEMENT :**
 
@@ -4986,7 +4986,7 @@ Cette distinction entre **capacité technique** et **autorité juridique** devra
 
 L'analyse de l'euro numérique montre qu'il ne s'agit pas uniquement d'un nouveau moyen de paiement reproduisant sous forme numérique le fonctionnement des espèces.
 
-Le projet repose sur une infrastructure structurée faisant intervenir l'Eurosystème, des prestataires de services de paiement, des dispositifs d'acceptation, des services communs et différentes interfaces permettant aux acteurs du marché de développer des services complémentaires [S22][S23][S24].
+Le projet repose sur une infrastructure structurée faisant intervenir l'Eurosystème, des prestataires de services de paiement, des dispositifs d'acceptation, des services communs et différentes interfaces permettant aux acteurs du marché de développer des services complémentaires [S22](#s22)[S23](#s23)[S24](#s24).
 
 Les documents techniques et les expérimentations étudiés permettent également d'établir plusieurs capacités importantes concernant les données, l'automatisation des paiements et l'interaction avec des systèmes externes.
 
@@ -4998,9 +4998,9 @@ Ces capacités doivent cependant être distinguées des usages effectivement aut
 
 **AVÉRÉ :**
 
-> L'euro numérique est conçu comme une monnaie de banque centrale dont le règlement repose sur une infrastructure centralisée exploitée par l'Eurosystème et distribuée aux utilisateurs par l'intermédiaire de prestataires de services de paiement [S22][S23][S24].
+> L'euro numérique est conçu comme une monnaie de banque centrale dont le règlement repose sur une infrastructure centralisée exploitée par l'Eurosystème et distribuée aux utilisateurs par l'intermédiaire de prestataires de services de paiement [S22](#s22)[S23](#s23)[S24](#s24).
 
-Cette architecture ne repose pas sur une blockchain ou une infrastructure DLT comme fondement du système [S23].
+Cette architecture ne repose pas sur une blockchain ou une infrastructure DLT comme fondement du système [S23](#s23).
 
 L'utilisateur conserve principalement une relation avec son PSP, tandis que l'Eurosystème assure les fonctions centrales nécessaires au règlement et au fonctionnement de l'infrastructure.
 
@@ -5010,13 +5010,13 @@ L'utilisateur conserve principalement une relation avec son PSP, tandis que l'Eu
 
 **AVÉRÉ :**
 
-> Le modèle technique actuellement publié prévoit des données structurées relatives aux utilisateurs, comptes, appareils, prestataires, payeurs, bénéficiaires et transactions [S25].
+> Le modèle technique actuellement publié prévoit des données structurées relatives aux utilisateurs, comptes, appareils, prestataires, payeurs, bénéficiaires et transactions [S25](#s25).
 
 Les transactions disposent notamment d'identifiants, d'un montant, d'une date et d'une heure, d'un type, d'un environnement et d'un statut.
 
 Certaines informations permettent également de caractériser le contexte commercial.
 
-Le Merchant Category Code permet notamment de catégoriser l'activité du commerçant et fait partie des informations prévues dans certains flux de paiement [S25].
+Le Merchant Category Code permet notamment de catégoriser l'activité du commerçant et fait partie des informations prévues dans certains flux de paiement [S25](#s25).
 
 Cela ne signifie pas que l'infrastructure connaît systématiquement le produit précis acheté ou le contenu détaillé du panier.
 
@@ -5026,11 +5026,11 @@ Cela ne signifie pas que l'infrastructure connaît systématiquement le produit 
 
 **AVÉRÉ :**
 
-> L'architecture ne prévoit pas qu'un acteur unique dispose nécessairement de l'ensemble des informations relatives à une transaction [S22][S24][S25].
+> L'architecture ne prévoit pas qu'un acteur unique dispose nécessairement de l'ensemble des informations relatives à une transaction [S22](#s22)[S24](#s24)[S25](#s25).
 
 Les PSP connaissent leurs clients conformément à leurs obligations.
 
-L'infrastructure centrale utilise notamment des identifiants pseudonymisés et des mécanismes destinés à empêcher l'Eurosystème d'identifier directement les utilisateurs à partir des informations qu'il reçoit [S22][S23].
+L'infrastructure centrale utilise notamment des identifiants pseudonymisés et des mécanismes destinés à empêcher l'Eurosystème d'identifier directement les utilisateurs à partir des informations qu'il reçoit [S22](#s22)[S23](#s23).
 
 La présence d'une donnée quelque part dans la chaîne ne signifie donc pas qu'elle soit accessible à tous les participants.
 
@@ -5040,7 +5040,7 @@ La présence d'une donnée quelque part dans la chaîne ne signifie donc pas qu'
 
 **AVÉRÉ :**
 
-> L'euro numérique est conçu pour permettre également des paiements hors ligne exécutés directement entre les appareils du payeur et du bénéficiaire sans intervention en temps réel de l'infrastructure centrale [S23][S26].
+> L'euro numérique est conçu pour permettre également des paiements hors ligne exécutés directement entre les appareils du payeur et du bénéficiaire sans intervention en temps réel de l'infrastructure centrale [S23](#s23)[S26](#s26).
 
 Dans le modèle actuellement présenté, les détails personnels de ces transactions restent sur les appareils et ne sont accessibles ni à l'Eurosystème ni aux PSP.
 
@@ -5052,7 +5052,7 @@ Cette architecture constitue donc une limitation importante à la possibilité d
 
 **AVÉRÉ :**
 
-> La proposition de règlement et la Banque centrale européenne excluent explicitement une monnaie dont les unités comporteraient intrinsèquement des restrictions déterminant les biens, services, lieux, bénéficiaires ou périodes pour lesquels elles peuvent être utilisées [S22][S23][S27].
+> La proposition de règlement et la Banque centrale européenne excluent explicitement une monnaie dont les unités comporteraient intrinsèquement des restrictions déterminant les biens, services, lieux, bénéficiaires ou périodes pour lesquels elles peuvent être utilisées [S22](#s22)[S23](#s23)[S27](#s27).
 
 L'euro numérique doit rester fongible.
 
@@ -5064,7 +5064,7 @@ Cette garantie exclut donc, dans le cadre actuellement proposé, un mécanisme d
 
 **AVÉRÉ :**
 
-> L'interdiction de la monnaie programmable n'empêche pas l'existence de paiements conditionnels dont l'exécution dépend de conditions prédéfinies [S27].
+> L'interdiction de la monnaie programmable n'empêche pas l'existence de paiements conditionnels dont l'exécution dépend de conditions prédéfinies [S27](#s27).
 
 L'infrastructure prévoit notamment une fonctionnalité permettant de réserver des fonds puis de les transférer lorsque la condition correspondante est considérée comme satisfaite.
 
@@ -5081,7 +5081,7 @@ Cette distinction constitue l'un des résultats centraux du chapitre.
 
 **AVÉRÉ :**
 
-> La BCE décrit une séparation entre une couche de règlement fournie par l'Eurosystème et une couche de conditionnalité pouvant être développée par des banques, PSP et autres acteurs du marché [S27][S28].
+> La BCE décrit une séparation entre une couche de règlement fournie par l'Eurosystème et une couche de conditionnalité pouvant être développée par des banques, PSP et autres acteurs du marché [S27](#s27)[S28](#s28).
 
 La couche externe peut vérifier qu'un événement ou une condition est satisfait puis utiliser les fonctions fournies par l'infrastructure pour poursuivre le traitement du paiement.
 
@@ -5093,7 +5093,7 @@ L'Eurosystème n'a donc pas nécessairement besoin de connaître lui-même l'ens
 
 **AVÉRÉ :**
 
-> Les travaux de la BCE prévoient qu'un monitoring externe puisse déclencher une condition utilisée par un service de paiement conditionnel [S27].
+> Les travaux de la BCE prévoient qu'un monitoring externe puisse déclencher une condition utilisée par un service de paiement conditionnel [S27](#s27).
 
 Les exemples étudiés comprennent notamment :
 
@@ -5101,7 +5101,7 @@ Les exemples étudiés comprennent notamment :
 - l'utilisation effective d'un service ;  
 - l'accomplissement d'une étape ;  
 - certains événements liés au transport ;  
-- des interactions machine-to-machine [S27][S28].
+- des interactions machine-to-machine [S27](#s27)[S28](#s28).
 
 Le principe général suivant est donc établi :
 
@@ -5121,7 +5121,7 @@ action sur la transaction
 
 **AVÉRÉ :**
 
-> Des acteurs du marché ont connecté leurs propres plateformes par API à un environnement simulant les interfaces de l'euro numérique afin d'expérimenter des services et paiements conditionnels [S28].
+> Des acteurs du marché ont connecté leurs propres plateformes par API à un environnement simulant les interfaces de l'euro numérique afin d'expérimenter des services et paiements conditionnels [S28](#s28).
 
 Les PSP et autres participants pouvaient développer la logique conditionnelle au-dessus des fonctionnalités fondamentales fournies par l'environnement simulé.
 
@@ -5159,7 +5159,7 @@ Cette architecture signifie qu'une éventuelle interconnexion ne nécessite pas 
 
 **AVÉRÉ :**
 
-> L'EUDI Wallet est conçu pour pouvoir intervenir dans l'authentification de paiements et présenter des attestations ou attributs vérifiables aux acteurs concernés [S29].
+> L'EUDI Wallet est conçu pour pouvoir intervenir dans l'authentification de paiements et présenter des attestations ou attributs vérifiables aux acteurs concernés [S29](#s29).
 
 L'architecture permet notamment la divulgation sélective d'un attribut sans transmettre nécessairement l'ensemble de l'identité de l'utilisateur.
 
@@ -5171,7 +5171,7 @@ La vérification d'âge constitue déjà un exemple documenté d'attribut pouvan
 
 **AVÉRÉ :**
 
-> La BCE prévoit que les PSP participant au pilote de l'euro numérique puissent utiliser l'EUDI Wallet comme méthode d'authentification forte pour les paiements en ligne [S29].
+> La BCE prévoit que les PSP participant au pilote de l'euro numérique puissent utiliser l'EUDI Wallet comme méthode d'authentification forte pour les paiements en ligne [S29](#s29).
 
 La chaîne suivante est donc directement documentée :
 
@@ -5227,7 +5227,7 @@ règlement ou absence de règlement
 
 **AVÉRÉ :**
 
-> Chacun des principaux composants de cette chaîne est documenté dans l'architecture ou dans les expérimentations étudiées [S22][S24][S25][S27][S28][S29].
+> Chacun des principaux composants de cette chaîne est documenté dans l'architecture ou dans les expérimentations étudiées [S22](#s22)[S24](#s24)[S25](#s25)[S27](#s27)[S28](#s28)[S29](#s29).
 
 **DÉDUCTIBLE TECHNIQUEMENT :**
 
@@ -5244,7 +5244,7 @@ Le chapitre 3 a établi séparément :
 - la possibilité d'associer certaines données environnementales structurées à ces produits ;  
 - l'existence de méthodes permettant de quantifier certaines empreintes environnementales ;  
 - des mécanismes d'interopérabilité, d'API et de registres ;  
-- la possibilité technique de rapprocher une transaction d'un produit identifiable lorsque les identifiants et droits d'accès nécessaires existent [S15][S18][S19][S20][S21].
+- la possibilité technique de rapprocher une transaction d'un produit identifiable lorsque les identifiants et droits d'accès nécessaires existent [S15](#s15)[S18](#s18)[S19](#s19)[S20](#s20)[S21](#s21).
 
 Le chapitre 4 établit maintenant séparément :
 
@@ -5254,7 +5254,7 @@ Le chapitre 4 établit maintenant séparément :
 - une couche de conditionnalité externe ;  
 - l'utilisation possible d'informations provenant de systèmes externes ;  
 - des API permettant aux plateformes des acteurs du marché d'interagir avec l'environnement de paiement ;  
-- et un raccord explicite entre identité numérique et paiement [S25][S27][S28][S29].
+- et un raccord explicite entre identité numérique et paiement [S25](#s25)[S27](#s27)[S28](#s28)[S29](#s29).
 
 La combinaison technique peut donc être représentée ainsi :
 
@@ -5296,11 +5296,11 @@ La possibilité technique résultant de l'assemblage de plusieurs composants ne 
 
 Plusieurs garanties s'opposent actuellement à une interprétation selon laquelle l'euro numérique constituerait directement un outil général de contrôle des achats :
 
-- interdiction de la monnaie programmable [S22][S27] ;  
-- conditions de paiement présentées comme convenues entre les parties [S27] ;  
-- pseudonymisation et séparation des informations accessibles à l'Eurosystème [S22][S23] ;  
-- minimisation et divulgation sélective dans l'EUDI Wallet [S29] ;  
-- confidentialité renforcée des paiements hors ligne [S23][S26].
+- interdiction de la monnaie programmable [S22](#s22)[S27](#s27) ;  
+- conditions de paiement présentées comme convenues entre les parties [S27](#s27) ;  
+- pseudonymisation et séparation des informations accessibles à l'Eurosystème [S22](#s22)[S23](#s23) ;  
+- minimisation et divulgation sélective dans l'EUDI Wallet [S29](#s29) ;  
+- confidentialité renforcée des paiements hors ligne [S23](#s23)[S26](#s26).
 
 **AVÉRÉ :**
 
@@ -5317,7 +5317,7 @@ Les mêmes sources établissent parallèlement l'existence :
 - de paiements conditionnels ;  
 - de services externes pouvant vérifier des conditions ;  
 - d'API permettant l'interaction avec des plateformes de marché ;  
-- d'attributs d'identité vérifiables utilisables dans le parcours de paiement [S22][S24][S27][S28][S29].
+- d'attributs d'identité vérifiables utilisables dans le parcours de paiement [S22](#s22)[S24](#s24)[S27](#s27)[S28](#s28)[S29](#s29).
 
 **DÉDUCTIBLE TECHNIQUEMENT :**
 
@@ -5451,7 +5451,7 @@ Avant de rechercher de nouvelles interconnexions, il est nécessaire de distingu
 
 **AVÉRÉ :**
 
-> La réforme française de la facturation électronique organise la transmission automatisée à l'administration fiscale de données structurées relatives aux factures, aux transactions et, dans certaines situations, aux paiements [S1][S2][S3][S4].
+> La réforme française de la facturation électronique organise la transmission automatisée à l'administration fiscale de données structurées relatives aux factures, aux transactions et, dans certaines situations, aux paiements [S1](#s1)[S2](#s2)[S3](#s3)[S4](#s4).
 
 Pour certaines opérations B2B, les données transmises atteignent le niveau des lignes de facture et comprennent notamment la désignation du bien ou du service, la quantité et le prix unitaire hors taxe.
 
@@ -5471,7 +5471,7 @@ administration fiscale
 
 **AVÉRÉ :**
 
-> Les objectifs officiels de la réforme comprennent, au-delà de la lutte contre la fraude et du pré-remplissage de la TVA, l'amélioration de la connaissance en temps réel de l'activité économique et le pilotage des politiques publiques [S5][S6][S14].
+> Les objectifs officiels de la réforme comprennent, au-delà de la lutte contre la fraude et du pré-remplissage de la TVA, l'amélioration de la connaissance en temps réel de l'activité économique et le pilotage des politiques publiques [S5](#s5)[S6](#s6)[S14](#s14).
 
 Les travaux préparatoires mentionnent également l'utilisation des données recueillies afin d'enrichir certains modèles d'analyse.
 
@@ -5493,7 +5493,7 @@ Cela ne permet pas de déduire que toutes les utilisations possibles de ces donn
 
 **AVÉRÉ :**
 
-> Le cadre européen du Digital Product Passport permet d'associer un produit, un modèle ou un lot à un ensemble structuré d'informations numériques au moyen d'identifiants uniques [S15][S20].
+> Le cadre européen du Digital Product Passport permet d'associer un produit, un modèle ou un lot à un ensemble structuré d'informations numériques au moyen d'identifiants uniques [S15](#s15)[S20](#s20).
 
 Ces informations peuvent, selon la catégorie de produit et la réglementation applicable, inclure différentes caractéristiques techniques et environnementales.
 
@@ -5515,7 +5515,7 @@ données structurées relatives au produit
 
 **AVÉRÉ :**
 
-> Certaines réglementations européennes permettent ou imposent déjà d'associer à certaines catégories de produits des informations environnementales quantitatives, notamment relatives à leur empreinte carbone [S15][S18][S19].
+> Certaines réglementations européennes permettent ou imposent déjà d'associer à certaines catégories de produits des informations environnementales quantitatives, notamment relatives à leur empreinte carbone [S15](#s15)[S18](#s18)[S19](#s19).
 
 Le règlement relatif aux batteries constitue un exemple concret de cette association.
 
@@ -5537,7 +5537,7 @@ Il ne doit pas être généralisé à l'ensemble des produits commercialisés.
 
 **AVÉRÉ :**
 
-> L'architecture du Digital Product Passport prévoit un registre européen, des identifiants structurés, des mécanismes d'interopérabilité et des interfaces permettant l'échange automatisé de données [S15][S20].
+> L'architecture du Digital Product Passport prévoit un registre européen, des identifiants structurés, des mécanismes d'interopérabilité et des interfaces permettant l'échange automatisé de données [S15](#s15)[S20](#s20).
 
 Le registre DPP est désormais opérationnel et la Commission indique qu'il repose notamment sur des API documentées et un référentiel sémantique destiné à faciliter l'interopérabilité entre systèmes.
 
@@ -5551,7 +5551,7 @@ Elle est conçue pour permettre des échanges structurés entre systèmes inform
 
 **AVÉRÉ :**
 
-> Des projets européens ont déjà rapproché des preuves de transactions commerciales, des acteurs administratifs chargés notamment de la TVA et des douanes et des mécanismes de traçabilité destinés à utiliser le Digital Product Passport [S21].
+> Des projets européens ont déjà rapproché des preuves de transactions commerciales, des acteurs administratifs chargés notamment de la TVA et des douanes et des mécanismes de traçabilité destinés à utiliser le Digital Product Passport [S21](#s21).
 
 Le projet e-Origin permet notamment de stocker et partager des preuves de transactions commerciales et de les faire reconnaître par les autorités douanières.
 
@@ -5583,7 +5583,7 @@ parallèlement :
 
 **AVÉRÉ :**
 
-> L'architecture envisagée pour l'euro numérique prévoit une couche de conditionnalité développée par des acteurs du marché et capable d'utiliser la vérification d'un événement provenant d'un système externe [S27][S28].
+> L'architecture envisagée pour l'euro numérique prévoit une couche de conditionnalité développée par des acteurs du marché et capable d'utiliser la vérification d'un événement provenant d'un système externe [S27](#s27)[S28](#s28).
 
 La BCE indique explicitement que cette architecture permet un monitoring externe susceptible de déclencher les conditions utilisées dans un paiement conditionnel.
 
@@ -5607,7 +5607,7 @@ traitement de la transaction
 
 **AVÉRÉ :**
 
-> Des acteurs du marché ont connecté leurs propres plateformes au moyen d'API à un environnement simulant les interfaces de l'euro numérique afin d'expérimenter des paiements conditionnels [S28].
+> Des acteurs du marché ont connecté leurs propres plateformes au moyen d'API à un environnement simulant les interfaces de l'euro numérique afin d'expérimenter des paiements conditionnels [S28](#s28).
 
 Les scénarios étudiés comprennent notamment les paiements à la livraison, à l'usage ou par étapes ainsi que certaines interactions machine-to-machine.
 
@@ -5621,7 +5621,7 @@ Il a déjà fait l'objet d'expérimentations techniques.
 
 **AVÉRÉ :**
 
-> L'European Digital Identity Wallet peut intervenir dans l'authentification de paiements et permettre la présentation d'attestations ou d'attributs vérifiables [S29].
+> L'European Digital Identity Wallet peut intervenir dans l'authentification de paiements et permettre la présentation d'attestations ou d'attributs vérifiables [S29](#s29).
 
 Le wallet permet notamment de présenter sélectivement certains attributs sans communiquer nécessairement l'intégralité de l'identité de l'utilisateur.
 
@@ -5643,7 +5643,7 @@ processus de paiement
 
 **AVÉRÉ :**
 
-> La Banque centrale européenne prévoit que les prestataires participant au pilote de l'euro numérique puissent utiliser l'EUDI Wallet comme méthode d'authentification forte pour certaines transactions en ligne [S29].
+> La Banque centrale européenne prévoit que les prestataires participant au pilote de l'euro numérique puissent utiliser l'EUDI Wallet comme méthode d'authentification forte pour certaines transactions en ligne [S29](#s29).
 
 La chaîne suivante est donc explicitement prévue :
 
@@ -5665,7 +5665,7 @@ Les chapitres précédents ont également identifié un raccord techniquement po
 
 Une facture ou une transaction peut contenir un identifiant permettant de déterminer le produit concerné.
 
-Le Digital Product Passport peut également utiliser un identifiant de produit tel qu'un GTIN ou un identifiant équivalent [S15][S17].
+Le Digital Product Passport peut également utiliser un identifiant de produit tel qu'un GTIN ou un identifiant équivalent [S15](#s15)[S17](#s17).
 
 **DÉDUCTIBLE TECHNIQUEMENT :**
 
@@ -5805,7 +5805,7 @@ La première d'entre elles apparaît dans les travaux récents de la Commission 
 
 **Statut : AVÉRÉ / PROJET EN COURS / À ÉTABLIR**
 
-La Commission européenne a proposé en novembre 2025 la création des **European Business Wallets**, une infrastructure numérique destinée aux opérateurs économiques et aux organismes publics [S30].
+La Commission européenne a proposé en novembre 2025 la création des **European Business Wallets**, une infrastructure numérique destinée aux opérateurs économiques et aux organismes publics [S30](#s30).
 
 Contrairement à l'EUDI Wallet étudié dans le chapitre 4, principalement orienté vers l'identité numérique des personnes physiques, le Business Wallet est conçu pour permettre aux entreprises et autres opérateurs économiques d'interagir numériquement avec d'autres entreprises et avec les administrations publiques.
 
@@ -5817,7 +5817,7 @@ Il constitue donc une nouvelle infrastructure intermédiaire entre plusieurs dom
 
 **AVÉRÉ :**
 
-> Les European Business Wallets doivent permettre aux opérateurs économiques de s'identifier, de s'authentifier et d'échanger de manière sécurisée des données, documents et attestations électroniques vérifiables avec d'autres acteurs économiques et avec les administrations publiques [S30].
+> Les European Business Wallets doivent permettre aux opérateurs économiques de s'identifier, de s'authentifier et d'échanger de manière sécurisée des données, documents et attestations électroniques vérifiables avec d'autres acteurs économiques et avec les administrations publiques [S30](#s30).
 
 Le dispositif ne constitue donc pas uniquement un portefeuille destiné à conserver des documents.
 
@@ -5841,11 +5841,11 @@ entreprise ou administration destinataire
 
 Le Business Wallet est construit à partir du cadre européen d'identité numérique.
 
-La proposition prévoit notamment que les European Digital Identity Wallets et les attestations électroniques d'attributs puissent être utilisés pour l'onboarding et la gestion des accès aux European Business Wallets [S30].
+La proposition prévoit notamment que les European Digital Identity Wallets et les attestations électroniques d'attributs puissent être utilisés pour l'onboarding et la gestion des accès aux European Business Wallets [S30](#s30).
 
 **AVÉRÉ :**
 
-> Un raccord explicite est donc prévu entre l'infrastructure EUDI étudiée dans le chapitre 4 et les European Business Wallets [S30].
+> Un raccord explicite est donc prévu entre l'infrastructure EUDI étudiée dans le chapitre 4 et les European Business Wallets [S30](#s30).
 
 La chaîne devient :
 
@@ -5865,7 +5865,7 @@ Elle ne démontre cependant pas qu'une donnée contenue dans un Business Wallet 
 
 ### Des identifiants fiscaux et économiques peuvent être utilisés comme attributs
 
-La proposition mentionne plusieurs attributs pouvant être émis ou vérifiés au moyen des Business Wallets [S30].
+La proposition mentionne plusieurs attributs pouvant être émis ou vérifiés au moyen des Business Wallets [S30](#s30).
 
 Parmi les exemples figurent notamment :
 
@@ -5877,7 +5877,7 @@ Parmi les exemples figurent notamment :
 
 **AVÉRÉ :**
 
-> Le Business Wallet est donc explicitement conçu pour manipuler des attributs permettant d'identifier juridiquement, fiscalement ou économiquement une entreprise [S30].
+> Le Business Wallet est donc explicitement conçu pour manipuler des attributs permettant d'identifier juridiquement, fiscalement ou économiquement une entreprise [S30](#s30).
 
 Cela crée une infrastructure capable de faire circuler des preuves vérifiables concernant une même entité entre plusieurs contextes administratifs et économiques.
 
@@ -5885,15 +5885,15 @@ Cela crée une infrastructure capable de faire circuler des preuves vérifiables
 
 ### Business Wallet → ViDA → facturation électronique
 
-La proposition établit un raccord particulièrement important avec **VAT in the Digital Age (ViDA)** [S30].
+La proposition établit un raccord particulièrement important avec **VAT in the Digital Age (ViDA)** [S30](#s30).
 
 ViDA modernise le système européen de TVA et prévoit notamment le développement de la facturation électronique et du reporting numérique.
 
-La Commission indique que les European Business Wallets pourront permettre le stockage sécurisé et l'échange vérifiable d'attestations relatives à la TVA et de **données de transaction**, afin de soutenir le reporting en temps réel et la facturation de confiance [S30].
+La Commission indique que les European Business Wallets pourront permettre le stockage sécurisé et l'échange vérifiable d'attestations relatives à la TVA et de **données de transaction**, afin de soutenir le reporting en temps réel et la facturation de confiance [S30](#s30).
 
 **AVÉRÉ :**
 
-> La Commission prévoit donc explicitement une articulation entre European Business Wallets, données de transaction, TVA, reporting numérique et facturation électronique [S30].
+> La Commission prévoit donc explicitement une articulation entre European Business Wallets, données de transaction, TVA, reporting numérique et facturation électronique [S30](#s30).
 
 La chaîne suivante n'est plus uniquement déductible :
 
@@ -5915,7 +5915,7 @@ Il s'agit d'un raccord institutionnel explicitement décrit dans la proposition 
 
 ### Le Business Wallet n'est pas limité aux relations avec l'administration
 
-L'infrastructure doit pouvoir être utilisée dans les relations entre entreprises mais également dans les interactions entre entreprises et administrations [S30].
+L'infrastructure doit pouvoir être utilisée dans les relations entre entreprises mais également dans les interactions entre entreprises et administrations [S30](#s30).
 
 **AVÉRÉ :**
 
@@ -5945,11 +5945,11 @@ Les infrastructures étudiées jusqu'ici pouvaient sembler appartenir à des dom
 
 La proposition Business Wallet adopte précisément une logique transversale.
 
-Elle fournit une infrastructure commune d'identification, d'attestations et d'échange sécurisé permettant à différents systèmes de communiquer avec un même opérateur économique [S30].
+Elle fournit une infrastructure commune d'identification, d'attestations et d'échange sécurisé permettant à différents systèmes de communiquer avec un même opérateur économique [S30](#s30).
 
 **AVÉRÉ :**
 
-> L'Union européenne développe donc explicitement une infrastructure destinée à faciliter l'interopérabilité entre plusieurs systèmes administratifs et économiques auparavant distincts [S30].
+> L'Union européenne développe donc explicitement une infrastructure destinée à faciliter l'interopérabilité entre plusieurs systèmes administratifs et économiques auparavant distincts [S30](#s30).
 
 ---
 
@@ -6039,27 +6039,27 @@ La proposition de la Commission introduit une infrastructure transversale destin
 
 **AVÉRÉ :**
 
-> European Business Wallet ↔ EUDI Wallet [S30]
+> European Business Wallet ↔ EUDI Wallet [S30](#s30)
 
 **AVÉRÉ :**
 
-> European Business Wallet ↔ identité et attributs fiscaux de l'entreprise [S30]
+> European Business Wallet ↔ identité et attributs fiscaux de l'entreprise [S30](#s30)
 
 **AVÉRÉ :**
 
-> European Business Wallet ↔ ViDA [S30]
+> European Business Wallet ↔ ViDA [S30](#s30)
 
 **AVÉRÉ :**
 
-> European Business Wallet ↔ attestations TVA [S30]
+> European Business Wallet ↔ attestations TVA [S30](#s30)
 
 **AVÉRÉ :**
 
-> European Business Wallet ↔ données de transaction [S30]
+> European Business Wallet ↔ données de transaction [S30](#s30)
 
 **AVÉRÉ :**
 
-> European Business Wallet ↔ reporting numérique / facturation de confiance [S30]
+> European Business Wallet ↔ reporting numérique / facturation de confiance [S30](#s30)
 
 Ces raccords sont explicitement décrits dans les documents de la Commission.
 
@@ -6069,15 +6069,15 @@ Ces raccords sont explicitement décrits dans les documents de la Commission.
 
 **AVÉRÉ :**
 
-> Les European Business Wallets sont conçus comme une infrastructure transversale permettant aux entreprises et administrations de s'identifier, s'authentifier et échanger des données et attestations vérifiables [S30].
+> Les European Business Wallets sont conçus comme une infrastructure transversale permettant aux entreprises et administrations de s'identifier, s'authentifier et échanger des données et attestations vérifiables [S30](#s30).
 
 **AVÉRÉ :**
 
-> Leur architecture est explicitement articulée avec le cadre EUDI et permet l'utilisation d'attributs fiscaux et économiques vérifiables [S30].
+> Leur architecture est explicitement articulée avec le cadre EUDI et permet l'utilisation d'attributs fiscaux et économiques vérifiables [S30](#s30).
 
 **AVÉRÉ :**
 
-> La Commission prévoit explicitement leur articulation avec ViDA ainsi que le stockage et l'échange vérifiable d'attestations TVA et de données de transaction afin de soutenir le reporting en temps réel et la facturation de confiance [S30].
+> La Commission prévoit explicitement leur articulation avec ViDA ainsi que le stockage et l'échange vérifiable d'attestations TVA et de données de transaction afin de soutenir le reporting en temps réel et la facturation de confiance [S30](#s30).
 
 **DÉDUCTIBLE TECHNIQUEMENT :**
 
@@ -6101,15 +6101,15 @@ L'analyse des European Business Wallets fait apparaître un raccord supplémenta
 
 Ce rapprochement ne résulte pas uniquement de la compatibilité technique des deux infrastructures.
 
-La proposition relative aux European Business Wallets mentionne explicitement le Digital Product Passport parmi les dispositifs avec lesquels des synergies sont recherchées [S30].
+La proposition relative aux European Business Wallets mentionne explicitement le Digital Product Passport parmi les dispositifs avec lesquels des synergies sont recherchées [S30](#s30).
 
-La stratégie européenne pour le marché unique va plus loin en présentant le Digital Product Passport, l'eInvoicing, le futur European Business Wallet et plusieurs autres infrastructures comme les composants d'un même écosystème cohérent de solutions numériques destiné à créer des synergies [S31].
+La stratégie européenne pour le marché unique va plus loin en présentant le Digital Product Passport, l'eInvoicing, le futur European Business Wallet et plusieurs autres infrastructures comme les composants d'un même écosystème cohérent de solutions numériques destiné à créer des synergies [S31](#s31).
 
 ---
 
 ### Business Wallet → Digital Product Passport
 
-La proposition de règlement relative aux European Business Wallets décrit explicitement leur articulation avec le Digital Product Passport [S30].
+La proposition de règlement relative aux European Business Wallets décrit explicitement leur articulation avec le Digital Product Passport [S30](#s30).
 
 La Commission rappelle que le DPP dépend d'un accès fiable aux données relatives notamment à la conformité et à la durabilité des produits.
 
@@ -6118,11 +6118,11 @@ Elle indique que les Business Wallets peuvent notamment :
 - prouver l'identité juridique d'un opérateur économique ;  
 - prouver les droits d'accès qui lui ont été accordés ;  
 - permettre la signature et le scellement de déclarations de conformité ;  
-- permettre l'échange sécurisé et vérifiable de données relatives aux produits entre différents acteurs et États membres [S30].
+- permettre l'échange sécurisé et vérifiable de données relatives aux produits entre différents acteurs et États membres [S30](#s30).
 
 **AVÉRÉ :**
 
-> La Commission prévoit explicitement une articulation entre European Business Wallets et Digital Product Passport afin de permettre l'identification des opérateurs, la vérification des droits d'accès et l'échange sécurisé et vérifiable de données relatives aux produits [S30].
+> La Commission prévoit explicitement une articulation entre European Business Wallets et Digital Product Passport afin de permettre l'identification des opérateurs, la vérification des droits d'accès et l'échange sécurisé et vérifiable de données relatives aux produits [S30](#s30).
 
 La chaîne suivante est donc documentée :
 
@@ -6146,11 +6146,11 @@ Ce point est particulièrement important pour l'objet de cette enquête.
 
 Le rapprochement entre Business Wallet et DPP n'est pas présenté uniquement comme un mécanisme permettant d'identifier une entreprise.
 
-La Commission mentionne explicitement l'accès aux données de **conformité et de durabilité** associées au Digital Product Passport [S30].
+La Commission mentionne explicitement l'accès aux données de **conformité et de durabilité** associées au Digital Product Passport [S30](#s30).
 
 **AVÉRÉ :**
 
-> L'infrastructure Business Wallet est donc explicitement envisagée comme un mécanisme pouvant contribuer à l'accès sécurisé et vérifiable aux données de durabilité associées aux produits dans l'écosystème DPP [S30].
+> L'infrastructure Business Wallet est donc explicitement envisagée comme un mécanisme pouvant contribuer à l'accès sécurisé et vérifiable aux données de durabilité associées aux produits dans l'écosystème DPP [S30](#s30).
 
 Cela ne signifie pas que toutes les données environnementales d'un produit soient automatiquement transférées dans le Business Wallet.
 
@@ -6182,7 +6182,7 @@ données produit / conformité / durabilité
 
 **AVÉRÉ :**
 
-> Une même infrastructure européenne est donc explicitement articulée, d'une part, avec des données de transaction et de facturation et, d'autre part, avec le Digital Product Passport et ses données relatives aux produits [S30].
+> Une même infrastructure européenne est donc explicitement articulée, d'une part, avec des données de transaction et de facturation et, d'autre part, avec le Digital Product Passport et ses données relatives aux produits [S30](#s30).
 
 Ce constat constitue un rapprochement institutionnel entre deux ensembles étudiés séparément dans les chapitres précédents.
 
@@ -6192,7 +6192,7 @@ Il ne démontre pas encore qu'une donnée précise issue d'une facture soit auto
 
 ### La Commission présente ces infrastructures comme un même écosystème numérique
 
-La stratégie pour le marché unique adoptée en mai 2025 permet de dépasser la simple observation selon laquelle plusieurs projets européens évolueraient parallèlement [S31].
+La stratégie pour le marché unique adoptée en mai 2025 permet de dépasser la simple observation selon laquelle plusieurs projets européens évolueraient parallèlement [S31](#s31).
 
 La Commission regroupe notamment :
 
@@ -6203,13 +6203,13 @@ La Commission regroupe notamment :
 - le futur European Business Wallet ;  
 - le Business Register Interconnection System ;  
 - l'identifiant européen unique des entreprises ;  
-- ainsi que d'autres initiatives destinées à simplifier l'échange de données et le reporting numérique [S31].
+- ainsi que d'autres initiatives destinées à simplifier l'échange de données et le reporting numérique [S31](#s31).
 
-Elle indique que ces outils doivent collectivement constituer un **écosystème cohérent de solutions numériques** et créer des synergies facilitant les activités économiques dans l'Union européenne [S31].
+Elle indique que ces outils doivent collectivement constituer un **écosystème cohérent de solutions numériques** et créer des synergies facilitant les activités économiques dans l'Union européenne [S31](#s31).
 
 **AVÉRÉ :**
 
-> La Commission européenne ne présente donc pas le DPP, l'eInvoicing et le Business Wallet comme des infrastructures nécessairement isolées : elle les inscrit explicitement dans un même écosystème numérique destiné à créer des synergies [S31].
+> La Commission européenne ne présente donc pas le DPP, l'eInvoicing et le Business Wallet comme des infrastructures nécessairement isolées : elle les inscrit explicitement dans un même écosystème numérique destiné à créer des synergies [S31](#s31).
 
 Ce point modifie la qualification de l'analyse.
 
@@ -6217,13 +6217,13 @@ L'existence d'une convergence entre ces infrastructures ne relève plus uniqueme
 
 **AVÉRÉ :**
 
-> Une stratégie institutionnelle d'interopérabilité et de création de synergies entre plusieurs de ces infrastructures est explicitement documentée [S31].
+> Une stratégie institutionnelle d'interopérabilité et de création de synergies entre plusieurs de ces infrastructures est explicitement documentée [S31](#s31).
 
 ---
 
 ### eInvoicing → réutilisation des données
 
-La stratégie identifie également un obstacle à l'automatisation complète des processus économiques : la faible réutilisation des données issues de la facturation électronique dans d'autres processus [S31].
+La stratégie identifie également un obstacle à l'automatisation complète des processus économiques : la faible réutilisation des données issues de la facturation électronique dans d'autres processus [S31](#s31).
 
 La Commission cherche donc explicitement à augmenter cette réutilisation.
 
@@ -6231,21 +6231,21 @@ Sa documentation relative à l'eInvoicing indique que la facturation électroniq
 
 - le reporting TVA ;  
 - certaines procédures douanières ;  
-- le reporting environnemental, social et de gouvernance, ou ESG [S31].
+- le reporting environnemental, social et de gouvernance, ou ESG [S31](#s31).
 
 **AVÉRÉ :**
 
-> Les données de facturation électronique ne sont donc pas envisagées uniquement pour produire, transmettre et comptabiliser une facture : leur réutilisation dans d'autres processus numériques fait explicitement partie de la stratégie européenne [S31].
+> Les données de facturation électronique ne sont donc pas envisagées uniquement pour produire, transmettre et comptabiliser une facture : leur réutilisation dans d'autres processus numériques fait explicitement partie de la stratégie européenne [S31](#s31).
 
 ---
 
 ### eInvoicing → reporting de durabilité
 
-La Commission prévoit plus précisément de tester la réutilisation des données issues de l'eInvoicing pour le **reporting de durabilité** [S31].
+La Commission prévoit plus précisément de tester la réutilisation des données issues de l'eInvoicing pour le **reporting de durabilité** [S31](#s31).
 
 **AVÉRÉ / PROJET PRÉVU :**
 
-> La stratégie européenne prévoit un pilote consacré à la réutilisation des données de facturation électronique pour le reporting de durabilité [S31].
+> La stratégie européenne prévoit un pilote consacré à la réutilisation des données de facturation électronique pour le reporting de durabilité [S31](#s31).
 
 Ce raccord est particulièrement important pour la cartographie étudiée dans cette enquête.
 
@@ -6277,11 +6277,11 @@ Cela établit en revanche que la réutilisation de données de facturation à de
 
 ### eInvoicing → données douanières
 
-La même stratégie prévoit également d'améliorer la transparence douanière en reliant les données d'eInvoicing aux données douanières, en cohérence avec le développement de l'EU Customs Data Hub [S31].
+La même stratégie prévoit également d'améliorer la transparence douanière en reliant les données d'eInvoicing aux données douanières, en cohérence avec le développement de l'EU Customs Data Hub [S31](#s31).
 
 **AVÉRÉ / PROJET PRÉVU :**
 
-> La Commission prévoit explicitement un rapprochement entre données de facturation électronique et données douanières [S31].
+> La Commission prévoit explicitement un rapprochement entre données de facturation électronique et données douanières [S31](#s31).
 
 La chaîne devient :
 
@@ -6338,7 +6338,7 @@ DPP + eInvoicing + Business Wallet + autres infrastructures
 
 **AVÉRÉ :**
 
-> Les documents de la Commission établissent donc désormais des liens institutionnels explicites entre plusieurs infrastructures étudiées séparément dans les chapitres précédents [S30][S31].
+> Les documents de la Commission établissent donc désormais des liens institutionnels explicites entre plusieurs infrastructures étudiées séparément dans les chapitres précédents [S30](#s30)[S31](#s31).
 
 ---
 
@@ -6358,21 +6358,21 @@ Les éléments étudiés dans cette section ajoutent désormais trois faits dist
 
 **AVÉRÉ :**
 
-> La Commission prévoit une articulation entre Business Wallet et DPP pour l'identité, les droits d'accès et l'échange sécurisé de données produit, notamment de conformité et de durabilité [S30].
+> La Commission prévoit une articulation entre Business Wallet et DPP pour l'identité, les droits d'accès et l'échange sécurisé de données produit, notamment de conformité et de durabilité [S30](#s30).
 
 **AVÉRÉ :**
 
-> La même infrastructure Business Wallet est articulée avec ViDA, les attestations TVA et les données de transaction [S30].
+> La même infrastructure Business Wallet est articulée avec ViDA, les attestations TVA et les données de transaction [S30](#s30).
 
 **AVÉRÉ / PROJET PRÉVU :**
 
-> La Commission prévoit de tester directement la réutilisation des données d'eInvoicing pour le reporting de durabilité [S31].
+> La Commission prévoit de tester directement la réutilisation des données d'eInvoicing pour le reporting de durabilité [S31](#s31).
 
 La proximité entre données de transaction et données de durabilité n'est donc plus seulement le résultat d'un assemblage théorique réalisé dans cette enquête.
 
 **AVÉRÉ :**
 
-> La Commission européenne travaille explicitement sur la réutilisation et l'interopérabilité de ces catégories de données au sein d'un écosystème numérique commun [S30][S31].
+> La Commission européenne travaille explicitement sur la réutilisation et l'interopérabilité de ces catégories de données au sein d'un écosystème numérique commun [S30](#s30)[S31](#s31).
 
 ---
 
@@ -6419,7 +6419,7 @@ le tout inscrit par la Commission dans :
 
 **AVÉRÉ :**
 
-> L'existence d'une stratégie de rapprochement et de réutilisation des données entre plusieurs de ces infrastructures est désormais explicitement documentée [S30][S31].
+> L'existence d'une stratégie de rapprochement et de réutilisation des données entre plusieurs de ces infrastructures est désormais explicitement documentée [S30](#s30)[S31](#s31).
 
 **DÉDUCTIBLE TECHNIQUEMENT :**
 
@@ -6431,23 +6431,23 @@ le tout inscrit par la Commission dans :
 
 **AVÉRÉ :**
 
-> Les European Business Wallets sont explicitement articulés avec le Digital Product Passport et peuvent intervenir dans l'identification des opérateurs, la vérification des droits d'accès et l'échange sécurisé et vérifiable de données relatives aux produits, notamment de conformité et de durabilité [S30].
+> Les European Business Wallets sont explicitement articulés avec le Digital Product Passport et peuvent intervenir dans l'identification des opérateurs, la vérification des droits d'accès et l'échange sécurisé et vérifiable de données relatives aux produits, notamment de conformité et de durabilité [S30](#s30).
 
 **AVÉRÉ :**
 
-> Les European Business Wallets sont parallèlement articulés avec ViDA, les attestations TVA et les données de transaction [S30].
+> Les European Business Wallets sont parallèlement articulés avec ViDA, les attestations TVA et les données de transaction [S30](#s30).
 
 **AVÉRÉ :**
 
-> La Commission inscrit le DPP, l'eInvoicing, le Business Wallet et plusieurs autres infrastructures dans un même écosystème cohérent de solutions numériques destiné à créer des synergies [S31].
+> La Commission inscrit le DPP, l'eInvoicing, le Business Wallet et plusieurs autres infrastructures dans un même écosystème cohérent de solutions numériques destiné à créer des synergies [S31](#s31).
 
 **AVÉRÉ / PROJET PRÉVU :**
 
-> La Commission prévoit de tester la réutilisation des données d'eInvoicing pour le reporting de durabilité [S31].
+> La Commission prévoit de tester la réutilisation des données d'eInvoicing pour le reporting de durabilité [S31](#s31).
 
 **AVÉRÉ / PROJET PRÉVU :**
 
-> La Commission prévoit également de rapprocher les données d'eInvoicing des données douanières en lien avec l'EU Customs Data Hub [S31].
+> La Commission prévoit également de rapprocher les données d'eInvoicing des données douanières en lien avec l'EU Customs Data Hub [S31](#s31).
 
 **DÉDUCTIBLE TECHNIQUEMENT :**
 
@@ -6483,7 +6483,7 @@ Les infrastructures étudiées disposent déjà de plusieurs de ces composants.
 
 **AVÉRÉ :**
 
-> Le standard européen EN 16931 définit un modèle sémantique commun permettant aux systèmes émetteurs et récepteurs de comprendre et traiter automatiquement les informations contenues dans une facture électronique [S32].
+> Le standard européen EN 16931 définit un modèle sémantique commun permettant aux systèmes émetteurs et récepteurs de comprendre et traiter automatiquement les informations contenues dans une facture électronique [S32](#s32).
 
 L'objectif du standard est précisément de réduire les différences entre formats et systèmes nationaux afin de permettre l'interopérabilité.
 
@@ -6518,7 +6518,7 @@ Parmi les domaines explicitement mentionnés figurent :
 
 **AVÉRÉ :**
 
-> L'évolution du standard européen de facturation prend explicitement en compte des besoins provenant du reporting fiscal, du reporting de durabilité et des procédures douanières [S32].
+> L'évolution du standard européen de facturation prend explicitement en compte des besoins provenant du reporting fiscal, du reporting de durabilité et des procédures douanières [S32](#s32).
 
 Cette évolution est cohérente avec les projets de réutilisation des données d'eInvoicing identifiés dans la section précédente.
 
@@ -6528,13 +6528,13 @@ Elle ne signifie pas que toutes les données nécessaires à ces usages soient d
 
 ### DPP → identifiant unique et persistant du produit
 
-Le règlement européen relatif à l'écoconception impose qu'un Digital Product Passport soit relié à un **identifiant unique persistant du produit** [S15][S32].
+Le règlement européen relatif à l'écoconception impose qu'un Digital Product Passport soit relié à un **identifiant unique persistant du produit** [S15](#s15)[S32](#s32).
 
 Cet identifiant est associé à un support de données permettant d'accéder au passeport.
 
 **AVÉRÉ :**
 
-> Le DPP repose donc sur un mécanisme permettant à différents systèmes de désigner de manière persistante le même produit, modèle ou lot selon les règles applicables [S15][S32].
+> Le DPP repose donc sur un mécanisme permettant à différents systèmes de désigner de manière persistante le même produit, modèle ou lot selon les règles applicables [S15](#s15)[S32](#s32).
 
 La chaîne est :
 
@@ -6558,11 +6558,11 @@ Le règlement impose également que les données du Digital Product Passport rep
 - structurées ;  
 - recherchables ;  
 - transférables ;
-- accessibles au moyen d'un réseau ouvert et interopérable d'échange de données [S15][S32].
+- accessibles au moyen d'un réseau ouvert et interopérable d'échange de données [S15](#s15)[S32](#s32).
 
 **AVÉRÉ :**
 
-> L'interopérabilité du DPP constitue donc une exigence réglementaire de son architecture et non une simple fonctionnalité facultative [S15][S32].
+> L'interopérabilité du DPP constitue donc une exigence réglementaire de son architecture et non une simple fonctionnalité facultative [S15](#s15)[S32](#s32).
 
 Le système est conçu pour permettre l'utilisation automatisée des données par différents acteurs autorisés.
 
@@ -6570,7 +6570,7 @@ Le système est conçu pour permettre l'utilisation automatisée des données pa
 
 ### Le registre DPP dispose d'une API
 
-Le règlement d'exécution (UE) 2026/1778 précise l'architecture du registre européen du Digital Product Passport [S20][S32].
+Le règlement d'exécution (UE) 2026/1778 précise l'architecture du registre européen du Digital Product Passport [S20](#s20)[S32](#s32).
 
 Le registre comprend notamment :
 
@@ -6580,11 +6580,11 @@ Le registre comprend notamment :
 - un mécanisme d'identification et d'autorisation des utilisateurs ;  
 - un système générant des identifiants uniques d'enregistrement ;  
 - un référentiel sémantique ;  
-- un système de journalisation [S20][S32].
+- un système de journalisation [S20](#s20)[S32](#s32).
 
 **AVÉRÉ :**
 
-> Le registre DPP dispose donc d'une interface machine-to-machine explicitement conçue pour permettre des interactions automatisées avec d'autres systèmes [S20][S32].
+> Le registre DPP dispose donc d'une interface machine-to-machine explicitement conçue pour permettre des interactions automatisées avec d'autres systèmes [S20](#s20)[S32](#s32).
 
 La chaîne suivante est directement prévue :
 
@@ -6602,11 +6602,11 @@ enregistrement / vérification / informations
 
 ### Le référentiel sémantique facilite la compréhension entre systèmes
 
-Le registre DPP comprend également un référentiel sémantique destiné à définir de manière autoritative la signification, la structure, les versions et les exigences d'interopérabilité des données du passeport [S20][S32].
+Le registre DPP comprend également un référentiel sémantique destiné à définir de manière autoritative la signification, la structure, les versions et les exigences d'interopérabilité des données du passeport [S20](#s20)[S32](#s32).
 
 **AVÉRÉ :**
 
-> Le dispositif ne fournit donc pas seulement une interface technique permettant de transmettre des données ; il prévoit également une couche sémantique permettant aux systèmes de comprendre de manière cohérente les informations échangées [S20][S32].
+> Le dispositif ne fournit donc pas seulement une interface technique permettant de transmettre des données ; il prévoit également une couche sémantique permettant aux systèmes de comprendre de manière cohérente les informations échangées [S20](#s20)[S32](#s32).
 
 Deux conditions nécessaires à une interconnexion automatisée sont ainsi réunies :
 
@@ -6620,20 +6620,20 @@ compréhension sémantique commune
 
 ### Le registre associe produit et opérateur économique vérifié
 
-Le règlement d'exécution impose également la vérification des opérateurs économiques et des autres acteurs de la chaîne de valeur intervenant dans le registre [S20][S32].
+Le règlement d'exécution impose également la vérification des opérateurs économiques et des autres acteurs de la chaîne de valeur intervenant dans le registre [S20](#s20)[S32](#s32).
 
 Lorsqu'un DPP est enregistré, le registre peut notamment associer :
 
 - l'identifiant unique du produit ;  
 - l'identité de l'opérateur économique vérifié responsable ;  
 - certaines informations nécessaires à l'enregistrement ;  
-- un identifiant unique d'enregistrement [S20][S32].
+- un identifiant unique d'enregistrement [S20](#s20)[S32](#s32).
 
 Une preuve électronique d'enregistrement peut également être générée.
 
 **AVÉRÉ :**
 
-> Le registre DPP établit donc une relation vérifiable entre un produit identifiable et un opérateur économique identifiable [S20][S32].
+> Le registre DPP établit donc une relation vérifiable entre un produit identifiable et un opérateur économique identifiable [S20](#s20)[S32](#s32).
 
 La chaîne devient :
 
@@ -6653,11 +6653,11 @@ identifiant d'enregistrement / preuve vérifiable
 
 Le règlement d'exécution prévoit plusieurs mécanismes permettant de vérifier l'identité des opérateurs économiques.
 
-Ils comprennent notamment, selon les situations, des moyens d'identification électronique conformes au cadre eIDAS ainsi que des attestations électroniques d'attributs [S20][S32].
+Ils comprennent notamment, selon les situations, des moyens d'identification électronique conformes au cadre eIDAS ainsi que des attestations électroniques d'attributs [S20](#s20)[S32](#s32).
 
 **AVÉRÉ :**
 
-> L'infrastructure DPP et l'infrastructure européenne d'identité numérique partagent donc des mécanismes permettant l'identification ou la vérification des opérateurs économiques [S20][S32].
+> L'infrastructure DPP et l'infrastructure européenne d'identité numérique partagent donc des mécanismes permettant l'identification ou la vérification des opérateurs économiques [S20](#s20)[S32](#s32).
 
 Il ne s'agit pas encore nécessairement d'un raccord direct avec l'EUDI Wallet dans toutes les situations.
 
@@ -6667,7 +6667,7 @@ Mais l'utilisation du même cadre européen d'identité et d'attestations facili
 
 ### Business Wallet → attestations vérifiables
 
-Les European Business Wallets reposent également sur des données et attestations électroniques vérifiables [S30][S32].
+Les European Business Wallets reposent également sur des données et attestations électroniques vérifiables [S30](#s30)[S32](#s32).
 
 Ces attestations peuvent représenter différents attributs relatifs à l'entreprise, à ses représentants, à ses rôles ou à ses autorisations.
 
@@ -6678,17 +6678,17 @@ L'architecture prévoit notamment :
 - la gestion des mandats et délégations ;  
 - des contrôles d'accès ;  
 - la traçabilité des autorisations ;  
-- des preuves cryptographiquement vérifiables [S30][S32].
+- des preuves cryptographiquement vérifiables [S30](#s30)[S32](#s32).
 
 **AVÉRÉ :**
 
-> Les échanges entre infrastructures ne reposent donc pas uniquement sur la transmission de données brutes mais peuvent également reposer sur la présentation et la vérification d'attestations numériques [S30][S32].
+> Les échanges entre infrastructures ne reposent donc pas uniquement sur la transmission de données brutes mais peuvent également reposer sur la présentation et la vérification d'attestations numériques [S30](#s30)[S32](#s32).
 
 ---
 
 ### Business Wallet → contrôle d'accès interopérable
 
-La proposition prévoit des mécanismes permettant de déterminer en temps réel si un acteur possède les droits nécessaires pour accéder à une donnée ou exécuter une procédure [S30][S32].
+La proposition prévoit des mécanismes permettant de déterminer en temps réel si un acteur possède les droits nécessaires pour accéder à une donnée ou exécuter une procédure [S30](#s30)[S32](#s32).
 
 Les autorisations doivent notamment pouvoir être :
 
@@ -6700,7 +6700,7 @@ Les autorisations doivent notamment pouvoir être :
 
 **AVÉRÉ :**
 
-> L'interopérabilité recherchée concerne donc également les droits permettant d'accéder aux données et services, et pas uniquement les formats de données [S30][S32].
+> L'interopérabilité recherchée concerne donc également les droits permettant d'accéder aux données et services, et pas uniquement les formats de données [S30](#s30)[S32](#s32).
 
 Ce point est essentiel pour l'analyse des interconnexions.
 
@@ -6710,7 +6710,7 @@ Un système peut techniquement disposer d'une API permettant d'accéder à une d
 
 ### Business Wallet → European Digital Directory → API
 
-La proposition relative aux European Business Wallets prévoit également la création d'un **European Digital Directory** [S30][S32].
+La proposition relative aux European Business Wallets prévoit également la création d'un **European Digital Directory** [S30](#s30)[S32](#s32).
 
 Ce répertoire doit comporter deux interfaces :
 
@@ -6719,7 +6719,7 @@ Ce répertoire doit comporter deux interfaces :
 
 **AVÉRÉ :**
 
-> L'écosystème Business Wallet prévoit donc lui aussi une interface machine-to-machine permettant la découverte et l'interaction automatisée entre acteurs et systèmes [S30][S32].
+> L'écosystème Business Wallet prévoit donc lui aussi une interface machine-to-machine permettant la découverte et l'interaction automatisée entre acteurs et systèmes [S30](#s30)[S32](#s32).
 
 La structure générale devient :
 
@@ -6751,7 +6751,7 @@ Ils utilisent cependant des principes techniques convergents :
 
 **AVÉRÉ :**
 
-> Plusieurs infrastructures européennes utilisent donc simultanément des identifiants structurés, des modèles de données interprétables automatiquement, des mécanismes d'autorisation et des interfaces destinées aux échanges machine-to-machine [S20][S25][S29][S30][S32].
+> Plusieurs infrastructures européennes utilisent donc simultanément des identifiants structurés, des modèles de données interprétables automatiquement, des mécanismes d'autorisation et des interfaces destinées aux échanges machine-to-machine [S20](#s20)[S25](#s25)[S29](#s29)[S30](#s30)[S32](#s32).
 
 ---
 
@@ -6770,7 +6770,7 @@ Elle présente parallèlement le European Business Wallet comme un élément cen
 
 **AVÉRÉ :**
 
-> La stratégie européenne recherche explicitement une interopérabilité entre plusieurs catégories de systèmes étudiées dans cette enquête [S30][S31][S32].
+> La stratégie européenne recherche explicitement une interopérabilité entre plusieurs catégories de systèmes étudiées dans cette enquête [S30](#s30)[S31](#s31)[S32](#s32).
 
 ---
 
@@ -6885,7 +6885,7 @@ Les architectures DPP, EUDI et Business Wallet comprennent précisément des mé
 
 **AVÉRÉ :**
 
-> L'interopérabilité technique et l'autorisation d'accéder aux données constituent deux questions distinctes [S20][S29][S30][S32].
+> L'interopérabilité technique et l'autorisation d'accéder aux données constituent deux questions distinctes [S20](#s20)[S29](#s29)[S30](#s30)[S32](#s32).
 
 Une chaîne peut donc être techniquement réalisable tout en restant juridiquement interdite ou inaccessible à certains acteurs.
 
@@ -6924,7 +6924,7 @@ retrouver et vérifier les acteurs, produits ou services
 ```
 **AVÉRÉ :**
 
-> Ces composants existent dans plusieurs des infrastructures étudiées et sont explicitement développés dans une logique d'interopérabilité [S20][S30][S32].
+> Ces composants existent dans plusieurs des infrastructures étudiées et sont explicitement développés dans une logique d'interopérabilité [S20](#s20)[S30](#s30)[S32](#s32).
 
 ---
 
@@ -6932,19 +6932,19 @@ retrouver et vérifier les acteurs, produits ou services
 
 **AVÉRÉ :**
 
-> L'eInvoicing repose sur un modèle sémantique européen commun destiné à permettre le traitement automatisé et interopérable des factures [S32].
+> L'eInvoicing repose sur un modèle sémantique européen commun destiné à permettre le traitement automatisé et interopérable des factures [S32](#s32).
 
 **AVÉRÉ :**
 
-> Le DPP repose sur des identifiants uniques persistants, des données structurées et interopérables, une API, un référentiel sémantique et des mécanismes d'identification et d'autorisation [S15][S20][S32].
+> Le DPP repose sur des identifiants uniques persistants, des données structurées et interopérables, une API, un référentiel sémantique et des mécanismes d'identification et d'autorisation [S15](#s15)[S20](#s20)[S32](#s32).
 
 **AVÉRÉ :**
 
-> Les European Business Wallets reposent sur des attestations vérifiables, des mécanismes d'autorisation interopérables et des interfaces destinées aux communications automatisées entre systèmes [S30][S32].
+> Les European Business Wallets reposent sur des attestations vérifiables, des mécanismes d'autorisation interopérables et des interfaces destinées aux communications automatisées entre systèmes [S30](#s30)[S32](#s32).
 
 **AVÉRÉ :**
 
-> Les politiques européennes de standardisation cherchent explicitement à rapprocher l'eInvoicing des besoins liés notamment au reporting fiscal, au reporting de durabilité et aux douanes [S32].
+> Les politiques européennes de standardisation cherchent explicitement à rapprocher l'eInvoicing des besoins liés notamment au reporting fiscal, au reporting de durabilité et aux douanes [S32](#s32).
 
 **DÉDUCTIBLE TECHNIQUEMENT :**
 
@@ -6972,13 +6972,13 @@ Elle constitue cependant un élément pertinent lorsque ces acteurs participent 
 
 L'analyse des projets européens relatifs à l'euro numérique, à l'identité numérique et aux Business Wallets montre que ces travaux ne sont pas conduits uniquement par des institutions publiques indépendantes les unes des autres.
 
-Ils associent également des banques, prestataires de paiement, entreprises technologiques, opérateurs économiques, fournisseurs de wallets et intégrateurs intervenant dans plusieurs écosystèmes [S33].
+Ils associent également des banques, prestataires de paiement, entreprises technologiques, opérateurs économiques, fournisseurs de wallets et intégrateurs intervenant dans plusieurs écosystèmes [S33](#s33).
 
 ---
 
 ### Digital Euro Innovation Platform → acteurs privés
 
-En 2025, la Banque centrale européenne a créé une plateforme d'innovation réunissant environ 70 participants du marché afin d'expérimenter des fonctionnalités et cas d'usage relatifs à l'euro numérique [S28][S33].
+En 2025, la Banque centrale européenne a créé une plateforme d'innovation réunissant environ 70 participants du marché afin d'expérimenter des fonctionnalités et cas d'usage relatifs à l'euro numérique [S28](#s28)[S33](#s33).
 
 Les participants comprennent notamment :
 
@@ -6991,11 +6991,11 @@ Les participants comprennent notamment :
 
 **AVÉRÉ :**
 
-> La conception et l'expérimentation des services pouvant être développés autour de l'euro numérique associent directement des acteurs privés provenant de plusieurs secteurs économiques [S28][S33].
+> La conception et l'expérimentation des services pouvant être développés autour de l'euro numérique associent directement des acteurs privés provenant de plusieurs secteurs économiques [S28](#s28)[S33](#s33).
 
 Ces acteurs ne se limitent donc pas à observer le projet.
 
-Dans le cadre du volet « pioneers », ils ont pu connecter leurs propres plateformes à l'environnement simulé fourni par la BCE afin d'expérimenter différentes fonctionnalités [S28].
+Dans le cadre du volet « pioneers », ils ont pu connecter leurs propres plateformes à l'environnement simulé fourni par la BCE afin d'expérimenter différentes fonctionnalités [S28](#s28).
 
 ---
 
@@ -7010,7 +7010,7 @@ La liste publiée par la BCE comprend notamment :
 - SAP Fioneer ;  
 - Tata Consultancy Services ;  
 - Infineon ;  
-- plusieurs banques et prestataires européens de paiement [S33].
+- plusieurs banques et prestataires européens de paiement [S33](#s33).
 
 Un consortium appelé **Digi-Trade** participe également aux deux volets de l'Innovation Platform.
 
@@ -7020,11 +7020,11 @@ Il réunit :
 - CargoX ;  
 - Deutsche Bank ;  
 - Stripe ;  
-- Swift [S33].
+- Swift [S33](#s33).
 
 **AVÉRÉ :**
 
-> Des acteurs majeurs du commerce électronique, de la banque, du paiement, de la messagerie financière et des infrastructures technologiques participent donc conjointement à l'expérimentation de services reposant sur l'environnement de l'euro numérique [S33].
+> Des acteurs majeurs du commerce électronique, de la banque, du paiement, de la messagerie financière et des infrastructures technologiques participent donc conjointement à l'expérimentation de services reposant sur l'environnement de l'euro numérique [S33](#s33).
 
 Cette participation ne démontre pas que leurs infrastructures commerciales existantes seront automatiquement reliées à l'euro numérique.
 
@@ -7034,7 +7034,7 @@ Elle établit en revanche qu'ils disposent d'un accès direct aux travaux expér
 
 ### WE BUILD → un consortium transversal
 
-Le Large Scale Pilot **WE BUILD** constitue un autre élément important [S33].
+Le Large Scale Pilot **WE BUILD** constitue un autre élément important [S33](#s33).
 
 Ce projet européen rassemble plus de 200 organisations issues de plusieurs dizaines de pays.
 
@@ -7047,17 +7047,17 @@ Il comprend notamment :
 - des fournisseurs de wallets et services de confiance ;  
 - des entreprises technologiques ;  
 - des PME ;  
-- des organismes de recherche [S33].
+- des organismes de recherche [S33](#s33).
 
 **AVÉRÉ :**
 
-> Un même consortium européen réunit donc des acteurs publics, fiscaux, financiers, technologiques et économiques afin de développer et tester des infrastructures interopérables reposant sur l'EUDI Wallet et les European Business Wallets [S33].
+> Un même consortium européen réunit donc des acteurs publics, fiscaux, financiers, technologiques et économiques afin de développer et tester des infrastructures interopérables reposant sur l'EUDI Wallet et les European Business Wallets [S33](#s33).
 
 ---
 
 ### WE BUILD ne traite pas uniquement d'identité
 
-La documentation officielle relative aux Large Scale Pilots présente WE BUILD comme un projet consacré à des cas d'usage relatifs aux entreprises **et aux paiements** [S33].
+La documentation officielle relative aux Large Scale Pilots présente WE BUILD comme un projet consacré à des cas d'usage relatifs aux entreprises **et aux paiements** [S33](#s33).
 
 Son architecture répartit les travaux entre plusieurs domaines.
 
@@ -7070,11 +7070,11 @@ identité d'entreprise / représentation / partage de données
 processus relatifs aux chaînes d'approvisionnement et à la facturation électronique
 
 **Payments & Banking**  
-paiements sécurisés / services bancaires / onboarding financier [S33]
+paiements sécurisés / services bancaires / onboarding financier [S33](#s33)
 
 **AVÉRÉ :**
 
-> Des cas d'usage relatifs à la facturation électronique et des cas d'usage relatifs aux paiements et services bancaires sont donc développés au sein d'un même Large Scale Pilot européen et d'une même architecture générale d'interopérabilité [S33].
+> Des cas d'usage relatifs à la facturation électronique et des cas d'usage relatifs aux paiements et services bancaires sont donc développés au sein d'un même Large Scale Pilot européen et d'une même architecture générale d'interopérabilité [S33](#s33).
 
 Ce constat ne démontre pas qu'une facture soit utilisée comme condition d'un paiement.
 
@@ -7084,7 +7084,7 @@ Il établit cependant que les deux domaines sont expérimentés au sein du même
 
 ### Business Wallet → supply chain → eInvoicing
 
-Le blueprint d'architecture de WE BUILD mentionne explicitement la facturation électronique parmi les processus couverts dans le domaine Supply Chain [S33].
+Le blueprint d'architecture de WE BUILD mentionne explicitement la facturation électronique parmi les processus couverts dans le domaine Supply Chain [S33](#s33).
 
 Le même projet développe parallèlement des mécanismes relatifs :
 
@@ -7096,13 +7096,13 @@ Le même projet développe parallèlement des mécanismes relatifs :
 
 **AVÉRÉ :**
 
-> La facturation électronique, l'identité des entreprises, le partage de données et les paiements ne sont donc plus étudiés uniquement dans des programmes européens séparés : ils apparaissent également comme différents cas d'usage d'un même environnement expérimental [S33].
+> La facturation électronique, l'identité des entreprises, le partage de données et les paiements ne sont donc plus étudiés uniquement dans des programmes européens séparés : ils apparaissent également comme différents cas d'usage d'un même environnement expérimental [S33](#s33).
 
 ---
 
 ### WE BUILD → administrations fiscales
 
-La composition du consortium comprend également des administrations fiscales [S33].
+La composition du consortium comprend également des administrations fiscales [S33](#s33).
 
 L'administration fiscale finlandaise indique par exemple participer directement à WE BUILD afin d'expérimenter :
 
@@ -7113,7 +7113,7 @@ L'administration fiscale finlandaise indique par exemple participer directement 
 
 **AVÉRÉ :**
 
-> Des administrations fiscales participent donc directement à l'expérimentation des Business Wallets et à l'utilisation de données fiscales et d'attestations numériques dans cet environnement [S33].
+> Des administrations fiscales participent donc directement à l'expérimentation des Business Wallets et à l'utilisation de données fiscales et d'attestations numériques dans cet environnement [S33](#s33).
 
 La chaîne expérimentale comprend ainsi :
 
@@ -7133,11 +7133,11 @@ administration fiscale
 
 WE BUILD dispose également de travaux spécifiquement consacrés aux paiements.
 
-Le consortium a créé en 2026 une communauté dédiée aux paiements afin de présenter et discuter les solutions techniques expérimentées autour des EUDI Wallets et Business Wallets pour les paiements et les services bancaires [S33].
+Le consortium a créé en 2026 une communauté dédiée aux paiements afin de présenter et discuter les solutions techniques expérimentées autour des EUDI Wallets et Business Wallets pour les paiements et les services bancaires [S33](#s33).
 
 **AVÉRÉ :**
 
-> Les EUDI Wallets et Business Wallets sont donc effectivement expérimentés dans des cas d'usage relatifs aux paiements et aux services bancaires au sein du consortium [S33].
+> Les EUDI Wallets et Business Wallets sont donc effectivement expérimentés dans des cas d'usage relatifs aux paiements et aux services bancaires au sein du consortium [S33](#s33).
 
 Les travaux portent notamment sur les exigences réglementaires, les standards, les architectures techniques et les interactions avec les institutions financières et prestataires de paiement.
 
@@ -7147,11 +7147,11 @@ Les travaux portent notamment sur les exigences réglementaires, les standards, 
 
 L'analyse des participants permet d'identifier plusieurs recoupements entre les écosystèmes.
 
-**CaixaBank** participe à la Digital Euro Innovation Platform de la BCE [S33].
+**CaixaBank** participe à la Digital Euro Innovation Platform de la BCE [S33](#s33).
 
 La banque apparaît également dans les travaux et événements du consortium WE BUILD consacrés aux wallets et aux paiements.
 
-**Worldline**, via equensWorldline, participe à la Digital Euro Innovation Platform [S33].
+**Worldline**, via equensWorldline, participe à la Digital Euro Innovation Platform [S33](#s33).
 
 Le groupe participe également aux Large Scale Pilots relatifs à l'EUDI Wallet, notamment WE BUILD, dans des travaux liés aux paiements.
 
@@ -7169,7 +7169,7 @@ Business Wallet / paiements / services bancaires
 
 **AVÉRÉ :**
 
-> Certains acteurs financiers et technologiques interviennent donc effectivement dans plusieurs initiatives européennes relatives à l'identité numérique, aux wallets et aux paiements [S33].
+> Certains acteurs financiers et technologiques interviennent donc effectivement dans plusieurs initiatives européennes relatives à l'identité numérique, aux wallets et aux paiements [S33](#s33).
 
 ---
 
@@ -7221,14 +7221,14 @@ Business
    +
 Supply Chain
    +
-Payments & Banking [S33]
+Payments & Banking [S33](#s33)
 ```
 
 et prévoit une architecture commune destinée à assurer l'interopérabilité entre les différents cas d'usage.
 
 **AVÉRÉ :**
 
-> L'identité d'entreprise, le partage de données, les chaînes d'approvisionnement, la facturation électronique et les paiements sont donc testés comme différents composants d'un même écosystème de wallets interopérables [S33].
+> L'identité d'entreprise, le partage de données, les chaînes d'approvisionnement, la facturation électronique et les paiements sont donc testés comme différents composants d'un même écosystème de wallets interopérables [S33](#s33).
 
 Cette constatation constitue un élément d'interconnexion plus fort que la simple présence d'un acteur commun dans plusieurs programmes.
 
@@ -7238,7 +7238,7 @@ Cette constatation constitue un élément d'interconnexion plus fort que la simp
 
 Les European Business Wallets étudiés en 5.2 étaient principalement apparus comme une infrastructure d'identité, d'attestations et d'échange de données pour les entreprises.
 
-WE BUILD montre que cette infrastructure est également expérimentée dans des cas d'usage bancaires et de paiement [S33].
+WE BUILD montre que cette infrastructure est également expérimentée dans des cas d'usage bancaires et de paiement [S33](#s33).
 
 La chaîne devient donc :
 
@@ -7254,7 +7254,7 @@ services bancaires / paiements
 
 **AVÉRÉ :**
 
-> Le raccord fonctionnel entre Business Wallet et environnement bancaire ou de paiement fait donc déjà l'objet d'expérimentations dans un Large Scale Pilot financé par l'Union européenne [S33].
+> Le raccord fonctionnel entre Business Wallet et environnement bancaire ou de paiement fait donc déjà l'objet d'expérimentations dans un Large Scale Pilot financé par l'Union européenne [S33](#s33).
 
 ---
 
@@ -7286,7 +7286,7 @@ paiements / services financiers
 
 **AVÉRÉ :**
 
-> La facturation électronique et les paiements apparaissent donc désormais dans le même programme européen d'expérimentation des wallets [S33].
+> La facturation électronique et les paiements apparaissent donc désormais dans le même programme européen d'expérimentation des wallets [S33](#s33).
 
 **NON ÉTABLI :**
 
@@ -7304,7 +7304,7 @@ WE BUILD poursuit désormais cette trajectoire avec des cas d'usage consacrés a
 
 **AVÉRÉ :**
 
-> L'identité numérique et les infrastructures de paiement font donc l'objet d'expérimentations conjointes impliquant banques, prestataires de paiement, fournisseurs de wallets et entreprises technologiques [S29][S33].
+> L'identité numérique et les infrastructures de paiement font donc l'objet d'expérimentations conjointes impliquant banques, prestataires de paiement, fournisseurs de wallets et entreprises technologiques [S29](#s29)[S33](#s33).
 
 ---
 
@@ -7330,7 +7330,7 @@ registres / administrations fiscales / autorités publiques
 
 **AVÉRÉ :**
 
-> Les infrastructures étudiées sont donc développées dans un environnement institutionnel et industriel commun faisant intervenir simultanément acteurs publics, administrations fiscales, banques, prestataires de paiement et entreprises technologiques [S33].
+> Les infrastructures étudiées sont donc développées dans un environnement institutionnel et industriel commun faisant intervenir simultanément acteurs publics, administrations fiscales, banques, prestataires de paiement et entreprises technologiques [S33](#s33).
 
 Cela ne démontre toujours pas une centralisation des données entre tous ces acteurs.
 
@@ -7369,7 +7369,7 @@ WE BUILD
 
 **AVÉRÉ :**
 
-> Plusieurs domaines précédemment étudiés séparément se retrouvent désormais au sein de stratégies, architectures et programmes expérimentaux communs [S30][S31][S32][S33].
+> Plusieurs domaines précédemment étudiés séparément se retrouvent désormais au sein de stratégies, architectures et programmes expérimentaux communs [S30](#s30)[S31](#s31)[S32](#s32)[S33](#s33).
 
 ---
 
@@ -7393,27 +7393,27 @@ Même avec ces nouveaux éléments, il n'est pas établi que :
 
 **AVÉRÉ :**
 
-> La Digital Euro Innovation Platform associe banques, PSP, entreprises technologiques, fintechs et acteurs commerciaux à l'expérimentation de services pouvant être développés autour de l'euro numérique [S28][S33].
+> La Digital Euro Innovation Platform associe banques, PSP, entreprises technologiques, fintechs et acteurs commerciaux à l'expérimentation de services pouvant être développés autour de l'euro numérique [S28](#s28)[S33](#s33).
 
 **AVÉRÉ :**
 
-> Certains acteurs financiers et technologiques participent à plusieurs initiatives relatives à l'identité numérique, aux wallets et aux paiements [S33].
+> Certains acteurs financiers et technologiques participent à plusieurs initiatives relatives à l'identité numérique, aux wallets et aux paiements [S33](#s33).
 
 **AVÉRÉ :**
 
-> WE BUILD réunit plus de 200 organisations publiques et privées et développe dans un même programme des cas d'usage relatifs aux entreprises, aux chaînes d'approvisionnement et aux paiements [S33].
+> WE BUILD réunit plus de 200 organisations publiques et privées et développe dans un même programme des cas d'usage relatifs aux entreprises, aux chaînes d'approvisionnement et aux paiements [S33](#s33).
 
 **AVÉRÉ :**
 
-> La facturation électronique figure dans les cas d'usage Supply Chain tandis que les paiements et services bancaires disposent de leur propre domaine au sein du même projet [S33].
+> La facturation électronique figure dans les cas d'usage Supply Chain tandis que les paiements et services bancaires disposent de leur propre domaine au sein du même projet [S33](#s33).
 
 **AVÉRÉ :**
 
-> Des administrations fiscales, banques, institutions financières, fournisseurs de wallets et entreprises technologiques participent au même environnement expérimental [S33].
+> Des administrations fiscales, banques, institutions financières, fournisseurs de wallets et entreprises technologiques participent au même environnement expérimental [S33](#s33).
 
 **AVÉRÉ :**
 
-> Le raccord fonctionnel entre Business Wallet, identité d'entreprise et services bancaires ou de paiement fait l'objet d'expérimentations [S33].
+> Le raccord fonctionnel entre Business Wallet, identité d'entreprise et services bancaires ou de paiement fait l'objet d'expérimentations [S33](#s33).
 
 **INDICE D'INTERCONNEXION :**
 
@@ -7449,7 +7449,7 @@ Les travaux de WE BUILD permettent d'en documenter plusieurs.
 
 ### Identité d'entreprise → compte bancaire → paiement → preuve de transaction
 
-Le consortium WE BUILD présente en septembre 2026 une chaîne B2B utilisant l'European Business Wallet comme infrastructure de confiance commune [S34].
+Le consortium WE BUILD présente en septembre 2026 une chaîne B2B utilisant l'European Business Wallet comme infrastructure de confiance commune [S34](#s34).
 
 Le parcours décrit suit une entreprise depuis son identification jusqu'à la preuve de la transaction.
 
@@ -7475,7 +7475,7 @@ preuve de la transaction
 
 **AVÉRÉ / EXPÉRIMENTÉ :**
 
-> WE BUILD documente donc une chaîne dans laquelle identité numérique d'entreprise, donnée bancaire vérifiée, paiement et justificatif électronique de transaction interviennent dans un même parcours B2B [S34].
+> WE BUILD documente donc une chaîne dans laquelle identité numérique d'entreprise, donnée bancaire vérifiée, paiement et justificatif électronique de transaction interviennent dans un même parcours B2B [S34](#s34).
 
 Ce raccord dépasse la simple présence de cas d'usage distincts dans un même consortium.
 
@@ -7485,7 +7485,7 @@ Les composants sont ici utilisés successivement dans le même processus transac
 
 ### EUDI Wallet → authentification du paiement
 
-Le cas PA4 documenté par un participant au consortium apporte un niveau de détail supplémentaire [S34].
+Le cas PA4 documenté par un participant au consortium apporte un niveau de détail supplémentaire [S34](#s34).
 
 Un salarié agit pour le compte d'une entreprise.
 
@@ -7520,13 +7520,13 @@ règlement du paiement
 
 **EXPÉRIMENTÉ :**
 
-> Le raccord entre identité numérique, autorisation de la personne agissant pour l'entreprise et paiement est donc matérialisé dans un parcours technique de démonstration [S34].
+> Le raccord entre identité numérique, autorisation de la personne agissant pour l'entreprise et paiement est donc matérialisé dans un parcours technique de démonstration [S34](#s34).
 
 ---
 
 ### Paiement → émission automatique d'un justificatif vérifiable
 
-Une fois le paiement confirmé, le vendeur émet un eReceipt sous la forme d'un credential vérifiable [S34].
+Une fois le paiement confirmé, le vendeur émet un eReceipt sous la forme d'un credential vérifiable [S34](#s34).
 
 Ce justificatif est envoyé directement vers le European Business Wallet de l'entreprise acheteuse.
 
@@ -7546,7 +7546,7 @@ European Business Wallet de l'acheteur
 
 **EXPÉRIMENTÉ :**
 
-> Un événement provenant directement du processus de paiement peut donc déclencher l'émission et le transfert automatisé d'un document transactionnel structuré vers le wallet de l'entreprise [S34].
+> Un événement provenant directement du processus de paiement peut donc déclencher l'émission et le transfert automatisé d'un document transactionnel structuré vers le wallet de l'entreprise [S34](#s34).
 
 Le lien paiement → donnée transactionnelle structurée n'est donc plus seulement théorique dans ce cas d'usage.
 
@@ -7563,11 +7563,11 @@ Selon la documentation technique publiée par le participant au projet, il conti
 - les lignes d'achat ;  
 - les montants hors taxe et toutes taxes comprises ;  
 - les sous-totaux de TVA par taux ;  
-- la référence du paiement [S34].
+- la référence du paiement [S34](#s34).
 
 **EXPÉRIMENTÉ :**
 
-> Le même objet numérique peut donc établir un lien vérifiable entre le paiement et le contenu économique détaillé de la transaction [S34].
+> Le même objet numérique peut donc établir un lien vérifiable entre le paiement et le contenu économique détaillé de la transaction [S34](#s34).
 
 La chaîne devient :
 
@@ -7593,7 +7593,7 @@ Un justificatif vérifiable peut servir de pont entre eux.
 
 Le Business Wallet peut également être relié aux systèmes utilisés par l'entreprise.
 
-Dans la démonstration PA4, un connecteur transmet les eReceipts vers le système comptable afin de comptabiliser automatiquement les dépenses [S34].
+Dans la démonstration PA4, un connecteur transmet les eReceipts vers le système comptable afin de comptabiliser automatiquement les dépenses [S34](#s34).
 
 La chaîne devient :
 
@@ -7611,7 +7611,7 @@ comptabilité
 
 **EXPÉRIMENTÉ :**
 
-> Les données issues de la transaction peuvent donc être réutilisées automatiquement par un système extérieur au wallet sans ressaisie manuelle [S34].
+> Les données issues de la transaction peuvent donc être réutilisées automatiquement par un système extérieur au wallet sans ressaisie manuelle [S34](#s34).
 
 Ce mécanisme confirme le rôle de couche d'interopérabilité attribué aux wallets dans les sections précédentes.
 
@@ -7629,7 +7629,7 @@ Celui-ci vérifie notamment :
 - la confiance accordée à son émetteur ;  
 - son statut de révocation.
 
-Le système peut ensuite utiliser les informations de TVA contenues dans les justificatifs pour effectuer un rapprochement de TVA [S34].
+Le système peut ensuite utiliser les informations de TVA contenues dans les justificatifs pour effectuer un rapprochement de TVA [S34](#s34).
 
 La chaîne expérimentale complète devient :
 
@@ -7661,7 +7661,7 @@ rapprochement de TVA
 
 **EXPÉRIMENTÉ — SOURCE PARTICIPANT :**
 
-> Un participant de WE BUILD documente donc une démonstration technique reliant de bout en bout paiement, justificatif structuré, wallet d'entreprise, comptabilité et traitement fiscal [S34].
+> Un participant de WE BUILD documente donc une démonstration technique reliant de bout en bout paiement, justificatif structuré, wallet d'entreprise, comptabilité et traitement fiscal [S34](#s34).
 
 **LIMITE :**
 
@@ -7712,7 +7712,7 @@ traitement fiscal expérimental
 
 **EXPÉRIMENTÉ :**
 
-> Le raccord technique paiement → justificatif structuré → données fiscales → traitement fiscal a donc fait l'objet d'une démonstration de bout en bout dans l'écosystème WE BUILD [S34].
+> Le raccord technique paiement → justificatif structuré → données fiscales → traitement fiscal a donc fait l'objet d'une démonstration de bout en bout dans l'écosystème WE BUILD [S34](#s34).
 
 ---
 
@@ -7745,7 +7745,7 @@ service fiscal
 
 **AVÉRÉ / EXPÉRIMENTÉ :**
 
-> Une chaîne d'interconnexion peut donc fonctionner de bout en bout au moyen de plusieurs systèmes distribués sans nécessiter qu'un acteur central détienne l'intégralité des données de chaque étape [S34].
+> Une chaîne d'interconnexion peut donc fonctionner de bout en bout au moyen de plusieurs systèmes distribués sans nécessiter qu'un acteur central détienne l'intégralité des données de chaque étape [S34](#s34).
 
 Cette architecture distribuée rend particulièrement importante l'analyse des interfaces et des droits d'accès plutôt que la seule recherche d'une base de données centrale.
 
@@ -7759,13 +7759,13 @@ La documentation du programme fait également apparaître parmi ses cas d'usage 
 
 - Business Payments ;  
 - eInvoicing ;  
-- Foreign Tax Declaration [S33][S34].
+- Foreign Tax Declaration [S33](#s33)[S34](#s34).
 
 Des ateliers d'interopérabilité ont en outre porté sur les paiements professionnels, la facturation et les justificatifs numériques dans l'environnement des EUDI Wallets et Business Wallets.
 
 **AVÉRÉ :**
 
-> Paiement professionnel, facturation électronique et traitement fiscal font donc partie des domaines effectivement expérimentés dans le même programme européen [S33][S34].
+> Paiement professionnel, facturation électronique et traitement fiscal font donc partie des domaines effectivement expérimentés dans le même programme européen [S33](#s33)[S34](#s34).
 
 **NON ÉTABLI :**
 
@@ -7891,7 +7891,7 @@ couche de conditionnalité
 paiement
 ```
 
-Les travaux de la BCE ont également démontré expérimentalement que des plateformes d'acteurs du marché pouvaient communiquer par API avec un environnement simulant l'euro numérique [S27][S28].
+Les travaux de la BCE ont également démontré expérimentalement que des plateformes d'acteurs du marché pouvaient communiquer par API avec un environnement simulant l'euro numérique [S27](#s27)[S28](#s28).
 
 Nous disposons donc désormais de deux ensembles :
 
@@ -7973,19 +7973,19 @@ Les sources étudiées permettent désormais d'écarter une version aussi absolu
 
 **AVÉRÉ :**
 
-> La Commission recherche explicitement des synergies entre plusieurs de ces infrastructures [S30][S31].
+> La Commission recherche explicitement des synergies entre plusieurs de ces infrastructures [S30](#s30)[S31](#s31).
 
 **AVÉRÉ :**
 
-> Des standards, API, attestations et mécanismes d'interopérabilité permettent leurs interactions [S20][S30][S32].
+> Des standards, API, attestations et mécanismes d'interopérabilité permettent leurs interactions [S20](#s20)[S30](#s30)[S32](#s32).
 
 **AVÉRÉ :**
 
-> Des programmes européens réunissent identité, facturation, fiscalité et paiement dans les mêmes environnements expérimentaux [S33][S34].
+> Des programmes européens réunissent identité, facturation, fiscalité et paiement dans les mêmes environnements expérimentaux [S33](#s33)[S34](#s34).
 
 **EXPÉRIMENTÉ :**
 
-> Une chaîne de bout en bout reliant identité, paiement, justificatif détaillé, Business Wallet, comptabilité et traitement fiscal a été démontrée par des participants de WE BUILD [S34].
+> Une chaîne de bout en bout reliant identité, paiement, justificatif détaillé, Business Wallet, comptabilité et traitement fiscal a été démontrée par des participants de WE BUILD [S34](#s34).
 
 **NON ÉTABLI :**
 
@@ -7997,23 +7997,23 @@ Les sources étudiées permettent désormais d'écarter une version aussi absolu
 
 **AVÉRÉ / EXPÉRIMENTÉ :**
 
-> Une infrastructure de wallet peut participer à une chaîne reliant l'identité d'une entreprise et de son représentant, un compte ou une carte, un paiement et une preuve structurée de la transaction [S34].
+> Une infrastructure de wallet peut participer à une chaîne reliant l'identité d'une entreprise et de son représentant, un compte ou une carte, un paiement et une preuve structurée de la transaction [S34](#s34).
 
 **EXPÉRIMENTÉ :**
 
-> Cette preuve peut contenir les lignes d'achat, les montants, les informations de TVA et une référence au paiement puis être transmise automatiquement au European Business Wallet de l'entreprise [S34].
+> Cette preuve peut contenir les lignes d'achat, les montants, les informations de TVA et une référence au paiement puis être transmise automatiquement au European Business Wallet de l'entreprise [S34](#s34).
 
 **EXPÉRIMENTÉ :**
 
-> Des connecteurs permettent ensuite la réutilisation du justificatif par un système comptable et, dans le cas de démonstration étudié, par un service fiscal effectuant un rapprochement de TVA [S34].
+> Des connecteurs permettent ensuite la réutilisation du justificatif par un système comptable et, dans le cas de démonstration étudié, par un service fiscal effectuant un rapprochement de TVA [S34](#s34).
 
 **AVÉRÉ :**
 
-> Le même écosystème Business Wallet est parallèlement articulé avec le Digital Product Passport et ses données relatives aux produits et à leur durabilité [S30].
+> Le même écosystème Business Wallet est parallèlement articulé avec le Digital Product Passport et ses données relatives aux produits et à leur durabilité [S30](#s30).
 
 **AVÉRÉ / EXPÉRIMENTÉ :**
 
-> Une architecture distincte de paiement conditionnel permet par ailleurs à une condition vérifiée par un système externe d'intervenir dans l'exécution d'une transaction [S27][S28].
+> Une architecture distincte de paiement conditionnel permet par ailleurs à une condition vérifiée par un système externe d'intervenir dans l'exécution d'une transaction [S27](#s27)[S28](#s28).
 
 **DÉDUCTIBLE TECHNIQUEMENT :**
 
@@ -8029,7 +8029,7 @@ Il reste maintenant à examiner précisément **le dernier raccord de la chaîne
 
 ---
 
-## [S35] CEN/TS 16931-8:2024 — eReceipts, identifiant DPP et informations environnementales du produit
+## [S35](#s35) CEN/TS 16931-8:2024 — eReceipts, identifiant DPP et informations environnementales du produit
 
 **Organisme :** Comité européen de normalisation (CEN)
 
@@ -8087,17 +8087,17 @@ La question de cette section est donc volontairement limitée à une seule flèc
 
 ### eReceipt → Digital Product Passport
 
-Un élément supplémentaire apparaît dans les travaux européens de normalisation relatifs aux justificatifs électroniques [S35].
+Un élément supplémentaire apparaît dans les travaux européens de normalisation relatifs aux justificatifs électroniques [S35](#s35).
 
 Le modèle CEN/TS 16931-8:2024 décrit le processus économique dans lequel l'acheteur sélectionne un moyen de paiement, effectue ou initie le paiement, puis reçoit un eReceipt généré par le vendeur.
 
 Le même document prévoit que, dans certains environnements, des informations spécifiques relatives au produit puissent être associées au justificatif.
 
-Pour les catégories de produits soumises au Digital Product Passport, le standard mentionne explicitement l'utilisation d'un **identifiant DPP permettant de relier le justificatif aux informations vérifiées relatives au produit** [S35].
+Pour les catégories de produits soumises au Digital Product Passport, le standard mentionne explicitement l'utilisation d'un **identifiant DPP permettant de relier le justificatif aux informations vérifiées relatives au produit** [S35](#s35).
 
 **AVÉRÉ :**
 
-> Un standard européen relatif aux eReceipts prévoit donc explicitement un raccord entre le justificatif d'une transaction et le Digital Product Passport du produit correspondant [S35].
+> Un standard européen relatif aux eReceipts prévoit donc explicitement un raccord entre le justificatif d'une transaction et le Digital Product Passport du produit correspondant [S35](#s35).
 
 La chaîne devient :
 
@@ -8132,11 +8132,11 @@ Parmi les informations explicitement mentionnées figurent notamment :
 - les impacts environnementaux des matériaux utilisés ;  
 - la production ;  
 - l'utilisation ;  
-- la fin de vie du produit [S35].
+- la fin de vie du produit [S35](#s35).
 
 **AVÉRÉ :**
 
-> Le raccord eReceipt → identifiant DPP ne conduit donc pas uniquement vers une référence administrative du produit : il peut conduire vers des informations vérifiées comprenant des caractéristiques relatives à sa durabilité et à ses impacts environnementaux [S35].
+> Le raccord eReceipt → identifiant DPP ne conduit donc pas uniquement vers une référence administrative du produit : il peut conduire vers des informations vérifiées comprenant des caractéristiques relatives à sa durabilité et à ses impacts environnementaux [S35](#s35).
 
 La chaîne suivante est ainsi explicitement documentée au niveau du modèle sémantique :
 ```
@@ -8183,7 +8183,7 @@ informations environnementales
 
 **AVÉRÉ / EXPÉRIMENTÉ SELON LES MAILLONS :**
 
-> Les composants documentés permettent donc désormais de construire une chaîne dans laquelle un paiement est relié à un justificatif électronique et dans laquelle un justificatif électronique peut lui-même être relié, au moyen d'un identifiant DPP, aux informations environnementales vérifiées du produit [S34][S35].
+> Les composants documentés permettent donc désormais de construire une chaîne dans laquelle un paiement est relié à un justificatif électronique et dans laquelle un justificatif électronique peut lui-même être relié, au moyen d'un identifiant DPP, aux informations environnementales vérifiées du produit [S34](#s34)[S35](#s35).
 
 La chaîne complète peut être représentée ainsi :
 
@@ -8225,7 +8225,7 @@ Le standard relatif aux eReceipts apporte un élément supplémentaire.
 
 **AVÉRÉ :**
 
-> Le modèle européen prévoit directement qu'un identifiant DPP puisse être associé au justificatif afin de relier l'achat aux informations vérifiées relatives au produit [S35].
+> Le modèle européen prévoit directement qu'un identifiant DPP puisse être associé au justificatif afin de relier l'achat aux informations vérifiées relatives au produit [S35](#s35).
 
 Il n'est donc plus nécessaire de supposer qu'un rapprochement devrait obligatoirement être réalisé après la transaction à partir de bases indépendantes.
 
@@ -8247,7 +8247,7 @@ réutilisation des données
 reporting de durabilité
 ```
 
-et les travaux de standardisation relatifs à EN 16931 prennent explicitement en compte les besoins provenant du reporting de durabilité [S31][S32].
+et les travaux de standardisation relatifs à EN 16931 prennent explicitement en compte les besoins provenant du reporting de durabilité [S31](#s31)[S32](#s32).
 
 Le standard relatif aux eReceipts ajoute désormais :
 
@@ -8261,7 +8261,7 @@ informations environnementales du produit
 
 **AVÉRÉ :**
 
-> Plusieurs travaux européens distincts organisent donc le rapprochement entre données décrivant une transaction et informations relatives à la durabilité ou à l'environnement [S31][S32][S35].
+> Plusieurs travaux européens distincts organisent donc le rapprochement entre données décrivant une transaction et informations relatives à la durabilité ou à l'environnement [S31](#s31)[S32](#s32)[S35](#s35).
 
 Cela ne démontre toujours pas l'établissement d'un profil environnemental individuel.
 
@@ -8279,7 +8279,7 @@ infrastructure de règlement
 couche de conditionnalité développée par le marché
 ```
 
-Cette couche peut utiliser un monitoring extérieur afin de vérifier qu'une condition est satisfaite [S27][S28].
+Cette couche peut utiliser un monitoring extérieur afin de vérifier qu'une condition est satisfaite [S27](#s27)[S28](#s28).
 
 Une fois cette condition vérifiée :
 
@@ -8299,7 +8299,7 @@ annulation / expiration de la réservation
 
 **AVÉRÉ / EXPÉRIMENTÉ :**
 
-> La conception actuelle permet donc à une information vérifiée à l'extérieur de l'infrastructure de règlement d'intervenir dans la décision d'exécuter un paiement conditionnel [S27][S28].
+> La conception actuelle permet donc à une information vérifiée à l'extérieur de l'infrastructure de règlement d'intervenir dans la décision d'exécuter un paiement conditionnel [S27](#s27)[S28](#s28).
 
 ---
 
@@ -8311,7 +8311,7 @@ Ces exemples décrivent des cas d'usage.
 
 Ils ne constituent pas une liste technique exhaustive des seules informations pouvant être vérifiées par une couche de conditionnalité.
 
-Les travaux expérimentaux montrent que les prestataires peuvent développer la logique conditionnelle et que des plateformes externes peuvent intervenir dans sa vérification [S27][S28].
+Les travaux expérimentaux montrent que les prestataires peuvent développer la logique conditionnelle et que des plateformes externes peuvent intervenir dans sa vérification [S27](#s27)[S28](#s28).
 
 **DÉDUCTIBLE TECHNIQUEMENT :**
 
@@ -8388,13 +8388,13 @@ Les scénarios documentés portent notamment sur :
 - le commerce électronique ;  
 - les services financiers ;  
 - certaines applications industrielles ;  
-- les interactions machine-to-machine [S28].
+- les interactions machine-to-machine [S28](#s28).
 
 Les travaux relatifs aux eReceipts mentionnent également un bénéfice environnemental résultant de la réduction de l'utilisation du papier.
 
 **NON ÉTABLI :**
 
-> Les documents étudiés de la Digital Euro Innovation Platform ne décrivent cependant pas de scénario dans lequel l'empreinte carbone, la performance environnementale, le DPP ou une autre donnée de durabilité d'un produit constitue la condition déclenchant ou empêchant un paiement [S28].
+> Les documents étudiés de la Digital Euro Innovation Platform ne décrivent cependant pas de scénario dans lequel l'empreinte carbone, la performance environnementale, le DPP ou une autre donnée de durabilité d'un produit constitue la condition déclenchant ou empêchant un paiement [S28](#s28).
 
 Ce résultat négatif est important.
 
@@ -8406,7 +8406,7 @@ Il empêche de transformer la possibilité technique en affirmation d'un projet 
 
 Une autre limite doit rester explicitement présente.
 
-La proposition de règlement relative à l'euro numérique exclut la **monnaie programmable** [S22].
+La proposition de règlement relative à l'euro numérique exclut la **monnaie programmable** [S22](#s22).
 
 Cela signifie que les unités d'euro numérique ne doivent pas comporter intrinsèquement des restrictions déterminant :
 
@@ -8417,7 +8417,7 @@ Cela signifie que les unités d'euro numérique ne doivent pas comporter intrins
 
 **AVÉRÉ :**
 
-> L'Eurosystème ne prévoit donc pas de coder dans les unités monétaires elles-mêmes une règle du type « cet euro ne peut pas acheter un produit dont l'empreinte carbone dépasse X » [S22][S27].
+> L'Eurosystème ne prévoit donc pas de coder dans les unités monétaires elles-mêmes une règle du type « cet euro ne peut pas acheter un produit dont l'empreinte carbone dépasse X » [S22](#s22)[S27](#s27).
 
 ---
 
@@ -8425,9 +8425,9 @@ Cela signifie que les unités d'euro numérique ne doivent pas comporter intrins
 
 L'exclusion de la monnaie programmable ne supprime pas les paiements conditionnels.
 
-La proposition européenne définit séparément l'opération de paiement conditionnelle comme une opération exécutée automatiquement lorsque des conditions prédéfinies convenues entre le payeur et le bénéficiaire sont remplies [S22].
+La proposition européenne définit séparément l'opération de paiement conditionnelle comme une opération exécutée automatiquement lorsque des conditions prédéfinies convenues entre le payeur et le bénéficiaire sont remplies [S22](#s22).
 
-La BCE prévoit parallèlement que les prestataires de paiement puissent développer la couche de conditionnalité [S27][S28].
+La BCE prévoit parallèlement que les prestataires de paiement puissent développer la couche de conditionnalité [S27](#s27)[S28](#s28).
 
 La distinction est donc :
 
@@ -8445,7 +8445,7 @@ règle appliquée au processus de transaction
 
 **AVÉRÉ :**
 
-> L'interdiction de la monnaie programmable ne constitue donc pas une interdiction générale de toute logique automatisée entourant l'exécution d'un paiement [S22][S27][S28].
+> L'interdiction de la monnaie programmable ne constitue donc pas une interdiction générale de toute logique automatisée entourant l'exécution d'un paiement [S22](#s22)[S27](#s27)[S28](#s28).
 
 ---
 
@@ -8453,7 +8453,7 @@ règle appliquée au processus de transaction
 
 Cette limite est également essentielle.
 
-Dans la proposition législative, les conditions d'un paiement conditionnel sont définies comme des conditions prédéfinies **convenues par le payeur et le bénéficiaire** [S22].
+Dans la proposition législative, les conditions d'un paiement conditionnel sont définies comme des conditions prédéfinies **convenues par le payeur et le bénéficiaire** [S22](#s22).
 
 Les services supplémentaires étudiés par la BCE sont par ailleurs présentés comme des services développés par les acteurs du marché et utilisés volontairement par les utilisateurs.
 
@@ -8583,19 +8583,19 @@ La frontière entre ce qui est établi et ce qui ne l'est pas peut désormais ê
 
 **AVÉRÉ :**
 
-> Un produit peut être relié à des données environnementales au moyen du Digital Product Passport [S15][S19].
+> Un produit peut être relié à des données environnementales au moyen du Digital Product Passport [S15](#s15)[S19](#s19).
 
 **AVÉRÉ :**
 
-> Un eReceipt peut comporter un identifiant permettant de relier l'achat au DPP et à ses informations vérifiées relatives au produit [S35].
+> Un eReceipt peut comporter un identifiant permettant de relier l'achat au DPP et à ses informations vérifiées relatives au produit [S35](#s35).
 
 **EXPÉRIMENTÉ :**
 
-> Un paiement peut être relié à un eReceipt contenant le détail économique de la transaction [S34].
+> Un paiement peut être relié à un eReceipt contenant le détail économique de la transaction [S34](#s34).
 
 **AVÉRÉ / EXPÉRIMENTÉ :**
 
-> Un système extérieur peut vérifier une condition utilisée par une couche de conditionnalité entourant un paiement [S27][S28].
+> Un système extérieur peut vérifier une condition utilisée par une couche de conditionnalité entourant un paiement [S27](#s27)[S28](#s28).
 
 **DÉDUCTIBLE TECHNIQUEMENT :**
 
@@ -8611,15 +8611,15 @@ La frontière entre ce qui est établi et ce qui ne l'est pas peut désormais ê
 
 **AVÉRÉ :**
 
-> Le standard européen relatif aux eReceipts prévoit explicitement qu'un identifiant DPP puisse relier un justificatif de transaction aux informations vérifiées du produit, comprenant notamment des informations relatives à sa durabilité et à ses impacts environnementaux [S35].
+> Le standard européen relatif aux eReceipts prévoit explicitement qu'un identifiant DPP puisse relier un justificatif de transaction aux informations vérifiées du produit, comprenant notamment des informations relatives à sa durabilité et à ses impacts environnementaux [S35](#s35).
 
 **EXPÉRIMENTÉ :**
 
-> Des travaux européens ont parallèlement démontré une chaîne reliant paiement, eReceipt détaillé et Business Wallet [S34].
+> Des travaux européens ont parallèlement démontré une chaîne reliant paiement, eReceipt détaillé et Business Wallet [S34](#s34).
 
 **AVÉRÉ / EXPÉRIMENTÉ :**
 
-> L'architecture des paiements conditionnels permet à un système externe de vérifier une condition dont le résultat intervient dans l'exécution du paiement [S27][S28].
+> L'architecture des paiements conditionnels permet à un système externe de vérifier une condition dont le résultat intervient dans l'exécution du paiement [S27](#s27)[S28](#s28).
 
 **DÉDUCTIBLE TECHNIQUEMENT :**
 
@@ -8631,7 +8631,7 @@ La frontière entre ce qui est établi et ce qui ne l'est pas peut désormais ê
 
 **AVÉRÉ :**
 
-> Dans le cadre juridique proposé pour l'euro numérique, les conditions d'un paiement conditionnel sont présentées comme prédéfinies et convenues entre le payeur et le bénéficiaire, tandis que la monnaie programmable limitant intrinsèquement les biens ou services pouvant être achetés est explicitement exclue [S22].
+> Dans le cadre juridique proposé pour l'euro numérique, les conditions d'un paiement conditionnel sont présentées comme prédéfinies et convenues entre le payeur et le bénéficiaire, tandis que la monnaie programmable limitant intrinsèquement les biens ou services pouvant être achetés est explicitement exclue [S22](#s22).
 
 La recherche du raccord environnement → paiement aboutit donc à un résultat nuancé mais précis :
 
@@ -8657,7 +8657,7 @@ Cette section fixe donc les limites de la démonstration avant d'en établir la 
 
 ### Interopérabilité ne signifie pas échange systématique de données
 
-Les infrastructures étudiées utilisent des identifiants, standards, API, attestations vérifiables et mécanismes d'autorisation permettant leur interopérabilité [S20][S30][S32].
+Les infrastructures étudiées utilisent des identifiants, standards, API, attestations vérifiables et mécanismes d'autorisation permettant leur interopérabilité [S20](#s20)[S30](#s30)[S32](#s32).
 
 **AVÉRÉ :**
 
@@ -8693,7 +8693,7 @@ L'existence de chacun de ces raccords ne suffit pas à démontrer qu'ils sont to
 
 ### Standard prévu ne signifie pas utilisation systématique
 
-Le standard relatif aux eReceipts prévoit la possibilité de relier un justificatif au Digital Product Passport au moyen d'un identifiant DPP [S35].
+Le standard relatif aux eReceipts prévoit la possibilité de relier un justificatif au Digital Product Passport au moyen d'un identifiant DPP [S35](#s35).
 
 Cela démontre l'existence d'un mécanisme normalisé permettant ce raccord.
 
@@ -8709,7 +8709,7 @@ La possibilité normalisée d'inclure une donnée ne démontre donc pas son util
 
 ### Projet pilote ne signifie pas système déployé
 
-Les expérimentations WE BUILD et celles de la Digital Euro Innovation Platform permettent de démontrer la faisabilité de plusieurs chaînes techniques [S28][S33][S34].
+Les expérimentations WE BUILD et celles de la Digital Euro Innovation Platform permettent de démontrer la faisabilité de plusieurs chaînes techniques [S28](#s28)[S33](#s33)[S34](#s34).
 
 Elles constituent des preuves d'expérimentation.
 
@@ -8725,7 +8725,7 @@ Cette distinction est particulièrement importante pour les démonstrations util
 
 ### Proposition législative ne signifie pas droit définitivement adopté
 
-Les European Business Wallets étudiés dans ce chapitre reposent notamment sur une proposition de règlement présentée par la Commission européenne [S30].
+Les European Business Wallets étudiés dans ce chapitre reposent notamment sur une proposition de règlement présentée par la Commission européenne [S30](#s30).
 
 À la date de l'analyse, cette proposition suit encore la procédure législative européenne.
 
@@ -8747,9 +8747,9 @@ Le texte final peut encore évoluer au cours de la procédure législative.
 
 Une infrastructure peut techniquement permettre à deux systèmes de communiquer sans que tous les acteurs soient juridiquement autorisés à accéder aux données correspondantes.
 
-Le DPP prévoit notamment des droits d'accès différenciés selon les données et catégories de produits [S15][S20].
+Le DPP prévoit notamment des droits d'accès différenciés selon les données et catégories de produits [S15](#s15)[S20](#s20).
 
-Les architectures EUDI et Business Wallet reposent également sur des mécanismes d'autorisation et de présentation sélective des informations [S29][S30].
+Les architectures EUDI et Business Wallet reposent également sur des mécanismes d'autorisation et de présentation sélective des informations [S29](#s29)[S30](#s30).
 
 **AVÉRÉ :**
 
@@ -8769,9 +8769,9 @@ sans que cela permette d'affirmer :
 
 ### Le DPP n'est pas un profil individuel de consommation
 
-Le Digital Product Passport décrit le produit, son modèle, son lot ou son article selon les règles applicables [S15].
+Le Digital Product Passport décrit le produit, son modèle, son lot ou son article selon les règles applicables [S15](#s15).
 
-Le règlement prévoit en outre que les données personnelles relatives aux clients ne soient pas stockées dans le DPP sans leur consentement explicite [S15].
+Le règlement prévoit en outre que les données personnelles relatives aux clients ne soient pas stockées dans le DPP sans leur consentement explicite [S15](#s15).
 
 **AVÉRÉ :**
 
@@ -8787,7 +8787,7 @@ Un rapprochement avec une transaction ou une identité nécessiterait des mécan
 
 ### Business Wallet ne signifie pas wallet individuel du consommateur
 
-Les European Business Wallets sont destinés aux opérateurs économiques et aux interactions professionnelles ou administratives [S30].
+Les European Business Wallets sont destinés aux opérateurs économiques et aux interactions professionnelles ou administratives [S30](#s30).
 
 Ils doivent être distingués de l'EUDI Wallet destiné aux personnes physiques.
 
@@ -8803,7 +8803,7 @@ Cette distinction empêche de transposer directement un pilote B2B à un scénar
 
 Le chapitre 1 a montré que les données transmises dans le cadre français de la facturation électronique et du e-reporting diffèrent selon les opérations.
 
-Les transactions B2C ne conduisent pas nécessairement à la transmission à l'administration fiscale du détail individualisé de chaque produit acheté par chaque consommateur [S1][S2][S3][S4].
+Les transactions B2C ne conduisent pas nécessairement à la transmission à l'administration fiscale du détail individualisé de chaque produit acheté par chaque consommateur [S1](#s1)[S2](#s2)[S3](#s3)[S4](#s4).
 
 **NON ÉTABLI :**
 
@@ -8815,9 +8815,9 @@ Cette limite demeure même si d'autres infrastructures disposent séparément d'
 
 ### Donnée environnementale disponible ne signifie pas profil carbone individuel
 
-Le DPP et d'autres réglementations européennes permettent ou imposent, selon les produits concernés, la disponibilité de données relatives à la durabilité ou à certains impacts environnementaux [S15][S18][S19].
+Le DPP et d'autres réglementations européennes permettent ou imposent, selon les produits concernés, la disponibilité de données relatives à la durabilité ou à certains impacts environnementaux [S15](#s15)[S18](#s18)[S19](#s19).
 
-Le rapprochement technique entre une transaction et ces informations peut également être envisagé ou normalisé [S31][S35].
+Le rapprochement technique entre une transaction et ces informations peut également être envisagé ou normalisé [S31](#s31)[S35](#s35).
 
 Mais :
 
@@ -8831,7 +8831,7 @@ Une telle finalité nécessiterait notamment l'identification des transactions p
 
 ### Paiement conditionnel ne signifie pas monnaie programmable
 
-Le chapitre 4 a établi une distinction fondamentale [S22][S27][S28].
+Le chapitre 4 a établi une distinction fondamentale [S22](#s22)[S27](#s27)[S28](#s28).
 
 L'euro numérique ne doit pas être conçu comme une monnaie programmable dont les unités seraient limitées à certains biens, commerçants, lieux ou périodes.
 
@@ -8851,13 +8851,13 @@ règle appliquée au processus entourant la transaction
 
 **AVÉRÉ :**
 
-> L'existence de paiements conditionnels ne permet donc pas d'affirmer que l'euro numérique lui-même pourra être programmé afin d'interdire certaines catégories d'achats [S22][S27][S28].
+> L'existence de paiements conditionnels ne permet donc pas d'affirmer que l'euro numérique lui-même pourra être programmé afin d'interdire certaines catégories d'achats [S22](#s22)[S27](#s27)[S28](#s28).
 
 ---
 
 ### Une condition technique possible ne signifie pas condition imposée
 
-Les paiements conditionnels sont présentés comme reposant sur des conditions prédéfinies intervenant dans le processus de transaction [S22][S27][S28].
+Les paiements conditionnels sont présentés comme reposant sur des conditions prédéfinies intervenant dans le processus de transaction [S22](#s22)[S27](#s27)[S28](#s28).
 
 Les acteurs du marché peuvent développer des services utilisant cette couche de conditionnalité.
 
@@ -8875,7 +8875,7 @@ Mais :
 
 ### La BCE n'a pas documenté de condition environnementale de paiement
 
-Les expérimentations de la Digital Euro Innovation Platform comprennent différents scénarios de paiements conditionnels [S28].
+Les expérimentations de la Digital Euro Innovation Platform comprennent différents scénarios de paiements conditionnels [S28](#s28).
 
 Les cas étudiés concernent notamment la livraison, l'utilisation d'un service, des étapes contractuelles, le transport ou des processus machine-to-machine.
 
@@ -8889,7 +8889,7 @@ Cette absence constitue actuellement la principale limite documentaire de la cha
 
 ### Acteur commun ne signifie pas échange de données
 
-Plusieurs banques, prestataires de paiement, entreprises technologiques et intégrateurs participent à différents projets européens [S33].
+Plusieurs banques, prestataires de paiement, entreprises technologiques et intégrateurs participent à différents projets européens [S33](#s33).
 
 Ces recoupements permettent d'identifier un environnement industriel commun.
 
@@ -9068,7 +9068,7 @@ Sa stratégie pour le marché unique rassemble notamment :
 - le Once Only Technical System ;  
 - les systèmes européens d'identification et d'échange de données.
 
-La Commission indique que ces outils doivent collectivement former un **écosystème cohérent de solutions numériques** destiné à créer des synergies entre les différents systèmes [S30][S31].
+La Commission indique que ces outils doivent collectivement former un **écosystème cohérent de solutions numériques** destiné à créer des synergies entre les différents systèmes [S30](#s30)[S31](#s31).
 
 **AVÉRÉ :**
 
@@ -9082,9 +9082,9 @@ Cette convergence institutionnelle ne démontre cependant pas que toutes les don
 
 La facturation électronique ne constitue pas uniquement un mécanisme de transmission d'un document entre vendeur et acheteur.
 
-En France, les données structurées alimentent notamment l'administration fiscale [S1][S2][S3][S4].
+En France, les données structurées alimentent notamment l'administration fiscale [S1](#s1)[S2](#s2)[S3](#s3)[S4](#s4).
 
-Au niveau européen, la Commission prévoit également de développer la réutilisation des données d'eInvoicing pour d'autres fonctions [S31].
+Au niveau européen, la Commission prévoit également de développer la réutilisation des données d'eInvoicing pour d'autres fonctions [S31](#s31).
 
 Parmi les orientations explicitement documentées figurent :
 
@@ -9112,17 +9112,17 @@ données douanières / EU Customs Data Hub
 
 **AVÉRÉ :**
 
-> La réutilisation des données de facturation électronique au-delà de la seule production de la facture fait partie des orientations européennes documentées [S31].
+> La réutilisation des données de facturation électronique au-delà de la seule production de la facture fait partie des orientations européennes documentées [S31](#s31).
 
 ---
 
 ### Transaction → produit → environnement
 
-Le chapitre 3 avait établi l'existence d'une infrastructure permettant d'associer un produit à un Digital Product Passport contenant, selon les catégories concernées, des informations relatives à sa durabilité ou à ses caractéristiques environnementales [S15][S18][S19][S20].
+Le chapitre 3 avait établi l'existence d'une infrastructure permettant d'associer un produit à un Digital Product Passport contenant, selon les catégories concernées, des informations relatives à sa durabilité ou à ses caractéristiques environnementales [S15](#s15)[S18](#s18)[S19](#s19)[S20](#s20).
 
 Le chapitre 5 a identifié un raccord supplémentaire.
 
-Le modèle européen relatif aux eReceipts prévoit qu'un justificatif puisse comporter un identifiant permettant de relier le produit acheté à son Digital Product Passport [S35].
+Le modèle européen relatif aux eReceipts prévoit qu'un justificatif puisse comporter un identifiant permettant de relier le produit acheté à son Digital Product Passport [S35](#s35).
 
 La chaîne devient :
 
@@ -9140,7 +9140,7 @@ données de durabilité / environnementales
 
 **AVÉRÉ :**
 
-> Un mécanisme normalisé permettant de relier un justificatif transactionnel au Digital Product Passport et aux informations vérifiées du produit est documenté [S35].
+> Un mécanisme normalisé permettant de relier un justificatif transactionnel au Digital Product Passport et aux informations vérifiées du produit est documenté [S35](#s35).
 
 **LIMITE :**
 
@@ -9158,7 +9158,7 @@ Les documents étudiés prévoient leur utilisation pour :
 - gérer des attestations vérifiables ;  
 - échanger des informations relatives à la TVA et aux transactions ;  
 - soutenir des processus liés à la facturation ;  
-- interagir avec le Digital Product Passport et certaines données relatives aux produits et à leur durabilité [S30].
+- interagir avec le Digital Product Passport et certaines données relatives aux produits et à leur durabilité [S30](#s30).
 
 La chaîne institutionnelle peut donc être représentée ainsi :
 
@@ -9173,7 +9173,7 @@ Business Wallet
 
 **AVÉRÉ :**
 
-> Le Business Wallet est conçu comme une infrastructure transversale permettant à plusieurs catégories de données d'entreprise d'être présentées, vérifiées ou échangées dans un environnement interopérable [S30][S32].
+> Le Business Wallet est conçu comme une infrastructure transversale permettant à plusieurs catégories de données d'entreprise d'être présentées, vérifiées ou échangées dans un environnement interopérable [S30](#s30)[S32](#s32).
 
 **LIMITE :**
 
@@ -9185,9 +9185,9 @@ Business Wallet
 
 Le raccord entre identité numérique et paiement est également explicitement documenté.
 
-L'EUDI Wallet peut être utilisé pour l'authentification de paiements et la présentation sélective de certaines attestations [S29].
+L'EUDI Wallet peut être utilisé pour l'authentification de paiements et la présentation sélective de certaines attestations [S29](#s29).
 
-Les travaux relatifs à l'euro numérique prévoient également son utilisation comme mécanisme possible d'authentification pour certaines transactions [S22][S29].
+Les travaux relatifs à l'euro numérique prévoient également son utilisation comme mécanisme possible d'authentification pour certaines transactions [S22](#s22)[S29](#s29).
 
 La chaîne :
 
@@ -9205,7 +9205,7 @@ est donc :
 
 **AVÉRÉ / EXPÉRIMENTÉ :**
 
-> L'identité numérique européenne et les infrastructures de paiement font déjà l'objet de raccords et d'expérimentations communes [S29].
+> L'identité numérique européenne et les infrastructures de paiement font déjà l'objet de raccords et d'expérimentations communes [S29](#s29).
 
 ---
 
@@ -9233,11 +9233,11 @@ lignes d'achat / TVA / référence du paiement
 European Business Wallet
 ```
 
-Le justificatif peut ensuite être réutilisé par des systèmes comptables et, dans la démonstration étudiée, par un service fiscal de rapprochement de TVA [S34].
+Le justificatif peut ensuite être réutilisé par des systèmes comptables et, dans la démonstration étudiée, par un service fiscal de rapprochement de TVA [S34](#s34).
 
 **EXPÉRIMENTÉ :**
 
-> Une chaîne reliant identité, paiement, justificatif transactionnel détaillé, wallet d'entreprise et traitement comptable ou fiscal a donc fait l'objet d'une démonstration technique [S34].
+> Une chaîne reliant identité, paiement, justificatif transactionnel détaillé, wallet d'entreprise et traitement comptable ou fiscal a donc fait l'objet d'une démonstration technique [S34](#s34).
 
 Cette chaîne ne doit cependant pas être présentée comme un système déjà généralisé ou déployé par les administrations fiscales européennes.
 
@@ -9245,7 +9245,7 @@ Cette chaîne ne doit cependant pas être présentée comme un système déjà g
 
 ### Système externe → condition → paiement
 
-Les travaux relatifs à l'euro numérique établissent parallèlement qu'un paiement conditionnel peut dépendre d'une condition vérifiée à l'extérieur de l'infrastructure de règlement [S22][S27][S28].
+Les travaux relatifs à l'euro numérique établissent parallèlement qu'un paiement conditionnel peut dépendre d'une condition vérifiée à l'extérieur de l'infrastructure de règlement [S22](#s22)[S27](#s27)[S28](#s28).
 
 L'architecture peut être représentée ainsi :
 
@@ -9263,7 +9263,7 @@ exécution du paiement
 
 **AVÉRÉ / EXPÉRIMENTÉ :**
 
-> Des systèmes externes peuvent intervenir dans la vérification d'une condition utilisée par un service de paiement conditionnel [S27][S28].
+> Des systèmes externes peuvent intervenir dans la vérification d'une condition utilisée par un service de paiement conditionnel [S27](#s27)[S28](#s28).
 
 La logique conditionnelle peut être développée par les acteurs du marché sans être intégrée à l'unité monétaire elle-même.
 
@@ -9386,7 +9386,7 @@ paiement conditionnel
 
 Cette conclusion ne nécessite pas l'existence d'une base centrale réunissant toutes les informations.
 
-Les différents systèmes peuvent fonctionner au moyen d'identifiants, API, wallets, attestations vérifiables et services intermédiaires [S20][S30][S32].
+Les différents systèmes peuvent fonctionner au moyen d'identifiants, API, wallets, attestations vérifiables et services intermédiaires [S20](#s20)[S30](#s30)[S32](#s32).
 
 ---
 
@@ -9406,7 +9406,7 @@ autorisation / refus / limitation du paiement
 
 > Aucun règlement, projet institutionnel, standard ou pilote identifié dans cette enquête ne démontre actuellement qu'une donnée environnementale issue du DPP ou d'une infrastructure équivalente soit utilisée afin de déterminer l'exécution d'un paiement.
 
-Les exemples de paiements conditionnels étudiés portent sur d'autres événements ou conditions [S27][S28].
+Les exemples de paiements conditionnels étudiés portent sur d'autres événements ou conditions [S27](#s27)[S28](#s28).
 
 La présence des composants nécessaires ne constitue donc pas la preuve de leur assemblage pour cette finalité.
 
@@ -9463,7 +9463,7 @@ système externe
    → paiement conditionnel
 ```
 
-Enfin, la Commission documente elle-même une stratégie visant à créer des synergies entre plusieurs infrastructures numériques étudiées dans cette enquête [S30][S31].
+Enfin, la Commission documente elle-même une stratégie visant à créer des synergies entre plusieurs infrastructures numériques étudiées dans cette enquête [S30](#s30)[S31](#s31).
 
 **AVÉRÉ :**
 
@@ -9643,7 +9643,7 @@ Le chapitre cherchera donc à identifier à la fois les protections existantes e
 
 ---
 
-## [S36] Règlement général sur la protection des données — principes applicables aux traitements
+## [S36](#s36) Règlement général sur la protection des données — principes applicables aux traitements
 
 **Organisme :** Union européenne
 
@@ -9661,7 +9661,7 @@ L'article 22 prévoit par ailleurs un encadrement spécifique des décisions fon
 
 ---
 
-## [S37] CNIL — intégration des données de facturation électronique au traitement algorithmique CFVR
+## [S37](#s37) CNIL — intégration des données de facturation électronique au traitement algorithmique CFVR
 
 **Organisme :** Commission nationale de l'informatique et des libertés (CNIL)
 
@@ -9690,7 +9690,7 @@ L'article 22 prévoit par ailleurs un encadrement spécifique des décisions fon
 
 ---
 
-## [S38] Décret relatif à la généralisation de la facturation électronique — prise en compte du RGPD et avis de la CNIL
+## [S38](#s38) Décret relatif à la généralisation de la facturation électronique — prise en compte du RGPD et avis de la CNIL
 
 **Organisme :** République française
 
@@ -9710,7 +9710,7 @@ Elles ne signifient cependant pas que toute évolution ultérieure des traitemen
 
 ---
 
-## [S39] Contrôle de proportionnalité des traitements de données par les pouvoirs publics
+## [S39](#s39) Contrôle de proportionnalité des traitements de données par les pouvoirs publics
 
 **Organismes :** Cour de justice de l'Union européenne / Conseil constitutionnel
 
@@ -9750,7 +9750,7 @@ Plusieurs niveaux de droit encadrent les traitements étudiés.
 
 ### Le RGPD s'applique aux données personnelles utilisées dans le dispositif
 
-Le règlement général sur la protection des données s'applique lorsqu'une information concerne une personne physique identifiée ou identifiable [S36].
+Le règlement général sur la protection des données s'applique lorsqu'une information concerne une personne physique identifiée ou identifiable [S36](#s36).
 
 Toutes les données contenues dans une facture ne constituent donc pas nécessairement des données personnelles.
 
@@ -9760,7 +9760,7 @@ Mais les systèmes de facturation peuvent également contenir des informations p
 
 Ce point n'est plus seulement théorique concernant l'exploitation fiscale des données issues de la réforme.
 
-La CNIL qualifie explicitement les données issues de la facturation électronique ajoutées au traitement CFVR de **données personnelles collectées** [S37].
+La CNIL qualifie explicitement les données issues de la facturation électronique ajoutées au traitement CFVR de **données personnelles collectées** [S37](#s37).
 
 **AVÉRÉ :**
 
@@ -9778,7 +9778,7 @@ La transmission des données à l'administration n'est pas mise en œuvre sans f
 
 Elle résulte notamment du Code général des impôts, de dispositions législatives et réglementaires organisant la facturation électronique et le e-reporting.
 
-Le décret organisant le dispositif vise lui-même explicitement le RGPD et a été adopté après consultation de la CNIL [S38].
+Le décret organisant le dispositif vise lui-même explicitement le RGPD et a été adopté après consultation de la CNIL [S38](#s38).
 
 **ARGUMENT INSUFFISANT :**
 
@@ -9786,7 +9786,7 @@ Le décret organisant le dispositif vise lui-même explicitement le RGPD et a é
 
 Le RGPD ne repose pas uniquement sur le consentement.
 
-Un traitement peut notamment être fondé sur une obligation légale ou être nécessaire à l'exécution d'une mission d'intérêt public prévue par le droit [S36].
+Un traitement peut notamment être fondé sur une obligation légale ou être nécessaire à l'exécution d'une mission d'intérêt public prévue par le droit [S36](#s36).
 
 L'absence de consentement des entreprises ou personnes concernées ne suffit donc pas, à elle seule, à rendre la réforme illégale.
 
@@ -9802,11 +9802,11 @@ Le RGPD impose que les données soient :
 
 et :
 
-> non réutilisées ultérieurement d'une manière incompatible avec ces finalités [S36].
+> non réutilisées ultérieurement d'une manière incompatible avec ces finalités [S36](#s36).
 
 Il impose également que les données soient :
 
-> adéquates, pertinentes et limitées à ce qui est nécessaire au regard des finalités poursuivies [S36].
+> adéquates, pertinentes et limitées à ce qui est nécessaire au regard des finalités poursuivies [S36](#s36).
 
 Par conséquent :
 
@@ -9838,13 +9838,13 @@ Le Chapitre 2 avait laissé ouverte la question des traitements automatisés ré
 
 La documentation publiée en 2026 permet désormais d'apporter une réponse précise.
 
-La CNIL a examiné l'intégration des données issues de la facturation électronique au traitement automatisé **CFVR — ciblage de la fraude et valorisation des requêtes** [S37].
+La CNIL a examiné l'intégration des données issues de la facturation électronique au traitement automatisé **CFVR — ciblage de la fraude et valorisation des requêtes** [S37](#s37).
 
-Cette évolution a ensuite été inscrite dans le cadre réglementaire par l'arrêté du 10 juillet 2026 modifiant l'arrêté portant création de CFVR [S45].
+Cette évolution a ensuite été inscrite dans le cadre réglementaire par l'arrêté du 10 juillet 2026 modifiant l'arrêté portant création de CFVR [S45](#s45).
 
 Les données issues de la facturation électronique font donc désormais partie des catégories de données intégrées au dispositif CFVR.
 
-La CNIL précise en outre qu'une partie des données de CFVR ainsi que les données issues de la facturation électronique doivent alimenter la plateforme sécurisée des données de la DGFiP afin d'y être exploitées, notamment en raison de leur volumétrie [S37].
+La CNIL précise en outre qu'une partie des données de CFVR ainsi que les données issues de la facturation électronique doivent alimenter la plateforme sécurisée des données de la DGFiP afin d'y être exploitées, notamment en raison de leur volumétrie [S37](#s37).
 
 Elle relève que :
 
@@ -9852,21 +9852,21 @@ Elle relève que :
 
 et que la volumétrie concernée est de l'ordre de :
 
-> **2 à 3 milliards de factures électroniques par an** [S37].
+> **2 à 3 milliards de factures électroniques par an** [S37](#s37).
 
-Les résultats issus de l'exploitation réalisée sur cette plateforme peuvent ensuite alimenter CFVR et être rapprochés d'autres informations afin de contribuer notamment à l'identification d'anomalies et d'entreprises présentant certains risques fiscaux [S37].
-
-**AVÉRÉ :**
-
-> L'intégration des données issues de la facturation électronique au traitement CFVR repose désormais sur un texte réglementaire adopté [S45].
+Les résultats issus de l'exploitation réalisée sur cette plateforme peuvent ensuite alimenter CFVR et être rapprochés d'autres informations afin de contribuer notamment à l'identification d'anomalies et d'entreprises présentant certains risques fiscaux [S37](#s37).
 
 **AVÉRÉ :**
 
-> Ces données sont destinées à être exploitées à grande échelle au sein de l'infrastructure d'analyse de données de la DGFiP pour des finalités liées au contrôle et au ciblage fiscal [S37][S45].
+> L'intégration des données issues de la facturation électronique au traitement CFVR repose désormais sur un texte réglementaire adopté [S45](#s45).
+
+**AVÉRÉ :**
+
+> Ces données sont destinées à être exploitées à grande échelle au sein de l'infrastructure d'analyse de données de la DGFiP pour des finalités liées au contrôle et au ciblage fiscal [S37](#s37)[S45](#s45).
 
 **GARANTIE JURIDIQUE ÉTABLIE :**
 
-> Cette intégration ne soustrait pas les traitements réalisés aux principes applicables de finalité, minimisation, sécurité, nécessité et proportionnalité [S36][S43][S44].
+> Cette intégration ne soustrait pas les traitements réalisés aux principes applicables de finalité, minimisation, sécurité, nécessité et proportionnalité [S36](#s36)[S43](#s43)[S44](#s44).
 
 ---
 
@@ -9874,7 +9874,7 @@ Les résultats issus de l'exploitation réalisée sur cette plateforme peuvent e
 
 L'avis de la CNIL apporte un second élément important.
 
-Les données exploitées sur la plateforme doivent permettre de produire des résultats qui peuvent être croisés avec les autres informations utilisées par CFVR afin d'obtenir notamment des listes d'entreprises considérées comme présentant certains risques fiscaux [S37].
+Les données exploitées sur la plateforme doivent permettre de produire des résultats qui peuvent être croisés avec les autres informations utilisées par CFVR afin d'obtenir notamment des listes d'entreprises considérées comme présentant certains risques fiscaux [S37](#s37).
 
 La CNIL indique également qu'à terme l'ensemble des données du traitement CFVR a vocation à alimenter la plateforme sécurisée des données.
 
@@ -9900,7 +9900,7 @@ orientation possible du contrôle fiscal
 
 > Le croisement et l'analyse automatisée de données issues de la facturation électronique avec d'autres informations fiscales ne constituent plus une simple possibilité technique.
 
-Ils font partie des usages documentés du dispositif CFVR [S37].
+Ils font partie des usages documentés du dispositif CFVR [S37](#s37).
 
 ---
 
@@ -9908,7 +9908,7 @@ Ils font partie des usages documentés du dispositif CFVR [S37].
 
 L'historique de CFVR décrit par la CNIL mérite également d'être relevé.
 
-Initialement développé pour les contribuables professionnels, le dispositif a ensuite été étendu aux personnes physiques impliquées dans le fonctionnement des entreprises, puis aux particuliers [S37].
+Initialement développé pour les contribuables professionnels, le dispositif a ensuite été étendu aux personnes physiques impliquées dans le fonctionnement des entreprises, puis aux particuliers [S37](#s37).
 
 Cela ne signifie pas que chaque donnée de facturation électronique sera associée à chaque particulier.
 
@@ -9922,7 +9922,7 @@ Mais cela démontre que l'infrastructure analytique dans laquelle ces données v
 
 ### Des échanges avec d'autres administrations sont également documentés
 
-La même délibération décrit des échanges entre la DGFiP et les organismes de sécurité sociale dans le cadre de CFVR [S37].
+La même délibération décrit des échanges entre la DGFiP et les organismes de sécurité sociale dans le cadre de CFVR [S37](#s37).
 
 Ces échanges disposent d'un fondement juridique spécifique et sont limités à certaines finalités.
 
@@ -9939,7 +9939,7 @@ Mais la CNIL insiste précisément sur :
 - le besoin d'en connaître ;  
 - la durée de conservation ;  
 - l'information des personnes ;  
-- la proportionnalité des échanges [S37].
+- la proportionnalité des échanges [S37](#s37).
 
 Cette observation est essentielle pour la suite de l'enquête.
 
@@ -9977,7 +9977,7 @@ réutilisation pour une autre politique publique
 rapprochement avec d'autres catégories de données
 ```
 
-Une telle évolution devrait être examinée au regard de la limitation des finalités, de sa base juridique, de sa nécessité et de sa proportionnalité [S36][S43].
+Une telle évolution devrait être examinée au regard de la limitation des finalités, de sa base juridique, de sa nécessité et de sa proportionnalité [S36](#s36)[S43](#s43).
 
 **VULNÉRABILITÉ POTENTIELLE :**
 
@@ -9987,7 +9987,7 @@ Une telle évolution devrait être examinée au regard de la limitation des fina
 
 ### Deuxième zone de vulnérabilité : la volumétrie et la proportionnalité
 
-La CNIL constate elle-même l'augmentation substantielle du volume de données provoquée par l'intégration de la facturation électronique à CFVR [S37].
+La CNIL constate elle-même l'augmentation substantielle du volume de données provoquée par l'intégration de la facturation électronique à CFVR [S37](#s37).
 
 Le volume annoncé atteint plusieurs milliards de factures par an.
 
@@ -9997,7 +9997,7 @@ Or la jurisprudence relative à la protection de la vie privée et des données 
 
 avec :
 
-> la nature, l'étendue et la sensibilité des données traitées ainsi que la gravité de l'ingérence [S39][S44].
+> la nature, l'étendue et la sensibilité des données traitées ainsi que la gravité de l'ingérence [S39](#s39)[S44](#s44).
 
 La question juridique pertinente n'est donc pas simplement :
 
@@ -10017,7 +10017,7 @@ C'est sur ce terrain qu'un contrôle juridique devient réellement intéressant.
 
 Le principe de minimisation ne s'applique pas uniquement au choix initial des catégories de données collectées.
 
-L'article 25 du RGPD impose également au responsable du traitement de mettre en œuvre des mesures techniques et organisationnelles permettant d'appliquer effectivement les principes de protection des données dès la conception et par défaut [S43].
+L'article 25 du RGPD impose également au responsable du traitement de mettre en œuvre des mesures techniques et organisationnelles permettant d'appliquer effectivement les principes de protection des données dès la conception et par défaut [S43](#s43).
 
 Le règlement précise que cette exigence concerne notamment :
 
@@ -10026,7 +10026,7 @@ Le règlement précise que cette exigence concerne notamment :
 - leur durée de conservation ;  
 - leur accessibilité.
 
-Cette disposition est particulièrement pertinente concernant une infrastructure appelée à traiter plusieurs milliards de factures électroniques par an et à permettre leur exploitation au sein d'une plateforme disposant d'importantes capacités de calcul [S37].
+Cette disposition est particulièrement pertinente concernant une infrastructure appelée à traiter plusieurs milliards de factures électroniques par an et à permettre leur exploitation au sein d'une plateforme disposant d'importantes capacités de calcul [S37](#s37).
 
 La question juridique ne porte donc pas uniquement sur l'existence d'une base permettant l'intégration des données.
 
@@ -10044,11 +10044,11 @@ Elle porte également sur la conception concrète de l'infrastructure :
 
 > et quelles mesures empêchent techniquement leur utilisation au-delà des finalités autorisées ?
 
-La CNIL exige précisément que la plateforme sécurisée des données conserve un cloisonnement strict, que les données qui y sont versées soient uniquement traitées pour les finalités prévues et que son utilisation n'ouvre pas l'accès à de nouveaux destinataires non prévus [S37].
+La CNIL exige précisément que la plateforme sécurisée des données conserve un cloisonnement strict, que les données qui y sont versées soient uniquement traitées pour les finalités prévues et que son utilisation n'ouvre pas l'accès à de nouveaux destinataires non prévus [S37](#s37).
 
 **GARANTIE JURIDIQUE ÉTABLIE :**
 
-> Le RGPD impose que la protection des données et la minimisation soient intégrées à la conception même du traitement et que, par défaut, seules les données nécessaires à chaque finalité spécifique soient traitées [S43].
+> Le RGPD impose que la protection des données et la minimisation soient intégrées à la conception même du traitement et que, par défaut, seules les données nécessaires à chaque finalité spécifique soient traitées [S43](#s43).
 
 **POINT DE VIGILANCE :**
 
@@ -10063,7 +10063,7 @@ La CNIL exige précisément que la plateforme sécurisée des données conserve 
 
 ### Quatrième zone de vulnérabilité : la maîtrise des accès
 
-La CNIL insiste également sur la nécessité de limiter les accès à un nombre restreint d'agents et au strict besoin d'en connaître [S37].
+La CNIL insiste également sur la nécessité de limiter les accès à un nombre restreint d'agents et au strict besoin d'en connaître [S37](#s37).
 
 Elle demande que la plateforme sécurisée :
 
@@ -10199,7 +10199,7 @@ Une interprétation trop simple consisterait à considérer que :
 
 Le RGPD ne pose pas une interdiction aussi absolue.
 
-Il organise au contraire plusieurs mécanismes permettant, sous conditions, certains traitements ultérieurs [S36][S43][S46].
+Il organise au contraire plusieurs mécanismes permettant, sous conditions, certains traitements ultérieurs [S36](#s36)[S43](#s43)[S46](#s46).
 
 ---
 
@@ -10207,7 +10207,7 @@ Il organise au contraire plusieurs mécanismes permettant, sous conditions, cert
 
 Le principe initial reste clair.
 
-Les données personnelles doivent être collectées pour des finalités déterminées, explicites et légitimes et ne doivent pas être traitées ultérieurement d'une manière incompatible avec ces finalités [S36][S43].
+Les données personnelles doivent être collectées pour des finalités déterminées, explicites et légitimes et ne doivent pas être traitées ultérieurement d'une manière incompatible avec ces finalités [S36](#s36)[S43](#s43).
 
 Cette règle empêche en principe qu'une infrastructure constituée pour un objectif déterminé devienne, par sa seule existence technique, une réserve générale de données utilisable pour n'importe quel objectif futur.
 
@@ -10235,7 +10235,7 @@ La première étape ne suffit jamais à démontrer les suivantes.
 
 ### Une nouvelle finalité n'est cependant pas automatiquement interdite
 
-L'article 6, paragraphe 4 du RGPD prévoit explicitement le cas dans lequel des données sont traitées ultérieurement pour une finalité autre que celle ayant justifié leur collecte initiale [S46].
+L'article 6, paragraphe 4 du RGPD prévoit explicitement le cas dans lequel des données sont traitées ultérieurement pour une finalité autre que celle ayant justifié leur collecte initiale [S46](#s46).
 
 Lorsque ce traitement ultérieur ne repose ni sur le consentement de la personne concernée ni sur une disposition pertinente du droit de l'Union ou d'un État membre, le responsable du traitement doit notamment déterminer si cette nouvelle finalité est compatible avec la finalité initiale.
 
@@ -10245,7 +10245,7 @@ Le règlement prévoit plusieurs critères permettant cette appréciation :
 - le contexte dans lequel les données ont été collectées ;  
 - la nature des données ;  
 - les conséquences possibles du nouveau traitement pour les personnes ;  
-- les garanties mises en œuvre, notamment le chiffrement ou la pseudonymisation [S46].
+- les garanties mises en œuvre, notamment le chiffrement ou la pseudonymisation [S46](#s46).
 
 Il existe donc juridiquement un :
 
@@ -10279,7 +10279,7 @@ La compatibilité doit être appréciée au regard du traitement effectivement e
 
 L'article 6, paragraphe 4 révèle une seconde possibilité importante pour cette enquête.
 
-Le mécanisme du test de compatibilité qu'il décrit concerne le cas dans lequel le traitement ultérieur n'est pas fondé notamment sur le droit de l'Union ou d'un État membre constituant une mesure nécessaire et proportionnée dans une société démocratique pour garantir les objectifs prévus par l'article 23 du RGPD [S46].
+Le mécanisme du test de compatibilité qu'il décrit concerne le cas dans lequel le traitement ultérieur n'est pas fondé notamment sur le droit de l'Union ou d'un État membre constituant une mesure nécessaire et proportionnée dans une société démocratique pour garantir les objectifs prévus par l'article 23 du RGPD [S46](#s46).
 
 Autrement dit, l'évolution des usages ne dépend pas uniquement de la compatibilité avec la finalité initiale.
 
@@ -10303,7 +10303,7 @@ Cela ne permet cependant pas de présumer qu'une telle évolution aura lieu.
 
 Cette possibilité n'est pas purement abstraite dans le domaine étudié.
 
-L'article 23 du RGPD prévoit expressément que le droit de l'Union ou le droit national peut, sous certaines conditions, limiter la portée de plusieurs obligations et droits prévus par le règlement afin de garantir certains objectifs importants d'intérêt public [S47].
+L'article 23 du RGPD prévoit expressément que le droit de l'Union ou le droit national peut, sous certaines conditions, limiter la portée de plusieurs obligations et droits prévus par le règlement afin de garantir certains objectifs importants d'intérêt public [S47](#s47).
 
 Parmi les domaines explicitement mentionnés figurent notamment :
 
@@ -10312,7 +10312,7 @@ Parmi les domaines explicitement mentionnés figurent notamment :
 - le domaine budgétaire ;  
 - le domaine fiscal ;  
 - la sécurité sociale ;  
-- certaines missions de contrôle, d'inspection ou de réglementation liées à l'exercice de l'autorité publique [S47].
+- certaines missions de contrôle, d'inspection ou de réglementation liées à l'exercice de l'autorité publique [S47](#s47).
 
 Cette possibilité reste conditionnée.
 
@@ -10322,7 +10322,7 @@ La mesure doit notamment :
 
 et :
 
-> être nécessaire et proportionnée dans une société démocratique [S47].
+> être nécessaire et proportionnée dans une société démocratique [S47](#s47).
 
 **GARANTIE JURIDIQUE :**
 
@@ -10336,14 +10336,14 @@ et :
 
 ### Cette latitude est déjà utilisée dans le cadre CFVR
 
-Le lien avec l'enquête devient particulièrement concret dans l'arrêté du 10 juillet 2026 modifiant CFVR [S45][S47].
+Le lien avec l'enquête devient particulièrement concret dans l'arrêté du 10 juillet 2026 modifiant CFVR [S45](#s45)[S47](#s47).
 
 Cet arrêté :
 
 - intègre les données issues de la facturation électronique parmi les données traitées ;  
 - étend ou précise plusieurs sources de données utilisées par le dispositif ;  
 - organise certains accès et transmissions ;  
-- et fait explicitement référence aux points e) et h) du paragraphe 1 de l'article 23 du RGPD [S45][S47].
+- et fait explicitement référence aux points e) et h) du paragraphe 1 de l'article 23 du RGPD [S45](#s45)[S47](#s47).
 
 Il ne s'agit donc pas seulement d'une possibilité théorique contenue dans le règlement européen.
 
@@ -10351,7 +10351,7 @@ Le cadre réglementaire actuel de CFVR mobilise déjà les mécanismes juridique
 
 **AVÉRÉ :**
 
-> Le cadre juridique de CFVR fait explicitement référence aux possibilités de limitation prévues par l'article 23 du RGPD pour certains objectifs d'intérêt public et certaines missions de contrôle [S45][S47].
+> Le cadre juridique de CFVR fait explicitement référence aux possibilités de limitation prévues par l'article 23 du RGPD pour certains objectifs d'intérêt public et certaines missions de contrôle [S45](#s45)[S47](#s47).
 
 ---
 
@@ -10379,7 +10379,7 @@ Selon les situations, cela peut notamment inclure :
 - le contrôle de nécessité ;  
 - le contrôle de proportionnalité ;  
 - le principe de minimisation ;  
-- les garanties applicables aux personnes concernées [S39][S43][S44][S46][S47].
+- les garanties applicables aux personnes concernées [S39](#s39)[S43](#s43)[S44](#s44)[S46](#s46)[S47](#s47).
 
 La véritable frontière n'est donc pas :
 
@@ -10527,19 +10527,19 @@ usage juridiquement autorisé aujourd'hui
 
 **AVÉRÉ :**
 
-> Le RGPD interdit les traitements ultérieurs incompatibles avec les finalités initiales lorsqu'aucun autre fondement pertinent ne permet le traitement [S36][S43][S46].
+> Le RGPD interdit les traitements ultérieurs incompatibles avec les finalités initiales lorsqu'aucun autre fondement pertinent ne permet le traitement [S36](#s36)[S43](#s43)[S46](#s46).
 
 **AVÉRÉ :**
 
-> Le RGPD prévoit un mécanisme permettant d'évaluer la compatibilité d'une finalité ultérieure avec la finalité initiale [S46].
+> Le RGPD prévoit un mécanisme permettant d'évaluer la compatibilité d'une finalité ultérieure avec la finalité initiale [S46](#s46).
 
 **AVÉRÉ :**
 
-> Le droit de l'Union ou le droit national peut également prévoir certaines limitations ou certains traitements dans les conditions prévues par le RGPD, notamment pour des objectifs importants relevant du domaine fiscal et pour certaines missions de contrôle [S46][S47].
+> Le droit de l'Union ou le droit national peut également prévoir certaines limitations ou certains traitements dans les conditions prévues par le RGPD, notamment pour des objectifs importants relevant du domaine fiscal et pour certaines missions de contrôle [S46](#s46)[S47](#s47).
 
 **AVÉRÉ :**
 
-> Le cadre CFVR modifié en juillet 2026 fait explicitement référence aux points e) et h) de l'article 23, paragraphe 1 du RGPD [S45][S47].
+> Le cadre CFVR modifié en juillet 2026 fait explicitement référence aux points e) et h) de l'article 23, paragraphe 1 du RGPD [S45](#s45)[S47](#s47).
 
 **GARANTIE JURIDIQUE :**
 
@@ -10571,7 +10571,7 @@ Les chapitres précédents ont montré que plusieurs infrastructures étudiées 
 
 Dans le domaine fiscal, cette question n'est désormais plus seulement technique.
 
-Le traitement CFVR constitue déjà une architecture alimentée par de nombreuses sources de données et permettant leur analyse ou leur rapprochement [S37][S45].
+Le traitement CFVR constitue déjà une architecture alimentée par de nombreuses sources de données et permettant leur analyse ou leur rapprochement [S37](#s37)[S45](#s45).
 
 L'enjeu juridique devient donc double :
 
@@ -10585,7 +10585,7 @@ et :
 
 ### CFVR constitue déjà une infrastructure multi-sources
 
-L'arrêté modifiant CFVR en juillet 2026 ne se limite pas à l'ajout des données issues de la facturation électronique [S45].
+L'arrêté modifiant CFVR en juillet 2026 ne se limite pas à l'ajout des données issues de la facturation électronique [S45](#s45).
 
 Le traitement est alimenté par de nombreuses autres sources.
 
@@ -10603,9 +10603,9 @@ La liste réglementaire comprend notamment des données issues :
 - des traitements relatifs aux quittus automobiles ;  
 - de traitements de données provenant d'organismes sociaux ;  
 - de données publiquement accessibles collectées sur certaines plateformes en ligne ;  
-- et désormais de la facturation électronique [S45].
+- et désormais de la facturation électronique [S45](#s45).
 
-L'arrêté prévoit également des données concernant des personnes physiques nécessaires à certains travaux portant sur l'intensité de l'activité économique [S45].
+L'arrêté prévoit également des données concernant des personnes physiques nécessaires à certains travaux portant sur l'intensité de l'activité économique [S45](#s45).
 
 **AVÉRÉ :**
 
@@ -10617,7 +10617,7 @@ Il constitue une infrastructure analytique alimentée par un ensemble beaucoup p
 
 ### Le croisement est une fonction documentée du dispositif
 
-La CNIL décrit explicitement le fonctionnement prévu pour les nouvelles données de facturation électronique [S37].
+La CNIL décrit explicitement le fonctionnement prévu pour les nouvelles données de facturation électronique [S37](#s37).
 
 Une partie des données de CFVR ainsi que les données issues de la facturation électronique doivent alimenter la plateforme sécurisée des données de la DGFiP.
 
@@ -10625,7 +10625,7 @@ Les résultats des requêtes effectuées sur cette plateforme peuvent ensuite ê
 
 À terme :
 
-> **l'ensemble des données de CFVR a vocation à alimenter cette plateforme** [S37].
+> **l'ensemble des données de CFVR a vocation à alimenter cette plateforme** [S37](#s37).
 
 La chaîne documentée devient donc :
 
@@ -10651,7 +10651,7 @@ sélection de dossiers présentant certains risques
 
 **AVÉRÉ :**
 
-> Le rapprochement de plusieurs ensembles de données constitue une fonction effective et réglementairement organisée de CFVR [S37][S45].
+> Le rapprochement de plusieurs ensembles de données constitue une fonction effective et réglementairement organisée de CFVR [S37](#s37)[S45](#s45).
 
 Il ne s'agit donc plus seulement d'une interconnexion techniquement envisageable.
 
@@ -10663,7 +10663,7 @@ Les interconnexions documentées dépassent également la seule DGFiP.
 
 L'article L. 152 du livre des procédures fiscales permet certains échanges entre l'administration fiscale et les organismes de sécurité sociale.
 
-Le dispositif CFVR a été adapté en conséquence [S37][S45].
+Le dispositif CFVR a été adapté en conséquence [S37](#s37)[S45](#s45).
 
 Les données peuvent être transmises aux organismes sociaux pour certaines missions de contrôle de l'assiette des cotisations.
 
@@ -10673,7 +10673,7 @@ La CNIL mentionne notamment des informations relatives :
 
 - au travail dissimulé ;  
 - aux rémunérations ;  
-- aux résultats de contrôles fiscaux [S37].
+- aux résultats de contrôles fiscaux [S37](#s37).
 
 **AVÉRÉ :**
 
@@ -10685,7 +10685,7 @@ Cette circulation repose sur une base légale et sur des finalités déterminée
 
 ### Le périmètre des personnes ayant accès au système évolue également
 
-L'arrêté de juillet 2026 prévoit plusieurs catégories d'agents habilités pouvant accéder aux données nécessaires aux travaux de modélisation et de visualisation [S45].
+L'arrêté de juillet 2026 prévoit plusieurs catégories d'agents habilités pouvant accéder aux données nécessaires aux travaux de modélisation et de visualisation [S45](#s45).
 
 Il comprend notamment des agents appartenant :
 
@@ -10695,15 +10695,15 @@ Il comprend notamment des agents appartenant :
 - à des directions départementales des finances publiques ;  
 - à la direction nationale des enquêtes fiscales.
 
-Les résultats utiles sont également accessibles, dans la limite du besoin d'en connaître, à certains agents chargés de la gestion, de la programmation et du contrôle des dossiers ainsi qu'à certains agents habilités des organismes de sécurité sociale [S45].
+Les résultats utiles sont également accessibles, dans la limite du besoin d'en connaître, à certains agents chargés de la gestion, de la programmation et du contrôle des dossiers ainsi qu'à certains agents habilités des organismes de sécurité sociale [S45](#s45).
 
-La CNIL indique que les membres du réseau national doivent être individuellement habilités, formés et supervisés et que certaines requêtes peuvent être validées ou refusées par le bureau compétent [S37].
+La CNIL indique que les membres du réseau national doivent être individuellement habilités, formés et supervisés et que certaines requêtes peuvent être validées ou refusées par le bureau compétent [S37](#s37).
 
 **GARANTIE JURIDIQUE ET ORGANISATIONNELLE :**
 
 > Les accès ne sont pas présentés comme ouverts indistinctement à l'ensemble des agents publics.
 
-Ils reposent sur des habilitations et doivent être limités au besoin d'en connaître [S37][S45].
+Ils reposent sur des habilitations et doivent être limités au besoin d'en connaître [S37](#s37)[S45](#s45).
 
 ---
 
@@ -10716,7 +10716,7 @@ Parmi les critères permettant d'identifier des traitements susceptibles d'engen
 - le traitement à grande échelle ;  
 - le croisement ou la combinaison d'ensembles de données ;  
 - l'évaluation ou le scoring ;  
-- l'usage de technologies ou méthodes innovantes [S49].
+- l'usage de technologies ou méthodes innovantes [S49](#s49).
 
 CFVR présente publiquement plusieurs caractéristiques correspondant à ces critères :
 
@@ -10730,7 +10730,7 @@ analyse / ciblage
 méthodes algorithmiques
 ```
 
-La CNIL constate elle-même que l'arrivée de la facturation électronique augmente **substantiellement** le volume de données traitées et évoque plusieurs milliards de factures par an [S37].
+La CNIL constate elle-même que l'arrivée de la facturation électronique augmente **substantiellement** le volume de données traitées et évoque plusieurs milliards de factures par an [S37](#s37).
 
 **POINT DE VIGILANCE MAJEUR :**
 
@@ -10752,7 +10752,7 @@ Le RGPD impose précisément que le niveau de sécurité soit adapté :
 - à leur portée ;  
 - au contexte du traitement ;  
 - à la probabilité du risque ;  
-- à sa gravité [S48].
+- à sa gravité [S48](#s48).
 
 La CNIL va ici beaucoup plus loin qu'une formule générale.
 
@@ -10764,7 +10764,7 @@ Dans son avis concernant CFVR, elle relève explicitement :
 
 > l'évolution de la menace ;
 
-> et l'évolution des modes opératoires d'attaque informatique [S37].
+> et l'évolution des modes opératoires d'attaque informatique [S37](#s37).
 
 **VULNÉRABILITÉ JURIDIQUE ET TECHNIQUE :**
 
@@ -10780,7 +10780,7 @@ Cela signifie que :
 
 ### La CNIL demande elle-même des protections renforcées contre les accès compromis
 
-L'avis de la CNIL apporte ici un élément particulièrement concret [S37].
+L'avis de la CNIL apporte ici un élément particulièrement concret [S37](#s37).
 
 Elle accueille favorablement l'engagement du ministère de systématiser :
 
@@ -10794,7 +10794,7 @@ Elle considère que la journalisation doit s'accompagner de mécanismes permetta
 - une analyse proactive des événements ;  
 - la détection de comportements inattendus ;  
 - la génération d'alertes ;  
-- le blocage immédiat des comptes concernés jusqu'à la levée du doute par la hiérarchie [S37].
+- le blocage immédiat des comptes concernés jusqu'à la levée du doute par la hiérarchie [S37](#s37).
 
 **GARANTIE DOCUMENTÉE :**
 
@@ -10818,7 +10818,7 @@ Voilà une question très concrète qui peut être adressée à l'administration
 
 La sécurité d'une infrastructure de cette nature ne concerne pas uniquement un pirate obtenant un accès depuis Internet.
 
-L'article 32 du RGPD couvre également les risques d'accès ou de divulgation non autorisés [S48].
+L'article 32 du RGPD couvre également les risques d'accès ou de divulgation non autorisés [S48](#s48).
 
 La maîtrise des habilitations devient donc fondamentale.
 
@@ -10843,7 +10843,7 @@ C'est précisément pour cette raison que la CNIL insiste sur :
 - le strict besoin d'en connaître ;  
 - la supervision ;  
 - la journalisation ;  
-- l'analyse des comportements [S37][S50].
+- l'analyse des comportements [S37](#s37)[S50](#s50).
 
 **VULNÉRABILITÉ :**
 
@@ -10855,7 +10855,7 @@ C'est précisément pour cette raison que la CNIL insiste sur :
 
 Les échanges avec d'autres administrations ajoutent une autre dimension.
 
-La CNIL prend acte de l'utilisation d'un outil sécurisé de transfert de fichiers avec chiffrement conforme à l'état de l'art pour les échanges avec les organismes sociaux [S37].
+La CNIL prend acte de l'utilisation d'un outil sécurisé de transfert de fichiers avec chiffrement conforme à l'état de l'art pour les échanges avec les organismes sociaux [S37](#s37).
 
 C'est une garantie importante.
 
@@ -10883,7 +10883,7 @@ Elle dépend également :
 
 **GARANTIE DOCUMENTÉE :**
 
-> Les échanges DGFiP / organismes sociaux doivent utiliser un mécanisme de transfert sécurisé et chiffré [S37].
+> Les échanges DGFiP / organismes sociaux doivent utiliser un mécanisme de transfert sécurisé et chiffré [S37](#s37).
 
 **VULNÉRABILITÉ STRUCTURELLE :**
 
@@ -10897,13 +10897,13 @@ Il s'agit d'une conséquence de l'architecture distribuée elle-même.
 
 ### Un angle mort très concret apparaît sur la conservation des données échangées
 
-L'avis de la CNIL contient une observation particulièrement intéressante concernant les échanges avec les organismes sociaux [S37].
+L'avis de la CNIL contient une observation particulièrement intéressante concernant les échanges avec les organismes sociaux [S37](#s37).
 
 La Commission constate que le projet d'arrêté qui lui avait été soumis :
 
 > **ne précisait pas la durée de conservation des données transmises dans le cadre de ces communications.**
 
-Elle rappelle alors que les échanges entre administrations ne sont permis que si leurs modalités restent proportionnées aux objectifs poursuivis et insiste sur la nécessité de limiter la conservation à la durée nécessaire [S37].
+Elle rappelle alors que les échanges entre administrations ne sont permis que si leurs modalités restent proportionnées aux objectifs poursuivis et insiste sur la nécessité de limiter la conservation à la durée nécessaire [S37](#s37).
 
 **ANGLE MORT DOCUMENTAIRE IDENTIFIÉ :**
 
@@ -10927,7 +10927,7 @@ Ce point peut être beaucoup plus intéressant qu'une critique générale de la 
 
 Le RGPD contient un mécanisme particulièrement pertinent pour suivre l'évolution de ce type d'architecture.
 
-L'article 35 prévoit que, lorsqu'une analyse d'impact existe, le responsable du traitement doit réexaminer si le traitement demeure conforme à cette analyse lorsqu'une modification du risque intervient [S48].
+L'article 35 prévoit que, lorsqu'une analyse d'impact existe, le responsable du traitement doit réexaminer si le traitement demeure conforme à cette analyse lorsqu'une modification du risque intervient [S48](#s48).
 
 Or plusieurs transformations sont maintenant documentées :
 
@@ -10937,7 +10937,7 @@ Or plusieurs transformations sont maintenant documentées :
 - croisement avec d'autres informations ;  
 - développement de nouvelles méthodes d'apprentissage ;  
 - extension organisationnelle du réseau d'analyse ;  
-- nouvelles relations avec des organismes sociaux [S37][S45].
+- nouvelles relations avec des organismes sociaux [S37](#s37)[S45](#s45).
 
 **QUESTION JURIDIQUE MAJEURE :**
 
@@ -10955,7 +10955,7 @@ Cette distinction est essentielle.
 
 ### Une AIPD serait particulièrement pertinente au regard des critères de la CNIL
 
-Sans préjuger de l'analyse juridique déjà réalisée par la DGFiP, plusieurs critères de risque élevé décrits par la CNIL apparaissent objectivement dans la documentation publique [S37][S49] :
+Sans préjuger de l'analyse juridique déjà réalisée par la DGFiP, plusieurs critères de risque élevé décrits par la CNIL apparaissent objectivement dans la documentation publique [S37](#s37)[S49](#s49) :
 
 ```
 traitement à grande échelle        ✓
@@ -10996,7 +10996,7 @@ La présence de ces caractéristiques rend particulièrement importante la possi
 
 ### Cinquième vulnérabilité : le cloisonnement devient une garantie critique
 
-La CNIL impose une condition particulièrement forte concernant la plateforme sécurisée des données [S37].
+La CNIL impose une condition particulièrement forte concernant la plateforme sécurisée des données [S37](#s37).
 
 Elle considère que son utilisation suppose :
 
@@ -11049,7 +11049,7 @@ réévaluation régulière
 capacité à démontrer la conformité
 ```
 
-[S48][S50]
+[S48](#s48)[S50](#s50)
 
 C'est donc sur ce terrain que l'analyse doit se placer.
 
@@ -11083,27 +11083,27 @@ Elles demandent la démonstration des garanties que le droit rend précisément 
 
 **AVÉRÉ :**
 
-> CFVR rapproche déjà de nombreuses sources fiscales, économiques, administratives et sociales et intègre désormais les données issues de la facturation électronique [S37][S45].
+> CFVR rapproche déjà de nombreuses sources fiscales, économiques, administratives et sociales et intègre désormais les données issues de la facturation électronique [S37](#s37)[S45](#s45).
 
 **AVÉRÉ :**
 
-> Les données de facturation électronique doivent être exploitées dans la PSD et leurs résultats peuvent être croisés avec d'autres informations utilisées par CFVR [S37].
+> Les données de facturation électronique doivent être exploitées dans la PSD et leurs résultats peuvent être croisés avec d'autres informations utilisées par CFVR [S37](#s37).
 
 **AVÉRÉ :**
 
-> Des échanges bidirectionnels de certaines données sont juridiquement organisés entre la DGFiP et des organismes de sécurité sociale [S37][S45].
+> Des échanges bidirectionnels de certaines données sont juridiquement organisés entre la DGFiP et des organismes de sécurité sociale [S37](#s37)[S45](#s45).
 
 **AVÉRÉ :**
 
-> La CNIL considère explicitement que le volume massif, la sensibilité des données et l'évolution des modes d'attaque informatique imposent une vigilance particulière [S37].
+> La CNIL considère explicitement que le volume massif, la sensibilité des données et l'évolution des modes d'attaque informatique imposent une vigilance particulière [S37](#s37).
 
 **GARANTIE JURIDIQUE :**
 
-> Le RGPD impose un niveau de sécurité adapté au risque ainsi qu'une réévaluation lorsque l'évolution des opérations entraîne une modification du risque [S48].
+> Le RGPD impose un niveau de sécurité adapté au risque ainsi qu'une réévaluation lorsque l'évolution des opérations entraîne une modification du risque [S48](#s48).
 
 **GARANTIE DOCUMENTÉE :**
 
-> La CNIL relève notamment des engagements concernant la double authentification, les terminaux sécurisés, le cloisonnement et la limitation des habilitations [S37].
+> La CNIL relève notamment des engagements concernant la double authentification, les terminaux sécurisés, le cloisonnement et la limitation des habilitations [S37](#s37).
 
 **ANGLE MORT DOCUMENTAIRE :**
 
@@ -11111,7 +11111,7 @@ Elles demandent la démonstration des garanties que le droit rend précisément 
 
 **ANGLE MORT DOCUMENTAIRE :**
 
-> Le projet examiné par la CNIL ne précisait pas la durée de conservation des données transmises aux organismes sociaux ; il reste à établir précisément le régime applicable à chaque copie détenue par les destinataires [S37].
+> Le projet examiné par la CNIL ne précisait pas la durée de conservation des données transmises aux organismes sociaux ; il reste à établir précisément le régime applicable à chaque copie détenue par les destinataires [S37](#s37).
 
 **ANGLE MORT DOCUMENTAIRE :**
 
@@ -11135,7 +11135,7 @@ Elles demandent la démonstration des garanties que le droit rend précisément 
 
 **Statut : TRAITEMENTS ALGORITHMIQUES AVÉRÉS / GARANTIE HUMAINE DOCUMENTÉE / FRONTIÈRE JURIDIQUE IDENTIFIÉE / VULNÉRABILITÉS À ÉTABLIR**
 
-Les sections précédentes ont établi que les données issues de la facturation électronique doivent être exploitées à grande échelle, croisées avec d'autres informations et utilisées dans un traitement permettant notamment d'identifier des anomalies et des entreprises présentant certains risques fiscaux [S37][S45].
+Les sections précédentes ont établi que les données issues de la facturation électronique doivent être exploitées à grande échelle, croisées avec d'autres informations et utilisées dans un traitement permettant notamment d'identifier des anomalies et des entreprises présentant certains risques fiscaux [S37](#s37)[S45](#s45).
 
 Cette architecture conduit directement à une question juridique supplémentaire :
 
@@ -11153,7 +11153,7 @@ Une première distinction doit être conservée.
 
 Le profilage consiste à utiliser des données personnelles afin d'évaluer certains aspects personnels concernant une personne physique.
 
-Une décision automatisée peut être fondée sur un profilage, mais les deux notions ne se confondent pas [S36][S43].
+Une décision automatisée peut être fondée sur un profilage, mais les deux notions ne se confondent pas [S36](#s36)[S43](#s43).
 
 Un traitement peut donc :
 
@@ -11179,11 +11179,11 @@ Inversement, une décision peut être entièrement automatisée sans nécessaire
 L'article 22 du RGPD reconnaît à la personne concernée le droit de ne pas faire l'objet d'une décision fondée exclusivement sur un traitement automatisé, y compris le profilage, lorsque cette décision :
 
 - produit des effets juridiques la concernant ;  
-- ou l'affecte de manière significative de façon similaire [S36][S43].
+- ou l'affecte de manière significative de façon similaire [S36](#s36)[S43](#s43).
 
 Des exceptions existent.
 
-Une telle décision peut notamment être autorisée lorsqu'elle est prévue par le droit de l'Union ou d'un État membre et que des mesures appropriées protègent les droits, libertés et intérêts légitimes des personnes [S43].
+Une telle décision peut notamment être autorisée lorsqu'elle est prévue par le droit de l'Union ou d'un État membre et que des mesures appropriées protègent les droits, libertés et intérêts légitimes des personnes [S43](#s43).
 
 Le principe n'est donc pas :
 
@@ -11219,13 +11219,13 @@ La CNIL indique que le traitement a pour objet :
 
 et précise que :
 
-> **les agents seuls peuvent décider d'engager une procédure de contrôle fiscal** [S37].
+> **les agents seuls peuvent décider d'engager une procédure de contrôle fiscal** [S37](#s37).
 
 Elle insiste à nouveau sur cette séparation lors de l'examen des méthodes algorithmiques.
 
 Les signalements générés par CFVR doivent demeurer un outil permettant aux agents d'apprécier l'opportunité d'ouvrir ou non un contrôle.
 
-Ils ne doivent pas remplacer leur analyse [S37].
+Ils ne doivent pas remplacer leur analyse [S37](#s37).
 
 **AVÉRÉ :**
 
@@ -11251,22 +11251,22 @@ Elle considère :
 
 > **indispensable à l'équilibre du dispositif**
 
-que les signalements générés ne puissent en aucun cas remplacer l'analyse réalisée par les agents [S37].
+que les signalements générés ne puissent en aucun cas remplacer l'analyse réalisée par les agents [S37](#s37).
 
 Elle demande également au ministère de garantir :
 
-> **une surveillance et une décision humaine effectives** [S37].
+> **une surveillance et une décision humaine effectives** [S37](#s37).
 
 Elle recommande notamment :
 
 - une documentation adaptée pour les analystes ;  
 - des formations régulières ;  
 - une analyse fiscale des pièces de chaque dossier ;  
-- la prise en compte des dernières déclarations disponibles [S37].
+- la prise en compte des dernières déclarations disponibles [S37](#s37).
 
 La CNIL qualifie ces mesures d'essentielles pour prévenir :
 
-> **l'automatisation de l'ouverture des contrôles fiscaux** [S37].
+> **l'automatisation de l'ouverture des contrôles fiscaux** [S37](#s37).
 
 Cette formulation révèle une frontière juridique et organisationnelle très claire.
 
@@ -11288,7 +11288,7 @@ La solidité de la garantie dépend donc de ce qui se passe réellement dans l'�
 
 La jurisprudence de la Cour de justice apporte ici un élément majeur.
 
-Dans l'affaire SCHUFA, la Cour devait examiner un système dans lequel une société produisait automatiquement une valeur de probabilité concernant une personne, puis transmettait cette valeur à un tiers qui prenait formellement la décision finale [S51].
+Dans l'affaire SCHUFA, la Cour devait examiner un système dans lequel une société produisait automatiquement une valeur de probabilité concernant une personne, puis transmettait cette valeur à un tiers qui prenait formellement la décision finale [S51](#s51).
 
 Il existait donc bien deux étapes :
 
@@ -11302,7 +11302,7 @@ tiers
 décision
 ```
 
-La Cour a néanmoins considéré que l'établissement automatisé du score pouvait constituer lui-même une décision individuelle automatisée au sens de l'article 22 lorsque la décision du tiers dépendait **de manière déterminante** de cette valeur [S51].
+La Cour a néanmoins considéré que l'établissement automatisé du score pouvait constituer lui-même une décision individuelle automatisée au sens de l'article 22 lorsque la décision du tiers dépendait **de manière déterminante** de cette valeur [S51](#s51).
 
 **PRINCIPE JURISPRUDENTIEL :**
 
@@ -11326,11 +11326,11 @@ Elle est :
 
 > **« cet humain dispose-t-il réellement des informations, du temps, de la compétence et de l'autonomie nécessaires pour remettre en cause le signal produit par le système ? »**
 
-La CNIL semble elle-même identifier cette difficulté puisqu'elle demande une surveillance et une décision humaine **effectives** [S37].
+La CNIL semble elle-même identifier cette difficulté puisqu'elle demande une surveillance et une décision humaine **effectives** [S37](#s37).
 
 **VULNÉRABILITÉ JURIDIQUE :**
 
-> Si l'analyse humaine devenait purement formelle et que les signalements algorithmiques déterminaient en pratique l'ouverture des contrôles, la qualification juridique du processus devrait être réexaminée au regard notamment de l'article 22 et de la jurisprudence SCHUFA [S43][S51].
+> Si l'analyse humaine devenait purement formelle et que les signalements algorithmiques déterminaient en pratique l'ouverture des contrôles, la qualification juridique du processus devrait être réexaminée au regard notamment de l'article 22 et de la jurisprudence SCHUFA [S43](#s43)[S51](#s51).
 
 **NON ÉTABLI :**
 
@@ -11350,7 +11350,7 @@ Ces données permettraient de mesurer l'effectivité réelle de la garantie huma
 
 ### Une deuxième vulnérabilité apparaît : la boucle de rétroaction algorithmique
 
-La CNIL identifie explicitement un autre problème [S37].
+La CNIL identifie explicitement un autre problème [S37](#s37).
 
 Les résultats des contrôles fiscaux passés sont utilisés pour développer les modèles employés dans CFVR.
 
@@ -11378,7 +11378,7 @@ Les populations davantage contrôlées produisent mécaniquement davantage de do
 
 Ces données peuvent ensuite alimenter les modèles futurs.
 
-La CNIL décrit précisément le risque d'une amplification conduisant à une concentration des contrôles sur certaines populations ou catégories d'entités qui ne serait plus justifiée par la prévalence actualisée de la fraude [S37].
+La CNIL décrit précisément le risque d'une amplification conduisant à une concentration des contrôles sur certaines populations ou catégories d'entités qui ne serait plus justifiée par la prévalence actualisée de la fraude [S37](#s37).
 
 **AVÉRÉ :**
 
@@ -11392,19 +11392,19 @@ Ce n'est donc pas une vulnérabilité hypothétique inventée par l'enquête.
 
 Le ministère a introduit une garantie particulière.
 
-Il limite à 50 % le taux de contrôles fiscaux ouverts par les agents à la suite de l'analyse de signaux provenant de CFVR [S37].
+Il limite à 50 % le taux de contrôles fiscaux ouverts par les agents à la suite de l'analyse de signaux provenant de CFVR [S37](#s37).
 
 La CNIL considère cette mesure utile pour limiter le développement de biais significatifs.
 
 Mais elle ajoute immédiatement que :
 
-> **cette limitation ne permet pas, à elle seule, de parer à tout risque de biais significatif** [S37].
+> **cette limitation ne permet pas, à elle seule, de parer à tout risque de biais significatif** [S37](#s37).
 
 Elle demande donc également :
 
 - des analyses portant sur l'explicabilité des algorithmes ;  
 - des travaux critiques sur les biais susceptibles d'émerger ;  
-- un suivi de l'efficacité des garanties [S37].
+- un suivi de l'efficacité des garanties [S37](#s37).
 
 Le ministère s'est engagé à réaliser ces études et à en rendre compte dans les bilans d'activité de CFVR.
 
@@ -11428,7 +11428,7 @@ Le ministère s'est engagé à réaliser ces études et à en rendre compte dans
 
 ### L'apprentissage non supervisé augmente encore l'enjeu
 
-La CNIL relève également le développement de nouvelles méthodes d'apprentissage dans CFVR, notamment des méthodes dites non supervisées [S37].
+La CNIL relève également le développement de nouvelles méthodes d'apprentissage dans CFVR, notamment des méthodes dites non supervisées [S37](#s37).
 
 Dans ce type de méthode, le modèle cherche notamment à distinguer des comportements considérés comme normaux ou anormaux sans étiquetage préalable.
 
@@ -11437,7 +11437,7 @@ La CNIL considère que :
 - l'élargissement massif des données ;  
 - le développement de ces nouvelles méthodes ;
 
-ont pour effet d'amplifier les risques associés aux algorithmes et aux biais [S37].
+ont pour effet d'amplifier les risques associés aux algorithmes et aux biais [S37](#s37).
 
 Cette évolution est particulièrement importante avec l'arrivée des données issues de plusieurs milliards de factures.
 
@@ -11465,13 +11465,13 @@ contrôle éventuel
 
 ### Troisième vulnérabilité : l'explicabilité devient une garantie centrale
 
-Le droit européen contient désormais une jurisprudence particulièrement précise sur l'explication des décisions automatisées [S52].
+Le droit européen contient désormais une jurisprudence particulièrement précise sur l'explication des décisions automatisées [S52](#s52).
 
 Dans l'affaire C-203/22, la Cour de justice précise que, lorsque le régime concerné s'applique, la personne doit pouvoir obtenir des informations lui permettant de comprendre :
 
 - la procédure effectivement utilisée ;  
 - les principes appliqués ;  
-- la manière dont ses données ont contribué au résultat [S52].
+- la manière dont ses données ont contribué au résultat [S52](#s52).
 
 La Cour précise également que :
 
@@ -11479,7 +11479,7 @@ La Cour précise également que :
 
 Une formule mathématique complexe ne constitue pas nécessairement une explication suffisante.
 
-La description exhaustive de toutes les opérations techniques ne l'est pas davantage [S52].
+La description exhaustive de toutes les opérations techniques ne l'est pas davantage [S52](#s52).
 
 **GARANTIE JURIDIQUE :**
 
@@ -11493,14 +11493,14 @@ Cette jurisprudence produit une question importante pour l'évolution de CFVR.
 
 La CNIL demande précisément au ministère de travailler sur :
 
-> **l'explicabilité des algorithmes** [S37].
+> **l'explicabilité des algorithmes** [S37](#s37).
 
 Dans le même temps, CFVR développe :
 
 - des méthodes d'apprentissage ;  
 - des méthodes non supervisées ;  
 - des analyses sur des volumes massifs ;  
-- des rapprochements entre de multiples sources [S37][S45].
+- des rapprochements entre de multiples sources [S37](#s37)[S45](#s45).
 
 Il apparaît donc une tension structurelle :
 
@@ -11534,7 +11534,7 @@ L'intervention humaine documentée par la CNIL comprend une précaution révéla
 
 Les agents doivent notamment vérifier :
 
-> que les dernières déclarations déposées ont bien été prises en compte [S37].
+> que les dernières déclarations déposées ont bien été prises en compte [S37](#s37).
 
 Cette exigence montre qu'un signalement algorithmique peut être influencé par l'état des données disponibles au moment de son calcul.
 
@@ -11588,7 +11588,7 @@ résultat déterminant
 décision ayant un effet significatif
 ```
 
-[S51]
+[S51](#s51)
 
 La question ne concerne donc pas uniquement CFVR aujourd'hui.
 
@@ -11603,7 +11603,7 @@ Elle concerne également toute évolution future dans laquelle un score ou une c
 
 **FRONTIÈRE JURIDIQUE :**
 
-> Plus le résultat algorithmique devient déterminant dans la production d'une conséquence individuelle significative, plus la question de l'application de l'article 22 et des garanties associées devient centrale [S43][S51].
+> Plus le résultat algorithmique devient déterminant dans la production d'une conséquence individuelle significative, plus la question de l'application de l'article 22 et des garanties associées devient centrale [S43](#s43)[S51](#s51).
 
 ---
 
@@ -11659,7 +11659,7 @@ un effet juridique ou significatif
 - explicabilité ;  
 - intervention humaine ;  
 - contestation ;  
-- article 22 du RGPD lorsque ses conditions sont réunies [S43][S44][S46][S48][S51][S52].
+- article 22 du RGPD lorsque ses conditions sont réunies [S43](#s43)[S44](#s44)[S46](#s46)[S48](#s48)[S51](#s51)[S52](#s52).
 
 **DÉDUCTIBLE JURIDIQUEMENT :**
 
@@ -11667,7 +11667,7 @@ un effet juridique ou significatif
 
 **DÉDUCTIBLE JURIDIQUEMENT :**
 
-> Si leur combinaison devait produire un score ou une classification jouant un rôle déterminant dans une décision individuelle significative, l'existence formelle d'un intermédiaire humain ne suffirait pas nécessairement à écarter les protections applicables aux décisions automatisées [S51].
+> Si leur combinaison devait produire un score ou une classification jouant un rôle déterminant dans une décision individuelle significative, l'existence formelle d'un intermédiaire humain ne suffirait pas nécessairement à écarter les protections applicables aux décisions automatisées [S51](#s51).
 
 **NON ÉTABLI :**
 
@@ -11735,35 +11735,35 @@ Elles permettent de tester l'effectivité des garanties invoquées.
 
 **AVÉRÉ :**
 
-> CFVR utilise des méthodes algorithmiques pour identifier des anomalies et orienter la programmation du contrôle fiscal [S37][S45].
+> CFVR utilise des méthodes algorithmiques pour identifier des anomalies et orienter la programmation du contrôle fiscal [S37](#s37)[S45](#s45).
 
 **AVÉRÉ :**
 
-> Le développement de méthodes d'apprentissage non supervisé et l'élargissement massif des données conduisent la CNIL elle-même à considérer que les risques algorithmiques et les risques de biais sont amplifiés [S37].
+> Le développement de méthodes d'apprentissage non supervisé et l'élargissement massif des données conduisent la CNIL elle-même à considérer que les risques algorithmiques et les risques de biais sont amplifiés [S37](#s37).
 
 **AVÉRÉ :**
 
-> Les résultats des contrôles antérieurs sont utilisés pour développer les modèles, ce qui expose selon la CNIL le dispositif à un risque d'amplification des biais dans le temps [S37].
+> Les résultats des contrôles antérieurs sont utilisés pour développer les modèles, ce qui expose selon la CNIL le dispositif à un risque d'amplification des biais dans le temps [S37](#s37).
 
 **GARANTIE DOCUMENTÉE :**
 
-> Les signalements CFVR ne doivent pas remplacer l'analyse des agents et l'ouverture d'un contrôle fiscal doit actuellement résulter d'une décision humaine [S37].
+> Les signalements CFVR ne doivent pas remplacer l'analyse des agents et l'ouverture d'un contrôle fiscal doit actuellement résulter d'une décision humaine [S37](#s37).
 
 **GARANTIE DOCUMENTÉE :**
 
-> Le ministère limite à 50 % le taux de contrôles ouverts à la suite de signaux provenant de CFVR [S37].
+> Le ministère limite à 50 % le taux de contrôles ouverts à la suite de signaux provenant de CFVR [S37](#s37).
 
 **LIMITATION EXPLICITEMENT RECONNUE :**
 
-> La CNIL considère que cette limite de 50 % ne suffit pas, à elle seule, à prévenir tous les risques de biais significatifs et demande des travaux supplémentaires sur l'explicabilité et les biais [S37].
+> La CNIL considère que cette limite de 50 % ne suffit pas, à elle seule, à prévenir tous les risques de biais significatifs et demande des travaux supplémentaires sur l'explicabilité et les biais [S37](#s37).
 
 **PRINCIPE JURISPRUDENTIEL :**
 
-> Selon la CJUE, un résultat automatisé peut lui-même relever de la notion de décision automatisée lorsque la décision ultérieure dépend de manière déterminante de ce résultat [S51].
+> Selon la CJUE, un résultat automatisé peut lui-même relever de la notion de décision automatisée lorsque la décision ultérieure dépend de manière déterminante de ce résultat [S51](#s51).
 
 **GARANTIE JURIDIQUE :**
 
-> Lorsque le régime des décisions automatisées s'applique, la complexité technique du système ne supprime pas les exigences de transparence et d'explication [S52].
+> Lorsque le régime des décisions automatisées s'applique, la complexité technique du système ne supprime pas les exigences de transparence et d'explication [S52](#s52).
 
 **VULNÉRABILITÉ JURIDIQUE :**
 
@@ -11783,7 +11783,7 @@ Elles permettent de tester l'effectivité des garanties invoquées.
 
 **DÉDUCTIBLE JURIDIQUEMENT :**
 
-> Si une infrastructure future combinait des données économiques, transactionnelles, d'identité, de produit ou environnementales afin de produire un résultat déterminant pour une décision individuelle significative, cette chaîne devrait être examinée au regard des garanties applicables aux traitements automatisés, indépendamment de la seule présence formelle d'un humain en bout de chaîne [S51].
+> Si une infrastructure future combinait des données économiques, transactionnelles, d'identité, de produit ou environnementales afin de produire un résultat déterminant pour une décision individuelle significative, cette chaîne devrait être examinée au regard des garanties applicables aux traitements automatisés, indépendamment de la seule présence formelle d'un humain en bout de chaîne [S51](#s51).
 
 **NON ÉTABLI :**
 
@@ -11803,7 +11803,7 @@ Elles rejoignent un traitement déjà alimenté par de nombreuses autres sources
 
 Des rapprochements sont réalisés afin notamment de détecter des anomalies et d'identifier des entreprises présentant certains risques fiscaux.
 
-La volumétrie annoncée atteint plusieurs milliards de factures électroniques par an [S37][S45].
+La volumétrie annoncée atteint plusieurs milliards de factures électroniques par an [S37](#s37)[S45](#s45).
 
 La question juridique devient alors différente.
 
@@ -11825,7 +11825,7 @@ Cette distinction est essentielle.
 
 Le principe de minimisation prévu par l'article 5 du RGPD impose que les données personnelles soient :
 
-> **adéquates, pertinentes et limitées à ce qui est nécessaire au regard des finalités poursuivies** [S36][S43].
+> **adéquates, pertinentes et limitées à ce qui est nécessaire au regard des finalités poursuivies** [S36](#s36)[S43](#s43).
 
 Cette exigence porte donc non seulement sur l'existence d'une finalité légitime, mais également sur le rapport entre cette finalité et les données effectivement utilisées.
 
@@ -11861,17 +11861,17 @@ traitements nécessaires
 
 ### La CJUE applique directement cette exigence aux administrations fiscales
 
-L'arrêt C-175/20 est particulièrement important pour cette enquête parce qu'il concerne précisément une administration fiscale [S53].
+L'arrêt C-175/20 est particulièrement important pour cette enquête parce qu'il concerne précisément une administration fiscale [S53](#s53).
 
 La Cour de justice y rappelle que les limitations à la protection des données doivent rester limitées à ce qui est strictement nécessaire.
 
 Elle en déduit qu'un responsable du traitement, même lorsqu'il agit dans le cadre d'une mission d'intérêt public :
 
-> **ne peut procéder de manière générale et indifférenciée à la collecte de données personnelles** [S53].
+> **ne peut procéder de manière générale et indifférenciée à la collecte de données personnelles** [S53](#s53).
 
 Il doit également :
 
-> **s'abstenir de collecter les données qui ne sont pas strictement nécessaires aux finalités du traitement** [S53].
+> **s'abstenir de collecter les données qui ne sont pas strictement nécessaires aux finalités du traitement** [S53](#s53).
 
 La Cour ajoute que le responsable doit rechercher une minimisation aussi importante que possible de la quantité de données collectées.
 
@@ -11885,11 +11885,11 @@ La Cour ajoute que le responsable doit rechercher une minimisation aussi importa
 
 La Cour ajoute une exigence essentielle.
 
-Le responsable du traitement doit pouvoir démontrer le respect des principes prévus par l'article 5 du RGPD [S53].
+Le responsable du traitement doit pouvoir démontrer le respect des principes prévus par l'article 5 du RGPD [S53](#s53).
 
 Concernant la minimisation, elle indique qu'il appartient à l'administration concernée d'établir qu'elle a cherché à minimiser autant que possible la quantité de données collectées.
 
-Concernant la durée, elle précise également que la période concernée ne peut dépasser celle qui est strictement nécessaire à l'objectif d'intérêt général poursuivi [S53].
+Concernant la durée, elle précise également que la période concernée ne peut dépasser celle qui est strictement nécessaire à l'objectif d'intérêt général poursuivi [S53](#s53).
 
 La question n'est donc pas uniquement :
 
@@ -11911,15 +11911,15 @@ et :
 
 ### Cette jurisprudence rencontre directement le changement d'échelle de CFVR
 
-La CNIL constate que l'arrivée des données issues de la facturation électronique augmente substantiellement le volume de données traitées dans CFVR [S37].
+La CNIL constate que l'arrivée des données issues de la facturation électronique augmente substantiellement le volume de données traitées dans CFVR [S37](#s37).
 
 Elle indique que le volume des factures électroniques est estimé à :
 
-> **2 à 3 milliards par an** [S37].
+> **2 à 3 milliards par an** [S37](#s37).
 
 La volumétrie est telle que le ministère indique que ces données ne pourraient pas être exploitées dans l'infrastructure CFVR existante.
 
-Une infrastructure disposant d'une puissance de calcul renforcée, la PSD, devient nécessaire précisément pour permettre leur exploitation [S37].
+Une infrastructure disposant d'une puissance de calcul renforcée, la PSD, devient nécessaire précisément pour permettre leur exploitation [S37](#s37).
 
 La chaîne documentée est donc :
 
@@ -11945,7 +11945,7 @@ ciblage fiscal
 
 > L'intégration de la facturation électronique ne constitue pas une augmentation marginale du traitement.
 
-Elle entraîne un changement d'échelle suffisamment important pour nécessiter une infrastructure de calcul renforcée [S37].
+Elle entraîne un changement d'échelle suffisamment important pour nécessiter une infrastructure de calcul renforcée [S37](#s37).
 
 ---
 
@@ -11955,7 +11955,7 @@ Le changement d'échelle ne constitue pas en lui-même une violation du principe
 
 Une collecte massive peut être nécessaire lorsqu'une mission légitime ne peut raisonnablement être accomplie autrement.
 
-Mais C-175/20 interdit de raisonner uniquement à partir de l'intérêt général poursuivi [S53].
+Mais C-175/20 interdit de raisonner uniquement à partir de l'intérêt général poursuivi [S53](#s53).
 
 Il faut également examiner les données effectivement nécessaires.
 
@@ -11985,13 +11985,13 @@ Et plus précisément :
 
 ### La jurisprudence oblige également à rechercher si un ciblage plus limité est possible
 
-L'arrêt C-175/20 contient ici un raisonnement particulièrement intéressant [S53].
+L'arrêt C-175/20 contient ici un raisonnement particulièrement intéressant [S53](#s53).
 
 Dans cette affaire, la Cour demande précisément s'il serait possible d'atteindre l'objectif fiscal sans disposer potentiellement des données relatives à toutes les annonces concernées.
 
 Elle envisage explicitement la possibilité de :
 
-> **cibler certaines annonces au moyen de critères spécifiques** [S53].
+> **cibler certaines annonces au moyen de critères spécifiques** [S53](#s53).
 
 Le principe est important.
 
@@ -12048,7 +12048,7 @@ contreparties
 rapprochements avec d'autres bases
 ```
 
-Le principe de minimisation s'applique à la quantité de données, mais également à l'étendue du traitement et à leur accessibilité [S43].
+Le principe de minimisation s'applique à la quantité de données, mais également à l'étendue du traitement et à leur accessibilité [S43](#s43).
 
 La question pertinente n'est donc pas uniquement :
 
@@ -12068,9 +12068,9 @@ Elle est également :
 
 Une donnée isolée et la même donnée rapprochée de nombreuses autres informations ne présentent pas nécessairement la même intensité d'ingérence.
 
-CFVR permet précisément de rapprocher plusieurs sources [S37][S45].
+CFVR permet précisément de rapprocher plusieurs sources [S37](#s37)[S45](#s45).
 
-La PSD doit progressivement accueillir l'ensemble des données du traitement CFVR [S37].
+La PSD doit progressivement accueillir l'ensemble des données du traitement CFVR [S37](#s37).
 
 Ainsi :
 
@@ -12106,11 +12106,11 @@ Le principe de minimisation doit donc être examiné non seulement au niveau de 
 
 Cette exigence ne provient pas uniquement du RGPD et de la jurisprudence européenne.
 
-Le Conseil constitutionnel rattache la protection des données personnelles au droit au respect de la vie privée garanti par l'article 2 de la Déclaration des droits de l'homme et du citoyen [S44].
+Le Conseil constitutionnel rattache la protection des données personnelles au droit au respect de la vie privée garanti par l'article 2 de la Déclaration des droits de l'homme et du citoyen [S44](#s44).
 
 Il juge que :
 
-> **la collecte, l'enregistrement, la conservation, la consultation et la communication de données personnelles doivent être justifiés par un motif d'intérêt général et mis en œuvre de manière adéquate et proportionnée à cet objectif** [S44].
+> **la collecte, l'enregistrement, la conservation, la consultation et la communication de données personnelles doivent être justifiés par un motif d'intérêt général et mis en œuvre de manière adéquate et proportionnée à cet objectif** [S44](#s44).
 
 Le contrôle porte donc sur plusieurs opérations successives :
 
@@ -12136,9 +12136,9 @@ communication
 
 Une donnée nécessaire aujourd'hui ne devient pas automatiquement nécessaire pendant toute la durée techniquement possible de sa conservation.
 
-Le principe de limitation de la conservation impose que les données permettant l'identification des personnes ne soient pas conservées plus longtemps que nécessaire au regard des finalités poursuivies [S43].
+Le principe de limitation de la conservation impose que les données permettant l'identification des personnes ne soient pas conservées plus longtemps que nécessaire au regard des finalités poursuivies [S43](#s43).
 
-C-175/20 applique également la logique de stricte nécessité à la période concernée par une collecte fiscale [S53].
+C-175/20 applique également la logique de stricte nécessité à la période concernée par une collecte fiscale [S53](#s53).
 
 Cette question devient particulièrement importante dans une infrastructure algorithmique.
 
@@ -12170,19 +12170,19 @@ nécessité juridique automatique
 
 ### Un premier point concret existe déjà concernant les échanges sociaux
 
-La CNIL a précisément appliqué ce raisonnement aux échanges entre la DGFiP et les organismes de sécurité sociale [S37].
+La CNIL a précisément appliqué ce raisonnement aux échanges entre la DGFiP et les organismes de sécurité sociale [S37](#s37).
 
 Elle constate que le projet qui lui avait été soumis ne précisait pas la durée de conservation des données transmises.
 
 Elle rappelle alors que les échanges entre administrations ne sont permis que lorsque leurs modalités restent proportionnées aux objectifs poursuivis.
 
-Elle demande que la conservation soit limitée à la durée nécessaire [S37].
+Elle demande que la conservation soit limitée à la durée nécessaire [S37](#s37).
 
 Le ministère s'est engagé à prévoir une durée maximale de dix ans.
 
 Mais la CNIL demande également quelque chose de plus précis :
 
-> que les durées applicables soient déterminées **catégorie de données par catégorie de données** dans les conventions conclues avec les organismes sociaux [S37].
+> que les durées applicables soient déterminées **catégorie de données par catégorie de données** dans les conventions conclues avec les organismes sociaux [S37](#s37).
 
 Cette précision est particulièrement intéressante.
 
@@ -12198,7 +12198,7 @@ pour chaque catégorie
 
 **AVÉRÉ :**
 
-> La CNIL demande elle-même une appréciation plus granulaire des durées de conservation pour les données échangées avec les organismes sociaux [S37].
+> La CNIL demande elle-même une appréciation plus granulaire des durées de conservation pour les données échangées avec les organismes sociaux [S37](#s37).
 
 ---
 
@@ -12208,7 +12208,7 @@ Cette distinction doit être conservée.
 
 Le fait qu'une réglementation autorise une conservation jusqu'à une certaine durée ne signifie pas nécessairement que toutes les catégories de données doivent effectivement être conservées pendant cette durée.
 
-Le principe de minimisation et de limitation de la conservation conduit à rechercher la durée nécessaire au traitement concerné [S43][S53].
+Le principe de minimisation et de limitation de la conservation conduit à rechercher la durée nécessaire au traitement concerné [S43](#s43)[S53](#s53).
 
 Ainsi :
 
@@ -12246,7 +12246,7 @@ Les catégories d'agents impliqués ont évolué.
 
 Les échanges inter-administrations ont évolué.
 
-Et plusieurs milliards de factures électroniques viennent désormais rejoindre cette architecture [S37][S45].
+Et plusieurs milliards de factures électroniques viennent désormais rejoindre cette architecture [S37](#s37)[S45](#s45).
 
 On peut donc représenter l'évolution ainsi :
 
@@ -12282,7 +12282,7 @@ Mais cela ne répond pas entièrement à une autre question :
 
 ### Le principe de responsabilité renverse ici une partie du raisonnement
 
-L'un des apports les plus importants de C-175/20 est que la démonstration de la minimisation incombe au responsable du traitement [S53].
+L'un des apports les plus importants de C-175/20 est que la démonstration de la minimisation incombe au responsable du traitement [S53](#s53).
 
 Cela change la manière de formuler les questions de cette enquête.
 
@@ -12312,7 +12312,7 @@ C'est une différence méthodologique fondamentale.
 
 ### Septième vulnérabilité : les capacités techniques ne constituent pas la mesure de la nécessité
 
-La CNIL explique que la PSD est nécessaire techniquement parce que la volumétrie des données de facturation électronique dépasse les capacités de l'environnement CFVR existant [S37].
+La CNIL explique que la PSD est nécessaire techniquement parce que la volumétrie des données de facturation électronique dépasse les capacités de l'environnement CFVR existant [S37](#s37).
 
 Cela établit :
 
@@ -12415,7 +12415,7 @@ Il faudrait notamment examiner :
 - les personnes pouvant y accéder ;  
 - les alternatives moins intrusives ;  
 - les conséquences pour les personnes ;  
-- les garanties contre les usages secondaires [S43][S44][S53].
+- les garanties contre les usages secondaires [S43](#s43)[S44](#s44)[S53](#s53).
 
 **DÉDUCTIBLE JURIDIQUEMENT :**
 
@@ -12493,27 +12493,27 @@ Elles demandent la démonstration de sa nécessité et de sa proportionnalité.
 
 **AVÉRÉ :**
 
-> Le principe de minimisation impose que les données personnelles soient adéquates, pertinentes et limitées à ce qui est nécessaire aux finalités poursuivies [S36][S43].
+> Le principe de minimisation impose que les données personnelles soient adéquates, pertinentes et limitées à ce qui est nécessaire aux finalités poursuivies [S36](#s36)[S43](#s43).
 
 **PRINCIPE JURISPRUDENTIEL :**
 
-> Une administration fiscale ne peut pas procéder de manière générale et indifférenciée à la collecte de données personnelles et doit s'abstenir de collecter celles qui ne sont pas strictement nécessaires [S53].
+> Une administration fiscale ne peut pas procéder de manière générale et indifférenciée à la collecte de données personnelles et doit s'abstenir de collecter celles qui ne sont pas strictement nécessaires [S53](#s53).
 
 **PRINCIPE JURISPRUDENTIEL :**
 
-> Le responsable du traitement doit pouvoir démontrer qu'il a cherché à minimiser autant que possible la quantité de données collectées et la période concernée [S53].
+> Le responsable du traitement doit pouvoir démontrer qu'il a cherché à minimiser autant que possible la quantité de données collectées et la période concernée [S53](#s53).
 
 **GARANTIE CONSTITUTIONNELLE :**
 
-> La collecte, l'enregistrement, la conservation, la consultation et la communication de données personnelles doivent être justifiés par un motif d'intérêt général et mis en œuvre de manière adéquate et proportionnée à cet objectif [S44].
+> La collecte, l'enregistrement, la conservation, la consultation et la communication de données personnelles doivent être justifiés par un motif d'intérêt général et mis en œuvre de manière adéquate et proportionnée à cet objectif [S44](#s44).
 
 **AVÉRÉ :**
 
-> L'intégration de la facturation électronique entraîne une augmentation substantielle du volume de données de CFVR, estimée à plusieurs milliards de factures par an, nécessitant le recours à une infrastructure de calcul renforcée [S37].
+> L'intégration de la facturation électronique entraîne une augmentation substantielle du volume de données de CFVR, estimée à plusieurs milliards de factures par an, nécessitant le recours à une infrastructure de calcul renforcée [S37](#s37).
 
 **AVÉRÉ :**
 
-> La CNIL demande déjà, concernant certains échanges inter-administrations, que les durées de conservation soient précisées catégorie de données par catégorie de données [S37].
+> La CNIL demande déjà, concernant certains échanges inter-administrations, que les durées de conservation soient précisées catégorie de données par catégorie de données [S37](#s37).
 
 **VULNÉRABILITÉ JURIDIQUE :**
 
@@ -12561,7 +12561,7 @@ Elles ont également établi que :
 - certains résultats sont produits par des traitements algorithmiques ;  
 - ces résultats peuvent contribuer à la sélection de dossiers ;  
 - des échanges existent avec d'autres administrations ;  
-- les données et résultats peuvent circuler entre plusieurs environnements et catégories de destinataires [S37][S45].
+- les données et résultats peuvent circuler entre plusieurs environnements et catégories de destinataires [S37](#s37)[S45](#s45).
 
 Une question devient alors centrale :
 
@@ -12585,7 +12585,7 @@ Le RGPD prévoit notamment :
 - dans certaines conditions, un droit d'opposition ;  
 - des garanties relatives à certaines décisions automatisées ;  
 - un droit de saisir une autorité de contrôle ;  
-- un droit à un recours juridictionnel effectif [S43].
+- un droit à un recours juridictionnel effectif [S43](#s43).
 
 Le droit d'accès prévu à l'article 15 permet notamment de connaître :
 
@@ -12595,7 +12595,7 @@ Le droit d'accès prévu à l'article 15 permet notamment de connaître :
 - la durée de conservation ou ses critères de détermination ;  
 - l'existence de certains autres droits ;  
 - l'origine des données lorsqu'elles n'ont pas été collectées auprès de la personne ;  
-- dans les situations prévues par le RGPD, certaines informations relatives à la logique d'une décision automatisée [S43].
+- dans les situations prévues par le RGPD, certaines informations relatives à la logique d'une décision automatisée [S43](#s43).
 
 **GARANTIE JURIDIQUE :**
 
@@ -12605,14 +12605,14 @@ Le droit d'accès prévu à l'article 15 permet notamment de connaître :
 
 ### CFVR prévoit explicitement l'exercice de certains de ces droits
 
-L'article 6 de l'arrêté instituant CFVR prévoit expressément que les droits d'accès et de rectification des articles 15 et 16 du RGPD peuvent être exercés [S45].
+L'article 6 de l'arrêté instituant CFVR prévoit expressément que les droits d'accès et de rectification des articles 15 et 16 du RGPD peuvent être exercés [S45](#s45).
 
 Selon l'origine des données, ces droits s'exercent :
 
 - auprès du bureau SJCF-1D ;  
-- ou auprès du centre des finances publiques dont relève la personne [S45].
+- ou auprès du centre des finances publiques dont relève la personne [S45](#s45).
 
-Le droit à la limitation prévu à l'article 18 du RGPD s'exerce également auprès du bureau SJCF-1D [S45].
+Le droit à la limitation prévu à l'article 18 du RGPD s'exerce également auprès du bureau SJCF-1D [S45](#s45).
 
 **AVÉRÉ :**
 
@@ -12626,14 +12626,14 @@ Mais l'arrêté prévoit immédiatement plusieurs restrictions.
 
 L'article 6 de l'arrêté CFVR dispose explicitement que :
 
-> **le droit d'opposition prévu à l'article 21 du RGPD ne s'applique pas au traitement** [S45].
+> **le droit d'opposition prévu à l'article 21 du RGPD ne s'applique pas au traitement** [S45](#s45).
 
-Depuis la modification de juillet 2026, cette exclusion est expressément rattachée aux objectifs mentionnés aux e et h du paragraphe 1 de l'article 23 du RGPD [S45].
+Depuis la modification de juillet 2026, cette exclusion est expressément rattachée aux objectifs mentionnés aux e et h du paragraphe 1 de l'article 23 du RGPD [S45](#s45).
 
 Ces dispositions concernent notamment :
 
 - des objectifs importants d'intérêt public général de l'Union ou d'un État membre, notamment en matière fiscale ;  
-- des missions de contrôle, d'inspection ou de réglementation liées notamment à ces objectifs [S43].
+- des missions de contrôle, d'inspection ou de réglementation liées notamment à ces objectifs [S43](#s43).
 
 La conséquence pratique est importante.
 
@@ -12654,7 +12654,7 @@ Le droit d'opposition est expressément écarté pour ce traitement.
 
 **RESTRICTION AVÉRÉE :**
 
-> Dans CFVR, le droit d'opposition prévu à l'article 21 du RGPD n'est pas applicable [S45].
+> Dans CFVR, le droit d'opposition prévu à l'article 21 du RGPD n'est pas applicable [S45](#s45).
 
 Cette restriction ne constitue donc pas en elle-même une violation du RGPD.
 
@@ -12664,9 +12664,9 @@ Elle constitue néanmoins une limitation concrète du contrôle individuel exerc
 
 ### Deuxième restriction : accès et rectification peuvent eux-mêmes être limités
 
-L'arrêté CFVR prévoit également que les droits d'accès et de rectification peuvent faire l'objet de restrictions dans les conditions prévues par l'article 52 de la loi Informatique et Libertés [S45][S54].
+L'arrêté CFVR prévoit également que les droits d'accès et de rectification peuvent faire l'objet de restrictions dans les conditions prévues par l'article 52 de la loi Informatique et Libertés [S45](#s45)[S54](#s54).
 
-Cette disposition concerne précisément certains traitements utilisés par les administrations pour contrôler ou recouvrer des impositions [S54].
+Cette disposition concerne précisément certains traitements utilisés par les administrations pour contrôler ou recouvrer des impositions [S54](#s54).
 
 La logique est compréhensible :
 
@@ -12706,15 +12706,15 @@ peuvent être restreintes
 
 ### La CNIL devient alors un intermédiaire essentiel
 
-Lorsque les restrictions prévues pour CFVR s'appliquent, la personne exerce ses droits par l'intermédiaire de la CNIL dans les conditions prévues par l'article 118 de la loi Informatique et Libertés [S45][S54].
+Lorsque les restrictions prévues pour CFVR s'appliquent, la personne exerce ses droits par l'intermédiaire de la CNIL dans les conditions prévues par l'article 118 de la loi Informatique et Libertés [S45](#s45)[S54](#s54).
 
 La CNIL procède alors aux vérifications nécessaires.
 
 Elle peut faire procéder aux modifications nécessaires.
 
-Elle informe ensuite la personne qu'il a été procédé aux vérifications et lui indique l'existence d'un recours juridictionnel [S54].
+Elle informe ensuite la personne qu'il a été procédé aux vérifications et lui indique l'existence d'un recours juridictionnel [S54](#s54).
 
-Lorsque certaines informations peuvent être communiquées sans compromettre les finalités protégées, leur communication peut intervenir dans les conditions prévues par la loi [S54].
+Lorsque certaines informations peuvent être communiquées sans compromettre les finalités protégées, leur communication peut intervenir dans les conditions prévues par la loi [S54](#s54).
 
 **GARANTIE JURIDIQUE :**
 
@@ -12765,7 +12765,7 @@ Cela signifie que le contrôle individuel peut devenir en partie **médiatisé p
 
 ### La rectification devient particulièrement importante dans une architecture interconnectée
 
-Le droit de rectification permet d'obtenir la correction de données personnelles inexactes [S43].
+Le droit de rectification permet d'obtenir la correction de données personnelles inexactes [S43](#s43).
 
 Mais l'architecture étudiée ne se limite plus nécessairement à une donnée stockée dans une seule base.
 
@@ -12787,7 +12787,7 @@ résultat algorithmique
 dossier proposé
 ```
 
-Le RGPD prévoit également que lorsqu'une rectification, un effacement ou une limitation intervient, le responsable du traitement doit en principe la communiquer aux destinataires auxquels les données ont été transmises, sauf impossibilité ou effort disproportionné [S43].
+Le RGPD prévoit également que lorsqu'une rectification, un effacement ou une limitation intervient, le responsable du traitement doit en principe la communiquer aux destinataires auxquels les données ont été transmises, sauf impossibilité ou effort disproportionné [S43](#s43).
 
 Cette garantie devient particulièrement importante dans une architecture multi-sources.
 
@@ -12823,7 +12823,7 @@ Mais plusieurs questions supplémentaires apparaissent :
 
 > **Les données dérivées demeurent-elles dans d'autres environnements ?**
 
-Le RGPD contient des mécanismes de rectification, de limitation et de notification aux destinataires [S43].
+Le RGPD contient des mécanismes de rectification, de limitation et de notification aux destinataires [S43](#s43).
 
 Mais leur application à des chaînes complexes de données dérivées doit être examinée concrètement.
 
@@ -12835,7 +12835,7 @@ Mais leur application à des chaînes complexes de données dérivées doit êtr
 
 ### Cette question n'est pas théorique pour CFVR
 
-La CNIL demande que les agents vérifient notamment que les dernières déclarations déposées ont bien été prises en compte avant de décider de l'ouverture d'un contrôle [S37].
+La CNIL demande que les agents vérifient notamment que les dernières déclarations déposées ont bien été prises en compte avant de décider de l'ouverture d'un contrôle [S37](#s37).
 
 Cette exigence constitue une garantie importante.
 
@@ -12859,21 +12859,21 @@ La vérification humaine constitue ici une barrière essentielle.
 
 **GARANTIE DOCUMENTÉE :**
 
-> L'agent ne doit pas traiter le signal algorithmique comme une vérité autonome et doit analyser le dossier à partir des informations pertinentes et actualisées [S37].
+> L'agent ne doit pas traiter le signal algorithmique comme une vérité autonome et doit analyser le dossier à partir des informations pertinentes et actualisées [S37](#s37).
 
 ---
 
 ### Le droit à la limitation offre une protection supplémentaire
 
-L'article 18 du RGPD prévoit notamment qu'une personne peut demander la limitation du traitement lorsqu'elle conteste l'exactitude de données, pendant la période permettant au responsable de vérifier leur exactitude [S43].
+L'article 18 du RGPD prévoit notamment qu'une personne peut demander la limitation du traitement lorsqu'elle conteste l'exactitude de données, pendant la période permettant au responsable de vérifier leur exactitude [S43](#s43).
 
-CFVR prévoit expressément l'exercice de ce droit auprès du bureau SJCF-1D [S45].
+CFVR prévoit expressément l'exercice de ce droit auprès du bureau SJCF-1D [S45](#s45).
 
 La limitation peut donc constituer une protection particulièrement importante lorsqu'une information susceptible d'influencer un traitement est contestée.
 
 **GARANTIE JURIDIQUE :**
 
-> La contestation de l'exactitude d'une donnée peut, dans les conditions prévues par le RGPD, conduire à limiter temporairement son traitement pendant sa vérification [S43][S45].
+> La contestation de l'exactitude d'une donnée peut, dans les conditions prévues par le RGPD, conduire à limiter temporairement son traitement pendant sa vérification [S43](#s43)[S45](#s45).
 
 **À ÉTABLIR :**
 
@@ -12895,7 +12895,7 @@ Elle peut produire :
 - des résultats de requêtes ;  
 - des propositions de contrôle.
 
-CFVR alimente notamment GALAXIE concernant certains liens entre individus et entités et PILOT CF concernant les dossiers proposés pour contrôle [S45].
+CFVR alimente notamment GALAXIE concernant certains liens entre individus et entités et PILOT CF concernant les dossiers proposés pour contrôle [S45](#s45).
 
 La question de rectification doit donc potentiellement être envisagée à plusieurs niveaux :
 
@@ -12924,13 +12924,13 @@ conséquence opérationnelle
 
 ### Deuxième question difficile : peut-on savoir pourquoi son dossier a été sélectionné ?
 
-Le droit d'accès permet d'obtenir de nombreuses informations relatives au traitement [S43].
+Le droit d'accès permet d'obtenir de nombreuses informations relatives au traitement [S43](#s43).
 
 Mais CFVR est précisément un dispositif de détection et de programmation du contrôle fiscal.
 
 Une divulgation trop détaillée des règles de détection pourrait compromettre certaines de ses finalités.
 
-D'où la possibilité de restreindre certains droits [S45][S54].
+D'où la possibilité de restreindre certains droits [S45](#s45)[S54](#s54).
 
 La personne peut donc se trouver face à une difficulté structurelle :
 
@@ -12957,11 +12957,11 @@ l'efficacité du contrôle
 
 ### Cette tension rejoint directement l'explicabilité étudiée en 6.4
 
-La jurisprudence étudiée en 6.4 montre que, lorsque le régime des décisions automatisées est applicable, la complexité d'un système ne dispense pas le responsable de fournir les explications juridiquement requises [S52].
+La jurisprudence étudiée en 6.4 montre que, lorsque le régime des décisions automatisées est applicable, la complexité d'un système ne dispense pas le responsable de fournir les explications juridiquement requises [S52](#s52).
 
 CFVR ne constitue pas, selon les sources actuelles, un système décidant automatiquement de l'ouverture d'un contrôle.
 
-Mais la question de l'explicabilité reste importante parce que la CNIL demande elle-même au ministère de mener des travaux sur l'explicabilité et les biais [S37].
+Mais la question de l'explicabilité reste importante parce que la CNIL demande elle-même au ministère de mener des travaux sur l'explicabilité et les biais [S37](#s37).
 
 On obtient donc une frontière :
 
@@ -12983,9 +12983,9 @@ pour exercer les droits
 
 ### L'information des personnes reste néanmoins obligatoire
 
-Concernant les nouveaux échanges entre la DGFiP et les organismes de sécurité sociale, la CNIL rappelle expressément que chacune des administrations concernées doit informer les personnes conformément aux articles 12 à 14 du RGPD [S37].
+Concernant les nouveaux échanges entre la DGFiP et les organismes de sécurité sociale, la CNIL rappelle expressément que chacune des administrations concernées doit informer les personnes conformément aux articles 12 à 14 du RGPD [S37](#s37).
 
-Le ministère a indiqué que les conventions organisant ces échanges rappelleront cette obligation [S37].
+Le ministère a indiqué que les conventions organisant ces échanges rappelleront cette obligation [S37](#s37).
 
 C'est un point important.
 
@@ -12993,7 +12993,7 @@ L'existence d'échanges légalement autorisés ne supprime donc pas automatiquem
 
 **GARANTIE DOCUMENTÉE :**
 
-> La CNIL exige que les personnes concernées soient informées des échanges de données entre la DGFiP et les organismes de sécurité sociale dans les conditions prévues par le RGPD [S37].
+> La CNIL exige que les personnes concernées soient informées des échanges de données entre la DGFiP et les organismes de sécurité sociale dans les conditions prévues par le RGPD [S37](#s37).
 
 ---
 
@@ -13036,9 +13036,9 @@ Le RGPD lui confère notamment des pouvoirs permettant :
 - d'accéder aux données personnelles nécessaires à sa mission ;  
 - d'accéder aux installations et moyens de traitement ;  
 - d'ordonner certaines mises en conformité ;  
-- de limiter ou interdire certains traitements dans les conditions prévues par le droit [S43].
+- de limiter ou interdire certains traitements dans les conditions prévues par le droit [S43](#s43).
 
-Une personne peut également introduire une réclamation auprès d'une autorité de contrôle lorsqu'elle estime qu'un traitement la concernant viole le RGPD [S43].
+Une personne peut également introduire une réclamation auprès d'une autorité de contrôle lorsqu'elle estime qu'un traitement la concernant viole le RGPD [S43](#s43).
 
 **GARANTIE INSTITUTIONNELLE :**
 
@@ -13050,7 +13050,7 @@ Une personne peut également introduire une réclamation auprès d'une autorité
 
 CFVR existe depuis 2014.
 
-Depuis, son périmètre a connu de nombreuses évolutions [S37][S45].
+Depuis, son périmètre a connu de nombreuses évolutions [S37](#s37)[S45](#s45).
 
 Il a notamment été étendu :
 
@@ -13062,9 +13062,9 @@ Il a notamment été étendu :
 - à des données issues de plateformes ;  
 - à de nouveaux échanges administratifs ;  
 - à une nouvelle infrastructure de calcul ;
-- et désormais aux données issues de la facturation électronique [S37][S45].
+- et désormais aux données issues de la facturation électronique [S37](#s37)[S45](#s45).
 
-La CNIL a rendu plusieurs avis successifs sur ces évolutions [S37].
+La CNIL a rendu plusieurs avis successifs sur ces évolutions [S37](#s37).
 
 Mais un avis rendu à un instant donné porte sur le dispositif qui lui est présenté à cet instant.
 
@@ -13086,7 +13086,7 @@ La CNIL peut contrôler un organisme :
 
 - à la suite d'une plainte ;  
 - à la suite d'un signalement ;  
-- ou de sa propre initiative [S43].
+- ou de sa propre initiative [S43](#s43).
 
 Elle peut procéder à des contrôles sur place, sur pièces, sur audition ou en ligne.
 
@@ -13134,7 +13134,7 @@ Une garantie conçue pour une architecture donnée peut donc devenir insuffisant
 
 > Dans un traitement évolutif, l'effectivité des garanties dépend de leur réévaluation lorsque la nature, l'ampleur ou les risques du traitement changent.
 
-Cette question rejoint directement l'obligation de réexaminer l'analyse d'impact lorsque l'évolution du risque le justifie [S48].
+Cette question rejoint directement l'obligation de réexaminer l'analyse d'impact lorsque l'évolution du risque le justifie [S48](#s48).
 
 ---
 
@@ -13144,9 +13144,9 @@ Le RGPD reconnaît :
 
 - le droit d'introduire une réclamation auprès d'une autorité de contrôle ;  
 - le droit à un recours juridictionnel effectif contre certaines décisions de cette autorité ;  
-- le droit à un recours juridictionnel effectif contre un responsable du traitement ou un sous-traitant lorsque la personne estime que ses droits ont été violés [S43].
+- le droit à un recours juridictionnel effectif contre un responsable du traitement ou un sous-traitant lorsque la personne estime que ses droits ont été violés [S43](#s43).
 
-La procédure particulière prévue par l'article 118 de la loi Informatique et Libertés rappelle également l'existence d'un recours juridictionnel [S54].
+La procédure particulière prévue par l'article 118 de la loi Informatique et Libertés rappelle également l'existence d'un recours juridictionnel [S54](#s54).
 
 **GARANTIE JURIDIQUE :**
 
@@ -13375,31 +13375,31 @@ Elles permettent de tester si les garanties sont réellement opérationnelles.
 
 **AVÉRÉ :**
 
-> CFVR prévoit l'exercice des droits d'accès, de rectification et de limitation [S45].
+> CFVR prévoit l'exercice des droits d'accès, de rectification et de limitation [S45](#s45).
 
 **RESTRICTION AVÉRÉE :**
 
-> Le droit d'opposition prévu à l'article 21 du RGPD ne s'applique pas à CFVR [S45].
+> Le droit d'opposition prévu à l'article 21 du RGPD ne s'applique pas à CFVR [S45](#s45).
 
 **RESTRICTION AVÉRÉE :**
 
-> Les droits d'accès et de rectification peuvent faire l'objet de restrictions dans les conditions prévues par la loi Informatique et Libertés [S45][S54].
+> Les droits d'accès et de rectification peuvent faire l'objet de restrictions dans les conditions prévues par la loi Informatique et Libertés [S45](#s45)[S54](#s54).
 
 **GARANTIE JURIDIQUE :**
 
-> Lorsqu'une restriction s'applique, une procédure d'exercice des droits par l'intermédiaire de la CNIL est prévue et un recours juridictionnel demeure possible [S54].
+> Lorsqu'une restriction s'applique, une procédure d'exercice des droits par l'intermédiaire de la CNIL est prévue et un recours juridictionnel demeure possible [S54](#s54).
 
 **GARANTIE JURIDIQUE :**
 
-> Le RGPD prévoit des mécanismes permettant notamment la rectification de données inexactes, la limitation de certains traitements et la notification de certaines rectifications ou limitations aux destinataires [S43].
+> Le RGPD prévoit des mécanismes permettant notamment la rectification de données inexactes, la limitation de certains traitements et la notification de certaines rectifications ou limitations aux destinataires [S43](#s43).
 
 **GARANTIE DOCUMENTÉE :**
 
-> La CNIL rappelle que la DGFiP et les organismes de sécurité sociale doivent informer les personnes concernées des échanges de données prévus entre eux [S37].
+> La CNIL rappelle que la DGFiP et les organismes de sécurité sociale doivent informer les personnes concernées des échanges de données prévus entre eux [S37](#s37).
 
 **GARANTIE INSTITUTIONNELLE :**
 
-> La CNIL dispose de pouvoirs d'enquête et de contrôle indépendants de ses avis préalables et une personne peut introduire une réclamation lorsqu'elle estime que le traitement de ses données viole le RGPD [S43].
+> La CNIL dispose de pouvoirs d'enquête et de contrôle indépendants de ses avis préalables et une personne peut introduire une réclamation lorsqu'elle estime que le traitement de ses données viole le RGPD [S43](#s43).
 
 **VULNÉRABILITÉ JURIDIQUE :**
 
@@ -13509,7 +13509,7 @@ L'interopérabilité technique ne constitue donc pas une autorisation générale
 
 ### L'identité numérique européenne comporte des garanties particulièrement fortes
 
-Le règlement eIDAS 2 prévoit que le portefeuille européen d'identité numérique fonctionne sous le contrôle de l'utilisateur [S55].
+Le règlement eIDAS 2 prévoit que le portefeuille européen d'identité numérique fonctionne sous le contrôle de l'utilisateur [S55](#s55).
 
 L'utilisateur doit notamment pouvoir :
 
@@ -13519,7 +13519,7 @@ L'utilisateur doit notamment pouvoir :
 - consulter les parties utilisatrices avec lesquelles il a interagi ;  
 - connaître, le cas échéant, les données échangées ;  
 - demander l'effacement de certaines données ;  
-- signaler une demande suspecte à l'autorité de protection des données [S55].
+- signaler une demande suspecte à l'autorité de protection des données [S55](#s55).
 
 Le portefeuille peut également générer et stocker localement des pseudonymes.
 
@@ -13548,7 +13548,7 @@ autres attributs inutiles
 
 **GARANTIE JURIDIQUE ET TECHNIQUE :**
 
-> L'architecture de l'identité numérique européenne intègre explicitement des mécanismes destinés à réduire la quantité d'informations révélées lors de l'accès à un service [S55].
+> L'architecture de l'identité numérique européenne intègre explicitement des mécanismes destinés à réduire la quantité d'informations révélées lors de l'accès à un service [S55](#s55).
 
 ---
 
@@ -13556,11 +13556,11 @@ autres attributs inutiles
 
 Une garantie particulièrement importante apparaît dans le règlement.
 
-Le fournisseur du portefeuille ne doit pas collecter d'informations sur son utilisation qui ne soient pas nécessaires à la fourniture du service [S55].
+Le fournisseur du portefeuille ne doit pas collecter d'informations sur son utilisation qui ne soient pas nécessaires à la fourniture du service [S55](#s55).
 
 Il doit assurer une forme d'« inobservabilité » lui empêchant d'obtenir une visibilité générale sur les transactions réalisées par l'utilisateur.
 
-Il lui est également interdit de combiner les données d'identification ou autres données personnelles liées au portefeuille avec les données provenant d'autres services lorsque cette combinaison n'est pas nécessaire au service du portefeuille, sauf demande expresse de l'utilisateur [S55].
+Il lui est également interdit de combiner les données d'identification ou autres données personnelles liées au portefeuille avec les données provenant d'autres services lorsque cette combinaison n'est pas nécessaire au service du portefeuille, sauf demande expresse de l'utilisateur [S55](#s55).
 
 Les services d'attestation d'attributs font également l'objet d'obligations de séparation.
 
@@ -13574,7 +13574,7 @@ Cette garantie répond directement à l'un des risques identifiés dans les chap
 
 ### Le refus d'utiliser le portefeuille ne doit pas devenir un motif général d'exclusion
 
-Le règlement prévoit également que l'accès aux services publics et privés, au marché du travail et à la liberté d'entreprendre ne doit pas être restreint ou rendu désavantageux du seul fait qu'une personne n'utilise pas le portefeuille européen d'identité numérique [S55].
+Le règlement prévoit également que l'accès aux services publics et privés, au marché du travail et à la liberté d'entreprendre ne doit pas être restreint ou rendu désavantageux du seul fait qu'une personne n'utilise pas le portefeuille européen d'identité numérique [S55](#s55).
 
 Des moyens alternatifs doivent rester disponibles.
 
@@ -13607,7 +13607,7 @@ La même infrastructure possède une autre caractéristique.
 
 Le portefeuille doit permettre à son utilisateur de :
 
-> demander, obtenir, sélectionner, combiner, stocker, supprimer, partager et présenter des données d'identification et des attestations électroniques d'attributs [S55].
+> demander, obtenir, sélectionner, combiner, stocker, supprimer, partager et présenter des données d'identification et des attestations électroniques d'attributs [S55](#s55).
 
 Il est donc conçu pour pouvoir présenter à une partie utilisatrice plusieurs attributs provenant de sources distinctes.
 
@@ -13637,7 +13637,7 @@ Mais elle crée une frontière importante.
 
 ### Les parties utilisatrices doivent déclarer les données qu'elles demandent
 
-Une partie souhaitant utiliser le portefeuille européen d'identité numérique doit s'enregistrer et déclarer notamment l'usage prévu ainsi que les données qu'elle prévoit de demander [S55].
+Une partie souhaitant utiliser le portefeuille européen d'identité numérique doit s'enregistrer et déclarer notamment l'usage prévu ainsi que les données qu'elle prévoit de demander [S55](#s55).
 
 Elle ne doit ensuite pas demander à l'utilisateur d'autres données que celles déclarées.
 
@@ -13673,7 +13673,7 @@ accès à tout le wallet
 
 ### Le DPP contient lui aussi une séparation fondamentale
 
-Le passeport numérique de produit est conçu comme une infrastructure de données relatives au produit [S56].
+Le passeport numérique de produit est conçu comme une infrastructure de données relatives au produit [S56](#s56).
 
 Il peut contenir notamment des informations relatives :
 
@@ -13684,7 +13684,7 @@ Il peut contenir notamment des informations relatives :
 - à certaines caractéristiques environnementales ;  
 - à sa traçabilité.
 
-Le DPP doit être associé à un identifiant unique de produit et fonctionner dans un environnement de données ouvert et interopérable [S56].
+Le DPP doit être associé à un identifiant unique de produit et fonctionner dans un environnement de données ouvert et interopérable [S56](#s56).
 
 Selon les exigences applicables, il peut être établi au niveau :
 
@@ -13706,7 +13706,7 @@ Mais le règlement introduit immédiatement une garantie importante.
 
 Le règlement ESPR prévoit explicitement :
 
-> les données personnelles relatives aux clients ne doivent pas être stockées dans le passeport numérique de produit sans leur consentement explicite [S56].
+> les données personnelles relatives aux clients ne doivent pas être stockées dans le passeport numérique de produit sans leur consentement explicite [S56](#s56).
 
 Cette règle casse une association qui pourrait sinon sembler évidente :
 
@@ -13780,7 +13780,7 @@ Mais juridiquement :
 
 > La protection du DPP contre le stockage de données personnelles du client ne constitue pas une interdiction générale de tout rapprochement externe entre un produit et une transaction.
 
-Un tel rapprochement constituerait cependant un traitement distinct devant disposer de sa propre finalité, de sa propre base juridique et respecter les exigences de nécessité, de proportionnalité et de minimisation lorsqu'il implique des données personnelles [S43][S44][S53][S56].
+Un tel rapprochement constituerait cependant un traitement distinct devant disposer de sa propre finalité, de sa propre base juridique et respecter les exigences de nécessité, de proportionnalité et de minimisation lorsqu'il implique des données personnelles [S43](#s43)[S44](#s44)[S53](#s53)[S56](#s56).
 
 ---
 
@@ -13815,7 +13815,7 @@ C'est une distinction importante pour l'ensemble de cette enquête.
 
 Le cadre proposé pour l'euro numérique contient une interdiction explicite :
 
-> **l'euro numérique ne doit pas être de la monnaie programmable** [S57].
+> **l'euro numérique ne doit pas être de la monnaie programmable** [S57](#s57).
 
 Une unité d'euro numérique ne doit donc pas comporter une logique intrinsèque imposant :
 
@@ -13832,7 +13832,7 @@ utilisable seulement
 auprès de tel bénéficiaire
 ```
 
-La BCE rappelle également que de telles limitations seraient incompatibles avec la conception retenue de l'euro numérique [S57].
+La BCE rappelle également que de telles limitations seraient incompatibles avec la conception retenue de l'euro numérique [S57](#s57).
 
 **GARANTIE MONÉTAIRE MAJEURE :**
 
@@ -13871,11 +13871,11 @@ déclenchement automatique
 PRÉVU
 ```
 
-[S57]
+[S57](#s57)
 
 Une opération conditionnelle est définie comme une opération déclenchée automatiquement lorsque des conditions prédéfinies convenues par le payeur et le bénéficiaire sont satisfaites.
 
-La proposition permet même à la BCE de fournir les standards et fonctionnalités nécessaires à ces paiements, notamment la réservation de fonds [S57].
+La proposition permet même à la BCE de fournir les standards et fonctionnalités nécessaires à ces paiements, notamment la réservation de fonds [S57](#s57).
 
 **LATITUDE JURIDIQUE EXPLICITE :**
 
@@ -13927,7 +13927,7 @@ Les exemples officiels de paiements conditionnels concernent notamment :
 - le paiement à la livraison ;  
 - le paiement à l'usage ;  
 - des paiements liés à certaines étapes ;  
-- certains paiements automatisés entre machines [S57].
+- certains paiements automatisés entre machines [S57](#s57).
 
 Aucune source étudiée ne démontre qu'un paiement en euro numérique serait destiné à être conditionné :
 
@@ -13989,9 +13989,9 @@ Un autre élément est particulièrement important.
 
 La proposition de règlement sur l'euro numérique prévoit que les services front-end soient :
 
-> **interopérables ou intégrés aux portefeuilles européens d'identité numérique** [S57].
+> **interopérables ou intégrés aux portefeuilles européens d'identité numérique** [S57](#s57).
 
-Le portefeuille européen d'identité numérique permet de son côté la présentation d'identité et d'attestations d'attributs à des services publics ou privés [S55].
+Le portefeuille européen d'identité numérique permet de son côté la présentation d'identité et d'attestations d'attributs à des services publics ou privés [S55](#s55).
 
 On dispose donc ici d'une interconnexion qui n'est plus seulement déduite techniquement :
 
@@ -14048,7 +14048,7 @@ autorisation de paiement
 
 **AVÉRÉ AU NIVEAU DU CADRE PROPOSÉ :**
 
-> Une interface entre le portefeuille européen d'identité numérique et les services de paiement en euro numérique est explicitement prévue [S57].
+> Une interface entre le portefeuille européen d'identité numérique et les services de paiement en euro numérique est explicitement prévue [S57](#s57).
 
 **NON ÉTABLI :**
 
@@ -14058,13 +14058,13 @@ autorisation de paiement
 
 ### Le cadre de l'euro numérique prévoit également des protections fortes de la vie privée
 
-Le projet distingue notamment les paiements en ligne et hors ligne [S57].
+Le projet distingue notamment les paiements en ligne et hors ligne [S57](#s57).
 
 Pour les paiements hors ligne, le niveau de confidentialité recherché doit se rapprocher de celui des espèces.
 
 Les détails des transactions hors ligne ne doivent pas être accessibles à la BCE ou aux banques centrales nationales dans les mêmes conditions que les paiements en ligne.
 
-Pour les paiements en ligne, la proposition prévoit des mesures techniques et organisationnelles destinées à empêcher que les données transmises à l'Eurosystème permettent d'identifier directement les utilisateurs individuels [S57].
+Pour les paiements en ligne, la proposition prévoit des mesures techniques et organisationnelles destinées à empêcher que les données transmises à l'Eurosystème permettent d'identifier directement les utilisateurs individuels [S57](#s57).
 
 **GARANTIE DE CONFIDENTIALITÉ :**
 
@@ -14414,31 +14414,31 @@ La dernière question constitue probablement le principal point de recherche tra
 
 **GARANTIE ÉTABLIE :**
 
-> Le portefeuille européen d'identité numérique prévoit le contrôle de l'utilisateur, la divulgation sélective, l'inobservabilité de son utilisation par le fournisseur et des limitations à la combinaison des données [S55].
+> Le portefeuille européen d'identité numérique prévoit le contrôle de l'utilisateur, la divulgation sélective, l'inobservabilité de son utilisation par le fournisseur et des limitations à la combinaison des données [S55](#s55).
 
 **GARANTIE ÉTABLIE :**
 
-> Le refus d'utiliser le portefeuille européen d'identité numérique ne doit pas, à lui seul, restreindre ou désavantager l'accès aux services publics ou privés ; des alternatives doivent demeurer disponibles [S55].
+> Le refus d'utiliser le portefeuille européen d'identité numérique ne doit pas, à lui seul, restreindre ou désavantager l'accès aux services publics ou privés ; des alternatives doivent demeurer disponibles [S55](#s55).
 
 **GARANTIE ÉTABLIE :**
 
-> Le DPP ne doit pas stocker de données personnelles relatives aux clients sans leur consentement explicite [S56].
+> Le DPP ne doit pas stocker de données personnelles relatives aux clients sans leur consentement explicite [S56](#s56).
 
 **GARANTIE ÉTABLIE :**
 
-> L'identification d'un produit ou d'un article dans un DPP ne constitue pas juridiquement, par elle-même, l'identification de son acheteur [S56].
+> L'identification d'un produit ou d'un article dans un DPP ne constitue pas juridiquement, par elle-même, l'identification de son acheteur [S56](#s56).
 
 **GARANTIE PROPOSÉE :**
 
-> Le cadre proposé pour l'euro numérique interdit la monnaie programmable et maintient le principe d'une monnaie pleinement fongible [S57].
+> Le cadre proposé pour l'euro numérique interdit la monnaie programmable et maintient le principe d'une monnaie pleinement fongible [S57](#s57).
 
 **LATITUDE JURIDIQUE EXPLICITE DANS LA PROPOSITION :**
 
-> Cette interdiction ne s'étend pas aux paiements conditionnels : le cadre proposé prévoit expressément des paiements déclenchés automatiquement lorsque des conditions prédéfinies et convenues sont satisfaites [S57].
+> Cette interdiction ne s'étend pas aux paiements conditionnels : le cadre proposé prévoit expressément des paiements déclenchés automatiquement lorsque des conditions prédéfinies et convenues sont satisfaites [S57](#s57).
 
 **INTERFACE DOCUMENTÉE DANS LA PROPOSITION :**
 
-> Les services front-end de l'euro numérique doivent être interopérables ou intégrés aux portefeuilles européens d'identité numérique [S57].
+> Les services front-end de l'euro numérique doivent être interopérables ou intégrés aux portefeuilles européens d'identité numérique [S57](#s57).
 
 **FRONTIÈRE JURIDIQUE :**
 
@@ -14516,9 +14516,9 @@ L'évolution d'une infrastructure peut résulter de mécanismes juridiquement tr
 
 Ces trois situations ne doivent pas être confondues.
 
-Le RGPD encadre les traitements ultérieurs et prévoit notamment l'examen de la compatibilité d'une nouvelle finalité avec celle ayant initialement justifié la collecte [S43][S46].
+Le RGPD encadre les traitements ultérieurs et prévoit notamment l'examen de la compatibilité d'une nouvelle finalité avec celle ayant initialement justifié la collecte [S43](#s43)[S46](#s46).
 
-Mais lorsqu'un nouveau traitement repose sur une disposition du droit de l'Union ou du droit national satisfaisant aux exigences applicables, le droit peut également créer ou modifier le fondement juridique permettant ce traitement [S43][S46][S47].
+Mais lorsqu'un nouveau traitement repose sur une disposition du droit de l'Union ou du droit national satisfaisant aux exigences applicables, le droit peut également créer ou modifier le fondement juridique permettant ce traitement [S43](#s43)[S46](#s46)[S47](#s47).
 
 **GARANTIE JURIDIQUE :**
 
@@ -14564,7 +14564,7 @@ nouveau traitement autorisé
 sous nouvelles conditions
 ```
 
-[S43][S46]
+[S43](#s43)[S46](#s46)
 
 **VULNÉRABILITÉ JURIDIQUE :**
 
@@ -14580,7 +14580,7 @@ Cela signifie que la frontière est juridique et non techniquement immuable.
 
 Cette possibilité n'est pas seulement théorique.
 
-CFVR existe depuis 2014 [S58].
+CFVR existe depuis 2014 [S58](#s58).
 
 Depuis sa création, son cadre a été modifié à plusieurs reprises.
 
@@ -14616,7 +14616,7 @@ nouvelles sources
 exploitation dans la PSD
 ```
 
-[S37][S45][S58]
+[S37](#s37)[S45](#s45)[S58](#s58)
 
 **AVÉRÉ :**
 
@@ -14658,7 +14658,7 @@ nouvelle capacité
 nouvelle modification juridique
 ```
 
-CFVR fournit précisément un exemple documenté de cette évolution [S58].
+CFVR fournit précisément un exemple documenté de cette évolution [S58](#s58).
 
 **AVÉRÉ :**
 
@@ -14687,11 +14687,11 @@ expérimentation
 de deux ans
 ```
 
-[S58]
+[S58](#s58)
 
 Le traitement pouvait ainsi utiliser, à titre expérimental, des données concernant des particuliers sans lien avec une entreprise.
 
-Le cadre actuel concerne désormais les fraudes relatives aux professionnels **et aux particuliers** [S45][S58].
+Le cadre actuel concerne désormais les fraudes relatives aux professionnels **et aux particuliers** [S45](#s45)[S58](#s58).
 
 Cette évolution fournit un exemple particulièrement clair :
 
@@ -14720,7 +14720,7 @@ Avant la réforme étudiée dans ce dossier, CFVR existait déjà.
 
 La facturation électronique constitue une infrastructure distincte, développée pour répondre notamment à des obligations fiscales et économiques propres.
 
-En 2026, les données issues de cette infrastructure sont expressément intégrées parmi les catégories de données utilisées par CFVR [S37][S45].
+En 2026, les données issues de cette infrastructure sont expressément intégrées parmi les catégories de données utilisées par CFVR [S37](#s37)[S45](#s45).
 
 La séquence est donc documentée :
 
@@ -14787,7 +14787,7 @@ Inversement, la possibilité de modifier le droit ne permet absolument pas d'aff
 
 ### Cette distinction est essentielle pour le DPP
 
-Le cadre actuel du DPP prévoit des garanties fortes [S56].
+Le cadre actuel du DPP prévoit des garanties fortes [S56](#s56).
 
 Mais le règlement ESPR prévoit lui-même que les actes délégués applicables aux différents groupes de produits préciseront notamment :
 
@@ -14803,13 +14803,13 @@ données accessibles à chacun
 durée de disponibilité
 ```
 
-[S56]
+[S56](#s56)
 
 Le règlement prévoit également que lorsque d'autres dispositions du droit de l'Union exigent ou autorisent l'inclusion de données spécifiques dans le DPP, ces données peuvent y être intégrées conformément à l'acte délégué applicable.
 
 **AVÉRÉ :**
 
-> Le contenu concret et les droits d'accès au DPP ne sont pas entièrement figés dans le règlement-cadre : ils doivent être précisés pour les différents groupes de produits par des actes délégués [S56].
+> Le contenu concret et les droits d'accès au DPP ne sont pas entièrement figés dans le règlement-cadre : ils doivent être précisés pour les différents groupes de produits par des actes délégués [S56](#s56).
 
 ---
 
@@ -14817,7 +14817,7 @@ Le règlement prévoit également que lorsque d'autres dispositions du droit de 
 
 Cette capacité d'évolution n'efface pas les garanties supérieures.
 
-Le règlement prévoit notamment que les données personnelles relatives aux clients ne doivent pas être stockées dans le DPP sans leur consentement explicite [S56].
+Le règlement prévoit notamment que les données personnelles relatives aux clients ne doivent pas être stockées dans le DPP sans leur consentement explicite [S56](#s56).
 
 Une évolution par acte délégué ne signifie donc pas :
 
@@ -14840,7 +14840,7 @@ Les actes délégués doivent rester dans le cadre de l'habilitation et respecte
 
 ### Le portefeuille européen d'identité numérique possède lui aussi une architecture évolutive
 
-Le règlement eIDAS 2 fixe les garanties fondamentales du portefeuille [S55].
+Le règlement eIDAS 2 fixe les garanties fondamentales du portefeuille [S55](#s55).
 
 Mais son fonctionnement concret repose également sur des actes d'exécution déterminant des standards, spécifications et procédures techniques.
 
@@ -14851,13 +14851,13 @@ Cela concerne notamment :
 - l'identification des parties utilisatrices ;  
 - les procédures d'enregistrement ;  
 - certaines modalités de certification ;  
-- l'interopérabilité [S55].
+- l'interopérabilité [S55](#s55).
 
 Le règlement permet en outre la combinaison de plusieurs attestations d'attributs sous le contrôle de l'utilisateur.
 
 **AVÉRÉ :**
 
-> Le cadre juridique fondamental du portefeuille est fixé par le règlement, tandis qu'une partie importante de son fonctionnement concret est précisée par des actes d'exécution et des spécifications techniques [S55].
+> Le cadre juridique fondamental du portefeuille est fixé par le règlement, tandis qu'une partie importante de son fonctionnement concret est précisée par des actes d'exécution et des spécifications techniques [S55](#s55).
 
 ---
 
@@ -14895,7 +14895,7 @@ Mais l'évolution des standards peut augmenter :
 
 ### La frontière est encore plus évidente pour l'euro numérique
 
-Contrairement à eIDAS 2 et au règlement ESPR, le règlement établissant l'euro numérique n'est pas encore définitivement adopté au moment de cette enquête [S57].
+Contrairement à eIDAS 2 et au règlement ESPR, le règlement établissant l'euro numérique n'est pas encore définitivement adopté au moment de cette enquête [S57](#s57).
 
 Les garanties étudiées en 6.7 concernant notamment :
 
@@ -14954,7 +14954,7 @@ nouvelle modification
 etc.
 ```
 
-[S58]
+[S58](#s58)
 
 **VULNÉRABILITÉ JURIDIQUE :**
 
@@ -15124,9 +15124,9 @@ proportionnalité
 garanties effectives
 ```
 
-[S39][S44][S53]
+[S39](#s39)[S44](#s44)[S53](#s53)
 
-Lorsqu'une restriction aux droits protégés par le RGPD entre dans le champ de l'article 23, elle doit notamment respecter l'essence des libertés et droits fondamentaux et constituer une mesure nécessaire et proportionnée dans une société démocratique [S47].
+Lorsqu'une restriction aux droits protégés par le RGPD entre dans le champ de l'article 23, elle doit notamment respecter l'essence des libertés et droits fondamentaux et constituer une mesure nécessaire et proportionnée dans une société démocratique [S47](#s47).
 
 **GARANTIE JURIDIQUE :**
 
@@ -15180,7 +15180,7 @@ contrôle juridictionnel
 
 ### L'historique de CFVR montre néanmoins pourquoi cette distinction n'est pas théorique
 
-Entre 2014 et 2026, le même traitement a connu plusieurs modifications successives [S58].
+Entre 2014 et 2026, le même traitement a connu plusieurs modifications successives [S58](#s58).
 
 Au fil de ces évolutions apparaissent notamment :
 
@@ -15200,7 +15200,7 @@ nouvelle infrastructure de calcul
 facturation électronique
 ```
 
-[S37][S45][S58]
+[S37](#s37)[S45](#s45)[S58](#s58)
 
 Chaque évolution prise isolément peut disposer de sa justification et de ses garanties.
 
@@ -15337,7 +15337,7 @@ conditionner une décision
 
 Ce dernier passage change profondément l'analyse juridique.
 
-Les sections 6.4 et 6.5 ont montré que plus un résultat automatisé devient déterminant dans une décision produisant un effet juridique ou significatif, plus les garanties relatives aux décisions automatisées, à la nécessité et à la proportionnalité deviennent centrales [S43][S51][S53].
+Les sections 6.4 et 6.5 ont montré que plus un résultat automatisé devient déterminant dans une décision produisant un effet juridique ou significatif, plus les garanties relatives aux décisions automatisées, à la nécessité et à la proportionnalité deviennent centrales [S43](#s43)[S51](#s51)[S53](#s53).
 
 **GARANTIE JURIDIQUE :**
 
@@ -15480,19 +15480,19 @@ Il n'est pas nécessaire de spéculer sur les intentions.
 
 **AVÉRÉ :**
 
-> Le périmètre juridique d'une infrastructure publique de données peut évoluer dans le temps. CFVR en fournit un exemple documenté depuis 2014 [S58].
+> Le périmètre juridique d'une infrastructure publique de données peut évoluer dans le temps. CFVR en fournit un exemple documenté depuis 2014 [S58](#s58).
 
 **AVÉRÉ :**
 
-> CFVR a connu plusieurs modifications successives concernant notamment les personnes concernées, les sources de données, les traitements associés et, en 2026, l'intégration des données issues de la facturation électronique [S37][S45][S58].
+> CFVR a connu plusieurs modifications successives concernant notamment les personnes concernées, les sources de données, les traitements associés et, en 2026, l'intégration des données issues de la facturation électronique [S37](#s37)[S45](#s45)[S58](#s58).
 
 **AVÉRÉ :**
 
-> Le règlement ESPR prévoit que le contenu concret, la granularité et les droits d'accès au DPP soient précisés pour les différents groupes de produits par des actes délégués [S56].
+> Le règlement ESPR prévoit que le contenu concret, la granularité et les droits d'accès au DPP soient précisés pour les différents groupes de produits par des actes délégués [S56](#s56).
 
 **AVÉRÉ :**
 
-> Le fonctionnement concret du portefeuille européen d'identité numérique repose également sur des actes d'exécution et des spécifications techniques, dans les limites fixées par le règlement eIDAS 2 [S55].
+> Le fonctionnement concret du portefeuille européen d'identité numérique repose également sur des actes d'exécution et des spécifications techniques, dans les limites fixées par le règlement eIDAS 2 [S55](#s55).
 
 **GARANTIE JURIDIQUE :**
 
@@ -15583,7 +15583,7 @@ Les chapitres précédents ont en revanche documenté plusieurs infrastructures 
 
 La facturation électronique française fournit un exemple particulièrement concret.
 
-Les données issues des factures électroniques constituent désormais une source de CFVR et doivent alimenter la plateforme sécurisée des données de la DGFiP afin d'être exploitées à grande échelle [S37][S45].
+Les données issues des factures électroniques constituent désormais une source de CFVR et doivent alimenter la plateforme sécurisée des données de la DGFiP afin d'être exploitées à grande échelle [S37](#s37)[S45](#s45).
 
 CFVR rapproche déjà de nombreuses autres sources fiscales, économiques, administratives et sociales.
 
@@ -15607,7 +15607,7 @@ mais également :
 
 ### Deuxième vulnérabilité : une finalité légalement limitée aujourd'hui peut évoluer demain
 
-La section 6.8 a établi que CFVR fournit déjà un exemple historique de modifications successives d'un même traitement [S58].
+La section 6.8 a établi que CFVR fournit déjà un exemple historique de modifications successives d'un même traitement [S58](#s58).
 
 Une infrastructure peut conserver son existence institutionnelle tout en voyant évoluer :
 
@@ -15772,7 +15772,7 @@ Ces fonctions ne produisent pas les mêmes conséquences juridiques.
 
 CFVR fournit déjà un exemple de cette distinction.
 
-Les résultats algorithmiques peuvent orienter les agents, mais la CNIL exige qu'ils ne remplacent pas leur analyse et que la décision humaine demeure effective [S37][S51].
+Les résultats algorithmiques peuvent orienter les agents, mais la CNIL exige qu'ils ne remplacent pas leur analyse et que la décision humaine demeure effective [S37](#s37)[S51](#s51).
 
 **GARANTIE JURIDIQUE :**
 
@@ -15813,7 +15813,7 @@ E
 
 aient tous été recalculés, corrigés ou neutralisés.
 
-Le droit prévoit différentes obligations de rectification, de limitation et de communication aux destinataires lorsque les conditions correspondantes sont réunies [S43].
+Le droit prévoit différentes obligations de rectification, de limitation et de communication aux destinataires lorsque les conditions correspondantes sont réunies [S43](#s43).
 
 **VULNÉRABILITÉ JURIDIQUE :**
 
@@ -15882,7 +15882,7 @@ Il faut ici distinguer création d'une monnaie et obligation individuelle de l'u
 
 Le cadre européen proposé prévoit une procédure législative permettant d'établir l'euro numérique.
 
-Une fois ce cadre adopté, la décision d'émettre ou non l'euro numérique appartiendrait à la BCE [S57].
+Une fois ce cadre adopté, la décision d'émettre ou non l'euro numérique appartiendrait à la BCE [S57](#s57).
 
 Il ne s'agit donc pas d'un mécanisme reposant sur le consentement individuel de chaque citoyen à la création de cette nouvelle forme de monnaie.
 
@@ -15899,7 +15899,7 @@ obligation pour chaque citoyen
 d'abandonner les espèces
 ```
 
-Le cadre actuellement négocié prévoit au contraire la coexistence de l'euro numérique avec les espèces et des mesures destinées à préserver l'accès et l'acceptation du cash [S57].
+Le cadre actuellement négocié prévoit au contraire la coexistence de l'euro numérique avec les espèces et des mesures destinées à préserver l'accès et l'acceptation du cash [S57](#s57).
 
 **NON ÉTABLI :**
 
@@ -15918,7 +15918,7 @@ Une infrastructure de monnaie numérique de banque centrale implique nécessaire
 - ses limites éventuelles de détention ;  
 - ses mécanismes de paiement.
 
-Le cadre actuellement proposé envisage effectivement des limites de détention [S57].
+Le cadre actuellement proposé envisage effectivement des limites de détention [S57](#s57).
 
 Mais une autre frontière existe.
 
@@ -15932,7 +15932,7 @@ quand
 à qui
 ```
 
-une unité d'euro numérique peut être dépensée reviendrait à créer une monnaie programmable incompatible avec son caractère de monnaie pleinement fongible et avec son cours légal [S57].
+une unité d'euro numérique peut être dépensée reviendrait à créer une monnaie programmable incompatible avec son caractère de monnaie pleinement fongible et avec son cours légal [S57](#s57).
 
 **GARANTIE JURIDIQUE :**
 
@@ -15962,7 +15962,7 @@ paiement déclenché
 selon une condition convenue
 ```
 
-[S22][S27][S28][S57]
+[S22](#s22)[S27](#s27)[S28](#s28)[S57](#s57)
 
 **AVÉRÉ :**
 
@@ -16063,7 +16063,7 @@ Elle devrait notamment être examinée au regard :
 - des droits fondamentaux affectés ;  
 - des voies de recours.
 
-[S43][S44][S47][S51][S53]
+[S43](#s43)[S44](#s44)[S47](#s47)[S51](#s51)[S53](#s53)
 
 **GARANTIE JURIDIQUE :**
 
@@ -16101,7 +16101,7 @@ répondre effectivement
 ou protéger les droits d'autrui
 ```
 
-[S39][S44]
+[S39](#s39)[S44](#s44)
 
 **GARANTIE JURIDIQUE :**
 
@@ -16139,7 +16139,7 @@ Les chapitres 1 et 2 ont établi la nature et le cycle de ces données.
 
 Le Chapitre 5 a étudié les possibilités d'interconnexion.
 
-Le présent chapitre a montré que certaines données de facturation électronique sont désormais intégrées à CFVR et exploitées dans une infrastructure algorithmique capable de traiter une volumétrie de plusieurs milliards de factures annuelles [S37][S45].
+Le présent chapitre a montré que certaines données de facturation électronique sont désormais intégrées à CFVR et exploitées dans une infrastructure algorithmique capable de traiter une volumétrie de plusieurs milliards de factures annuelles [S37](#s37)[S45](#s45).
 
 **AVÉRÉ :**
 
@@ -16199,7 +16199,7 @@ CROISEMENT
 ANALYSE ALGORITHMIQUE
 ```
 
-Cette chaîne existe désormais dans le domaine fiscal étudié [S37][S45].
+Cette chaîne existe désormais dans le domaine fiscal étudié [S37](#s37)[S45](#s45).
 
 **VULNÉRABILITÉ JURIDIQUE :**
 
@@ -16320,27 +16320,27 @@ Elles en définissent la solidité.
 
 **AVÉRÉ :**
 
-> Certaines de ces données sont désormais destinées à alimenter CFVR et la plateforme sécurisée des données de la DGFiP [S37][S45].
+> Certaines de ces données sont désormais destinées à alimenter CFVR et la plateforme sécurisée des données de la DGFiP [S37](#s37)[S45](#s45).
 
 **AVÉRÉ :**
 
-> CFVR combine déjà de nombreuses sources et utilise des méthodes algorithmiques pour détecter des anomalies et orienter le contrôle fiscal [S37].
+> CFVR combine déjà de nombreuses sources et utilise des méthodes algorithmiques pour détecter des anomalies et orienter le contrôle fiscal [S37](#s37).
 
 **AVÉRÉ :**
 
-> Le DPP permet d'associer à des produits des informations structurées pouvant notamment inclure des informations environnementales [S56].
+> Le DPP permet d'associer à des produits des informations structurées pouvant notamment inclure des informations environnementales [S56](#s56).
 
 **AVÉRÉ :**
 
-> Le portefeuille européen d'identité numérique permet la présentation et la vérification d'attributs électroniques selon le cadre étudié [S55].
+> Le portefeuille européen d'identité numérique permet la présentation et la vérification d'attributs électroniques selon le cadre étudié [S55](#s55).
 
 **AVÉRÉ :**
 
-> Le cadre proposé pour l'euro numérique distingue et interdit la monnaie programmable tout en permettant des services de paiement conditionnel [S57].
+> Le cadre proposé pour l'euro numérique distingue et interdit la monnaie programmable tout en permettant des services de paiement conditionnel [S57](#s57).
 
 **AVÉRÉ :**
 
-> Les finalités, sources et périmètres de certaines infrastructures publiques peuvent évoluer juridiquement dans le temps, comme l'historique de CFVR le démontre [S58].
+> Les finalités, sources et périmètres de certaines infrastructures publiques peuvent évoluer juridiquement dans le temps, comme l'historique de CFVR le démontre [S58](#s58).
 
 **GARANTIE JURIDIQUE :**
 
@@ -17231,14 +17231,16 @@ C'est exactement là que les preuves disponibles s'arrêtent aujourd'hui.
 
 Ce fichier constitue le registre central des sources utilisées dans l'ensemble du dossier.
 
-Chaque source reçoit un identifiant unique `[S1]`, `[S2]`, `[S3]`, etc.
+Chaque source reçoit un identifiant unique `[S1](#s1)`, `[S2](#s2)`, `[S3](#s3)`, etc.
 Cet identifiant est conservé dans tous les chapitres afin de permettre la vérification des affirmations et de retrouver précisément leur origine.
 
 Les sources primaires et officielles sont privilégiées.
 
 ---
 
-## [S1] DGFiP — Données de facture transmises à l'administration
+<a id="s1"></a>
+
+## [S1](#s1) DGFiP — Données de facture transmises à l'administration
 
 **Organisme :** Direction générale des Finances publiques
 
@@ -17255,7 +17257,9 @@ Les sources primaires et officielles sont privilégiées.
 
 ---
 
-## [S2] DGFiP — Données de transaction transmises à l'administration
+<a id="s2"></a>
+
+## [S2](#s2) DGFiP — Données de transaction transmises à l'administration
 
 **Organisme :** Direction générale des Finances publiques
 
@@ -17272,7 +17276,9 @@ Les sources primaires et officielles sont privilégiées.
 
 ---
 
-## [S3] DGFiP — Données de paiement transmises à l'administration
+<a id="s3"></a>
+
+## [S3](#s3) DGFiP — Données de paiement transmises à l'administration
 
 **Organisme :** Direction générale des Finances publiques
 
@@ -17289,7 +17295,9 @@ Les sources primaires et officielles sont privilégiées.
 
 ---
 
-## [S4] DGFiP — Spécifications externes de la facturation électronique
+<a id="s4"></a>
+
+## [S4](#s4) DGFiP — Spécifications externes de la facturation électronique
 
 **Organisme :** Direction générale des Finances publiques
 
@@ -17306,7 +17314,9 @@ Les sources primaires et officielles sont privilégiées.
 
 ---
 
-## [S5] DGFiP — Objectifs de la réforme
+<a id="s5"></a>
+
+## [S5](#s5) DGFiP — Objectifs de la réforme
 
 **Organisme :** Direction générale des Finances publiques
 
@@ -17321,7 +17331,9 @@ Les sources primaires et officielles sont privilégiées.
 
 ---
 
-## [S6] DGFiP — Fiche pédagogique sur les objectifs de la réforme
+<a id="s6"></a>
+
+## [S6](#s6) DGFiP — Fiche pédagogique sur les objectifs de la réforme
 
 **Organisme :** Direction générale des Finances publiques
 
@@ -17338,7 +17350,9 @@ Les sources primaires et officielles sont privilégiées.
 
 ---
 
-## [S7] Code général des impôts — Transmission des données
+<a id="s7"></a>
+
+## [S7](#s7) Code général des impôts — Transmission des données
 
 **Organisme :** République française — Légifrance
 
@@ -17355,9 +17369,9 @@ Les sources primaires et officielles sont privilégiées.
 
 ---
 
----
+<a id="s8"></a>
 
-## [S8] Livre des procédures fiscales — Article L. 102 B
+## [S8](#s8) Livre des procédures fiscales — Article L. 102 B
 
 **Organisme :** République française — Légifrance
 
@@ -17377,7 +17391,9 @@ Les sources primaires et officielles sont privilégiées.
 
 ---
 
-## [S9] Livre des procédures fiscales — Article L. 102 B bis
+<a id="s9"></a>
+
+## [S9](#s9) Livre des procédures fiscales — Article L. 102 B bis
 
 **Organisme :** République française — Légifrance
 
@@ -17394,7 +17410,9 @@ Les sources primaires et officielles sont privilégiées.
 
 ---
 
-## [S10] CGI, annexe II — Articles 242 nonies E et 242 nonies E bis
+<a id="s10"></a>
+
+## [S10](#s10) CGI, annexe II — Articles 242 nonies E et 242 nonies E bis
 
 **Organisme :** République française — Légifrance
 
@@ -17411,7 +17429,9 @@ Les sources primaires et officielles sont privilégiées.
 
 ---
 
-## [S11] CGI, annexe II — Article 242 nonies L
+<a id="s11"></a>
+
+## [S11](#s11) CGI, annexe II — Article 242 nonies L
 
 **Organisme :** République française — Légifrance
 
@@ -17428,7 +17448,9 @@ Les sources primaires et officielles sont privilégiées.
 
 ---
 
-## [S12] CGI, annexe II — Articles 242 nonies G et 242 nonies H
+<a id="s12"></a>
+
+## [S12](#s12) CGI, annexe II — Articles 242 nonies G et 242 nonies H
 
 **Organisme :** République française — Légifrance
 
@@ -17445,7 +17467,9 @@ Les sources primaires et officielles sont privilégiées.
 
 ---
 
-## [S13] DGFiP — Facturation électronique et plateformes agréées
+<a id="s13"></a>
+
+## [S13](#s13) DGFiP — Facturation électronique et plateformes agréées
 
 **Organisme :** Direction générale des Finances publiques
 
@@ -17460,7 +17484,9 @@ Les sources primaires et officielles sont privilégiées.
 
 ---
 
-## [S14] Gouvernement — Évaluation préalable de la réforme de la facturation électronique
+<a id="s14"></a>
+
+## [S14](#s14) Gouvernement — Évaluation préalable de la réforme de la facturation électronique
 
 **Organisme :** Gouvernement — document annexé au projet de loi de finances rectificative pour 2022, publié par l'Assemblée nationale
 
@@ -17477,7 +17503,9 @@ Les sources primaires et officielles sont privilégiées.
 
 ---
 
-## [S15] Union européenne — Règlement sur l'écoconception des produits durables et le passeport numérique de produit
+<a id="s15"></a>
+
+## [S15](#s15) Union européenne — Règlement sur l'écoconception des produits durables et le passeport numérique de produit
 
 **Organisme :** Parlement européen et Conseil de l'Union européenne
 
@@ -17492,7 +17520,9 @@ Les sources primaires et officielles sont privilégiées.
 
 ---
 
-## [S16] Commission européenne — Données accessibles dans le passeport numérique de produit
+<a id="s16"></a>
+
+## [S16](#s16) Commission européenne — Données accessibles dans le passeport numérique de produit
 
 **Organisme :** Commission européenne — Direction générale du marché intérieur, de l'industrie, de l'entrepreneuriat et des PME
 
@@ -17507,7 +17537,9 @@ Les sources primaires et officielles sont privilégiées.
 
 ---
 
-## [S17] OpenPeppol — Identification standard des articles dans la facturation électronique
+<a id="s17"></a>
+
+## [S17](#s17) OpenPeppol — Identification standard des articles dans la facturation électronique
 
 **Organisme :** OpenPeppol
 
@@ -17522,7 +17554,9 @@ Les sources primaires et officielles sont privilégiées.
 
 ---
 
-## [S18] Commission européenne — Méthode Product Environmental Footprint
+<a id="s18"></a>
+
+## [S18](#s18) Commission européenne — Méthode Product Environmental Footprint
 
 **Organisme :** Commission européenne
 
@@ -17537,7 +17571,9 @@ Les sources primaires et officielles sont privilégiées.
 
 ---
 
-## [S19] Union européenne — Empreinte carbone et passeport numérique des batteries
+<a id="s19"></a>
+
+## [S19](#s19) Union européenne — Empreinte carbone et passeport numérique des batteries
 
 **Organisme :** Parlement européen et Conseil de l'Union européenne
 
@@ -17552,7 +17588,9 @@ Les sources primaires et officielles sont privilégiées.
 
 ---
 
-## [S20] Union européenne — Architecture et fonctionnement du registre des passeports numériques de produits
+<a id="s20"></a>
+
+## [S20](#s20) Union européenne — Architecture et fonctionnement du registre des passeports numériques de produits
 
 **Organisme :** Commission européenne
 
@@ -17567,7 +17605,9 @@ Les sources primaires et officielles sont privilégiées.
 
 ---
 
-## [S21] Commission européenne — EBSI / e-Origin : transactions commerciales, traçabilité et Digital Product Passport
+<a id="s21"></a>
+
+## [S21](#s21) Commission européenne — EBSI / e-Origin : transactions commerciales, traçabilité et Digital Product Passport
 
 **Organisme :** Commission européenne — European Blockchain Services Infrastructure (EBSI)
 
@@ -17582,7 +17622,9 @@ Les sources primaires et officielles sont privilégiées.
 
 ---
 
-## [S22] Commission européenne — Proposition de règlement établissant l'euro numérique
+<a id="s22"></a>
+
+## [S22](#s22) Commission européenne — Proposition de règlement établissant l'euro numérique
 
 **Organisme :** Commission européenne
 
@@ -17599,7 +17641,9 @@ Les sources primaires et officielles sont privilégiées.
 
 ---
 
-## [S23] Banque centrale européenne — Architecture et état d'avancement de l'euro numérique
+<a id="s23"></a>
+
+## [S23](#s23) Banque centrale européenne — Architecture et état d'avancement de l'euro numérique
 
 **Organisme :** Banque centrale européenne
 
@@ -17616,7 +17660,9 @@ Les sources primaires et officielles sont privilégiées.
 
 ---
 
-## [S24] Banque centrale européenne — Rulebook de l'euro numérique et architecture des participants
+<a id="s24"></a>
+
+## [S24](#s24) Banque centrale européenne — Rulebook de l'euro numérique et architecture des participants
 
 **Organisme :** Banque centrale européenne
 
@@ -17633,7 +17679,9 @@ Les sources primaires et officielles sont privilégiées.
 
 ---
 
-## [S25] Banque centrale européenne — Modèle, dictionnaire et échanges de données de l'euro numérique
+<a id="s25"></a>
+
+## [S25](#s25) Banque centrale européenne — Modèle, dictionnaire et échanges de données de l'euro numérique
 
 **Organisme :** Banque centrale européenne
 
@@ -17650,7 +17698,9 @@ Les sources primaires et officielles sont privilégiées.
 
 ---
 
-## [S26] Banque centrale européenne — Fonctionnement et confidentialité des paiements hors ligne en euros numériques
+<a id="s26"></a>
+
+## [S26](#s26) Banque centrale européenne — Fonctionnement et confidentialité des paiements hors ligne en euros numériques
 
 **Organisme :** Banque centrale européenne
 
@@ -17667,7 +17717,9 @@ Les sources primaires et officielles sont privilégiées.
 
 ---
 
-## [S27] Banque centrale européenne — Paiements conditionnels et distinction avec la monnaie programmable
+<a id="s27"></a>
+
+## [S27](#s27) Banque centrale européenne — Paiements conditionnels et distinction avec la monnaie programmable
 
 **Organisme :** Banque centrale européenne
 
@@ -17685,7 +17737,9 @@ Les sources primaires et officielles sont privilégiées.
 
 ---
 
-## [S28] Banque centrale européenne — Expérimentation des conditions externes et intégration avec les plateformes des acteurs du marché
+<a id="s28"></a>
+
+## [S28](#s28) Banque centrale européenne — Expérimentation des conditions externes et intégration avec les plateformes des acteurs du marché
 
 **Organisme :** Banque centrale européenne
 
@@ -17702,7 +17756,9 @@ Les sources primaires et officielles sont privilégiées.
 
 ---
 
-## [S29] Commission européenne et Banque centrale européenne — EUDI Wallet, authentification des paiements et euro numérique
+<a id="s29"></a>
+
+## [S29](#s29) Commission européenne et Banque centrale européenne — EUDI Wallet, authentification des paiements et euro numérique
 
 **Organismes :** Commission européenne ; Banque centrale européenne
 
@@ -17721,7 +17777,9 @@ Les sources primaires et officielles sont privilégiées.
 
 ---
 
-## [S30] Commission européenne — European Business Wallets et interopérabilité avec les infrastructures numériques européennes
+<a id="s30"></a>
+
+## [S30](#s30) Commission européenne — European Business Wallets et interopérabilité avec les infrastructures numériques européennes
 
 **Organisme :** Commission européenne
 
@@ -17739,25 +17797,9 @@ Les sources primaires et officielles sont privilégiées.
 
 ---
 
-## [S30] Commission européenne — European Business Wallets, données de transaction et infrastructures numériques européennes
+<a id="s31"></a>
 
-**Organisme :** Commission européenne
-
-**Documents :** Proposition de règlement établissant les European Business Wallets — COM(2025) 838 final ; analyse d'impact SWD(2025) 837 final
-
-**Date :** 19 novembre 2025
-
-**Utilisé dans :** Chapitre 5
-
-**Éléments établis :** proposition d'une infrastructure européenne permettant aux opérateurs économiques et organismes publics de s'identifier, s'authentifier, stocker, gérer, présenter et échanger de manière sécurisée des données et attestations électroniques vérifiables ; architecture construite à partir du cadre européen d'identité numérique ; possibilité d'utiliser l'EUDI Wallet et ses attestations pour l'accès et l'onboarding aux Business Wallets ; prise en charge d'attributs tels que le numéro de TVA, le numéro fiscal, le LEI, le numéro EORI ou le numéro d'accise ; articulation explicitement recherchée avec plusieurs infrastructures européennes dont le Digital Product Passport et VAT in the Digital Age ; possibilité, dans le cadre de ViDA, de stocker et échanger de manière sécurisée et vérifiable des attestations TVA et des données de transaction afin de soutenir le reporting en temps réel et la facturation de confiance.
-
-**Liens :**  
-- https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:52025PC0838  
-- https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:52025SC0837
-
----
-
-## [S31] Commission européenne — Stratégie pour le marché unique : DPP, eInvoicing, Business Wallet et réutilisation des données
+## [S31](#s31) Commission européenne — Stratégie pour le marché unique : DPP, eInvoicing, Business Wallet et réutilisation des données
 
 **Organisme :** Commission européenne
 
@@ -17776,7 +17818,9 @@ Digital Product Passport, de l'eInvoicing, du futur European Business Wallet, du
 
 ---
 
-## [S32] Union européenne — Standards, identifiants, API et mécanismes d'interopérabilité
+<a id="s32"></a>
+
+## [S32](#s32) Union européenne — Standards, identifiants, API et mécanismes d'interopérabilité
 
 **Organismes :** Commission européenne ; Union européenne
 
@@ -17796,7 +17840,9 @@ Digital Product Passport, de l'eInvoicing, du futur European Business Wallet, du
 
 ---
 
-## [S33] BCE / Commission européenne — Acteurs, consortiums et expérimentations communes
+<a id="s33"></a>
+
+## [S33](#s33) BCE / Commission européenne — Acteurs, consortiums et expérimentations communes
 
 **Organismes :** Banque centrale européenne ; Commission européenne ; WE BUILD Large Scale Pilot
 
@@ -17817,7 +17863,9 @@ Digital Product Passport, de l'eInvoicing, du futur European Business Wallet, du
 
 ---
 
-## [S34] WE BUILD — Chaînes expérimentales reliant identité, paiement, justificatif numérique et fiscalité
+<a id="s34"></a>
+
+## [S34](#s34) WE BUILD — Chaînes expérimentales reliant identité, paiement, justificatif numérique et fiscalité
 
 **Organismes et sources :** WE BUILD Consortium ; documentation technique publiée par iGrant.io en qualité de participant au consortium WE BUILD
 
@@ -17837,7 +17885,9 @@ Digital Product Passport, de l'eInvoicing, du futur European Business Wallet, du
 
 ---
 
-## [S35] CEN/TS 16931-8:2024 — eReceipts, identifiant DPP et informations environnementales du produit
+<a id="s35"></a>
+
+## [S35](#s35) CEN/TS 16931-8:2024 — eReceipts, identifiant DPP et informations environnementales du produit
 
 **Organisme :** Comité européen de normalisation (CEN)
 
@@ -17856,7 +17906,9 @@ Digital Product Passport, de l'eInvoicing, du futur European Business Wallet, du
 
 ---
 
-## [S36] Règlement général sur la protection des données — principes applicables aux traitements
+<a id="s36"></a>
+
+## [S36](#s36) Règlement général sur la protection des données — principes applicables aux traitements
 
 **Organisme :** Union européenne
 
@@ -17871,7 +17923,9 @@ Digital Product Passport, de l'eInvoicing, du futur European Business Wallet, du
 
 ---
 
-## [S37] CNIL — intégration des données de facturation électronique au traitement algorithmique CFVR
+<a id="s37"></a>
+
+## [S37](#s37) CNIL — intégration des données de facturation électronique au traitement algorithmique CFVR
 
 **Organisme :** Commission nationale de l'informatique et des libertés (CNIL)
 
@@ -17890,7 +17944,9 @@ Digital Product Passport, de l'eInvoicing, du futur European Business Wallet, du
 
 ---
 
-## [S38] Décret relatif à la généralisation de la facturation électronique — prise en compte du RGPD et avis de la CNIL
+<a id="s38"></a>
+
+## [S38](#s38) Décret relatif à la généralisation de la facturation électronique — prise en compte du RGPD et avis de la CNIL
 
 **Organisme :** République française
 
@@ -17907,7 +17963,9 @@ Digital Product Passport, de l'eInvoicing, du futur European Business Wallet, du
 
 ---
 
-## [S39] Contrôle de proportionnalité des traitements de données par les pouvoirs publics
+<a id="s39"></a>
+
+## [S39](#s39) Contrôle de proportionnalité des traitements de données par les pouvoirs publics
 
 **Organismes :** Cour de justice de l'Union européenne ; Conseil constitutionnel
 
@@ -17923,7 +17981,9 @@ Digital Product Passport, de l'eInvoicing, du futur European Business Wallet, du
 
 ---
 
-## [S40] Union européenne — CE-RISE : DPP, réemploi, réparation et recyclage
+<a id="s40"></a>
+
+## [S40](#s40) Union européenne — CE-RISE : DPP, réemploi, réparation et recyclage
 
 **Organisme :** Commission européenne — CORDIS / Horizon Europe
 
@@ -17938,7 +17998,9 @@ Digital Product Passport, de l'eInvoicing, du futur European Business Wallet, du
 
 ---
 
-## [S41] Union européenne — QUASAR : DPP et traçabilité en fin de vie
+<a id="s41"></a>
+
+## [S41](#s41) Union européenne — QUASAR : DPP et traçabilité en fin de vie
 
 **Organisme :** Commission européenne — CORDIS / Horizon Europe
 
@@ -17953,7 +18015,9 @@ Digital Product Passport, de l'eInvoicing, du futur European Business Wallet, du
 
 ---
 
-## [S42] Commission européenne — Mise en service du registre des passeports numériques de produits
+<a id="s42"></a>
+
+## [S42](#s42) Commission européenne — Mise en service du registre des passeports numériques de produits
 
 **Organisme :** Commission européenne — Direction générale du marché intérieur, de l'industrie, de l'entrepreneuriat et des PME
 
@@ -17970,7 +18034,9 @@ Digital Product Passport, de l'eInvoicing, du futur European Business Wallet, du
 
 ---
 
-## [S43] Règlement général sur la protection des données — principes, bases juridiques et garanties applicables aux traitements
+<a id="s43"></a>
+
+## [S43](#s43) Règlement général sur la protection des données — principes, bases juridiques et garanties applicables aux traitements
 
 **Organisme :** Union européenne
 
@@ -17999,7 +18065,9 @@ L'analyse juridique doit donc porter sur chaque traitement concerné, sa finalit
 
 ---
 
-## [S44] CJUE et Conseil constitutionnel — nécessité, minimisation et proportionnalité des traitements de données
+<a id="s44"></a>
+
+## [S44](#s44) CJUE et Conseil constitutionnel — nécessité, minimisation et proportionnalité des traitements de données
 
 **Organismes :** Cour de justice de l'Union européenne / Conseil constitutionnel
 
@@ -18021,7 +18089,9 @@ Le contrôle juridique peut porter notamment sur l'étendue des données traité
 
 ---
 
-## [S45] France — Intégration des données de facturation électronique au traitement CFVR
+<a id="s45"></a>
+
+## [S45](#s45) France — Intégration des données de facturation électronique au traitement CFVR
 
 **Organisme :** République française — ministère de l'Économie et des Finances
 
@@ -18044,7 +18114,9 @@ La légalité de l'existence de ce traitement ne dispense cependant pas d'examin
 
 ---
 
-## [S46] RGPD — traitement ultérieur et compatibilité des finalités
+<a id="s46"></a>
+
+## [S46](#s46) RGPD — traitement ultérieur et compatibilité des finalités
 
 **Organisme :** Union européenne
 
@@ -18077,7 +18149,9 @@ Le principe de limitation des finalités constitue donc une garantie juridique r
 
 ---
 
-## [S47] RGPD — restrictions pour objectifs fiscaux et missions de contrôle
+<a id="s47"></a>
+
+## [S47](#s47) RGPD — restrictions pour objectifs fiscaux et missions de contrôle
 
 **Organismes :** Union européenne / République française
 
@@ -18116,7 +18190,9 @@ Le cadre juridique applicable à CFVR mobilise explicitement cette possibilité.
 
 ---
 
-## [S48] RGPD — sécurité des traitements, analyse d'impact et réévaluation du risque
+<a id="s48"></a>
+
+## [S48](#s48) RGPD — sécurité des traitements, analyse d'impact et réévaluation du risque
 
 **Organisme :** Union européenne
 
@@ -18154,7 +18230,9 @@ Une augmentation substantielle des volumes, l'ajout de nouvelles sources, de nou
 
 ---
 
-## [S49] CNIL — grande échelle, croisement de données et critères de risque élevé
+<a id="s49"></a>
+
+## [S49](#s49) CNIL — grande échelle, croisement de données et critères de risque élevé
 
 **Organisme :** Commission nationale de l'informatique et des libertés
 
@@ -18193,7 +18271,9 @@ Lorsqu'une infrastructure combine plusieurs de ces critères, l'existence, le p�
 
 ---
 
-## [S50] CNIL — état de l'art en matière de sécurité des données personnelles
+<a id="s50"></a>
+
+## [S50](#s50) CNIL — état de l'art en matière de sécurité des données personnelles
 
 **Organisme :** Commission nationale de l'informatique et des libertés
 
@@ -18227,7 +18307,9 @@ Elle implique une défense organisée dans la durée portant notamment sur les i
 
 ---
 
-## [S51] CJUE — SCHUFA : un score automatisé peut lui-même constituer une décision automatisée lorsqu'il joue un rôle déterminant
+<a id="s51"></a>
+
+## [S51](#s51) CJUE — SCHUFA : un score automatisé peut lui-même constituer une décision automatisée lorsqu'il joue un rôle déterminant
 
 **Organisme :** Cour de justice de l'Union européenne
 
@@ -18250,7 +18332,9 @@ Elle fournit en revanche un critère juridique permettant d'examiner l'influence
 
 ---
 
-## [S52] CJUE — droit à une explication compréhensible de la logique d'une décision automatisée
+<a id="s52"></a>
+
+## [S52](#s52) CJUE — droit à une explication compréhensible de la logique d'une décision automatisée
 
 **Organisme :** Cour de justice de l'Union européenne
 
@@ -18273,7 +18357,9 @@ Cette jurisprudence devient particulièrement pertinente pour des systèmes util
 
 ---
 
-## [S53] CJUE — traitement de données à des fins fiscales : nécessité, minimisation et interdiction d'une collecte générale et indifférenciée
+<a id="s53"></a>
+
+## [S53](#s53) CJUE — traitement de données à des fins fiscales : nécessité, minimisation et interdiction d'une collecte générale et indifférenciée
 
 **Organisme :** Cour de justice de l'Union européenne
 
@@ -18304,7 +18390,9 @@ Cette jurisprudence fournit un critère particulièrement pertinent pour examine
 
 ---
 
-## [S54] Loi Informatique et Libertés — restrictions des droits en matière fiscale et exercice par l'intermédiaire de la CNIL
+<a id="s54"></a>
+
+## [S54](#s54) Loi Informatique et Libertés — restrictions des droits en matière fiscale et exercice par l'intermédiaire de la CNIL
 
 **Organisme :** République française
 
@@ -18327,7 +18415,9 @@ Cette architecture crée cependant une différence importante entre l'existence 
 
 ---
 
-## [S55] Règlement eIDAS 2 — portefeuille européen d'identité numérique et garanties de cloisonnement
+<a id="s55"></a>
+
+## [S55](#s55) Règlement eIDAS 2 — portefeuille européen d'identité numérique et garanties de cloisonnement
 
 **Organisme :** Union européenne
 
@@ -18362,7 +18452,9 @@ La protection repose donc largement sur le contrôle des finalités, des accès,
 
 ---
 
-## [S56] Règlement ESPR — passeport numérique de produit, interopérabilité et protection des données clients
+<a id="s56"></a>
+
+## [S56](#s56) Règlement ESPR — passeport numérique de produit, interopérabilité et protection des données clients
 
 **Organisme :** Union européenne
 
@@ -18389,7 +18481,9 @@ Une telle association devrait résulter d'un autre traitement disposant de sa pr
 
 ---
 
-## [S57] Proposition de règlement sur l'euro numérique — identité, confidentialité, paiements conditionnels et interdiction de la monnaie programmable
+<a id="s57"></a>
+
+## [S57](#s57) Proposition de règlement sur l'euro numérique — identité, confidentialité, paiements conditionnels et interdiction de la monnaie programmable
 
 **Organismes :** Commission européenne / Banque centrale européenne
 
@@ -18430,7 +18524,9 @@ Elles établissent en revanche que certaines des interfaces techniques nécessai
 
 ---
 
-## [S58] Évolution successive du périmètre juridique du traitement CFVR depuis 2014
+<a id="s58"></a>
+
+## [S58](#s58) Évolution successive du périmètre juridique du traitement CFVR depuis 2014
 
 **Organisme :** Direction générale des finances publiques / Légifrance
 
