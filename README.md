@@ -1,14 +1,16 @@
 <p align="center">
   <img src="docs/images/facturation_electronique_fr.png"
-       alt="Illustration des interconnexions entre facturation électronique, paiement, mobilité et données environnementales"
+       alt="Illustration of the interconnections between electronic invoicing, payments, mobility and environmental data"
        width="1200">
 </p>
 
-![Statut](https://img.shields.io/badge/Statut-Enquête%20finalisée-brightgreen)
-![Sources](https://img.shields.io/badge/Sources-Officielles-blue)
-![Périmètre](https://img.shields.io/badge/Périmètre-France%20%2B%20Union%20européenne-0055A4)
-![Méthode](https://img.shields.io/badge/Méthode-Faits%20%7C%20Déductions%20%7C%20Hypothèses-orange)
-![Licence](https://img.shields.io/badge/Licence-CC%20BY%204.0-lightgrey)
+> 🇬🇧 English | [🇫🇷 Français](./README_FR.md)
+
+![Status](https://img.shields.io/badge/Status-Investigation%20completed-brightgreen)
+![Sources](https://img.shields.io/badge/Sources-Official-blue)
+![Scope](https://img.shields.io/badge/Scope-France%20%2B%20European%20Union-0055A4)
+![Method](https://img.shields.io/badge/Method-Facts%20%7C%20Deductions%20%7C%20Hypotheses-orange)
+![License](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey)
 [![YouTube](https://img.shields.io/badge/YouTube-@Palks__Studio-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/@Palks_Studio)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-@Palks__Studio-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/palks-studio/)
 
@@ -18,141 +20,164 @@
   </a>
 </p>
 
-# 🇫🇷 Facturation électronique : données, infrastructures et interconnexions
+# 🇬🇧 Electronic Invoicing: Data, Infrastructures and Interconnections
 
-## De la facture au produit, de l'identité au paiement
+## From Invoicing to Products, From Identity to Payments
 
-La réforme française de la facturation électronique est généralement présentée comme une transformation des échanges de factures et de données fiscales.
+The French electronic invoicing reform is generally presented as a transformation of invoice exchanges and tax data flows.
 
-Cette enquête documentaire part de cette réforme pour examiner un périmètre beaucoup plus large.
+This documentary investigation starts from that reform and examines a much broader scope.
 
-En suivant les textes, normes, règlements, expérimentations et infrastructures officielles françaises et européennes, plusieurs univers que l'on pourrait croire indépendants apparaissent techniquement ou institutionnellement reliés :
+By following official French and European texts, standards, regulations, experiments and infrastructures, several areas that might appear independent emerge as technically or institutionally connected:
 
-**facturation électronique → données de transaction → produit → passeport numérique du produit (DPP) → données environnementales**
+**electronic invoicing → transaction data → product → Digital Product Passport (DPP) → environmental data**
 
-mais également :
+but also:
 
-**identité numérique → wallets européens → paiement → reçu électronique → produit**
+**digital identity → European wallets → payment → electronic receipt → product**
 
-et :
+and:
 
-**système externe → vérification d'une condition → paiement conditionnel**
+**external system → verification of a condition → conditional payment**
 
-Pris séparément, chacun de ces dispositifs répond à une finalité propre.
+Taken separately, each of these systems serves its own specific purpose.
 
-L'objet de cette enquête est précisément d'étudier **les ponts documentés entre ces différentes infrastructures**, les capacités techniques qui en résultent, les limites juridiques qui les encadrent et les maillons qui restent aujourd'hui non établis.
+The purpose of this investigation is precisely to examine **the documented bridges between these different infrastructures**, the technical capabilities resulting from them, the legal limits governing them, and the links that remain unestablished today.
 
-Une chaîne technique reliant une transaction, un produit, des informations environnementales, un système externe et une logique conditionnelle autour d'un paiement peut ainsi être reconstruite à partir des éléments étudiés.
+A technical chain connecting a transaction, a product, environmental information, an external system and conditional logic surrounding a payment can therefore be reconstructed from the elements examined.
 
-Cela ne signifie pas qu'un tel système soit actuellement utilisé de bout en bout.
+This does not mean that such a system is currently being used end-to-end.
 
-L'enquête n'établit notamment pas qu'une donnée environnementale soit aujourd'hui utilisée pour autoriser, refuser ou limiter le paiement d'un individu, ni qu'un système centralisé de contrôle individuel de la consommation existe.
+In particular, the investigation does not establish that environmental data is currently used to authorize, refuse or limit an individual's payment, nor that a centralized system for monitoring individual consumption exists.
 
-**C'est précisément la frontière entre ce qui existe, ce qui peut être interconnecté et ce qui n'est pas démontré que ce dossier cherche à documenter.**
-
----
-
-## Ce que l'enquête examine
-
-Le dossier suit notamment les relations entre :
-
-- la facturation électronique et les données transmises à l'administration  
-- leur conservation, leur accès et leurs finalités  
-- les traitements et dispositifs de contrôle fiscal  
-- le passeport numérique des produits (DPP) et les données environnementales  
-- les reçus électroniques et l'identification des produits  
-- les portefeuilles européens d'identité et d'entreprise  
-- l'euro numérique et les mécanismes de paiement conditionnel  
-- les possibilités d'interconnexion entre ces différentes infrastructures  
-- les garanties apportées par le RGPD, la CNIL, le droit européen et les autres cadres juridiques applicables.
-
-Le dossier ne cherche donc pas seulement à répondre à la question :
-
-> **« Que change la facturation électronique ? »**
-
-mais également à une question plus large :
-
-> **« Que devient-il techniquement possible lorsque des infrastructures capables d'identifier une transaction, un produit, ses caractéristiques, une identité et un paiement deviennent interopérables ? »**
+**It is precisely the boundary between what exists, what can be interconnected and what has not been demonstrated that this report seeks to document.**
 
 ---
 
-## Méthode
+## What the Investigation Examines
 
-L'enquête repose sur des sources officielles françaises et européennes.
+The report examines, in particular, the relationships between:
 
-Chaque élément est qualifié afin de séparer les faits des déductions :
+- electronic invoicing and data transmitted to public authorities
+- data retention, access and purposes
+- tax processing and control mechanisms
+- the Digital Product Passport (DPP) and environmental data
+- electronic receipts and product identification
+- European digital identity and business wallets
+- the digital euro and conditional payment mechanisms
+- possible interconnections between these different infrastructures
+- safeguards provided by the GDPR, the CNIL, European law and other applicable legal frameworks.
 
-- **AVÉRÉ** : explicitement établi par une source officielle  
-- **DÉDUCTIBLE TECHNIQUEMENT** : rendu possible par l'architecture documentée, sans usage établi  
-- **HYPOTHÈSE** : scénario nécessitant davantage d'éléments  
-- **À ÉTABLIR** : question restant ouverte
+The report therefore seeks to answer not only the question:
 
-Cette distinction est essentielle : une capacité technique ne démontre ni son utilisation effective, ni sa légalité, ni une intention institutionnelle de l'utiliser.
+> **“What does electronic invoicing change?”**
+
+but also a broader question:
+
+> **“What becomes technically possible when infrastructures capable of identifying a transaction, a product, its characteristics, an identity and a payment become interoperable?”**
 
 ---
 
-## Lire l'enquête
+## Methodology
 
-**[Consulter le dossier complet au format PDF](https://palks-studio.com/assets/pdf/facturation-electronique-enquete.pdf))**
+The investigation is based on official French and European sources.
 
-Les 7 chapitres sont également disponibles séparément dans [`chapitres/`](chapitres/).
+Each element is classified in order to distinguish facts from deductions:
 
-Le registre des sources officielles utilisées est disponible dans [`sources/sources.md`](sources/sources.md).
+- **ESTABLISHED**: explicitly established by an official source
+- **TECHNICALLY DEDUCIBLE**: made possible by the documented architecture, without any corresponding use being established
+- **HYPOTHESIS**: a scenario requiring additional evidence
+- **TO BE ESTABLISHED**: an open question
+
+This distinction is essential: a technical capability demonstrates neither its actual use, nor its legality, nor an institutional intention to use it.
 
 ---
 
-## Contenu du dépôt
+## Read the investigation
+
+🇫🇷 [Read the complete investigation in French (PDF)](https://palks-studio.com/assets/pdf/facturation-electronique-enquete.pdf)
+
+🇬🇧 [Read the complete investigation in English (PDF)](https://palks-studio.com/assets/pdf/electronic-invoicing-investigation.pdf)
+
+The 7 chapters are also available separately in French and English in [`chapitres/`](chapitres/).
+
+The official source register is available in French in [`sources/sources.md`](sources/sources.md) and in English in [`sources/sources-en.md`](sources/sources-en.md).
+
+---
+
+## Repository Contents
 
 ```
 facturation-electronique-enquete/
 │
 ├── sommaire.md
-├── dossier-complet.md
+├── table-of-contents.md
+├── README_FR.md
 ├── README.md
+├── dossier-complet.md
+├── full-report.md
 │
 ├── chapitres/
 │   ├── 01-donnees-facturation.md
+│   ├── 01-invoicing-data.md
+│   │
 │   ├── 02-conservation-acces-finalites.md
+│   ├── 02-data-retention-access-and-purposes.md
+│   │
 │   ├── 03-donnees-environnementales.md
+│   ├── 03-environmental-data.md
+│   │
 │   ├── 04-euro-numerique-paiements.md
+│   ├── 04-digital-euro-and-payments.md
+│   │
 │   ├── 05-interconnexions.md
+│   ├── 05-interconnections.md
+│   │
 │   ├── 06-garanties-juridiques.md
-│   └── 07-synthese.md
+│   ├── 06-legal-safeguards.md
+│   │
+│   ├── 07-synthese.md
+│   └── 07-conclusions.md
 │
 ├── sources/
-│   └── sources.md
+│   ├── sources.md
+│   └── sources-en.md
+│
+├── docs/
+│   └── images/
 │
 └── pdf/
-    └── facturation-electronique-enquete.pdf
+    ├── facturation-electronique-enquete.pdf
+    └── electronic-invoicing-investigation.pdf
 ```
 
 ---
 
-## Ce que ce dossier n'affirme pas
+## What This Report Does Not Claim
 
-Ce travail ne vise pas à démontrer l'existence d'un « plan caché », à attribuer une intention non documentée aux institutions étudiées ou à présenter comme déployé un système qui ne l'est pas.
+This work does not seek to demonstrate the existence of a “hidden plan”, attribute undocumented intentions to the institutions examined, or present as deployed a system that has not been deployed.
 
-Il ne démontre pas l'existence actuelle d'un système centralisé reliant automatiquement l'ensemble des achats d'un individu à un profil environnemental.
+It does not demonstrate the current existence of a centralized system automatically linking all of an individual's purchases to an environmental profile.
 
-Il ne démontre pas non plus qu'une donnée environnementale soit actuellement utilisée afin d'autoriser, refuser ou limiter le paiement d'un utilisateur.
+Nor does it demonstrate that environmental data is currently used to authorize, refuse or limit a user's payment.
 
-En revanche, il documente l'existence de plusieurs infrastructures, standards, expérimentations et raccords permettant de comprendre jusqu'où ces différents univers sont déjà reliés et jusqu'où ils pourraient techniquement l'être.
-
----
-
-## Pourquoi publier ce dossier ?
-
-Parce que ces infrastructures sont généralement présentées et étudiées séparément.
-
-Facturation électronique, contrôle fiscal, identité numérique, passeport numérique des produits, données environnementales, reçus électroniques et nouveaux moyens de paiement relèvent de textes, d'institutions et de calendriers différents.
-
-Les étudier ensemble permet de faire apparaître des relations qui sont beaucoup moins visibles lorsqu'on examine chaque dispositif isolément.
-
-Le dossier est public afin que ses éléments puissent être vérifiés, discutés, contestés ou approfondis directement à partir des sources.
-
-Il peut être transmis librement aux journalistes, chercheurs, juristes, élus, parlementaires, institutions, associations et citoyens souhaitant examiner ces questions.
+It does, however, document the existence of several infrastructures, standards, experiments and connections that make it possible to understand how far these different areas are already connected and how far they could technically be interconnected.
 
 ---
 
-© Palks Studio — voir LICENSE.md  
+## Why Publish This Investigation?
+
+Because these infrastructures are generally presented and examined separately.
+
+Electronic invoicing, tax control, digital identity, Digital Product Passports, environmental data, electronic receipts and new means of payment fall under different texts, institutions and timelines.
+
+Examining them together reveals relationships that are far less visible when each system is considered in isolation.
+
+The report is public so that its findings can be verified, discussed, challenged or further investigated directly from the sources.
+
+It may be freely shared with journalists, researchers, legal professionals, elected representatives, parliamentarians, institutions, associations and citizens wishing to examine these issues.
+
+---
+
+© Palks Studio — see LICENSE.md  
 - https://palks-studio.com

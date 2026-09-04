@@ -17,22 +17,40 @@ L'objectif est de distinguer clairement :
 facturation-electronique-enquete/
 │
 ├── sommaire.md
+├── table-of-contents.md
+│
 ├── dossier-complet.md
+├── full-report.md
 │
 ├── chapitres/
 │   ├── 01-donnees-facturation.md
+│   ├── 01-invoicing-data.md
+│   │
 │   ├── 02-conservation-acces-finalites.md
+│   ├── 02-data-retention-access-and-purposes.md
+│   │
 │   ├── 03-donnees-environnementales.md
+│   ├── 03-environmental-data.md
+│   │
 │   ├── 04-euro-numerique-paiements.md
+│   ├── 04-digital-euro-and-payments.md
+│   │
 │   ├── 05-interconnexions.md
+│   ├── 05-interconnections.md
+│   │
 │   ├── 06-garanties-juridiques.md
-│   └── 07-synthese.md
+│   ├── 06-legal-safeguards.md
+│   │
+│   ├── 07-synthese.md
+│   └── 07-conclusions.md
 │
 ├── sources/
-│   └── sources.md
+│   ├── sources.md
+│   └── sources-en.md
 │
 └── pdf/
-    └── facturation-electronique-enquete.pdf
+    ├── facturation-electronique-enquete.pdf
+    └── electronic-invoicing-investigation.pdf
 ```
 
 ---
