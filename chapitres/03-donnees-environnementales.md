@@ -1267,5 +1267,3 @@ Pris ensemble, ils permettent cependant d'établir que plusieurs composants tech
 > **Il est techniquement déductible qu'un identifiant commun ou un mécanisme de correspondance puisse permettre d'associer une transaction à la donnée environnementale du produit concerné et, lorsque plusieurs transactions sont disponibles, d'agréger les valeurs correspondantes.**
 
 > **Il n'est en revanche pas établi, à ce stade, qu'un tel mécanisme soit utilisé par l'administration fiscale pour établir une empreinte environnementale des achats d'une entreprise ou d'une personne, ni qu'il soit relié à un système permettant de conditionner ou de restreindre un paiement.**
-
-Ces dernières questions nécessitent l'étude des infrastructures de paiement, des projets d'interconnexion et des garanties juridiques correspondantes. Elles seront examinées dans les chapitres suivants.

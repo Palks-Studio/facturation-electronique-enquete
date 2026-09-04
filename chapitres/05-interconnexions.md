@@ -4170,5 +4170,3 @@ La conclusion du chapitre n'est donc pas que le scénario étudié existe.
 Elle est plus précise :
 
 > **une part importante de l'architecture qui rendrait techniquement possible l'interconnexion de données transactionnelles, produit, environnementales, identitaires et de paiement est désormais documentée ; plusieurs raccords sont explicitement prévus ou expérimentés ; mais le raccord décisif transformant une donnée environnementale en règle imposée d'autorisation ou de refus d'un paiement n'a pas été établi.**
-
-Cette distinction entre **infrastructure existante**, **interopérabilité documentée**, **capacité technique** et **usage effectivement démontré** constitue le principal résultat du chapitre 5.

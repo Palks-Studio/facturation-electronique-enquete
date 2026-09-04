@@ -304,5 +304,3 @@ En revanche, les documents étudiés à ce stade ne permettent pas d'établir :
 - qu'elles sont croisées avec des données environnementales ;  
 - qu'elles sont liées à un système de paiement ou à une monnaie numérique ;  
 - qu'un mécanisme de restriction individuelle des achats est prévu.
-
-Ces questions constituent les chapitres suivants de l'analyse.

@@ -3039,5 +3039,3 @@ Le résultat peut donc être formulé ainsi :
 **À ÉTABLIR :**
 
 > Les projets européens actuellement développés prévoient-ils explicitement une interopérabilité entre ces différentes infrastructures, même lorsque leurs finalités initiales restent distinctes ?
-
-Ces questions constituent l'objet du chapitre suivant.
