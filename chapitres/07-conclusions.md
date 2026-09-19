@@ -45,8 +45,6 @@ In these situations, the system therefore makes it possible to transmit to the a
 
 For B2C transactions falling under e-reporting, by contrast, the data currently planned is aggregated on a daily basis. The documented elements therefore do not make it possible to assert that the details of each individual purchase made by a private individual are transmitted to the administration.
 
-→ [See the evidence and sources for Chapter 1](01-invoicing-data.md)
-
 ---
 
 ## Chapter 2 — Data retention, access, and purposes
@@ -68,8 +66,6 @@ It is therefore established that the data collected does not serve solely a func
 Several elements nevertheless remain to be established, notably the precise retention period for the various categories of data by the administration, access and authorization rules, the automated processing actually applied, any cross-referencing with other databases, and the legal conditions allowing their reuse for other public policies.
 
 The sources examined do not make it possible to establish the existence of an interconnection with environmental data, a digital monetary infrastructure, or mechanisms allowing certain transactions to be made conditional. These possibilities must be examined separately in the following chapters.
-
-→ [See the evidence and sources for Chapter 2](02-data-retention-access-and-purposes.md)
 
 ---
 
@@ -98,8 +94,6 @@ Where several transactions involve identifiable products to which quantitative e
 The DPP's regulatory architecture also provides for interoperability mechanisms, automated exchanges, an API, a European registry, and an interconnection with customs systems. Several European projects also combine digital traceability, proof of commercial transactions, and administrative actors responsible in particular for VAT and customs.
 
 These elements do not, however, make it possible to establish that an individual environmental footprint of purchases is currently calculated by the administration, that products' environmental data is automatically cross-referenced with French invoicing or e-reporting data, or that it is used to authorize, refuse, or make a payment conditional.
-
-→ [See the evidence and sources for Chapter 3](03-environmental-data.md)
 
 ---
 
@@ -152,8 +146,6 @@ These elements make it technically possible to build services in which informati
 They do not, however, make it possible to establish that a digital product passport, a GTIN, a carbon footprint, data from electronic invoicing, or an individual environmental profile is currently used to trigger, prevent, or modify a payment in digital euros.
 
 The generic link between an external system and a conditional payment is therefore documented. The specific link between environmental or tax data and the execution of a payment remains to be established.
-
-→ [See the evidence and sources for Chapter 4](04-digital-euro-and-payments.md)
 
 ---
 
@@ -226,8 +218,6 @@ It also remains **NOT ESTABLISHED** that a centralized system brings together in
 The work relating to the digital euro also maintains an essential distinction: programmable currency, whose units would intrinsically carry restrictions on the goods or services that could be purchased, is explicitly excluded, whereas conditional payment services distinct from the currency itself are planned and being tested.
 
 The result of Chapter 5 is therefore precise: **a significant portion of the infrastructures and links technically enabling transaction, product, environment, identity, and payment to be associated with one another is now documented; some of these links are explicitly planned, standardized, or tested; but the link that would actually turn environmental data into an imposed rule authorizing or refusing a payment has not been established.**
-
-→ [See the evidence and sources for Chapter 5](05-interconnections.md)
 
 ---
 
@@ -357,8 +347,6 @@ The more determinative a piece of data or a result becomes for access to a payme
 **NOT ESTABLISHED:**
 
 > No element examined demonstrates the existence of a single infrastructure automatically bringing together electronic invoicing, digital identity, environmental data, the Digital Product Passport, and the digital euro in order to control individual transactions.
-
-→ [See the evidence and sources for Chapter 6](06-legal-safeguards.md)
 
 ---
 

@@ -45,8 +45,6 @@ Le dispositif permet donc, dans ces situations, de transmettre à l'administrati
 
 Pour les opérations B2C relevant du e-reporting, les données actuellement prévues sont en revanche agrégées par jour. Les éléments documentés ne permettent donc pas d'affirmer que le détail de chaque achat réalisé par un particulier est individuellement transmis à l'administration.
 
-→ [Consulter les preuves et sources du Chapitre 1](01-donnees-facturation.md)
-
 ---
 
 ## Chapitre 2 — Conservation, accès et finalités des données
@@ -68,8 +66,6 @@ Il est donc établi que les données recueillies ne répondent pas uniquement à
 Plusieurs éléments restent cependant à établir, notamment la durée précise de conservation des différentes catégories de données par l'administration, les règles d'accès et d'habilitation, les traitements automatisés effectivement appliqués, les éventuels croisements avec d'autres bases de données et les conditions juridiques permettant leur réutilisation pour d'autres politiques publiques.
 
 Les sources étudiées ne permettent pas d'établir l'existence d'une interconnexion avec des données environnementales, une infrastructure monétaire numérique ou des mécanismes permettant de conditionner certaines transactions. Ces possibilités doivent être étudiées séparément dans les chapitres suivants.
-
-→ [Consulter les preuves et sources du Chapitre 2](02-conservation-acces-finalites.md)
 
 ---
 
@@ -98,8 +94,6 @@ Lorsque plusieurs transactions comportent des produits identifiables auxquels so
 L'architecture réglementaire du DPP prévoit par ailleurs des mécanismes d'interopérabilité, des échanges automatisés, une API, un registre européen et une interconnexion avec les systèmes douaniers. Des projets européens associent également traçabilité numérique, preuves de transactions commerciales et acteurs administratifs chargés notamment de la TVA et des douanes.
 
 Ces éléments ne permettent cependant pas d'établir qu'une empreinte environnementale individuelle des achats est actuellement calculée par l'administration, que les données environnementales des produits sont automatiquement rapprochées des données françaises de facturation ou de e-reporting, ni qu'elles sont utilisées pour autoriser, refuser ou conditionner un paiement.
-
-→ [Consulter les preuves et sources du Chapitre 3](03-donnees-environnementales.md)
 
 ---
 
@@ -152,8 +146,6 @@ Ces éléments rendent techniquement possible la construction de services dans l
 Ils ne permettent cependant pas d'établir qu'un passeport numérique de produit, un GTIN, une empreinte carbone, une donnée issue de la facturation électronique ou un profil environnemental individuel soit actuellement utilisé pour déclencher, empêcher ou modifier un paiement en euros numériques.
 
 Le raccord générique entre système externe et paiement conditionnel est donc documenté. Le raccord spécifique entre données environnementales ou fiscales et exécution d'un paiement reste à établir.
-
-→ [Consulter les preuves et sources du Chapitre 4](04-euro-numerique-paiements.md)
 
 ---
 
@@ -226,8 +218,6 @@ Il demeure également **NON ÉTABLI** qu'un système centralisé réunisse ident
 Les travaux relatifs à l'euro numérique maintiennent en outre une distinction essentielle : la monnaie programmable, dont les unités comporteraient intrinsèquement des restrictions sur les biens ou services pouvant être achetés, est explicitement exclue, tandis que des services de paiement conditionnel distincts de la monnaie elle-même sont prévus et expérimentés.
 
 Le résultat du Chapitre 5 est donc précis : **une part importante des infrastructures et des raccords permettant techniquement d'associer transaction, produit, environnement, identité et paiement est désormais documentée ; certains de ces raccords sont explicitement prévus, standardisés ou expérimentés ; mais le raccord transformant effectivement une donnée environnementale en règle imposée d'autorisation ou de refus d'un paiement n'a pas été établi.**
-
-→ [Consulter les preuves et sources du Chapitre 5](05-interconnexions.md)
 
 ---
 
@@ -357,8 +347,6 @@ Plus une donnée ou un résultat devient déterminant pour l'accès à un paieme
 **NON ÉTABLI :**
 
 > Aucun élément étudié ne démontre l'existence d'une infrastructure unique réunissant automatiquement facturation électronique, identité numérique, données environnementales, Digital Product Passport et euro numérique afin de contrôler les transactions individuelles.
-
-→ [Consulter les preuves et sources du Chapitre 6](06-garanties-juridiques.md)
 
 ---
 
